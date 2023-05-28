@@ -33,9 +33,9 @@ This project is a chatbot that utilizes the Langchain and GPT models to allow us
 
 3. Follow the instructions provided by the chatbot to query the PDF documents or engage in a conversation.
 
-## Documentation
+## PDF and Text Docs
 
-The current documents loaded in the chatbot are focused on the ethics of self-driving vehicles. You can find these documents in the `docs` directory.
+txt_langchain.py is intended to work with text documents only. Since most data you encounter will be pdfs, there is ocr.py which can convert these files for you to text documents. In order to use the find feature, you will need pdfs and text docs in their respective directories with the same file names (sans the extension pdf or txt).
 
 ## Contributing
 
