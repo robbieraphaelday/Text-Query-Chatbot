@@ -20,7 +20,7 @@ This project is a chatbot that utilizes the Langchain and GPT models to allow us
    pip install -r requirements.txt
    ```
 
-3. Add your OpenAI key to the `txtlangchain.py` file and `openai_key.txt` file. These keys are required for the operation of the chatbot.
+3. Add your OpenAI key to the `txt_langchain.py` file and `openai_api.txt` file. These keys are required for the operation of the chatbot.
 
 ## Usage
 
