@@ -1,0 +1,1551 @@
+DATE DOWNLOADED: Thu Jul 15 00:38:19 2021
+SOURCE: Content Downloaded from HeinOnline
+Citations:
+Bluebook 21st ed.
+			                                                                
+Jeffrey K. Gurney, Sue My Car Not Me: Products Liability and Accidents Involving
+Autonomous Vehicles, 2013 U. ILL. J.L. TECH. & POL'y 247 (2013).                     
+ALWD 6th ed.                                                                         
+Gurney, J. K., Sue my car not me: Products liability and accidents involving
+autonomous vehicles, 2013(2) U. Ill. J.L. Tech. & Pol'y 247 (2013).                  
+APA 7th ed.                                                                          
+Gurney, J. K. (2013). Sue my car not me: Products liability and accidents involving
+autonomous vehicles. University of Illinois Journal of Law, Technology & Policy,
+2013(2), 247-278.                                                                    
+Chicago 17th ed.                                                                     
+Jeffrey K. Gurney, "Sue My Car Not Me: Products Liability and Accidents Involving
+Autonomous Vehicles," University of Illinois Journal of Law, Technology & Policy
+2013, no. 2 (Fall 2013): 247-278                                                     
+McGill Guide 9th ed.                                                                 
+Jeffrey K Gurney, "Sue My Car Not Me: Products Liability and Accidents Involving
+Autonomous Vehicles" [2013] 2013:2 U Ill JL Tech & Pol'y 247.                        
+AGLC 4th ed.                                                                         
+Jeffrey K Gurney, 'Sue My Car Not Me: Products Liability and Accidents Involving
+Autonomous Vehicles' [2013] 2013(2) University of Illinois Journal of Law, Technology
+& Policy 247.                                                                        
+MLA 8th ed.                                                                          
+Gurney, Jeffrey K. "Sue My Car Not Me: Products Liability and Accidents Involving
+Autonomous Vehicles." University of Illinois Journal of Law, Technology & Policy,
+vol. 2013, no. 2, Fall 2013, p. 247-278. HeinOnline.                                 
+OSCOLA 4th ed.                                                                       
+Jeffrey K Gurney, 'Sue My Car Not Me: Products Liability and Accidents Involving
+Autonomous Vehicles' (2013) 2013 U Ill JL Tech & Pol'y 247
+Provided by: 
+UC San Diego Library
+-- Your use of this HeinOnline PDF indicates your acceptance of HeinOnline's Terms and 
+   Conditions of the license agreement available at 
+https://heinonline.org/HOL/License
+-- The search text of this PDF is generated from  uncorrected OCR text.
+-- To obtain permission to use this article beyond the scope of your  license, please use:
+Copyright InformationSUE MY CAR NOT ME:
+PRODUCTS LIABILITY AND ACCIDENTS
+INVOLVING AUTONOMOUS VEHICLES
+Jeffrey K. Gurneyt
+Abstract
+Autonomous vehicles will revolutionize society in the near future.
+Computers, however, are not perfect, and accidents will occur while the
+vehicle is in autonomous mode. This Article answers the question of who
+should be liable when an accident is caused in autonomous mode. This Article
+addresses the liability of autonomous vehicle by examining products liability
+through the use of four scenarios: the Distracted Driver; the Diminished
+Capabilities Driver; the Disabled Driver; and the Attentive Driver.
+Based on those scenarios, this Article suggests that the autonomous
+technology manufacturer should be liable for accidents caused in autonomous
+mode because the autonomous vehicle probably caused the accident. Liability
+should shift back to the "driver" depending on the nature of the driver and the
+ability of that person to prevent the accident. Thus, this Article argues that an
+autonomous vehicle manufacturer should be liable for accidents caused in
+autonomous mode for the Disabled Driver and partially for the Diminished
+Capabilities Driver and the Distracted Driver. This Article argues the
+Attentive Driver should be liable for most accidents caused in autonomous
+vehicles. Currently, products liability does not allocate the financial
+responsibility of an accident to the party that is responsible for the accident,
+and this Article suggests that courts and legislatures need to address tort
+liability for accidents caused in autonomous mode to ensure that the
+responsible party bears responsibility for accidents.
+TABLE OF CONTENTS
+1. Introduction ................................................ 248
+II. Background Information ................................. 252
+A. Overview of the Design and Purpose of the Autonomous
+Vehicle.......................... ................ 252
+1. Autonomous Vehicle Design.............. ......... 252
+f J.D. Candidate 2014, University of South Carolina School of Law. I would like to thank Professor
+David Owen for his feedback and guidance with this Article, and I would also like to thank Kassie Moore for
+her countless contributions with edits and suggestions for this Article.
+247
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+2. Purposes of the Autonomous Vehicle ...... ................ 254
+B. Four Scenarios ............................ ..... 255
+1. The Distracted Driver ................. ............ 255
+2. The Diminished Capabilities Driver........... ..... 256
+3. The Disabled Driver .............. ................... 256
+4. The Attentive Driver ................. ............. 257
+111. Products Liability Law as Applied to Autonomous Vehicles ............. 257
+A. Overview of Products Liability Law ............ ....... 257
+B. Products Liability Doctrines Applied to Autonomous
+Vehicles ............................. .............. 258
+1. Manufacturing Defects......................... 258
+2. Design Defects .................................... 260
+3. Failure to Warm......................... 264
+4. Evidence Issues ......................... 265
+5. Products Liability Defenses as Applied to Autonomous
+Vehicles .............................. ..... 266
+IV. Shortcomings in the Ability of Traditional Products Liability
+Doctrine to Handle Claims Involving Autonomous Vehicles............. 271
+V. Conclusion ................................ ....... 277
+I. INTRODUCTION
+Television showsI and movies2 have portrayed futuristic autonomous cars
+for years. Generation after generation, these autonomous cars were considered
+"cars of the future."3  The future is now here;4 Google and major car
+manufacturers are currently test-driving and developing driverless cars. The
+1. See, e.g., Knight Rider. Knight of the Phoenix (Part 1) (NBC television broadcast Sept. 26, 1982).
+2. See, e.g., BATMAN (Warner Bros. Pictures 1989); CHRISTINE (Columbia Pictures Corp. 1983);
+DEMOLITION MAN (Warner Bros. Pictures 1993); 1, ROBOT (Twentieth Century Fox Film Corp. 2004);
+MINORITY REPORT (Twentieth Century Fox Film Corp. 2002); TIMECOP (Largo Entm't 1994).
+3. See Ben Klayman, Self-Driving Cars Coming Our Way, but Don't Throw Out Your License Just
+Yet, REUTERS (Aug. 15, 2012, 8:07 AM), http://www.huffingtonpost.com/2012/08/15/self-diving-
+cars n 1777714.html.
+4. See Terence Chea, Calfornia Governor Signs Driverless Cars Bill, ASSOCIATED PRESS (Sept. 26,
+2012, 1:21 AM), http:/ibigstory.ap.org/articlc/calif-govemor-sign-bill-ok-driverless-cars (quoting Governor
+Jerry Brown: "Today we're looking at science fiction becoming tomorrow's reality-the self-driving car.").
+5. See Henry Fountain, Yes, Driverless Cars Know the Way to San Jose, N.Y. TIMES (Oct. 28, 2012),
+http://www.nytimes.com/2012/10/28/automobiles/yes-driverless-cars-know-the-way-to-san-jose.html?page
+wanted=all&_r-0 ("Most major automobile manufacturers are working on self-driving systems in one form or
+another."); GM Self-Driving Vehicles Could Be Ready by End of Decade, GEN. MOTORS (Oct. 16, 2011),
+http://media.gm.com/media/us/cn/gm/news.detail.html/contcnt/Pages/news/us/en/201 1/Oct/1016autonomous.h
+tml [hereinafter GMJ (describing the development of technology for self-driving systems); Lauren Hepler,
+Inside Nissan's Silicon Valley Self-Driving Lab, SILICON VALLEY BUS. J. (July 31, 2013),
+http://www.bizjournals.com/sanjosc/news/2013/07/31/inside-nissan-motor-cos-silicon.html?page=all (noting
+how Nissan is participating in autonomous driving technology); Amol Koldhekar, Volvo Plans Self-Driving
+Cars in 2014, Envisions Accident-Free Fleet by 2020, ENGADGET (Dec. 3, 2012, 9:07 PM),
+http://www.engadget.com/2012/12/03/volvo-self-driving-cars-2014/ (discussing plans to eliminate drivers);
+Ian Shcrr & Mike Ramsey, Toyota, Audi Move Closer to Driverless Cars, WALL ST. J. (Jan. 3, 2013),248 [Vol. 2013
+No. 2] SUE MY CAR NOT ME 249
+Google Car in particular has logged more than 300,000 miles of autonomous
+test-driving under a variety of conditions, and this autonomous car has not
+been involved in a single accident.7
+Sergey Brin, co-founder of Google, is predicting that Google Cars will be
+available for public use in five years.8  General Motors predicts that self-
+driving cars will be on the road within the decade.9 Stanford Law School is
+already teaching a course on the law of autonomous driving.o In preparation
+for the widespread use of self-driving cars, states are beginning to pass
+autonomous vehicle laws.12 Nevada was the first state to pass an autonomous
+vehicle law,'3  and it utilizes special license plates designated solely for
+autonomous vehicles.14  Florida has also passed an autonomous vehicle law.
+http://online.wsj.com/articlc/SB10001424127887323374504578220081249592640.html (noting that Toyota,
+Audi, Mercedes-Benz, and Ford are demonstrating autonomous driving features); David Undercoffler & Jerry
+Hirsch, Lexus Teases Autonomous Vehicle Ahead of CES Debut, L.A. TIMES (Jan. 4, 2013),
+http://www.latimes.com/business/autos/la-fi-hy-autos-lexus-autonomous-car-ces-20130104,0,5256642.story
+(noting how Lexus and Continental Corp. are currently developing driver-less cars).
+6. Chris Urmson, The Self-Driving Car Logs More Miles on New Wheels, GOOGLE OFFICIAL BLOG
+(Aug. 7,2012), http://googlcblog.blogspot.com/2012/08/the-self-driving-car-logs-more-miles-on.htmi.
+7. Id. There has been one accident involving the Google Car, but Google engineers were quick to
+point out that the vehicle was driven by a human when the accident occurred. See Mike Masnick, Dear World:
+Self-Driving Cars Will Get Into Accidents Too (Though, This One Wasn't the Computer's Fault), TECHDIRT
+(Aug. 5, 2011, 1:49 PM), http://www.techdirt.com/articles/ 20110805/12233315407/dear-world-self-driving-
+cars-will-get-into-accidents-too-though-this-one-wasnt-computers-fault.shtml (arguing the inevitability of a
+self-driving car getting into an accident).
+8. lain Thomson, Google Promises Autonomous Cars for All Within Five Years, REGISTER (Sept. 25,
+2012), www.thcregister.co.uk/2012/09/25/googleautomatic carslegal!.
+9. GM, supra note 5.
+10. Bryant W. Smith, Stanford Students: Fall 2012 Course on the Law of Autonomous Driving, CTR.
+FOR INTERNET & SocY (July 10, 2012, 6:16 PM), http://cyberlaw.stanford.cdu/blog/2012/07/stanford-
+studcnts-fall-2012-course-law-autonomous-driving.
+I1. Twenty percent of vehicle owners said they "definitely would" or "probably would" purchase an
+autonomous vehicle for an additional $3,000. Press Release, J.D. Power and Assocs., 2012 U.S. Automotive
+Emerging Technologies Study (Apr. 26, 2012), available at http://autos.jdpower.com/content/press-
+release/gGOwCnW/2012-u-s-automotive-emerging-technologies-study.htm. At the current price of vehicles,
+thirty-seven percent said they would purchase a vehicle. Id. Others are not so excited for autonomous
+vehicles to become widespread. See Dutch Mandel, Autonomous Driving? Ugh!, AUTOWEEK, Mar. 4, 2013, at
+12 ("You will have to pry my cold, dead hands from around my steering wheel before you plop me into a veal
+pen on wheels. I don't want any part of an autonomous vehicle. Me, I want to drive.").
+12. See CAL. VEH. CODE § 38750(b) (2013) ("An autonomous vehicle may be operated on public roads
+for testing purposes...."); FLA. STAT. § 316.85(1) (2012) ("A person who possesses a valid driver license
+may operate an autonomous vehicle in autonomous mode."); NEV. REV. STAT. § 482A.100 (2012) ("The
+Department shall adopt regulations authorizing the operation of autonomous vehicles on highways within the
+State of Nevada."). Other states are considering autonomous car laws, such as Hawaii, Arizona, and
+Oklahoma. Dave Smith, Driverless Cars Coming: Google, Sergey Brin Help Introduce New Autonomous
+Vehicles Law in California, INT'L Bus. TIMES (Sept. 26, 2012), http://www.ibtimes.com/driverless-cars-
+coming-google-sergey-brin-help-introduce-ncw-autonomous-vehicles-law-califomia. Colorado and Michigan
+are also in the process of enacting an autonomous vehicle law. Jonathon Oosting, Autonomous Vehicles in
+Michigan: Self-Driving Bill Moves to Senate, Could Cruise to Governor, MLIVE (Mar. 5, 2013),
+http://www.mlive.com/politics/index.ssf/2013/03/autonomous-vehicles-in michiga.html; Kristen Wyatt,
+Driverless Cars in Colo.? Lawmakers May Allow Them, DENVER POST (Feb. 4, 2013),
+http://www.denverpost.com/politics/ci 22515418/driverless-cars-co-lawmakers-could-allow-them.
+13. Mary Slosson, Google Gets First Self-Driven Car License in Nevada, REUTERS (May 7, 2012,
+10:16 PM), http://www.reuters.com/article/2012/05/08/us-usa-nevada-google-idUSBRE84701 W20120508.
+14. Id Besides Google, other companies have received autonomous vehicle license plates. Kurt Ernst,
+Audi Becomes First Automaker Issued Nevada Autonomous Vehicle License, Fox NEWS (Jan. 8, 2013),
+http://www.foxnews.com/lcisure/2013/01/08/audi-becomes-first-automaker-issued-nevada-autonomous-
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+California Governor Jerry Brown "drove" an autonomous car to Google's
+headquarters to sign his state's autonomous vehicle law. The National
+Highway Traffic Safety Administration (NHTSA) is currently researching
+autonomous vehicle technology to develop appropriate regulations.'7  The
+NHTSA does not, however, recommend that states allow for public use of
+autonomous vehicles until the vehicles can be further researched.'8
+Nonetheless, the NHTSA states that "it is encouraged by innovations in
+automated driving and their potential to transform our roadways."19 Other
+states, however, are delaying passing autonomous vehicles laws until a liability
+20scheme can be adopted. In those states that have passed an autonomous
+21vehicle law, no state permits driverless autonomous cars yet.
+States' preemptive passing of legislation indicates that they are very
+accepting of autonomous cars, probably because of the benefits these cars will
+provide to citizens of their respective states. Since human driver errors cause
+22most automobile deaths, autonomous vehicles should increase highway
+safety. The World Health Organization states that around 1.3 million people
+23per year worldwide die from car accidents. In 2010, 32,885 Americans died
+24 2in car accidents, and over 2.2 million people were injured in a vehicle.25
+Worldwide, Google and other car manufacturers argue that autonomous
+vehicles will reduce the number of car accident fatalities and injuries resulting
+vehiclc-license/; Nevada Oks Testing of Self-Driving Cars, RENO GAZETTE-J., Dec. 20, 2012, at 5A
+(documenting Continental's vehicle-testing license).
+15. Amir Efrati, Google's Driverless Car Draws Political Power, WALL ST. J. (Oct. 12, 2012),
+http://online.wsj.com/articlc/SBI0000872396390443493304578034822744854696.html.
+16. Chea, supra note 4.
+17. David Shepardson, US. Working to Set Rules for Self-Driving Cars, DETROIT NEWS, Oct. 24, 2012,
+at D3. Volvo, in particular, is hoping that the federal government creates a regulatory scheme so that there is
+not a patchwork of different laws. See Press Release, Volvo Car Grp., Volvo Car Corporation Urges
+Seamless, Federal Framework for Regulating Autonomous Vehicles (Oct. 23, 2012), available at
+https://www.media.volvocars.com/global.cnhanced/en-gb/media/preview.aspx?mediaid-46459.
+18. Press Release, Nat'l Highway Traffic Safety Admin., Preliminary Statement of Policy Concerning
+Autonomous Vehicles 10 (May 30, 2013) [hereinafter NHTSA, Preliminary Statement], available at
+http://www.nhtsa.gov/staticfiles/rulemaking/pdflAutomated VehiclesPolicy.pdf. The NHTSA based its
+reasoning on the fact that "sclf-driving vehicle technology is not yet at the stage of sophistication or
+demonstrated safety capability that it should be authorized for use by members of the public for general
+driving purposes." Id. at 14.
+19. Id. at 10.
+20. Dan Strumpf, Liability Issues Create Potholes on the Road to Driverless Cars, WALL ST. J. (Jan.
+27, 2013), http://onlinc.wsj.com/article/SB10001424127887323854904578264162749109462.html (citing
+Arizona as a state hesitant to pass laws regarding autonomous cars).
+21. See Mary M. Chch, D.C s Driverless-Car Bill Is a Measure the Auto Industry Can Support, WASH.
+POST, Nov. 9, 2012, at A28 ("[A licensed driver] is a necessity of the current technology. In a few years, cars
+will be able to operate reliably without drivers, but we are not there yet."); Kurt Ernst, California Senator
+Proposes Rules for Self-Driving Cars, Bus. INSIDER (Mar. 13, 2012), http://articles.businessinsider.com/2012-
+0313/news/31158582_1_autonomous-vehicles-human-error-traffic-fatalities (discussing how a human operator
+is still required).
+22. See Sven A. Beiker, Legal Aspects ofAutonomous Driving, 52 SANTA CLARA L. REV. 1145, 1149
+(2012) ("Driver error is by far (95%) the most common factor implicated in vehicle accidents.").
+23. WORLD HEALTH ORG., GLOBAL PLAN FOR THE DECADE OF ACTION FOR ROAD SAFETY 2011-2020,
+at 4 (Mar. 2010), available at http://www.who.int/roadsafety/decade of action/plan/planenglish.pdf.
+24. NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., 2010 MOTOR VEHICLE CRASHES: OVERVIEW 1 (Feb.
+2012), available at http://www-nrd.nhtsa.dot.gov/Pubs/811552.pdf.
+25. Id.250 [Vol. 2013
+SUE MY CAR NOT ME
+from human error because the computer controlling the autonomous vehicle
+does not get tired, intoxicated, or distracted as does the human driver.26
+Apart from the incalculable intrinsic value of life and limb, reducing car
+accidents could result in significant cost savings. Automobile accidents in the
+United States cost around 300 billion dollars per year, as measured in deaths,
+27 health care, and property loss.2 Traffic congestion costs are measured around
+100 billion dollars. By reducing the number of accidents that occur, Google
+Cars and other autonomous vehicles can greatly reduce these costs.29
+Additionally, the autonomous vehicle will increase fuel efficiency, which
+will help protect the environment and save consumers money.30 In 2007 alone,
+Americans used 2.8 billion gallons of excess gasoline at a financial cost of 87.2
+billion dollars. 3' Autonomous vehicles will greatly improve fuel efficiency by
+harmonizing traffic flow.32
+While the benefits and drawbacks of autonomous vehicles are the center
+of much discussion, this Article does not question the functionality or the
+usefulness of autonomous cars, but rather seeks to examine how tort liability
+doctrine applies to accidents involving an autonomous vehicle.33  Since
+26. See Jerry Hirsch, Self-Driving Cars Are Approaching Fast-and Safely, L.A. TIMES (Sept. 30,
+2012), http://articles.latimes.com/2012/sep/30/business/la-fi-autos-self-driving-cars-20120930 ("[T]here is
+some evidence that early autonomous driving functions are already improving safety."); John Markoff, Google
+Cars Drive Themselves, in Traffic, N.Y. TIMES (Oct. 9, 2010), http://www.nytimes.com/2010/10/10/sciencc/
+I Ogooglc.html?pagewanted=all ("Robot drivers react faster than humans, have 360-degree perception and do
+not get distracted, sleepy or intoxicated[.]"); Claire Cain Miller & Matthew L. Wald, Self-Driving Cars for
+Testing Are Supported by U.S., N.Y. TIMES (May 30, 2013), http://www.nytimes.com/2013/05/3l/technology/
+self-driving-cars-for-testing-are-supported-by-us.html?pagewanted=all&_r-0 ("Autonomous cars could
+increase safety because they are not subject to human error like disobeying traffic laws and falling asleep at the
+wheel, according to analysts, car companies and the transportation department.").
+27. Dan Neil, Who's Behind the Wheel? Nobody, WALL ST. J. (Sept. 24, 2012), http://online.wsj.com/
+article/SBl0000872396390443524904577651552635911824.html (citing AAA Study Finds Costs Associated
+With Traffic Crashes Are More Than Three Times Greater Than Congestion Costs, AAA NEWS RooM (Nov.
+3, 2011), http://newsroom.aaa.com/2011/11/aaa-study-finds-costs-associated-with-traffic-crashes-are-more-
+than-three-times-greater-than-congestion-costs/).
+28. Id
+29. Id.
+30. See Press Release, Volvo Car Grp., supra note 17.
+31. Beiker, supra note 22, at 1150; see also Bryant W. Smith, Managing Autonomous Transportation
+Demand, 52 SANTA CLARA L. REv. 1401, 1410 (2012) (discussing how frequent braking and accelerating leads
+to higher costs).
+32. Beiker, supra note 22, at I150.
+33. Others have written about tort liability and autonomous vehicles. See NIDHI KALRA, JAMES
+ANDERSON & MARTIN WACHS, RAND CORP., LIABILITY AND REGULATION OF AUTONOMOUS VEHICLE
+TECHNOLOGIES 22 (April 2009), available at http://www.its.berkeley.edu/publications/UCB/2009/PRR/UCB-
+ITS-PRR-2009-28.pdf (arguing that manufacturers will probably be liable for accidents caused by autonomous
+vehicles); Kyle Graham, Of Frightened Horses and Autonomous Vehicles: Tort Law and Its Assimilation of
+Innovations, 52 SANTA CLARA L. REV. 1241, 1243 (2012) (discussing how tort liability evolves with emerging
+technology); Gary E. Marchant & Rachel A. Lindor, The Coming Collision Between Autonomous Vehicles and
+the Liability System, 52 SANTA CLARA L. REV. 1321, 1339 (2012) (arguing that the vehicle manufacturer
+should be liable for accidents caused in autonomous mode); Andrew P. Garza, Note, "Look Ma, No Hands!"
+Wrinkles and Wrecks in the Age ofAutonomous Vehicles, 46 NEw ENG. L. REV. 581, 616 (2012) (arguing that
+liability will fall on manufacturers but that increased safety benefits will decrease liability). Others have
+written about autonomous vehicles in different contexts. See generally Beiker, supra note 22 (providing an
+overview of legal issues involving autonomous vehicles); Frank Douma & Sarah A. Palodichuk, Criminal
+Liability Issues Created by Autonomous Vehicles, 52 SANTA CLARA L. REV. 1157 (2012); Dorothy J. Glancy,
+Privacy in Autonomous Vehicles, 52 SANTA CLARA L. REV. 1171 (2012); Robert B. Kelly & Mark D. Johnson,No. 2] 251
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+computers are not perfect,34 it is practical to assume that self-driving cars will
+sometimes malfunction,35 and it is important to examine tort liability when
+such malfunctions result in a car accident.36 Specifically, who is liable when
+the car malfunctions and causes an accident while in autonomous mode; should
+the driver or the manufacturer be liable?37 Because current products liability
+law does not adequately assess liability in this futuristic situation, this Article
+proposes that courts or legislatures need to adopt a new liability scheme that
+assesses responsibility to the proper party by using products liability principles
+and focuses on the driver's level of reliance on the autonomous vehicle.
+In examining that issue, this Article first discusses projected designs for
+autonomous vehicles-focusing specifically on the Google Car-as well as the
+purposes of these cars. Part 11 describes four hypothetical scenarios that will
+be used in exploring products liability law. Part III provides an overview of
+the current products liability doctrines that govern product manufacturers, how
+those doctrines will apply to accidents involving autonomous technology, and
+shortfalls of each as applied to autonomous vehicles. Finally, Part IV asserts
+that adjustments to current products liability doctrines are necessary to ensure
+that tort liability stemming from autonomous vehicle accidents is allocated to
+the proper parties.
+II. BACKGROUND INFORMATION
+A. Overview of the Design and Purpose of the Autonomous Vehicle
+1. Autonomous Vehicle Design
+A basic understanding of autonomous vehicle design is necessary in
+analyzing tort liability that applies to such vehicles. Because Google has been
+the driving force behind the development of autonomous vehicles, analyzing
+its design plans provides a helpful overview of self-driving car design.
+Defining a Stable, Protected and Secure Spectrum Environment for Autonomous Vehicles, 52 SANTA CLARA L.
+REV. 1271 (2012) (discussing autonomous vehicle communication systems); Robert W. Peterson, New
+Technology-Old Law: Autonomous Vehicles and California 's Insurance Framework, 52 SANTA CLARA L.
+REV. 1341 (2012) (discussing how insurance markets will be effected by autonomous vehicles); Smith, supra
+note 31 (discussing autonomous vehicle transportation).
+34. See Masnick, supra note 7 ("[T]here's no way that autonomous vehicles will have a perfect track
+record and never, ever get into an accident. They will crash.").
+35. See Look, No Hands, ECONOMIST, Sept. 1, 2012, at 17, 19, available at http://www.economist.com/
+node/21560989 ("It is only a matter of time before the maker of an autonomous vehicle is sued for unleashing
+a killer robot, says Michael Toscano, head of the Association for Unmanned Vehicle Systems International, an
+industry body in Arlington, Virginia."); Marchant & Lindor, supra note 33, at 1321 ("Cars crash. So too will
+autonomous vehicles ....").
+36. See Matthew T. Henshon & Krasnow Waterman, Imagine the Ram-If-Ications: Assessing Liability
+for Robotics-Based Car Accidents, SClTECH LAW., Spring 2009, at 17 ("Resolving the uncertainty of liability
+may allow more technologies to come to market faster.").
+37. Others have asked the same question. See, e.g., Kenneth Anderson, Google Cars Drive Themselves,
+and Robots and the Law, VOLOKH CONSPIRACY (Oct. 17, 2010, 12:12 PM), http://www.volokh.com/2010/10/
+17/google-cars-drive-themselves-and-robots-and-the-law/; Strumpf, supra note 20; Markoff, supra note 26.
+38. Other car companies are using a similar design for autonomous cars as well. See Fountain, supra
+note 5 ("[All manufacturers] rely on sensors to gather data about the car's environment, processors to crunch252 [Vol. 2013
+SUE MY CAR NOT ME
+Google plans to combine its autonomous technology with preexisting
+vehicles, rather than develop its own vehicle specifically for autonomous
+driving. Currently, Google is testing its technology on a fleet of Toyota
+Priuses,40 an Audi, and a Lexus.42 Google places a structure on top of the car
+that navigates, detects traffic, and measures and analyzes the surroundings
+through the use of radar sensors, laser rangefinders, video cameras, global
+positioning systems (GPSs), and maps.43 The laser rangefinders map out the
+driving environment, "[t]he cameras and vehicle radars ... detect potential
+obstacles,"" and the GPS determines the location of the vehicle to help it stay
+45on the correct path. This information is sent to Google data centers that use
+this data to constantly update the maps sent out to all Google Cars,46 which
+helps other autonomous cars that come across that location.47 Developers then
+refine the algorithms this technology utilizes by driving the cars in various
+48terrains. The interior of the vehicle has a user interface to help drivers
+monitor what the autonomous technology is currently doing.49
+Although Google plans to develop a fully autonomous vehicle, its current
+design-and the current laws-still requires a driver behind the steering
+wheel.50  The driver is able to assume control of the vehicle by moving the
+steering wheel or touching the pedals.51  The driver can also assume control of
+the vehicle by utilizing a button that switches the vehicle in or out of self-
+driving mode.52 If the vehicle does not realize what to do in a certain driving
+situation, a voice lets the user know that the car is giving control back to the
+driver.53
+Autonomous vehicles have the capability to communicate with each
+the data, algorithms to interpret the results and make driving decisions, and actuators to control the car's
+movements."). Continental Corporation's autonomous vehicle, for instance, uses "four short-range radar
+sensors (two at the front, two at the rear), one long-range radar and a stereo camera" to safely drive the vehicle
+in various situations. Continental Becomes First Automotive Supplier to Receive Nevada's Autonomous
+Vehicle Testing License, PR NEWSWIRE (Dec. 19, 2012), http://www.pmewswire.com/news-releases/
+continental-becomes-first-automotive-supplier-to-receive-nevadas-autonomous-vehicle-testing-license-
+184141281.html.
+39. See Fountain, supra note 5 ("Google says it does not want to make cars, but instead work with
+suppliers and automakers to bring its technology to the marketplace."). Most of the other car manufacturers
+arc likewise using autonomous technology on their existing vehicles. See Sherr & Ramsey, supra note 5.
+40. Markoff, supra note 26.
+41. Id
+42. Fountain, supra note 5 (automated Lexus RX 450h).
+43. Peter Valdes-Dapena, Thrilled and Bummed by Google s Self-Driving Car, CNN MONEY (May 18,
+2012, 1:07 PM), http://money.cnn.com/2012/05/17/autos/google-driverless-car/index.htm.
+44. Kelly & Johnson, supra note 33, at 1276.
+45. Id
+46. Sebastian Thrun, What We're Driving at, GOOGLE OFFICIAL BLOG (Oct. 9, 2010),
+http://googleblog.blogspot.com/2010/10/what-were-driving-at.html.
+47. See Fountain, supra note 5.
+48. Tom Vanderbilt, Let the Robot Drive: The Autonomous Car of the Future Is Here, WIRED (Jan. 20,
+2012, 3:24 PM), http://www.wired.com/magazinc/2012/01/if_autonomouscars/all/.
+49. User Interface for Displaying Internal State of Autonomous Driving Sys., U.S. Patent No. 8,260,482
+(filed July 8, 2010).
+50. See supra note 21 and accompanying text.
+51. Valdes-Dapena, supra note 43.
+52. Id.
+53. IdNo. 2]1 253
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+other.54  As they become more common, autonomous vehicles will become
+safer because of this feature, which further removes a level of unpredictability
+for the computer-human behavior. The vehicles will also be able to
+56communicate with traffic signals and signs. Because of these abilities, the
+benefits of autonomous cars will greatly increase as they become more
+common.
+2. Purposes of the Autonomous Vehicle
+While the designs of autonomous vehicles may change over time, the
+primary purpose of autonomous vehicles is to get the user from one place to
+another. For most people, traditional vehicles also serve this purpose;
+however, autonomous vehicles also assist those who cannot safely drive
+themselves.57  "Too many people are underserved by the current transport
+system. They are blind, or too young to drive, or too old, or intoxicated."58
+Google demonstrated the capacity for autonomous vehicles to change this
+aspect of the transportation system when it allowed a blind person to "drive"
+the vehicle to run some errands.
+54. Koldhekar, supra note 5 ("The main technology underpinning Volvo's autonomous automobiles is
+wireless internet, which would enable each car to be assigned a certain point on the road and give different
+vehicles the ability to interact with each other."); see also Kelly & Johnson, supra note 33, at 1277-78
+(discussing how the vehicles will communicate with each other).
+55. A well-programmed computer algorithm cannot take into account all of the various ways that
+people drive. Smith, supra note 31, at 1412-13 (discussing the additional benefits of widespread autonomous
+car use).
+56. Ann Craig, Work on Autonomous Control of Driverless Vehicles Through Intersections Receives
+Recognition, VA. TECH NEWS (Dec. 4, 2012), http://www.vtnews.vt.edu/articles/2012/12/120412-vtti-
+zohdyrakhabestpaper.html (quoting Ismail Zohdy: "Intelligent transportation systems are an interaction of
+many complex entities that communicate with each other, such as vehicles, traffic signals, and advisory
+signals. Driverless vehicles would be capable of interacting with these other entities .... ). Combined with
+the new "connected vehicle" program that the NHTSA is undertaking, which allows vehicles to "wirelessly
+communicate with each other as well as with traffic signals, pavement embedded sensors[,] and other road
+equipment," autonomous vehicles could become even safer because the computer technology will be able to
+communicate with everything else on the road-except pedestrians of course. Steve Johnson, Silicon Valley
+Technology Could Be Key to Safer Driving, SAN JOSE MERCURY NEWS (Nov. 6, 2012),
+http://www.mercurynews.com/cars/ci_21915077/silicon-valley-technology-could-be-key-connect-cars.
+57. NHTSA, Preliminary Statement, supra note 18, at 14 ("Mobility for those with a range of
+disabilities will be greatly enhanced if the basic driving functions can be safely performed by the vehicle itself,
+opening new windows for millions of people."); Beiker, supra note 22, at 1151 ("[A]utonomous driving
+technology can help elderly or disabled citizens keep an active lifestyle such as running daily errands and
+maintaining their social relationships."); Allison Arieff Driving Sideways, N.Y. TIMES (July 23, 2013, 9:00
+PM), http://opinionator.blogs.nytimes.com/2013/07/23/driving-sideways/?_r-0 ("[S]elf-driving vehicles
+provide mobility for those who lack it -the disabled, seniors, even children -and for those who perhaps
+shouldn't have access to it otherwise (i.e., drunken drivers)."). Sergey Brin of Google hopes that the cars
+could transport blind people and other people who cannot drive. Hirsch, supra note 26 (quoting Scrgey Brin:
+"Some people have other disabilities. Some people are too young [to drive]. Some people are too old.
+Sometimes we're too intoxicated [to drive]."); see also Shepardson, supra note 17 (paraphrasing NHTSA
+Administrator David Strickland who stated that autonomous cars could allow senior citizens and the blind to
+drive safely); Smith, supra note 31, at 1409 ("Self-driving cars that do not need human drivers or monitors
+may substantially increase mobility for those who cannot (legally) drive themselves because of youth, age,
+disability, or incapacitation.").
+58. Thomson, supra note 8.
+59. See Mary B. Quirk, Google's Helpful Self-Driving Car Brings Blind Passenger to Taco Bell,
+CONSUMERIST (Mar. 29, 2012), http://consumerist.com/2012/03/29/googles-helpful-self-driving-car-brings-254 [Vol. 2013
+SUE MY CAR NOT ME
+Another purpose of autonomous vehicles not served by traditional
+vehicles is to increase a person's productivity.60  The autonomous car will
+allow people behind the wheel to perform tasks other than driving. In
+today's productivity-driven society, this aspect of autonomous vehicles is very
+appealing.
+B. Four Scenarios
+In order to further analyze autonomous cars and the interplay of tort
+liability, it is helpful to examine four specific scenarios: the Distracted Driver,
+the Diminished Capabilities Driver, the Disabled Driver, and the Attentive
+Driver.
+1. The Distracted Driver
+Sarah has a long drive home for Thanksgiving right before her finals
+begin. Traditionally, she would not make the trip home so that she could
+study, but now, because of Google, Sarah can do both. She gets into her
+Google Car-a fully autonomous vehicle-with her torts textbook, and,
+instead of driving home, she rides in the driver seat while reading her textbook.
+The Google Car is driving for her and notifying her when she needs to pay
+attention to the road. About halfway home, the Google Car malfunctions and
+hits another driver without ever telling Sarah to take control of the car.
+Arguably, Sarah's car caused the accident. Who is liable? Is Sarah-the
+driver in the traditional sense-liable, or is Google-the manufacturer-liable
+because the car was driving itself when the accident occurred?
+The Distracted Driver is the autonomous car user who is not paying
+attention;62 it could be someone reading a book like Sarah, using a cell
+phone, eating a snack, or any other situation. Essentially, the Distracted
+Driver purposefully engages in a task other than driving, thus relying on the
+blind-passenger-to-taco-bell/.
+60. See Urmson, supra note 6 ("One day we hope this capability will enable people to be more
+productive in their cars."); see also Markoff, supra note 26 (quoting Sebastian Thrun, Director of the Stanford
+Artificial Intelligence Laboratory and Google engineer: "Can we text twice as much while driving, without
+guilt? ... Yes, we can, if only cars will drive themselves."); Thrun, supra note 46 ("[T]he U.S. Department of
+Transportation estimates that people spend on average 52 minutes each working day commuting. Imagine
+being able to spend that time more productively."). Another car maker, Volvo, has likewise stated the goal of
+increasing productivity of people. See Press Release, Volvo Car Grp., supra note 17 ("[Autonomous
+technology] creat[cs] possibilities for the driver to safely focus on something else while the car is driven
+autonomously.").
+61. Currently each American on average spends an hour per day in a vehicle. Smith, supra note 31, at
+1410. See also Nick Bilton, Disruptions: How Driverless Cars Could Reshape Cities, N.Y. TIMES (July 7,
+2013, 11:00 AM), http://bits.blogs.nytimes.com/2013/07/07/disruptions-how-driverless-cars-could-reshape-
+cities/ ("[DIriverless cars will allow people to live farther from their offices and that the car could become an
+extension of home.").
+62. See NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., NATIONAL MOTOR VEHICLE CRASH CAUSATION
+SURVEY 2 (2008), available at http://www-nrd.nhtsa.dot.gov/Pubs/811059.PDF ("[A]bout 18 percent of the
+drivers [in the accidents studied] were engaged in at least one interior non-driving activity.").
+63. See Mike Masnick, Is There a Better Way to Text While Driving?, TECHDIRT (Aug. 25, 2010, 8:16
+AM), http://www.techdirt.com/articles/20100823/02465910726.shtml.No. 2] 255
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+autonomous vehicle completely.
+2. The Diminished Capabilities Driver
+Richard is in his eighties. At one time Richard was a superb driver, but,
+as he has aged, driving has become more difficult for him. He struggles when
+turning his head to look for traffic, and he does not react at the same speed as
+he once did. Richard does not want to depend on others for his travels, so he
+purchases an autonomous vehicle. This vehicle allows Richard to safely get
+from one place to another without depending on others. On the way to his
+grandchild's Little League Baseball game, the vehicle starts malfunctioning.
+Richard attempts to take control of the vehicle but does not react quickly
+enough to avoid the accident, and the vehicle hits another car. Is Richard
+liable or is Google?
+The Diminished Capabilities Driver is the person whose driving
+capabilities are diminished for some reason; it could be an elderly person like
+Richard, an intoxicated person,64 or a minor. This person typically would not
+be driving because of his or her diminished capabilities and would have to rely
+on others.66 Thus, the Diminished Capabilities Driver could benefit greatly
+from the convenience and independence an autonomous vehicle provides.
+3. The Disabled Driver67
+Christie enlists in the army and serves her country. A tragedy occurs
+overseas: Christie is hit by a grenade, and she is permanently blinded by
+shrapnel that hits her eyes. Upon returning home, she finds herself completely
+dependent on others to drive her places, but she does not like to burden family
+and friends with her disability. Fortunately, she learns of a new technology
+that will give her independence and the ability to get around. She purchases an
+autonomous car. One day, on her way to the local VFW, Christie's
+autonomous vehicle begins malfunctioning and alerting her of the technology
+failure. Because Christie is blind and cannot assume control of the vehicle, she
+can only sit there and pray for the best. Is Christie liable or is Google?
+64. See Douma & Palodichuk, supra note 33, at 1163-64 (discussing the possibility of a "take me home
+I'm drunk" button for these cars).
+65. Obviously children cannot currently operate a motor vehicle, but many people have suggested that
+autonomous vehicles could eventually be used to drive children to their sporting events and schools, increasing
+society's productivity even more. E.g., Douma & Palodichuk, supra note 33, at 1164; Smith, supra note 31, at
+1409.
+66. This Article does not ignore the fact that Diminished Capability Drivers, while relying on the
+autonomous technology, could be undertaking other activities while in the vehicle much like Distracted
+Drivers. The difference between the two drivers is that the Distracted Driver can-other than for the
+distraction-drive the vehicle in a safe manner; whereas the Diminished Capabilities Driver has a condition
+that makes it harder for the person to drive the vehicle safely.
+67. This Article does not ignore the practical reality that states would have to pass laws allowing people
+with disabilities to have an autonomous vehicle. Currently, people with disabilities of this sort cannot operate
+a motor vehicle. States may create a public policy exception for autonomous vehicles. Google has already
+allowed a blind person to drive the vehicle. See Quirk, supra note 59 (discussing the car taking the blind man
+through Taco Bell's drive-thru).256 [Vol. 2013
+SUE MY CAR NOT ME
+The Disabled Driver is the person who cannot drive a traditional vehicle
+because of a physical disability, such as blindness6 or an amputated limb.69
+Thus, the Disabled Driver relies entirely on the autonomous nature of the car in
+that he or she can take control-just not safely-of the autonomous car in the
+event of a computer malfunction.
+4. The Attentive Driver
+Tucker commutes forty-five minutes to work five days a week. He has
+grown tired of making this commute, considering that he spends an hour and a
+half doing nothing "productive." Tucker hears about autonomous vehicles.
+Tucker has a healthy skepticism of new technology, so it takes time for him to
+get comfortable using technology, even when the product has been out for
+years. Nevertheless, Tucker decides to try an autonomous vehicle so that he
+can use his commuting time more productively. At first, Tucker does not take
+his eyes off the road, but eventually he starts to trust the vehicle. One day
+Tucker watches his autonomous vehicle drift into the other lane. Rather than
+grab the wheel, he watches to see if his car is actually as perfect as it had
+previously been and if it will fix itself, avoiding the accident. Unfortunately,
+there is a vehicle in his blind spot, and Tucker's autonomous vehicle collides
+with the other vehicle. Is Tucker liable for not taking control of the
+autonomous vehicle, or is Google?
+The Attentive Driver, like Tucker, is the user who watches the road and
+surroundings in the same way he or she would while driving a traditional
+vehicle. The Attentive Driver may not trust the autonomous ability of the
+vehicle such that he or she constantly checks that the car is driving correctly, or
+the Attentive Driver may simply not have any other tasks to address while in
+the vehicle. The key is that the Attentive Driver has the potential to foresee
+and prevent accidents, unlike the Distracted, Diminished Capabilities, and
+Disabled Drivers.
+III. PRODUCTS LIABILITY LAW AS APPLIED TO AUTONOMOUS VEHICLES
+A. Overview ofProducts Liability Law
+Products liability is the main basis for manufacturer liability. Plaintiffs
+can sue for manufacturing defects, design defects, and failures to warn.70
+Crashworthiness is another products liability doctrine applied to automobiles.
+However, since this analysis is focusing on Google Cars and crashworthiness
+is concerned with the structure and design of the vehicle, the analysis of a
+68. Smith, supra note 31, at 1409 ("Nine percent of adults identify as blind or report 'trouble seeing,
+even when wearing glasses or contact lenses."').
+69. See Bradley Keyes, New Found Freedom With Driverless Cars, DRIVERLESS WORLD (June 21,
+2011), http://driverlessworld.com/2011/06/new-found-freedom-with-driverless-cars/ (discussing the number of
+people with disabilities that could use self-driving vehicles).
+70. Watson v. Ford Motor Co., 699 S.E.2d 169, 174 (S.C. 2010).
+71. See, e.g., Garza, supra note 33, at 593-94 (discussing crashworthiness for autonomous vehicles).No. 2] 257
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+vehicle's crashworthiness would be the same for a vehicle with autonomous
+technology and one without autonomous technology.72 A products liability
+suit can allege any or all of these theories.73 Manufacturing defects are
+implicated when a good is not produced according to its specification 7 or
+under the malfunction doctrine when there is an unexplainable accident.75
+Design defects are alleged when the foreseeable risks of harm could have been
+reduced or avoided by use of a reasonable alternative design.76 There are two
+main tests for design defects: the consumer expectations test and the risk-utility
+test.77  A failure to warn claim is based on a manufacturer's duty to provide
+instruction about how the product can be safely used and to warn consumers of
+hidden dangers.78  In Part III.B, this Article will analyze autonomous cars
+under each of the three common grounds for products liability suits-
+manufacturing defect, design defect, and warning defect. In Part III.B.5, this
+Article will also examine the defenses to products liability suits. There are
+four defenses that are applicable to autonomous vehicle suits: comparative
+negligence, misuse, state of the art, and assumption of the risk.79
+B. Products Liability Doctrines Applied to Autonomous Vehicles
+1. Manufacturing Defects
+Manufacturing defects occur when the product does not meet the
+manufacturer's specifications and standards.80  The Restatement (Second) of
+Torts and the Restatement (Third) of Torts: Products Liability both include a
+manufacturing defect claim for products liability.si To succeed, a plaintiff
+must prove that the product does not conform to the specifications, regardless
+of whether there was negligence in the manufacturing process.82
+In the context of autonomous vehicles, a plaintiff could prevail by
+showing that the autonomous equipment failed to work as specified by the
+72. Google is planning on putting the autonomous technology on cars produced by other manufacturers
+and is not using a special car. See supra note 5 and accompanying text. Because of that, the crashworthiness
+analysis would be the same for the vehicle that Google uses for its technology.
+73. Watson, 699 S.E.2d at 174.
+74. See RESTATEMENT (SECOND) OF TORTS § 402A cmt. h (1965) ("The defective condition may arise
+not only from harmful ingredients, not characteristic of the product itself either as to presence or quantity, but
+also from foreign objects contained in the product, from decay or deterioration before sale, or from the way in
+which the product is prepared or packed.").
+75. David G. Owen, Manufacturing Defects, 53 S.C. L. REV. 851, 871-72 (2002).
+76. RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 2(b) (1998).
+77. See David G. Owen, Design Defects, 73 Mo. L. REv. 291, 299 (2008) ("All courts judge the
+adequacy of a product's design upon one of two basic standards, or some combination thereof: (1) the
+'consumer expectations' test ... and/or (2) the 'risk-utility' test. ..
+78. Watson, 699 S.E.2d at 174.
+79. See infra Part 11I.B.5.
+80. See Owen, supra note 75, at 865 ("A defect in manufacture simply meant that through some
+mistake in the production process the product was rendered 'defective."').
+81. See RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 2(a) (1998) ("[A product] contains a
+manufacturing defect when the product departs from its intended design even though all possible care was
+exercised in the preparation and marketing of the product."); RESTATEMENT (SECOND) OF TORTS § 402A
+(1965) (supporting RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 2(a) (1998)).
+82. E.g., Hall v. Chrysler Corp., 526 F.2d 350, 352 (5th Cir. 1976).258 [Vol. 2013
+SUE MY CAR NOT ME
+manufacturer.83  For instance, if the laser sensors do not detect oncoming
+traffic or when to turn, like the specifications require, then the user should be
+able to recover under a manufacturing defect claim. Manufacturing defects
+claims in the autonomous vehicle context face a significant complication:
+courts have not applied the manufacturing defect doctrine to software because
+nothing tangible is manufactured.84 Because of this, a plaintiff will not be able
+to allege under a manufacturing defect theory that the software erred, rather the
+plaintiff will want to allege that the autonomous technology did not meet
+manufacturing specifications. This will be tricky for a plaintiff to do if the
+defect is really a software error (algorithm). Therefore, the traditional
+manufacturing defect theory will be most useful to plaintiffs when the parts did
+not meet the manufacturing specifications.
+Under the malfunction doctrine, a variation of the manufacturing defect
+doctrine, a plaintiff can show a manufacturing defect without specifically
+proving how it was defective.86 A plaintiff must prove that: "(1) the product
+malfunctioned, (2) the malfunction occurred during proper use, and (3) the
+product had not been altered or misused in a manner that probably caused the
+malfunction."87 The major benefit to the malfunction doctrine is that a plaintiff
+can prove that the product malfunctioned with circumstantial evidence.
+This doctrine's application to autonomous vehicles helps a plaintiff hold a
+manufacturer liable for the accident. A plaintiff could prove that the accident
+was caused by a malfunction in the autonomous technology.89  The accident
+itself is proof of the first and second elements.91 The third element requires a
+plaintiff to prove that the vehicle was not altered, such as by simply showing
+that the car is in its original condition. Presumably the technology will be
+programmed differently for each vehicle's specifications because each vehicle
+may accelerate faster, have different brake systems, and other unique abilities
+of cars.92 If the vehicle owner changed any part of the vehicle, a manufacturer
+83. Cf Marchant & Lindor, supra note 33, at 1323 (arguing that manufacturing defect claims will be
+uncommon because software and navigation systems are manufactured with low error rates).
+84. See 68 AM. JUR. 3D PROOF OF FACTS 333 § 8 (last updated Sept. 2013) ("[N]o cases have been
+found applying [manufacturing defects] to software.").
+85. Id
+86. See RESTATEMENT (THIRD) OF TORTS: PRODS. LiAB. § 2(a) cmt. a (1998) ("Strict liability ...
+performs a function similar to the concept of res ipsa loquitur .....
+87. Owen, supra note 75, at 873.
+88. RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 3 cmt. c (1998) ("The inference of defect may be
+drawn .. .without proof of the specific defect."); see also Stackiewicz v. Nissan Motor Corp., 686 P.2d 925,
+929-30 (Ncv. 1984) (holding that a steering wheel malfunction caused an accident).
+89. See, e.g., 68 AM. JUR. 3D PROOF OF FACTS § 1 (2013) (suggesting that technology that fails to meet
+product specifications may be classified as "defective" and give rise to a cause of action).
+90. The accident is evidence that the automobile malfunctioned. See Dietz v. Waller, 685 P.2d 744,
+747-48 (Ariz. 1984) ("No specific defect need be shown if the evidence, direct or circumstantial, permits the
+inference that the accident was caused by a defect.").
+91. Proof of proper use would be that the vehicle is in autonomous mode. The only problem with this
+element would occur if the autonomous car was not permitted to be operated in certain weather conditions.
+See Marchant & Lindor, supra note 33, at 1327 (mentioning the possibility that a manufacturer may include in
+the manual instructions that the owner should not use the car under certain weather conditions).
+92. This would be different if the person could download an update or if the technology adapts to the
+vehicle.No. 2] 259
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+will always argue that any modification to the vehicle changed the
+technology's ability to safely drive in autonomous mode and, thus, was the
+cause of the accident.93 Therefore, to use the malfunction doctrine, a plaintiff
+will need to prove that the vehicle was not altered by any changes to the
+vehicle that may have caused the program to malfunction or that the
+technology was updated to meet the new vehicle modifications.94
+Although the malfunction doctrine will be useful to plaintiffs in
+autonomous vehicle products liability suits, there are some limitations to its
+application. Some jurisdictions do not recognize the malfunction doctrine.95
+Courts that do apply the doctrine hesitate to apply it to claims in a widespread
+fashion96 and typically require a showing of unique circumstances before
+applying it.97 When applying the doctrine to traditional vehicles, some courts
+require that the vehicle was relatively new98 and that the vehicle part was not
+repaired.99 An expert is usually required to show that the accident could not
+have been caused by anything other than the alleged defect.00  These
+limitations, along with the fact that some jurisdictions do not recognize the
+malfunction doctrine, limit the usefulness of the doctrine, making it difficult to
+apply for autonomous vehicles.
+2. Design Defects
+a. Consumer Expectations Test
+A traditional manufacturing defect claim will not help plaintiffs with
+algorithm defects because of the malfunction doctrine's limitations; so,
+plaintiffs will likely assert design defects. This Part focuses on one of the
+design defect tests. The Restatement (Second) of Torts includes the consumer
+93. See Garza, supra note 33, at 581 (noting manufacturers have been reticent to make changes on
+vehicles because of liability concerns).
+94. Owen, supra note 75, at 873-74 ("The malfunction doctrine [provides that] plaintiff need not
+establish that a specific defect caused an accident if circumstantial evidence permits an inference that the
+product, in one way or another, probably was defective.").
+95. See, e.g., Christopher H. Hall, Annotation, Strict Products Liability: Product Malfunction or
+Occurrence ofAccident as Evidence ofDefect, 65 A.L.R. 4TH 346 (2013) (enumerating jurisdictions that do not
+recognize the malfunction doctrine).
+96. Owen, supra note 75, at 878 ("The doctrine presents a seductive but faulty shelter for plaintiffs with
+insufficient proof of defect and causation, and the law reports brim with decisions that recite the propriety of
+the doctrine as a general proposition but hold it inapplicable to the facts.").
+97. DAVID G. OWEN, PRODucTs LIABILITY LAW § 7.4, at 470 (2d ed. 2008) ("Although the malfunction
+doctrine may come to a plaintiffs rescue when circumstances fairly suggest the responsibility of a product
+defect, it is hombook law that proof ofa product accident alone proves neither defectiveness nor causation.").
+98. Compare Corcoran v. General Motors Corp., 81 F. Supp. 2d 55, 69 (D.D.C. 2000) ("[A]lthough
+brake failure in a new car gives rise to the inference that a defect existed when the car entered the stream of
+commerce,... this inference is unavailable to the plaintiff, whose complaint involves a seven and a half year
+old car which he drove approximately 23,000 miles without incident."), with Holloway v. General Motors
+Corp., 271 N.W.2d 777, 779 (Mich. 1978) (reversing a directed verdict on malfunction theory for a four-year-
+old car driven 47,000 miles where the alleged defect was in the suspension).
+99. See, e.g., Parsons v. Ford Motor Co., 85 S.W.3d 323, 326 (Tex. Ct. App. 2002) (explaining that the
+dealer repaired the ignition that caused the fire).
+100. See OWEN, supra note 97, § 6.3, at 365 ("[E]xpert proof is often necessary [under the malfunction
+doctrine] to rule out other possible causes of the accident.").260 [Vol. 2013
+SUE MY CAR NOT ME
+expectations test as one method for analyzing design defects;1o however, the
+Restatement (Third) of Torts: Products Liability rejected the consumer
+expectations test for design defects.102  Like the Restatement (Third), many
+courts have criticized using the consumer expectations test for design
+defects;'03 many states, however, still use this test. 104 The Restatement
+(Second) of Torts defines a design defect as a defect that is unreasonably
+dangerous beyond the contemplation of the consumer.' 05 A product has a
+design defect if it is "dangerous to an extent beyond that which would be
+contemplated by the ordinary consumer who purchases it."'06  However, a
+manufacturer is not required to make perfectly safe goods.107 Thus, under the
+consumer expectations test, a court looks to what a reasonable consumer would
+expect from a product.08
+Because of the complexity of traditional automobiles,109 some courts
+hesitate to apply the consumer expectations test to most automotive
+accidents.1o Although autonomous technology could be considered
+"complex," developing consumer expectations does not require knowledge of
+the complexity.I' In the context of autonomous vehicles, the consumer will
+expect the vehicle to operate on its own in a reasonably safe manner. The
+manufacturer necessarily will need to advertise that the autonomous vehicle is
+safe; otherwise no one will trust the vehicle. This advertising could also lead
+consumers to have unrealistic expectations of the autonomous vehicle's
+capabilities.112 When a car deviates from the consumer's expectations and
+causes an accident, a consumer expectations jurisdiction should permit a
+plaintiff to use this test. For instance, assume a situation where a vehicle's
+map of a turn is defective and instead of turning left where it was supposed to,
+101. RESTATEMENT (SECOND) OF TORTS § 402A cmt. g (1965); Douglas A. Kysar, The Expectations of
+Consumers, 103 COLUM. L. REv. 1700, 1712-13 (2003).
+102. RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 2 cmt. g (1998) ("[C]onsumer expectations do
+not constitute an independent standard for judging the defectiveness of product designs.").
+103. See, e.g., Branham v. Ford Motor Co., 701 S.E.2d 5, 15 (S.C. 2010) ("[W]e find the consumer
+expectations test and its focus on the consumer ill-suited to determine whether a product's design is
+unreasonably dangerous.").
+104. See Owen, supra note 77, at 300 ("[The consumer expectations test] remains a persistent, if
+embattled, liability test in at least certain types of design defect cases in many states.").
+105. RESTATEMENT (SECOND) OF TORTS § 402A cmt. g (1965).
+106. RESTATEMENT (SECOND) OF TORTS § 402A cmt. i (1965).
+107. See, e.g., id ("Many products cannot possibly be made entirely safe for all consumption.").
+108. See, e.g., Vincer v. Esther Williams All-Aluminum Swimming Pool Co., 230 N.W.2d 794, 798
+(Wis. 1975) ("This is an objective test and is not dependent upon the knowledge of the particular injured
+consumer, although his knowledge may be evidence of contributory negligence under the circumstances.").
+109. See generally Soule v. General Motors Corp., 882 P.2d 298 (Cal. 1994); Heaton v. Ford Motor Co.,
+435 P.2d 806 (Or. 1967).
+110. Garza, supra note 33, at 601-02. But see, e.g., Jackson v. Gen. Motors. Corp., 60 S.W.3d 800, 806
+(Tenn. 2001) (citing Cunningham v. Mitsubishi Motors Corp., No. C-3-88-582, 1993 WL 1367436, at *6 (S.D.
+Ohio June 16, 1993)) ("This Court is simply not willing to ... preclud[c] the use of the consumer expectation
+test in a situation involving a familiar consumer product which is technically complex or uses a new process to
+accomplish a familiar function. Many familiar consumer products involve complex technology.").
+111. See Jackson, 60 S.W.3d at 806 ("[I]t may be difficult for plaintiffs in cases involving highly
+complex products to establish that the product is dangerous to an extent beyond that which would be
+contemplated by an ordinary consumer, even though the consumer expectation test may, technically, apply.").
+112. See, e.g., KALRA, ANDERSON & WACHS, supra note 33, at 24 ("If advertising overpromises the
+benefits of these technologies, consumers may misuse them.").No. 2] 261
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+the vehicle instead turns ten feet too early, driving the car into a ditch.
+Because this accident would be a software defect, the plaintiff needs to assert a
+design defect claim."3  Under the consumer expectations test, the driver's
+expectation was that the maps would work properly and the vehicle would
+follow those maps. In this example, the expectations were not complex. The
+vehicle caused the accident, the autonomous vehicle did not meet the person's
+expectations, and a court should allow the driver to present the consumer
+expectations test to the jury.
+Since the consumer expectations test is based on expectations of the
+"reasonable consumer,"' 14 not the subjective expectations of the particular
+consumer, it will not matter which of the four drivers1 is behind the wheel.
+The expectations are based on the reasonable person and not the reasonable
+Distracted Driver or the reasonable Diminished Capabilities Driver.116
+Thus, although the Attentive Driver described in Part II has lower
+"expectations" of the vehicle's capabilities to drive safely'"7 than, for instance,
+the Distracted Driver,"8 a manufacturer could not argue that this attentive
+plaintiff did not trust the vehicle to drive safely. Although the consumer
+expectations test could apply to autonomous vehicles on a widespread basis, it
+is not recognized for design defects in every jurisdiction, and those
+jurisdictions that do recognize it may hesitate to do so in the context of
+autonomous vehicles because they may argue that autonomous vehicles are
+complex.
+b. Risk-Utility Test
+Because the consumer expectations test is applied to design defects in
+only a minority of jurisdictions, most plaintiffs will need to use the risk-utility
+test to prove a design defect.' 19 The risk-utility test is the dominant test for
+design defects in products liability.120 The Restatement (Third) of Torts:
+Products Liability endorsed the risk-utility test as the sole test for design
+defects.121 Section 2(b) of that Restatement provides:
+A product ... is defective in design when the foreseeable risks of
+harm posed by the product could have been reduced or avoided by
+the adoption of a reasonable alternative design by the seller ... and
+the omission of the alternative design renders the product not
+113. See supra note 84 and accompanying text.
+114. Vincer v. Esther Williams All-Aluminum Swimming Pool Co., 230 N.W.2d 794, 798 (Wis. 1975).
+115. See supra Part 1I.B.
+116. See Vincer, 230 N.W.2d at 798.
+117. See supra Part II.B.4 ("The Attentive Driver may not trust the autonomous ability of the vehicle
+such that he or she constantly checks that the car is driving correctly.").
+118. See supra Part 11.B.1 ("[T]he Distracted Driver purposefully engages in a task other than driving,
+thus relying on the autonomous vehicle completely.").
+119. See Owen, supra note 77, at 301 ("[M]ost modem courts have abandoned consumer expectations
+as the predominant test for design defectiveness.").
+120. See id. at 307 ("The risk-utility test is the principal standard for judging the safety or defectiveness
+of a product's design.").
+121. RESTATEMENT (THIRD) OF TORTS: PRODS. LUAB. § 2(b) (1998).262 [Vol. 2013
+reasonably safe.122
+A manufacturer is not required under the risk-utility test to use the safest
+design possible.123 Rather, under the risk-utility test "[a] product is defective
+in design if the safety benefits from altering the design as roposed by the
+plaintiff would have exceeded the costs of such an alteration." To prevail, a
+plaintiff must present a reasonable alternative design that would have
+prevented the accident.125
+In the autonomous vehicle context,126 design defect claims may allege a
+defect in the design of some tangible feature of the autonomous vehicle or may
+allege a defect in the software that controls the vehicle. For instance, a
+plaintiff could allege that the sensors could have been designed better to
+capture the surroundings of the automobiles. A plaintiffs design defect claim
+against a manufacturer for the actual design of a tangible feature ordinarily will
+be easier for a plaintiff to prove than for the design of the software because
+presenting expert testimony on the positioning or technology is more
+straightforward than presenting expert testimony on the ability of the
+manufacturer to write a safer algorithm.127 Unfortunately, the majority of the
+design defect cases will concern the algorithm because most of the accidents
+will concern a computer malfunction. The software could cause the car to
+accelerate faster than normal, it could have the vehicle miss a stop sign or red
+light, or a variety of other incidents.129 Here, a plaintiff would need a highly
+specialized expert to testify130 as to how the algorithm could have been written
+(designed) in a safer manner that would have prevented the accident. Because
+of the complexity of the lawsuit, the costs of a risk-utility suit and the difficulty
+in having a qualified expert testify to the alleged design defect, this type of
+claim will be hard to use widespread to hold the manufacturer liable for
+122. Id
+123. See RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 2(b) cmt. a ("Society does not benefit from
+products that are excessively safe ... any more than it benefits from products that are too risky. Society
+benefits most when the right, or optimal, amount of product safety is achieved.").
+124. David G. Owen, Toward a Proper Test for Design Defectiveness: "Micro-Balancing" Costs and
+Benefits, 75 TEx. L. REv. 1661, 1689 (1997).
+125. Id. at 1675 n.48.
+126. The autonomous vehicle is analogous to an autopilot plane, where design defect claims are
+permitted to go forward. Marchant & Lindor, supra note 33. In Richardson v. Bombardier, Inc., No.
+8:03CV544T3IMSS, 2005 WL 3087864, at *13 (M.D. Fla. Nov. 16, 2005), the court permitted the plaintiffs
+to assert a design defect when a plane crashed in autopilot but found that the plaintiffs did not introduce
+enough evidence to support the claim. Therefore, it is likely that courts would also allow design defect claims
+against autonomous vehicles.
+127. See Graham, supra note 33, at 1270 ("For a plaintiff to reach a jury on a design-defect claim, she
+may have to engage in a searching review of the computer code that directs the movement of these vehicles.
+This project may be difficult, and expensive.").
+128. See Marchant & Lindor, supra note 33, at 1328 ("[T]he malfunction in an autonomous vehicle will
+usually be a programming error or system failure."). This occurs because the software will misinterpret an
+object or fail to realize what something is. Id at 1327-28. This type of design defect challenges the software
+itself Id.
+129. Analogous to these examples are cruise control malfunctions. See, e.g., Cole v. Ford Motor Co.,
+900 P.2d 1059 (Or. Ct. App. 1995). In the cruise control cases, the plaintiffs argue that the cruise control
+accelerated rapidly or failed to disengage. Id at 1066. Likewise, with autonomous vehicles, the autonomous
+vehicle technology could accelerate rapidly or fail to disengage.
+130. See infra Part Ill.B.4 (discussing the necessity for expert testimony in design defect cases).No. 2] SUE MY CAR NOT ME 263
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+accidents caused in autonomous mode.'31
+Because of the limitations of the consumer expectations test and the
+costliness of the risk-utility test, design defect claims will be tough for
+plaintiffs to prove for an everyday accident and will be more likely to succeed
+in cases involving the design of tangible features of the vehicle rather than the
+software.
+3. Failure to Warn
+The final category of traditional products liability law is the warning
+defect. There are two parts to the duty to warn: "informing buyers of hidden
+dangers" and instructing buyers on how to safely use the product.132  The
+Restatement (Third) of Torts: Products Liability states that:
+A product ... is defective because of inadequate instructions or
+warnings when the foreseeable risks of harm posed by the product
+could have been reduced or avoided by the provision of reasonable
+instructions or warnings by the [manufacturer] ... and the omission
+of the instructions or warnings renders the product not reasonably
+safe.'33
+This standard focuses on whether the warnings provided were
+adequate.'34 These doctrines can be applied in the autonomous vehicle context
+too. A main obligation of manufacturers imposed by the duty to warn will
+involve letting consumers know of any dangers'35 a driver may face when
+using the autonomous technology. For instance, if the vehicle is brought to a
+particular location that the maps cannot identify, 36  the vehicle could
+malfunction and cause harm. A consumer may not know that the vehicle
+struggles in remote locations, and the manufacturer would have a duty to warn
+the owner that the autonomous technology could malfunction or does not
+operate properly there.
+Perhaps the main basis for warning defects in the autonomous vehicle
+context, however, will be the failure to instruct users on how to safely use the
+autonomous vehicles. Because autonomous vehicles will be a new technology
+and the risk of harm will be great if they are not operated properly,
+manufacturers will need to make sure that consumers know how to operate
+131. See Graham, supra note 33 and accompanying text.
+132. OWEN, supra note 97, § 9.1, at 581.
+133. RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 2(c) (1998).
+134. See, e.g., Pavlides v. Galveston Yacht Basin, 727 F.2d 330, 338-39 (5th Cir. 1984) ("The question
+of whether or not a given warning is legally sufficient depends upon the language used and the impression that
+such language is calculated to make upon the mind of the average user of the product." (citing Bituminous
+Cas. Corp. v. Black & Decker Mfg. Co., 518 S.W.2d 868, 872-73 (Tex. App. 1974))).
+135. The amount and extent of these are hard to figure out during the prototype stage.
+136. See User Interface for Displaying Internal State of Autonomous Driving Sys., U.S. Patent No.
+8,260,482 (filed July 8, 2010) ("For example, computer 110 may not be able to control aspects of vehicle 101
+safely if vehicle 101 is at a particular location which computer 110 is unable to identify based on the
+geographic location ofvehicle 101, if vehicle 101 is at a particular location which is not sufficiently defined or
+described by detailed map 136, or if computer 110 detects a large number of obstacles in the vicinity of vehicle
+101.").264 [Vol. 2013
+SUE MY CAR NOT ME
+them. This may require a special instruction video'37 that users must watch
+before purchasing vehicles equipped with autonomous technology. Another
+alternative would be having driver's education classes cover autonomous
+driving.'3 Regardless of the solution adopted, autonomous vehicle
+manufacturers will need to make sure that consumers are instructed on how to
+safely use these cars or manufacturers could be liable for breaching their duty
+to warn consumers.
+4. Evidence Issues
+Under any of the products liability schemes listed above, two evidentiary
+issues-expert testimony issues and subsequent remedial measures-will recur
+in almost all autonomous vehicle products liability suits. Because of the
+complexity of the technology, a plaintiff will need expert testimony to explain
+product safety and accidents to the court and the jury, 39 which will make most
+product liability suits cost prohibitive.
+To illustrate how the cost of expert witnesses often will be cost
+prohibitive, this Article will examine expert testimony in the design defect
+context. With design defects, the major hurdle for a plaintiff to get over will
+be finding evidence of a reasonable alternative design.140  Autonomous
+vehicles by their very nature are futuristic and the car's movement is controlled
+by algorithms.141 To prove defectiveness, a plaintiff will need an expert
+witness to testify to a jury that the highly complex algorithm could have been
+written safer and that the costs of discovering and implementing this new
+algorithm would not exceed the benefits of doing so.142 This will presumably
+require multiple experts:143 a computer scientist to understand the algorithm; a
+mathematician to rewrite the equation; an economist to weigh the costs and
+benefits of the change; and an expert in the field of autonomous vehicles to
+137. The video would consist of showing the driver how to disengage autonomous driving, informing the
+driver of how the vehicle interacts with the driver, and instructing the driver on how to operate the user
+interface.
+138. This solution would not be much help for current drivers, but would help ensure that the future
+generations of drivers are instructed on how to use these vehicles. The NHTSA recommends states requiring
+someone licensed to specifically operate autonomous vehicles. NHTSA, Preliminary Statement, supra note
+18, at 14.
+139. David G. Owen, A Decade of Daubert, 80 DENV. U. L. REV. 345, 347-48 (2002) ("Expert testimony
+is often necessary to establish defectiveness in manufacture, design, and warning and instructions .... [A]
+products liability case usually will fail without proof of defect and cause by expert testimony.").
+140. See Watson v. Ford Motor Co., 699 S.E.2d 169, 174 (S.C. 2010) ("[Design defects] necessarily
+involve sophisticated issues of engineering, technical science, and other complex concepts that arc
+quintessentially beyond the ken of a lay person.").
+141. See Owen, supra note 139, at 354 ("[T]he Frye 'general acceptance' test tended to exclude
+testimony on cutting-edge science and technology."). Although Daubert has made it easier to get novel
+theories in front ofajury, courts do not allow experts to testify about unreliable theories. Id. at 362-63.
+142. Analogous to a future autonomous vehicle case is an auto-pilot case. In Richardson v. Bombardier,
+Inc., No. 8:03CV544T31 MSS, 2005 WL 3087864, at *3 (M.D. Fla. Nov. 16, 2005), the district court noted the
+multiple experts that were required, and because of the complex nature of the auto-pilot claim, "the entire case
+was based on expert testimony."
+143. Depending on the complexity of the suit, multiple experts will easily be required. See, e.g., Cole v.
+Ford Motor Co., 900 P.2d 1059 (Or. Ct. App. 1995) (noting that multiple experts were required for cruise
+control defect case).No. 2] 265
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+make sure that this is possible and that it would not have adverse effects on the
+vehicle. The cost of these experts will make it difficult for a plaintiff to bring
+suit.144 When considering that a lawsuit for autonomous vehicles could be for
+a dent in a car or a fender bender,145 the costs of acquiring experts will far
+exceed the cost of repairing the vehicle. Therefore, design defect claims would
+only go forward on claims for loss of life or large monetary claims because the
+financial cost of bringing the suit would not exceed the potential judgment.
+To help ease these costs, depending on the jurisdiction,146 a plaintiff will
+be able to use a subsequent update in the algorithm or safety update as
+evidence that there was a reasonable alternative design. In federal courts,
+however, Federal Rule of Evidence (FRE) 407 prohibits introduction of
+subsequent remedial measures.147 The ability to use a subsequent update to the
+algorithm in state court will greatly improve a plaintiffs chance of success on
+the design defect claim because it will remove costs associated with
+developing an algorithm and proving the algorithm will help increase safety.
+The plaintiff will need to file the claim in state court to avoid FRE 407's bar
+against subsequent remedial measures. In any jurisdiction, a plaintiff will be
+able to introduce updates to the algorithm-and algorithms used by competing
+manufacturers-if they predate the accident48 but were not installed in the
+plaintiffs car.149
+Because of the costs of expert witnesses, none of these doctrines-
+manufacturing defects, design defects, and warning defects-will be practical
+to hold the manufacturer liable for accidents caused while the vehicle is in
+autonomous mode except in cases involving substantial damages.
+5. Products Liability Defenses as Applied to Autonomous Vehicles
+Products liability law does not leave manufacturers defenseless against a
+144. See Garza, supra note 33, at 612 ("Because of the extraordinary cost of experts in products liability
+litigation, many plaintiffs are turned away because, even if they were to recover, the prospective award would
+not cover the expense of litigating the claim." (citing Joseph Sanders, Adversarial Legalism and Civil
+Litigation: Prospects for Change, 28 LAW & SOC. INQUIRY 719, 723 (2003))); Graham, supra note 33, at 1270
+(arguing that a design defect "may be difficult, and expensive").
+145. This Article asserts that the manufacturer should be liable for almost all damages caused while the
+vehicle is in autonomous mode. See infra Part IV.
+146. OWEN, supra note 97, § 6.4, at 400 (discussing that state jurisdictions are split as to whether to
+admit into evidence subsequent remedial measures).
+147. FED. R. EvID. 407. See also CHRISTOPHER B. MUELLER, LAIRD C. KIRKPATRICK & CHARLES H.
+ROSE 111, EVIDENCE PRACTICE UNDER THE RULES § 4.23, at 231 (3d ed. 2009) ("FRE 407 bars evidence of
+subsequent remedial measures to prove negligence, culpable conduct, product or design defects, or the need
+for a warning or instruction.").
+148. If the autonomous technology manufacturer had warned the consumer that the car needed an
+update, and the plaintiff did not update the algorithm, this could lead to comparative fault. See infra Part
+Ill.B.3.
+149. See MUELLER, KIRKPATRICK & ROSE Ill, supra note 147, § 4.23, at 235 ("FRE 407 does not bar
+evidence of remedial measures taken after an accident similar to the one giving rise to plaintiffs claim but
+before plaintiffs own accident."). These types of claims will depend on how sophisticated and readily
+available updates are for autonomous cars. For instance, is an autonomous car owner required to go to the
+dealership to get updates or will the technology be immediately updated by Google's headquarters? Answers
+to these questions are not available yet, but the answers could have implications for subsequent remedial
+updates to the algorithm.266 [Vol. 2013
+SUE MY CAR NOT ME
+products liability suit. Four defenses-comparative negligence, misuse, state
+of the art, and assumption of risk-will be applicable to autonomous vehicles.
+In products liability suits involving autonomous vehicles, the manufacturer
+could raise a comparative negligence defense, arguing that it should not be
+fully liable-or liable at all-because of the plaintiffs negligence.50 This
+doctrine's interplay with the four scenarios discussed above is paramount.151
+When applied to the four scenarios discussed in Part II, it becomes clear that
+when evaluating the driver's negligence courts should focus on the driver's
+decision not to intervene when the vehicle malfunctions.152 This would require
+a comparison between the role of the defective vehicle and the role of the
+plaintiffs conduct in causing the accident.'53  Here, the particular accident
+would be the harm caused when the autonomous vehicle malfunctions-it may
+be to the driver, to another vehicle or person, or both. This type of
+comparative fault requires the court to focus on the ability of a driver to
+exercise ordinary care in preventing the accident. If the driver fails to exercise
+ordinary care, fault should be apportioned based on the driver's ability to
+mitigate or prevent the accident.
+If courts were to examine what a plaintiff was doing prior to the accident,
+they would defeat a major purpose of these vehicles-increased
+productivity.154 This occurs because avlaintiff who sits behind the wheel and
+reads a book, like Sarah from Part II, would be more "negligent" in failing
+to pay attention to the road than a person like Tucker who was paying attention
+to the road. A liability scheme that, for instance, finds the Distracted Driver
+more liable than the Attentive Driver would impede the ability of consumers to
+use these vehicles for increased production. Therefore, courts should focus on
+the ability of the person to prevent the accident, rather than what the driver was
+doing prior to the accident-otherwise the utility of these vehicles could be
+greatly diminished.
+This comparative fault system-looking at the driver's ability to prevent
+the accident-can be applied to the four scenarios from Part II. The Disabled
+Driver would not be able to prevent an accident and should have no
+comparative fault. On the opposite side of the spectrum, the Attentive Driver
+would be able to prevent the accident, unless evidence could be introduced that
+the accident could not have been prevented. Both the Diminished Capabilities
+and Distracted Drivers create more complex situations. The Diminished
+150. See Daly v. General Motors Corp., 575 P.2d 1162, 1172 (1978) (noting that without comparative
+fault, the law "perpetuatc[s] a system which ... places ...'upon one party the entire burden of a loss for
+which two are, by hypothesis, responsible."' (quoting WILLIAM PROSSER, TORTS § 67, at 433 (4th ed. 1971))).
+151. See supra Part II.B (discussing the four scenarios used to analyze autonomous cars and tort
+liability).
+152. See West v. Caterpillar Tractor Co., 336 So. 2d 80, 92 (Fla. 1976) ("The consumer or uscr is
+entitled to believe that the product will do the job for which it was built. On the other hand, the consumer, user,
+or bystander is required to exercise ordinary due care.").
+153. Courts already use a similar comparative fault for other products. See, e.g., Murray v. Fairbanks
+Morse, 610 F.2d 149, 159-60 (3d Cir. 1979) (electrical control panel).
+154. See supra Part ll.A.2 (discussing the purposes of autonomous vehicles pertaining to people who
+cannot drive for numerous reasons).
+155. See supra Part II.B. I (the Distracted Driver scenario).No. 2] 267
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+Capabilities Driver could potentially stop the accident depending on the
+condition causing the diminished capabilities and what the Diminished
+Capabilities Driver was doing at the time. By the very nature of the
+Diminished Capabilities Driver, the person will probably not have the same
+reflexes and ability to assume control of the vehicle as an attentive driver. The
+Distracted Driver's comparative fault would depend on the person's ability to
+realize an accident was about to occur and the time available to prevent it. If
+the Distracted Driver has time to prevent the accident and acts negligently in
+not doing so, the Distracted Driver should assume some responsibility. If the
+Distracted Driver did not have time to prevent the accident, the manufacturer
+should be fully liable.
+Courts should not allow manufacturers to force everyone to be an
+attentive driver to protect liability.'56  If courts make everyone be on the
+lookout at all times, the purposes of the vehicles-providing transportation to
+those who cannot currently drive and increasing productivity157 -would be
+defeated. The big advantage for the consumer in purchasing an autonomous
+vehicle is to increase productivity. Further, if manufacturers advertise that the
+vehicles will make people more productive and that the technology is safe, it
+would not make sense to allow them to assert that a plaintiff was at fault by not
+paying attention at all times.
+Misuse is another defense an autonomous vehicle manufacturer might
+raise.15 A manufacturer does not have a duty to protect against all misuses,
+but it does have "a duty to prevent an injury caused by the foreseeable misuse
+of its product."'59  The misuse defense is applicable in autonomous vehicle
+products liability suits where the plaintiff has misused the car in an
+unforeseeable manner, perhaps by making modifications to the vehicle.160
+However, the driver of an autonomous vehicle is not "misusing" an
+autonomous vehicle simply by doing other activities while behind the wheel.161
+In other words, because it is foreseeable that users will not pay attention like
+they do in regular vehicles, a court should reject a manufacturer's argument
+that being distracted in the vehicle is misuse in the context of misuse defense.
+Thus, this defense should be reserved to instances similar to when a person
+modifies the vehicle that causes the technology to malfunction.
+The state-of-the-art defense will often be a powerful block to design
+156. A manufacturer will presumably give instructions and warnings that the driver is required to pay
+attention to the road at all times.
+157. See supra Part II.A.2.
+158. See, e.g., General Motors Corp. v. Hopkins, 548 S.W.2d 344, 349 (Tex. 1977) ("We cannot charge
+the manufacturer of a knife when it is used as a toothpick and the user complains because the sharp edge
+cuts.").
+159. Jurado v. Western Gear Works, 619 A.2d 1312, 1318 (N.J. 1993).
+160. See, e.g., Cox v. General Motors Corp., 514 S.W.2d 197, 200 (Ky. 1974) (explaining that misuse as
+a matter of law is established when an owner modifies his or her vehicle by installing wider and larger wheels
+than the vehicle was designed to support).
+161. General Motors Corp., 548 S.W.2d at 344 (referring to manufacturers' duty to protect against
+foreseeable "misuses" of the product; a driver not paying one hundred percent attention to the road during
+autonomous mode would be as foreseeable).268 [Vol. 2013
+SUE MY CAR NOT ME
+defect and warning defect claims.162 For warning defects, courts look at what
+the manufacturer could have reasonably foreseen based on current technology
+and scientific knowledge at the time of production.163  For design defects,
+state-of-the-art defenses "involve the feasibility of adopting curative desi n
+measures to reduce or eliminate a risk of which the manufacturer is aware."
+Although a manufacturer may be aware of a danger, current technological and
+scientific limits may make the risk unavoidable or protecting against the risk
+financially unfeasible to research.'65 This defense will be applicable in suits
+involving autonomous vehicles much like it is applicable in suits involving
+traditional vehicles, but it does not implicate any of the four scenarios because
+it is based on the technological advances of autonomous vehicles. A plaintiff
+can always argue that better technology would have prevented the accident, but
+the manufacturer may be applying the latest technology at the time such that
+there may well be no reasonable design alternative. This defense may also
+apply to claims of design defect as to the algorithm itself. A plaintiff could
+allege that the algorithm could have been written better, but the manufacturer
+could argue that assessing a new risk that precipitates the accident was
+technologically infeasible at the time.
+While not all jurisdictions recognize assumption of risk as a defense,166 it
+will play a role in autonomous vehicle products liability litigation in those
+jurisdictions that do recognize it.167 The defense asserts that a "user has fully
+consented to incur a risk which he or she fully comprehends."68 There are two
+elements: "(1) [T]he plaintiff must know and understand the risk; and. ..
+(2) the plaintiffs choice to encounter it must be free and voluntary."69 The
+knowledge and understanding element requires a subjective look into the
+plaintiffs state of mind to show that the plaintiff knew the risks; thus, this
+defense does not take an objective look at what a reasonable plaintiff would
+know.'70  Thus, to avail themselves of an assumption of risk defense,
+autonomous vehicle manufacturers will need to disclose the potential risks of
+autonomous vehicles to each consumer.'7' The free and voluntary element
+requires that the "plaintiff ma[de] a true and meaningful choice to engage a
+particular risk, presumably to advance an interest (even mere convenience) that
+the plaintiff considers more valuable than avoidance of the risk."72
+162. OWEN, supra note 97, § 10.4, at 733.
+163. See, e.g., Geressy v. Digital Equip. Corp., 980 F. Supp. 640, 649 (E.D.N.Y. 1997) (elaborating upon
+a manufacturer's duty to warn based on its knowledge of foreseeable risk).
+164. Gary C. Robb, A Practical Approach to Use of State of the Art Evidence in Strict Products Liability
+Cases, 77 Nw. U. L. REV. 1, 22-25 (1982).
+165. Id.
+166. Marchant & Lindor, supra note 33, at 1336.
+167. E.g., Berg v. Sukup Mfg. Co., 355 N.W.2d 833, 835 (S.D. 1984).
+168. David G. Owen, Products Liability: User Misconduct Defenses, 52 S.C. L. REv. 1, 24 (2000) (citing
+Rahmig v. Mosley Mach. Co., 412 N.W.2d 56, 74 (Neb. 1987)).
+169. Id at 25.
+170. Id. at 29.
+171. Marchant & Lindor, supra note 33, at 1336 ("[F]or such a defense to apply to autonomous vehicles,
+the manufacturer would have to fully disclose the potential risks of the vehicle, including the likely failure
+modes and some approximate sense of their probability.").
+172. Owen, supra note 168, at 31.269 No. 2]
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+Applying this defense to autonomous vehicles, and in particular to the
+four aforementioned scenarios,'73  shows its relevance to this new
+technology.174 For instance, a manufacturer could warn that the user should be
+in control of the vehicle in snowy conditions.175  A manufacturer could give
+clear warnings in the instruction manual or in the vehicle and perhaps have the
+car communicate directly to the operator that it is snowing; thus, the user will
+knowingly assume the risk of the vehicle's inability to drive safely in snow.
+Assume for the sake of discussion that the user did not know, nor had any
+reason to suspect that it would begin snowing when he or she begins the trip.
+During the trip, the vehicle tells the driver that he or she needs to take control
+of the vehicle because it is beginning to snow.
+Here, which driver is in control will limit a manufacturer's ability to
+successfully assert this defense. The Disabled Driver could not be said to have
+assumed the risk--even if the vehicle told them it was snowing-because the
+person would not be making a free and voluntary decision to encounter the risk
+since the Disabled Driver cannot safely assume control of the vehicle. The
+Diminished Capabilities Driver-depending on the condition of the driver 77
+could be said to have assumed the risk, but the Diminished Capabilities Driver
+was relying on the vehicle to drive because he or she may not be able to drive
+well in snow, making it harder to say that the person freely and voluntarily
+assumed the risk of letting the autonomous technology continue driving. The
+Distracted Driver could be said to have assumed the risk if the person was
+warned that it was snowing at that time.178 This is a just and fair result because
+173. See supra Part I.B.
+174. Google's user interface patent lists many different circumstances where the autonomous technology
+may struggle:
+Once the control computer has been engaged, it must determine whether it may
+competently control aspects of the vehicle. For example, computer 110 may not be able to
+control aspects of vehicle 101 safely if vehicle 101 is at a particular location which
+computer 110 is unable to identify based on the geographic location of vehicle 101, if
+vehicle 101 is at a particular location which is not sufficiently defined or described by
+detailed map 136, or if computer 110 detects a large number of obstacles in the vicinity of
+vehicle 101.
+See User Interface for Displaying Internal State of Autonomous Driving Sys., U.S. Patent No. 8,260,482 (filed
+July 8, 2010). Since there are many situations where the autonomous vehicle will not safely operate, if the
+user does not take control of the vehicle and has been adequately warned about those situations, the
+assumption of risk defense will become relevant for a subsequent accident.
+175. See Marchant & Lindor, supra note 33, at 1327 (mentioning the possibility that a manufacturer may
+include in the manual instructions that the owner should not use the car under certain weather conditions).
+176. See supra Part II.B (describing four types of drivers).
+177. The driver may be intoxicated or the driver could be a minor. See supra Part II.B.2. If the driver is
+intoxicated, manufacturers may argue that he/she assumed the risk of an accident. See OWEN, supra note 97, §
+17.5, at 1161. This defense will fail if the "driver does not know of and voluntarily encounters a particular
+defect." See id.; see also Mercurio v. Nissan Motor Corp., 81 F. Supp. 2d 859, 861-62 (N.D. Ohio 2000)
+(denying use of the assumption of risk defense because there was no evidence that the plaintiff was aware of
+the exact problem that he alleged was defective). Thus, an autonomous vehicle manufacturer would need to
+prove-to use the assumption of risk defense-that the plaintiff knew of, for instance, the defective algorithm;
+risk of an accident alone is not enough. See Mercurio, 81 F. Supp. 2d at 861-62 ("The dangerous condition
+for which Plaintiff seeks recovery is the alleged uncrashworthiness of the Nissan Altima-not the risk of an
+accident generally.").
+178. Here, the Distracted Driver may be reading a book and not paying attention to the road at all. If that
+is the case, the Distracted Driver may not know that the weather condition changed. Without the vehicle
+warning the driver of the weather condition change, it cannot be said that the Distracted Driver assumed the270 [Vol. 2013
+SUE MY CAR NOT ME
+the Distracted Driver can safely operate the vehicle, but the person decides to
+partake in another activity.'79  If the vehicle encounters a situation where it
+cannot safely drive and the person knows that it cannot safely drive, allowing
+the autonomous technology to continue driving is voluntarily encountering a
+risk. The Attentive Driver, like the Distracted Driver, would be said to have
+assumed the risk of the vehicle driving itself through the snow. The Attentive
+Driver would know that the weather condition changed and knowingly and
+voluntarily made the decision to allow the vehicle to continue driving itself
+rather than making the safe decision to turn off the autonomous mode. Based
+on this illustration, courts should use the assumption of risk defense to help
+protect manufacturers from liability where a driver knowingly and voluntarily
+lets the autonomous technology continue driving, even when it cannot safely
+do so.
+IV. SHORTCOMINGS IN THE ABILITY OF TRADITIONAL PRODUCTS LIABILITY
+DOCTRINE TO HANDLE CLAIMS INVOLVING AUTONOMOUS VEHICLES
+Based on the foregoing, current products liability law would struggle with
+the introduction of autonomous vehicles. Products liability law needs to
+accommodate the introduction of autonomous vehicles into the marketplace80
+while still assigning liability for accidents to the proper party, which will often
+be the party in control of the vehicle at the time the accident occurs. The
+proper party will sometimes depend on what type of individual is driving the
+vehicle.81
+Autonomous technology manufacturers should be liable for most
+accidents caused when the vehicle is in autonomous mode.182 When an
+accident occurs in autonomous mode, it is probably the technology
+manufacturer's fault because the technology itself was operating the vehicle,
+not the traditional driver.183 As discussed below, there are circumstances when
+a manufacturer should not be liable or should have its liability reduced.
+The primary purpose of products liability is to ensure that manufacturers
+put reasonably safe products on the market by holding them liable for harm
+caused by defective products they place into the marketplace.'84  The
+risk of having the autonomous vehicle drive in a condition that it cannot safely navigate.
+179. See supra Part IB.1 (discussing the Distracted Driver who ignores the warning to take back
+control).
+180. As stated in Part 1, the introduction of the autonomous car will increase highway safety. By having
+huge liability concerns, the innovation could be deterred, and society would lose the benefits of the
+autonomous vehicles. See M. Ryan Calo, Open Robotics, 70 MD. L. REV. 101, 130 (2011) (stating that huge
+liability concerns "could act as a significant disincentive to investments").
+181. This Article uses four scenarios from Part 11.B to explore this liability scheme in more detail.
+182. This should be the manufacturer of the autonomous technology, not the vehicle manufacturer. Cf
+Marchant & Lindor, supra note 33, at 1339 (arguing that the vehicle manufacturer is likely to be liable for
+accidents caused).
+183. An obvious example of the technology not causing the accident would be an accident caused by
+another vehicle.
+184. See, e.g., Greenman v. Yuba Power Prods., Inc., 377 P.2d 897, 901 (Cal. 1963) ("The purpose of
+[products] liability is to insure that the costs of injuries resulting from defective products are home by the
+manufacturer that put such products on the market rather than by the injured persons who are powerless toNo. 2] 271
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+manufacturer writes and controls the algorithm for the autonomous
+technology. Holding manufacturers liable would, thus, ensure that they are
+constantly improving and updating the algorithm, further increasing
+autonomous vehicle safety. Otherwise, the manufacturer would not have a
+driving force behind updating the algorithm. As stated in the risk-utility
+discussion,18 a plaintiff could argue that the algorithm should have been
+updated to fix the error, but that would be hard and costly for a plaintiff to
+prove when taking expert testimony and the complexity of the lawsuit into
+account.187  Therefore, the easiest method for courts to ensure autonomous
+vehicle safety would be to hold the manufacturer liable for accidents caused in
+autonomous mode.
+To create an incentive for increased safety and to ensure that the party
+responsible for the accident bears the liability, the autonomous technology
+manufacturer should be liable rather than the automobile producer. Because
+the autonomous technology will most likely be the cause of an accident that
+occurs in autonomous mode, it is more practical to hold the autonomous
+technology manufacturer liable. The autonomous technology manufacturer is
+in the best position to adjust the algorithm and has the most incentive to avoid
+costs by ensuring that the algorithm is performing properly. Admittedly the
+vehicle manufacturer-if different than the autonomous technology
+manufacturer 1-will also have an incentive to ensure that the vehicles are not
+causing accidents, but the vehicle manufacturer will not have direct control
+over the algorithm. Courts and legislatures need to take steps to hold
+autonomous technology manufacturers liable for when accidents occur. This
+will create certainty for the marketplace and also allow manufacturers to
+include projected liability in the price of the technology.
+Arguments against holding technology manufacturers liable are increased
+costs and deterrence of innovation. Admittedly, technology manufacturer
+liability for accidents caused during autonomous mode will result in additional
+costs to them, but the manufacturer would be able to spread the costs b
+incorporating them in the sale price of autonomous technology and vehicles.
+The manufacturers could then adjust the price of the autonomous vehicles to
+compensate them for the cost of liability.
+An argument against this liability scheme could be that, by holding
+manufacturers liable, innovation will be deterred. '9 That seems unlikely given
+protect themselves.").
+185. See supra Part lI.
+186. See supra Part 111.B.2.b.
+187. Graham, supra note 33, at 1270.
+188. For instance, Google does not intend on producing its own vehicles, but rather it intends to sell its
+technology to current vehicle manufacturers. See supra Part II.A. 1.
+189. See KALR A, ANDERSON & WACHS, supra note 33, at 30 (discussing effects of current liability law
+on the adoption of autonomous vehicle technologies).
+190. See David G. Owen, Products Liability: Principles ofJustice for the 21st Century, II PACE L. REv.
+63, 72 (1990) ("The products liability system ... does serve as a form of third-party insurance mechanism, in
+which the manufacturer, at least theoretically, adds a component to each product's price-as a kind of
+insurance premium-to reflect anticipated future payouts for liability claims.").
+191. KALRA, ANDERSON & WACHS, supra note 33, at 30.272 [Vol. 2013
+SUE MY CAR NOT ME
+the popularity of these vehicles.192 People would probably be willing to pay
+more for autonomous cars knowing that the manufacturer will be liable for
+accidents caused while the vehicle is in autonomous mode. This is so because
+the consumer's insurance premiums would decrease since the consumer would
+no longer be at fault for accidents caused in autonomous mode, presumably
+there would be fewer accidents when people no longer drive,193 and the person
+could become more productive by using an autonomous vehicle.'94 Also, the
+manufacturer would still be able to defend against claims, much like a
+traditional driver. 1 In addition, people may actually be deterred from
+purchasing autonomous vehicles if they do not necessarily trust the vehicle and
+know that they will be liable for accidents that they did not cause. Thus, the
+deterrence argument undermines the growing popularity these vehicles have
+and the fact that consumers are willing to pay more for the increased
+productivity that these vehicles will provide them. This argument also
+dismisses the fact that people may hesitate purchasing these vehicles if they
+bear the liability for accidents caused in autonomous mode.
+Because autonomous vehicle manufacturers should be held liable for
+accidents caused while the vehicle is in autonomous mode, current products
+liability law will not be able to adequately assess that fault. As stated in Part
+III,196 current law is too cost-prohibitive to allow for many of the suits,
+whereas manufacturers could be liable similar to how traditional car drivers are
+liable. Thus, courts should remedy some of these problems by altering
+doctrines when applied to autonomous vehicles. The defenses, on the other
+hand, are relevant and can be applied to autonomous vehicles.
+The malfunction doctrinel97 can be used, but courts should not always
+require plaintiffs to introduce expert witnesses to prove the case because it
+could be cost prohibitive. Courts should put the burden on manufacturers to
+inspect the vehicle for alterations since manufacturers will be able to best
+decide what type of vehicle alterations could have affected the proper use of
+autonomous technology.'98  It would also be too cost prohibitive to make
+plaintiffs introduce expert testimony on every action to show that there was no
+other cause of the accident.199 The other doctrine that could be used to hold
+manufacturers liable is the consumer expectations test.200 The major issue is
+192. See supra note II and accompanying text.
+193. See supra notes 22-27 and accompanying text; see also Garza, supra note 33, at 608 (discussing
+how the incorporation of safety devices reduces insurance premiums).
+194. See, e.g., Masnick, supra note 63 (speculating that autonomous vehicles would allow for safe
+texting while driving).
+195. Here, the manufacturer would argue that it was the other car's fault or, if the car was human-
+operated, that it was the driver's fault.
+196. See supra Part Ill.B.4.
+197. Owen, supra note 75, at 871-74.
+198. Plaintiffs should be able to contest the autonomous technology manufacturer's assessment by
+introducing their own witnesses to prove that any alteration did not cause the accident.
+199. See Garza, supra note 33, at 62 ("Because of the extraordinary cost of experts in products liability
+litigation, many plaintiffs are tumed away because, even if they were to recover, the prospective award would
+not cover the expense of litigating the claim.").
+200. See, e.g., Vincer v. Esther Williams All-Aluminum Swimming Pool Co., 230 N.W.2d 794, 798
+(Wis. 1975) ("[T]he test in Wisconsin of whether a product contains an unreasonably dangerous defectNo. 2]1 273
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+that the majority of the states reject the consumer expectations test,201 so this
+analysis will focus primarily on using the malfunction doctrine.
+To start with the simplest scenario of a car accident, the car owner should
+be liable when he or she is driving the car and the vehicle is not in autonomous
+mode. The accident should be assessed to the user like a traditional car
+accident. Proof that the driver was operating the vehicle for a time period prior
+to the accident202 should be an absolute defense for the manufacturer against
+the Distracted Driver, the Diminished Capabilities Driver, and the Attentive
+Driver. With the Disabled Driver, Google and car manufacturers may need to
+install technology that prohibits the user from taking control of the car.203 By
+holding the manufacturer liable for accidents caused in autonomous mode, the
+manufacturer will be incentivized to put in a mechanism that alerts Google
+when the driver has taken control of the vehicle. The plaintiff can introduce
+evidence that the vehicle malfunctioned out of autonomous driving and that it
+was not caused by the driver's decision to assume control of the car to help
+rebut the assignment of liability.204
+Returning to the main focus of this Article, the assignment of liability is
+more complicated for accidents caused in autonomous mode. The
+manufacturer should be at least partially liable for accidents caused while the
+vehicle is in autonomous mode. Liability should adjust based on which of the
+205scenarios applies. Courts should use a type of comparative fault based on
+which of the four types of drivers is behind the wheel. This type of
+comparative fault should be based on whether the operator was negligent in
+failing to take control of the malfunctioning vehicle and prevent the
+accident.206 This requires the parties to figure out what the defendant was
+doing at the time of the accident.207
+With the Disabled Driver, the manufacturer should assume all of the
+liability.208 Every malfunction will probably result in an accident because the
+Disabled Driver cannot assume control of the vehicle-the Disabled Driver
+depends upon the reasonable expectations of the ordinary consumer concerning the characteristics of this type
+of product.").
+201. Owen, supra note 77, at 301-02.
+202. This should not apply when the driver takes control immediately before the accident, unless the
+manufacturer could prove that the driver took control and was negligent, because presumably the driver took
+control trying to prevent the accident. It would be entirely unjust to hold him or her liable for trying to
+mitigate harm.
+203. Legislatures should require this upon granting disabled people the opportunity to purchase these
+vehicles.
+204. An example of this situation would be if the autonomous technology was trying to override the
+driver's ability to safely operate the vehicle.
+205. See supra Part II.B.
+206. See supra Part III.B.5 (discussing how liability should be apportioned when drivers fail to exercise
+ordinary care during a malfunction).
+207. This could be done through interrogatories and witness testimony.
+208. This Article does not discuss the various protections that manufacturers could get from legislatures
+for this type of accident. Without belaboring the obvious, a manufacturer would not have an incentive to allow
+disabled people to use the vehicle if there would be runaway liability when an accident occurs. Because of the
+greatly improved benefits that autonomous vehicles could provide disabled people, it would not be surprising
+to see some sort of liability protection for manufacturers when a disabled person uses the vehicle. This is,
+however, beyond the scope of this Article.274 [Vol. 2013
+SUE MY CAR NOT ME
+should not be able to assume control of the vehicle 209-and is relying fully on
+the ability of the autonomous car to drive itself. When an accident occurs in
+this situation, the court should hold the manufacturer liable for the injuries
+caused. Reexamining Christie's situation from Part II, it becomes evident that
+the manufacturer should be liable. Christie was blind, and when the vehicle
+malfunctioned, she could not safely take control of the vehicle. The
+manufacturer should be allowed to present defenses. A manufacturer should
+be able to present evidence that the person with disabilities had the vehicle
+altered, which caused the technology to fail. In addition, if a manufacturer
+warns about the autonomous vehicle's inability to drive safely-for instance,
+in snow and the Disabled Driver knows it is snowing before leaving-the
+manufacturer should be able to assert an assumption-of-risk defense.210
+On the opposite side of the spectrum is the Attentive Driver, who should
+assume all the liability for the accident. Here, when the accident occurs, the
+Attentive Driver will know and be able to assume control of the vehicle to
+prevent the accident. Tucker, in Part II, decided to watch as the vehicle
+malfunctioned, even though he could have taken control of the vehicle to
+prevent the accident. He did not, and he should bear the responsibility of the
+accident. The driver should be allowed to rebut this presumption by
+introducing evidence that the technology allowing for user control
+malfunctioned. If proven, liability should shift to the manufacturer as a
+manufacturing defect.211 The user should also be allowed to introduce expert
+testimony that, because of the circumstances when the technology
+malfunctioned, the driver could not have prevented the accident. This could be
+done by showing that, for instance, the car was surrounded by other vehicles
+when it malfunctioned and in a split second hit another vehicle in the lane next
+to it. In this situation, there would be little to no time at all to prevent the
+accident. Thus, liability should properly shift back to the manufacturer. So in
+Tucker's situation, Tucker could have introduced evidence that even if he had
+attempted to take control of the vehicle to prevent the accident, he could not
+have because the vehicle was in his blind spot and there was no time to prevent
+the accident. If such evidence were presented, liability should shift back to the
+manufacturer.
+The Diminished Capabilities Driver and the Distracted Driver scenarios
+present tougher challenges. The Diminished Capabilities Driver should be
+partially liable for accidents depending on the person's circumstances and the
+circumstances of the accident. The Diminished Capabilities Driver relies on
+the ability of the autonomous vehicle. Although this person could take over
+the vehicle, the Diminished Capabilities Driver would probably not be driving
+209. Manufacturers should have to make a special edition of these vehicles for persons with disabilities
+or the manufacturer should disable the overrides for the driver to take control of the vehicle.
+210. But this should be distinguished from a situation where the Disabled Driver had no idea that it was
+going to snow. See supra Part Ill.B.5.
+211. Here, the plaintiff would assert a manufacturing defect that the autonomous technology in the
+vehicle did not meet the manufacturer's specifications. See supra Part III.B.1 for more information concerning
+this claim.No. 2] 275
+JOURNAL OF LAW, TECHNOLOGY & POLICY
+unless the vehicle drove itself. Courts need to carve out different levels of
+comparative fault depending on the circumstances of the driver and the
+accident. For instance, if the driver is a minor who is not allowed to legally
+drive-and does not presumably know how to drive safely-liability should
+fall on the manufacturer. With someone like Richard from Part II, 21 liability
+would depend on Richard's ability to prevent the accident. In that example,
+Richard could not prevent it due to his reflexes, and he should not be liable.
+There is no evidence that he was negligent, since he tried to prevent the
+accident to the best of his abilities. Therefore, the manufacturer should bear
+responsibility for the accident. As stated above for the Attentive Driver, there
+are situations in which the manufacturer should assume all liability for the
+accident.
+More so than the Diminished Capabilities Driver, the Distracted Driver
+should have more comparative fault assessed to him or her. The Distracted
+Driver, unlike the Diminished Capabilities Driver, has no impediments slowing
+down his or her reflexes.213 The vehicle would need to warn the Distracted
+Driver that the autonomous technology is failing. Revisiting Sarah's situation
+from Part II, the manufacturer should be liable because the vehicle did not
+warn her that it was malfunctioning. Once the Distracted Driver has been
+warned of the technology malfunction, the Distracted Driver should be
+partially liable if he or she could have prevented the accident but was negligent
+in trying to do so. This would be based on the facts of each case. If the driver
+could not prevent the accident, the driver should not be liable at all. But if, for
+instance, the person was reading a book and the vehicle informed the
+individual that the technology was malfunctioning and the vehicle is the only
+car on the road, the Distracted Driver may have time to prevent a subsequent
+off-road excursion. Therefore, the Distracted Driver should be liable if the
+accident could have been prevented.
+This liability scheme could be created judicially or, more preferably,
+legislatively.214  Enacting this liability scheme legislatively would remove
+uncertainty for manufacturers concerning the tort liability of autonomous
+vehicles.215 If it is done judicially, manufacturers will not receive the same
+certainty as to which liability scheme they will face in a particular jurisdiction
+if-and when-an accident occurs.216 Legislatively, this scheme could-and
+should-be adopted when a state passes an autonomous vehicle law because it
+will provide more certainty to autonomous technology manufacturers when
+they are researching and developing this technology, which will make them
+212. See supra Part II.B.2 (discussing a scenario of an elderly driver).
+213. See supra Part IB.1 (discussing the Distracted Driver scenario).
+214. This is especially preferable for jurisdictions that do not recognize the malfunction doctrine or the
+consumer expectations test for design defects, because those states cannot judicially handle autonomous
+vehicles.
+215. See Sanders, supra note 144, at 721 ("[D]cfcnse groups, from physicians to pharmaceutical
+companies to automobile manufacturers, repeatedly turn to legislatures seeking relief from what they perceive
+to be the costs and uncertainties of the tort system.").
+216. Id.276 [Vol. 2013
+SUE MY CAR NOT ME
+-217more willing and eager to continue innovating.
+By enacting a statute, a state legislature will also help courts avoid the
+problem of trying to apply products liability law to autonomous cars.218  If
+legislatures do not act, state courts can apply similar principals under existing
+negligence and products liability law by using a variation of the malfunction
+doctrine and consumer expectations test as stated above.219
+V. CONCLUSION
+Autonomous vehicles have the potential to revolutionize travel and
+highway safety. Within decades, autonomous vehicles will be widespread.220
+The benefits to the marketplace, safety, productivity, and efficiency that
+autonomous vehicles will bring have the potential to be enormous. This
+Article has argued that current products liability law will not be able to
+adequately assess responsibility to the party that caused the accident. This
+Article proposed a liability scheme that assesses fault based on the cause of
+autonomous vehicle accidents. This liability system should be adopted
+legislatively to provide autonomous technology manufacturers with certainty
+and to help courts assess liability appropriately. Because autonomous vehicles
+will be on the market within a decade and the cars will inevitably
+malfunction, legislatures and courts need to start developing liability
+schemes to ensure that the party who caused the accident bears the
+responsibility.
+217. Henshon & Waterman, supra note 36, at 16 ("Resolving the uncertainty of liability may allow more
+technologies to come to market faster."); Tyler Cowen, Can I See Your License, Registration and C.P. U?,
+N.Y. TIMES (May 28, 2011), http://www.nytimes.com/2011/05/29/business/economy/29view.html?_r-0
+(discussing the problems with stifling innovation).
+218. As shown in Part III, this may be difficult under the current products liability scheme.
+219. See Owen, supra note 77, at 299 (discussing the tests that courts use to judge the adequacy of a
+product's design).
+220. CASenDems, Padilla -SB 1298 Autonomous Vehicle Standards Press Conference, YOUTUBE
+(Mar. 1, 2012), http://www.youtube.conwatch?v-UXmypoGlY.
+221. John Markoff, Collision in the Making Between Self-Driving Cars and How the World Works, N.Y.
+TIMES (Jan. 23, 2012), http://www.nytimes.com/2012/01/24/technology/googles-autonomous-vehicles-draw-
+skepticism-at-legal-symposium.html? r-0.No. 2] 277

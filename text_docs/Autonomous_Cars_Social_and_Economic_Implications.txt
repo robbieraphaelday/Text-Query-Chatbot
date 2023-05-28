@@ -1,0 +1,338 @@
+Autonomous Cars: Social
+and Economic Implications
+One of the major issues with autonomous cars is their
+future impact on society as well as on the research
+community, academia, and industry. As interest in
+autonomous car technology grows, the social and
+economic implications of this technology will affect various
+stakeholders, including its commercialization. The authors
+critically review and analyze both the economic and social
+implications of the autonomous car. The signi ﬁcance of these implications will play an
+important role in the future of autonomous cars among consumers.
+The unexpected growth and interest in autonomous cars over the past decade have attracted the
+attention of various stakeholders including the automobile industry, consumers, lawmakers, service
+providers, businesses, and governments. Multi-faceted arti ﬁcial intelligence-based sensing, detection,
+perception, planning, and actuation techniques are being leveraged in autonomous car design to enable
+them to operate without drivers. The main reasons for the interest in computer-controlled self-driving
+cars are numerous: safety on the road, growth in population, increase in the number of vehicles, lack of
+infrastructure, inef ﬁcient time management and utilization, fuel economy, and environmental
+pollution.
+To improve traf ﬁc safety and to cope with a few of the afo rementioned challenges, connected
+car technology where cars communicate with each other and with their surroundings will play
+a pivotal role. Such communication and exchange of information enable drivers to make
+correct and timely decisions in emergency situations. However, connected car technology
+could not make it to deployment due to the lack of a holistic approach towards infrastructure,
+consensus among stakeholders, policies, consumer satisfaction, security, and privacy, to name
+a few. Similarly, the ownership of cars poses other serious challenges to traf ﬁc safety in
+addition to the need for new infrastructures and resources, and the increase in environmental
+pollution.1
+According to the World Health Organization, there will be 2 billion vehicles on the roads by
+2030.2The exponential increase in the number of vehicles will not only require new
+infrastructure but will also increase the probabili ty of accidents and fatalities. To address these
+issues, the National Highway Traf ﬁc Safety Administration de ﬁnedﬁve levels of cars from
+autonomy and control perspectives, where level 0 has no automation, level 1 refers toRasheed Hussain
+JooYoung Lee
+Innopolis University
+Sherali Zeadally
+University of Kentucky
+THEME ARTICLE: CONNECTED AND AUTONOMOUS DRIVING
+IT Professional
+November/December 2018 70Published by the IEEE Computer Society
+1520-9202/18/$33.00 /C2232018 IEEE
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. functional-level automation, level 2 co mbines functional automation, level 3 de ﬁnes the
+autonomy of safety-critical functions under some p articular environment, level 4 refers to self-
+driving cars with possible human intervention when needed, and level 5 is the fully autonomous
+car without any human intervention.3A fully autonomous car is a com plex distributed system
+that integrates various computation, comm unication, and storage domains with a focus on
+intelligence and capability of decision-making. The “nuts and bolts ”modules of the autonomous
+car include object detection, perception, learning, path planning, and execution.
+There are numerous applications of the autonomous car, ranging from safety to comfort. Despite the
+high complexity of autonomous cars, they are paving the way for new value-added services.
+Autonomous cars are poised to substantially reduce the number of road accidents, thereby improving
+road safety. Furthermore, with autonomous cars, new business opportunities such as mobility-as-a-
+service (where the ownership of cars is expected to reduce) will emerge. This phenomenon will also
+help alleviate the parking space problem in urban environments. Furthermore, mobility applications
+such as rental cars, taxis, carpooling, social drive, and car-sharing will all bene ﬁt from autonomous
+cars.4
+To date, remarkable results have been achieved in both academia and industry toward the realization of
+autonomous cars, and pilot versions of level 5 autonomous cars have already traveled millions of miles
+in test drives. Some of the key market players and investors of autonomous cars include Google
+(Waymo), Apple, Intel, Nvidia, Uber, Lyft, Baidu, Honda, nuTonomy, Mercedes, Tesla, BMW, Volvo,
+Ford, Volkswagen, Bosch, Delphi, GM, Audi, Toyota, Hyundai, Kia, and many others who are
+investing in the commercialization of this technology. However, most of the efforts dedicated to
+autonomous cars are focused on the technological aspects.
+The idea of the autonomous car is indeed ambitious; however, the consequences and rami ﬁcations of
+autonomous cars are gradually emerging as a result of debates that consider the social impact of the
+technology. It is still not known as to how society will be affected by the proliferation of this
+technology. In this article, we focus on the social and economic implications of autonomous cars and
+analyze the existing literature that addresses social and economic issues related to autonomous car
+technology.
+SOCIAL IMPLICATIONS OF AUTONOMOUS CARS
+Autonomous cars are not the future but the present, and the transition to full deployment of
+self-driving vehicles (level 5 automation, according to SAE5)o nc i t ys t r e e t sw i l ln o tb es l o w
+but sudden. Here, we discuss the social bene ﬁts and ethical and moral issues of autonomous
+cars.
+Social Bene ﬁts of Autonomous Cars
+The promise of safety is the main bene ﬁt that autonomous vehicles are guaranteed to bring.
+Advanced driver-assistance system (ADAS), popularly deployed by many manufacturers,
+minimize human errors and, therefore, increase road safety. ADAS has many features including
+intelligent speed adaptation, hill descent contro l, driver drowsiness detection, and automatic
+braking, to name a few. Cars with some of these features are reported to have 14% reduced
+property damage liability claims,6whereas autonomous cars will improve operational safety and
+avoid human-error-based accidents.
+To this end, one of the big changes that the automation of driving will bring is greater accessibility to
+public and private transportation. Once full autonomy is implemented, both public and private vehicles
+will be driverless. This transition affects various aspects of society including a lower demand for
+parking spaces, the inclusion of the disadvantaged, reduced congestion, and improved fuel ef ﬁciency.
+Autonomous cars also make car sharing much easier to afford. Past experiences have showed that
+many traditional businesses that failed to foresee technical trends disappeared from the market;
+therefore, automakers need to redirect their strategies.CONNECTED AND AUTONOMOUS DRIVING
+November/December 2018 71 www.computer.org/itpro
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. Moral and Ethical Issues
+When it comes to making important decisions, humans trust human drivers more than machines. This
+distrust stems from different reasons. First, most drivers prefer to have software that prioritize drivers ’
+safety over other cars and passengers, while they also want other self-driving cars to have systems that
+consider the social and environmental safety. Second, drivers have different decision principles,
+especially when it comes to ethical situations. Since enumerating all possible driving scenarios is
+infeasible, engineers need to program the systems in advance to follow certain ethical principles.
+Traditionally, only humans were allowed to make moral decisions and machines mechanically
+followed step-by-step instructions from humans. Now, machines are becoming independent from
+humans, yet we do not want to let machines make decisions instead of us. This dilemma can only be
+solved when we allow each user to re ﬂect his or her own legitimate ethical principles to the system.
+Third, people trust machines less because the information they use to make decisions comes from
+(sometimes unreliable) sensor-based perceptions.
+From the consumer perspective, the autonomous car will have both positive and negative social
+implications. Positive implications include saving time, comfort, safety, prestige, and
+improvement in lifestyle, and negative impli cations include distance among social status of
+people, moral and ethical challenges, jobs loss for drivers, and addressing human behavior, to
+name a few.
+ECONOMIC IMPLICATIONS OF AUTONOMOUS CARS
+Autonomous cars will rede ﬁne the economic model of many businesses related to the automotive
+sector as well as the social well-being of citizens. The world ’s economy can be abstractly divided into
+two broad sectors: the service sector that includes major services in our daily lives such as retail,
+business, travel, healthcare, and food, and the goods sector that is related to logistics and includes
+construction, manufacturing, mining, automotive, etc.3Most of the world ’s economy is shared by
+these two sectors. When we put autonomous cars into this perspective, Tien et al. introduced a new
+term ( “servgood ”) that refers to a physical tangible good supported by services that make this good
+more useful, smarter, adaptive, and customizable.3Furthermore, the addition of more computation and
+communication power to servgood results in a more service-rich servgood, henceforth referred to as a
+“sensed servgood. ”According to Tien et al. , a nation ’s economy evolves in four stages: mechanical
+and electrical (which correspond to the production of goods), and information and Internet (which
+correspond to the sensed servgood).7To this end, in addition to other industries, the autonomous car
+can be considered as one of the most suitable candidates for sensed servgood that has evolved and
+matured over the past decade.
+During the past decade, the autonomous car industry has attracted many investors from the automobile
+industry, academia, and other businesses. According to the Brookings Institution, around $80 billion
+was invested from 2014 to 2017 in different deals (both at business and corporate levels).8Apart from
+these investments, Figure 1 presents a summary of the key market players of autonomous cars and
+their volume of investments in autonomous car technologies.
+The analysis of the economic impact caused by autonomous cars in different industries is also
+important. Clements et al.9reviewed different industries that have ﬁrst-hand stakes in autonomous car
+technology. Without loss of generality, the automotive industry is directly affected by the emergence of
+autonomous cars both positively and negatively. For instance, autonomous cars will reduce the prices
+of travel to about $0.57 to $0.74 per mile in the US.10Another strategic shift is expected in the
+automotive industry wherein more investments will be made in software and arti ﬁcial intelligence
+rather than in the car itself.
+Similarly, the software industry will experience signi ﬁcant growth, especially in the ﬁelds of control,
+artiﬁcial intelligence, deep learning, and computer vision. The volume of revenue from this aspect of
+autonomous cars is estimated to be $26.4 billion in the US, which also contains $680 million to $15.8
+billion in software revenue (up to 2040); the revenue in other technologies such as digital mapping
+services will reach $10.6 billion by 2040.11Similarly, the health sector will be adversely impacted by
+autonomous car technology (from a medical business perspective) because of the reduced rate ofIT PROFESSIONAL
+November/December 2018 72 www.computer.org/itpro
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. accidents, leading to a reduced rate of hospital visits. Nevertheless, from the user perspective, it will
+reduce user expenses.
+In short, the autonomous car technology is a double-edged sword. On one hand, it provides enormous
+opportunities to industries in the economic sector, whereas on the other hand, it will likely cause a
+reduction in revenue for certain industries. More precisely, the paradigm shift will cause some
+disruption to the world ’s economy, and there will be both winners and losers. However, after the
+autonomous car technology matures, it will add up to $7 trillion to the global economy in different
+forms, some of which have already been covered in this work.12
+FUTURE CHALLENGES
+The mayhem caused by competitors through their relentless pursuit to be pioneers in the
+commercialization of autonomous cars has exacerbated, at least to date, the possibilities of its roll-out.
+It is also debatable whether the existing test drives can be extrapolated to commercial products. In this
+section, we brie ﬂy discuss the social and economic challenges ahead for the autonomous car industry.
+Table 1 summarizes some of these challenges.
+Social Risks
+The desired outcome of a new technology is largely determined by its adoption by its direct
+consumers, and most importantly the will for a change in the mindset of the society. Therefore,
+innovation involves societal risks. The initial deployment stage of the autonomous car is more
+susceptible to errors (or security issues) in software, control, and actuation that may lead to disastrous
+circumstances and consequently lose the trust of consumers.
+Social risks for autonomous cars can be divided into seven dimensions: user-level risk, system-level
+risk,ﬁnancial risk, job market risk, accessibility risk, security and privacy risk, and dependency risk.13
+At the user level, in the case of an accident, the consumers of an autonomous car will be at risk (albeit
+Figure 1. Investments in and revenue of autonomous cars (https://www.techemergence.com/self-
+driving-car-timeline-themselves-top-11-automakers).CONNECTED AND AUTONOMOUS DRIVING
+November/December 2018 73 www.computer.org/itpro
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. it is the sole motive of autonomous cars to reduce accidents). Furthermore, in the case of autonomous
+cars, it is still unclear who will be responsible for different aspects of accidents. At the system level,
+this technology is likely to add more risks to the existing infrastructure. In essence, the autonomous car
+technology leverages the intelligence of software and likely Internet connectivity (both of which are
+susceptible to different security risks). Therefore, should something go wrong with the autonomous
+car, the repercussions will be catastrophic for the normal traf ﬁc infrastructure as well.
+Insurance With Autonomous Cars
+In the current setup, insurance is a well-established business where both cars and humans are insured
+through policies. In case of an accident, the primary party responsible and the other liable entities are
+typically humans. In the US alone, almost $180 billion was spent in insurance costs, claims, medical
+costs, and damages in 2015.14However, the insurance business will likely experience a setback due to
+autonomous cars, where a signi ﬁcant shift from the conventional norms in insurance will compel the
+industry to rethink its business model. The key question is who will be ensured in the case of an
+autonomous car —the car itself, its occupants, or the owner? On the other hand, KPMG forecasted thatTable 1. Summary of challenges for the deployment of autonomous cars.
+Risk type Challenges Possible solutions
+Social risks Consumer dissatisfaction due
+to software errorsIn-depth investigation of
+context-aware arti ﬁcial
+intelligence-based solutionsLiability in case of accidents
+Combination of technology and
+legal frameworkLoss of jobs for drivers
+Social injustice
+Insurance risks What/who to ensure? Paradigm shift of insurance
+businessesLoss of current insurance
+businesses Role-based liability distribution:
+the liability will be distributed
+among different stakeholders
+such as manufacturer, software
+designer, etc.Handling and managing traf ﬁc
+incidents will be dif ﬁcult
+Economic
+obstaclesAutomotive industry will be
+badly affected (reduced sales
+of cars)Alternate economic bene ﬁts to
+citizens (especially drivers)
+Decrease in automobile
+productionInitial deployment stage must be
+managed very carefully
+Economic gap among citizens
+will increase (drivers will lose
+their jobs)Steady deployment of level 5
+with huge awareness
+campaign
+Data-related Data ownership GDPR and similar regulations
+issues Data privacy and abuse Implementation of regulations
+Data storage and sale Conditional revocation
+Type of data to share, with
+whom, and to what extent?IT PROFESSIONAL
+November/December 2018 74 www.computer.org/itpro
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. autonomous car technology will shrink the insurance market by roughly 60%.15Although it is
+beneﬁcial to reduce traf ﬁc incidents, the economic repercussions caused by the recession in the
+insurance industry is also a problem from the business perspective.
+Economic Obstacles
+Many existing industries will also be economic obstacles for the autonomous car industry, and the
+transition from the traditional mindset of consumers, investors, and business stakeholders might not be
+easy. For instance, the automotive industry itself will be adversely affected due to the likely decrease in
+their production and the increase in the culture of ride-sharing. From another perspective, the added
+beneﬁts brought about by the autonomous car might further increase the economic gap among people
+with different social statuses. Currently, this economic gap is reduced by offering jobs such as taxi
+drivers, public transport drivers, or personal drivers, but with autonomous cars, it will be dif ﬁcult (at
+least at the initial deployment stage) to reduce this gap. On the positive side, it can be inferred that
+these obstacles will likely not be permanent and will settle with time because the affected industries
+will evolve with new business models that can adapt to the autonomous car technology.
+Data-Related Issues in Autonomous Cars
+Autonomous cars collect data through various components for identi ﬁcation, authentication, value-
+added services, and comfort applications. The term “data is the new oil, ”coined by Clive Humby,
+perfectly ﬁts in the context of autonomous cars, where service providers not only have access to
+user-identi ﬁable data, but they can also sell it to third parties. Such data not only reveals the private
+aspects of individuals ’lives but also reveals patterns that could be used for likes, dislikes, interests,
+etc., for business purposes. In many countries, using private information of users and tracking the
+location of citizens is protected by laws, but these laws are at odds with the autonomous car
+functionality because location information is essential to provide location-based services.
+To address such issues through the legal system, the European Union recently introduced and
+implemented the General Data Protection Regulation (GDPR), which gives customers more control
+over their personal data. According to GDPR, companies that store customer information have to get
+consent from their customers about their data storage and have to inform the customer in case of a data
+breach. Furthermore, GDPR enables customers to have the “right to access, ”the“right to be
+forgotten, ”“data portability, ”and to exercise privacy by design. As one of the strictest regulations on
+personal data protection, GDPR will play a pivotal role in the protection of personal data; however, in
+the context of autonomous cars, the service provisions to the customers will have a signi ﬁcant setback
+because of the strict consent required from the customers. The service providers need to build enough
+trust with customers to get their consent for storing and processing their personal data.
+Furthermore, autonomous cars will drastically reduce car ownership, which means that autonomous
+cars will be available for rent and for lease. In this case, when the lease is over or when the car is sold
+to anyone else, what happens to the data of the previous owner/leaser? Thus, there are still gray areas
+even in the legislation that needs to be addressed. Intel Corporation predicted that an autonomous car
+could generate 4000 gigabytes of data every single day16from its on-board sensors. If such data is
+misused by the service providers, it can lead to catastrophic consequences. Given that changes to the
+legislation take time and can be quite complex, both legal systems and technologies (such as
+blockchain) are essential to address the aforementioned issues.
+CONCLUSION
+Competition in the autonomous car industry has motivated competitors to develop novel solutions, but
+it has also led to the emergence of social and economic issues from both consumer and business
+perspectives. In this paper, we discussed the social and economic implications of autonomous cars and
+make the following conclusions.
+/C15Autonomous car technology will have signi ﬁcant societal implications (both positive and
+negative). To realize a commercial autonomous car, the industry, governments, lawmakers,CONNECTED AND AUTONOMOUS DRIVING
+November/December 2018 75 www.computer.org/itpro
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. and academia must take concrete steps to address the challenges that directly affect
+consumers.
+/C15The stakeholders must develop effective rules, regulations, and laws that safeguard the
+interests of consumers and businesses.
+/C15There will be no absolute winners or losers in the commercialization of the autonomous car.
+Different stakeholders need to agree on some consensus.
+/C15We anticipate that as autonomous cars are commercialized and the technology matures, there
+will be more social and economic issues that will need to be addressed.
+ACKNOWLEDGMENTS
+The authors thank the anonymous reviewers and the editor for their valuable comments.
+REFERENCES
+1. J. Contreras-Castillo, S. Zeadally, and J. A. Ibanez, “Solving vehicular ad hoc network
+challenges with big data solutions, ”IET Netw. , vol. 5, no. 4, pp. 81 –84, 2016.
+2.“Road traf ﬁc death rate by WHO region and income level, ”Geneva, Switzerland:
+World Health Org. Available at: http://www .who.int/gho/road_safety/mortality/
+trafﬁc_deaths_rates/en, 2013.
+3. J. M. Tien, “The sputnik of servgoods: Autonomous vehicles, ”J. Syst. Sci. Syst. Eng. ,
+vol. 26, pp. 133 –162, 2017.
+4. Z. Ning et al. ,“Vehicular social networks: Enabling smart mobility, ”IEEE Commun. Mag. ,
+vol. 55, no. 5, pp. 49 –55, May 2017.
+5. T. Inagaki and T. B. Sheridan, “A critique of the SAE conditional driving automation
+deﬁnition, and analyses of options for improvement, ”Cogn., Technol. Work ,p p .1 –10,
+Feb. 2018.
+6. M. Kyriakidis et al. ,“The deployment of advanced driver assistance systems in Europe, ”
+SSRN, 2015. Available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id ¼2559034
+7. J. M. Tien and D. Berg, “A case for service systems engineering, ”J. Syst. Sci. Syst. Eng. ,
+vol. 12, pp. 13 –38, 2003.
+8. C. F. Kerry and J. Karsten, “Gauging investment in self-driving cars, ”Brookings Inst.,
+Washington, D.C., USA, Oct. 2017. Available at: https://www.brookings.edu/research/
+gauging-investment-in-self-driving-cars
+9. L. M. Clements and K. M. Kockelman, “Economic effects of automated vehicles, ”Transp.
+Res. Record, J. Transp. Res. Board , vol. 2606, pp. 106 –114, 2017.
+10. E. Edmonds, “Your driving costs, ”Amer. Autom. Assoc., Heathrow, FL, USA, Sep. 13,
+2018. Available at: https://newsroom.aaa.com/auto/your-driving-costs
+11.“Google self-driving car strategy and implications, ”IHS Automotive, Sep. 2015. Available
+at: https://supplierinsight.ihsmarkit.com/_assets/sampledownloads/auto-tech-report-google-
+self-driving-car-strategy-and-implications-september-2015-sample_1443438497.pdf
+12. A. Marshall, “Robocars could Add $7 trillion to the global economy, ”Wired , Jun. 3, 2017.
+Available at: https://www.wired.com/2017/06/impact-of-autonomous-vehicles
+13. A. Grunwald, “Societal risk constellations for aut onomous driving: Analysis, historical
+context and assessment, ”inAutonomous Driving: Technical, Legal and Social Aspects ,
+M. Maurer et al. , Eds., New York, NY, USA: Springer, 2016, pp. 641 –663.
+14. K. C. Desouza et al. ,“Local government 2035: Strategic trends and implications of new
+technologies, ”Issues in Technology Innovation, no. 27, 2015. Available at: https://www.
+brookings.edu/wp-content/uploads/2016/06/desouza.pdf
+15.“Automobile insurance in the era of autonomous vehicles, ”KPMG, 2015. Available at:
+https://assets.kpmg.com/content/dam/kpmg/pdf/2016/06/id-market-place-of-change-
+automobile-insurance-in-the-era-of-autonomous-vehicles.pdf
+16. B. Krzanich, “Data is the new oil in the future of automated driving, ”Intel, Nov. 15, 2016.
+Available at: https://newsroom.intel.com/editorials/krzanich-the-future-of-automated-
+drivingIT PROFESSIONAL
+November/December 2018 76 www.computer.org/itpro
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. ABOUT THE AUTHORS
+Rasheed Hussain is an Assistant Professor and Coordinator of MS in secure system
+and network engineering with Innopolis University, Innopolis, Russia. His research
+interests include information security, privacy, applied cryptography, vehicular networks,
+vehicular clouds and social networks, Internet of Things, blockchain, and future Internet
+architecture. He received the Ph.D. degree in computer science and engineering from
+Hanyang University, Seoul, South Korea. Contact him at r.hussain@innopolis.ru.
+JooYoung Lee is an Assistant Professor with Innopolis University, Innopolis, Russia. Her
+research interests include game theory, social network analysis, trust and reputation
+management, vehicular social networks, algorithmic graph theory, and Internet of Things.
+She received the Ph.D. degree from Syracuse University, Syracuse, NY, USA. Contact
+her at j.lee@innopolis.ru.
+Sherali Zeadally is an Associate Professor with the University of Kentucky, Lexington,
+KY, USA. His research interests include cybersecurity, privacy, Internet of Things, and
+energy-ef ﬁcient networking. He received the Ph.D. degree in computer science from the
+University of Buckingham, Buckingham, U.K. He is a Fellow of the British Computer
+Society and a Fellow of the Institution of Engineering Technology, U.K. Contact him at
+szeadally@uky.edu.
+November/December 2018 77 www.computer.org/itproCONNECTED AND AUTONOMOUS DRIVING
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 19,2022 at 20:41:36 UTC from IEEE Xplore.  Restrictions apply. 

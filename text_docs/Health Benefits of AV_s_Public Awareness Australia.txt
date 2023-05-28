@@ -1,0 +1,438 @@
+480 Australian and New Zealand Journal of Public Health 2018 vol. 42 no. 5
+© 2018 The AuthorsTechnological innovations have 
+the potential to greatly enhance 
+individuals’ health and wellbeing,1 
+including in the area of transportation.2 
+Rapid advancements are occurring in the area of vehicle automation, with 
+extensive trials involving both personal and 
+commercial vehicles taking place around 
+the world. Although autonomous vehicle 
+(AV) technology has progressed rapidly, 
+road rules in most jurisdictions have yet to 
+be modified to permit the use of vehicles in 
+full autonomous mode, and governments 
+have yet to develop comprehensive policy 
+approaches to AVs to capitalise on the health 
+benefits offered by this technology while also 
+applying appropriate standards to ensure 
+safety.
+3,4
+AVs are expected to produce important 
+benefits across multiple health-related 
+domains. These include crash prevention, 
+emissions reduction, increased mobility (and 
+therefore quality of life) for those unable to 
+drive, stress reduction and increased safety 
+for cyclists.5,6 Although these are substantial 
+health issues that contribute to the burden of disease and require enhanced prevention 
+strategies,
+7-10 there is very limited recognition 
+among public health researchers of the role 
+that AVs can play in their amelioration.11 
+Exceptions include recent efforts to draw attention to the need for the health sector to 
+appreciate the potential for AVs to produce 
+considerable improvements in public health 
+and to develop appropriate strategies to 
+manage the implementation process to 
+optimise these outcomes.
+2-5 Consistent 
+with the Technology Acceptance Model,12 
+this existing work has emphasised the 
+importance of ensuring the public is aware of the individual- and societal-level health 
+benefits of AVs to: i) increase the likelihood 
+of adoption; and ii) encourage positive 
+social norms about AVs that will be reflected 
+in community support for public policies 
+designed to facilitate and encourage their 
+adoption. 
+The public health benefits of AVs will be 
+maximised when all vehicles are automated,13 
+leading to calls for governments to establish 
+systems to expedite rapid adoption.14,15 
+Public support is a critical component of governments’ decisions to implement new 
+policies,
+16 and as such the relative recency 
+of AVs and a general lack of understanding 
+among the general public of the extent 
+of their health-enhancing potential 
+could constitute substantial barriers to 
+governments and businesses proactively developing policies and programs designed 
+to hasten adoption.14,17 
+Most of the limited work to date on public attitudes to AVs has focused on perceptions 
+of when AVs are likely to penetrate the 
+personal automobile market, preferences 
+for automated vehicles relative to human-
+driven vehicles and intentions to adopt.
+18-20 
+Little is known about the extent to which the public specifically understands and endorses 
+the health benefits of AVs, meaning there is 
+inadequate information available to guide 
+those seeking to improve public awareness of 
+these benefits to engender support for future 
+policy initiatives in this area. The aims of the 
+present study were thus to assess: i) overall 
+receptiveness to AVs; ii) the salience of various 
+health-related benefits that have been 
+reported in the literature; and iii) prompted The health benefits of autonomous vehicles:  
+public awareness and receptivity in Australia
+Simone Pettigrew,1 Zenobia Talati,1 Richard Norman2
+1. School of Psychology, Curtin University, Western Australia
+2. School of Public Health, Curtin University, Western AustraliaCorrespondence to: Professor Simone Pettigrew, School of Psychology, Curtin University, Kent St, Bentley, WA 6102; e-mail: Simone.pettigrew@curtin.edu.auSubmitted: January 2018; Revision requested: April 2018; Accepted: May 2018
+The authors have stated they have no conflict of interest.
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, 
+provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+Aust NZ J Public Health. 2018; 42:480-3; doi: 10.1111/1753-6405.12805Abstract
+Objectives: The substantial public health benefits of autonomous vehicles will be optimised 
+once all vehicles operate in autonomous mode. This form of disruptive technology will need to 
+be widely accepted by the community to facilitate the regulatory and behavioural adjustments 
+required to achieve rapid adoption. The aim of this study was to assess: i) receptiveness to 
+autonomous vehicles; ii) the salience of various health benefits (e.g. crash prevention, emission 
+reduction, driving stress reduction, cyclist safety, increased mobility for those unable to drive); 
+and iii) prompted awareness of these health benefits. 
+Methods: Quantitative and qualitative data were generated via a national online survey of a 
+broad range of Australians aged 16 years and over (n=1,624). 
+Results: There were neutral levels of receptiveness and very low salience of health benefits, but 
+more substantial levels of prompted awareness of positive health outcomes. 
+Conclusions: These results suggest that the public may be interested in information relating to 
+the individual and societal health benefits of autonomous vehicles, which in turn may increase 
+overall support for this innovation.
+Implications for public health: Australians are likely to be receptive to autonomous vehicles 
+when provided with information relating to their public health benefits.
+Key words: technology, transportation, automation, public support, policyHEALTH PROMOTION2018 vol. 42 no. 5 Australian and New Zealand Journal of Public Health 481
+© 2018 The Authorsperceptions of AV benefits across these health 
+domains. Of particular interest were whether 
+any substantial differences exist between 
+prompted and unprompted awareness of 
+health-related benefits and the implications 
+for future efforts to increase receptiveness to 
+AVs over time. The context of the study was 
+Australia where there is a cultural propensity 
+to rapidly adopt digital technologies,21 
+suggesting this is a country in which policies to facilitate rapid AV adoption could be 
+especially effective.
+Methods
+An ISO-accredited web panel provider (PureProfile) was commissioned to recruit the 
+sample for an online survey. PureProfile uses 
+a range of recruitment strategies to populate 
+its large panel, including mass media 
+advertising, online advertising and word-of-
+mouth referrals. The survey was administered in April 2017 to a national sample of 1,624 
+Australians aged 16 years and over (i.e. of 
+legal driving age), with quotas applied to 
+achieve an equal gender split and an age 
+distribution similar to that of the Australian 
+population.
+22 Both drivers and non-drivers 
+were included in the sample, although quotas 
+by driving status were not pre-specified. 
+The survey instrument incorporated a wide 
+range of items that included those relating 
+to transport in general (e.g. current methods 
+of transport used for work and leisure trips) 
+as well as those relating specifically to AVs. 
+The first item on the topic of AVs asked 
+respondents about their first thoughts when 
+hearing the term “autonomous vehicles” 
+(i.e. they were not provided with a technical 
+definition). Most respondents reported that 
+they associated this term with vehicles that drive themselves. To assess overall attitudes to AVs, respondents were then asked a 
+closed-ended question: How do you feel 
+about fully autonomous vehicles being widely 
+used in the future?, with response options on 
+a 5-point scale ranging from ‘Very negative’ 
+to ‘Very positive’ . To assess the salience (i.e. 
+unprompted awareness) of the health-related 
+benefits of autonomous vehicles, this was 
+followed by an open-ended question: What 
+makes you say that? Prompted awareness of 
+health-related benefits was then assessed by 
+asking respondents to indicate the likelihood 
+of a range of potential outcomes occurring 
+as a result of the introduction of fully 
+autonomous vehicles. Listed health-related 
+outcomes included: Fewer traffic accidents; Roads safer for cyclists; Greater independence 
+for those who can’t drive; Lower vehicle 
+emissions; and Less stressful driving experience  
+(adapted from Menon et al.
+19). Response 
+options were provided on a five-point scale 
+ranging from ‘Very unlikely’ to ‘Very likely’ , 
+with an additional ‘Don’t know’ option. All 
+questions were forced response.
+The mean ratings and the percentage of 
+respondents reporting positive, neutral 
+or negative responses were calculated for 
+each of the prompted awareness items 
+for the overall sample and across different 
+demographic subgroups. The responses to 
+the open-ended question were imported into 
+NVivo 11 (QSR International) for coding and 
+analysis. A wide variety of topics was raised by respondents, ranging from comments 
+about the perceived positive and negative 
+attributes of AVs to personal desires to own 
+or use an AV (or not). The coding process 
+was undertaken by a single coder due to 
+the highly exploratory nature of the study 
+that resulted in reliance on emergent coding rather than the use of a pre-established coding framework. The focus of the present 
+study was on responses referring to various 
+health-related benefits. Mentions of these 
+benefits were assigned to relevant NVivo 
+‘nodes’ to permit calculation of frequency of 
+mention.
+Results
+Table 1 shows the demographic distribution 
+of the sample and the results relating to 
+receptiveness to AVs. The overall mean 
+(3.17) indicates generally neutral feelings 
+towards these vehicles. Around one-quarter 
+of respondents indicated that they felt 
+negatively about widespread use of fully 
+autonomous vehicles, with the remaining 
+respondents being almost equally divided 
+between being neutral or positive. Males 
+were significantly more likely to provide a positive response; there were no significant 
+differences by age or driving status. 
+When offered the opportunity to explain 
+their feelings, many noted other types 
+of benefits including convenience, faster 
+commute times, and/or the ability to engage 
+in other activities because they would be 
+relieved of driving duties. The most common 
+health-related responses related to an 
+expectation that the number of crashes 
+would decrease (21%, n=341: see Table 2). 
+These comments included mentions of 
+reduced drink, drugged and tired driving, 
+as well as explicit statements about fewer 
+crashes. However, a further 13% (n=204) 
+commented that they expected the number 
+of crashes to increase. Very small numbers of 
+respondents mentioned emission reductions, 
+enhanced mobility for the elderly/disabled or 
+stress reduction, and no respondents made reference to improved conditions for cyclists.
+The results for prompted awareness were very 
+different to the spontaneous responses (Table 
+2). Around three-quarters of respondents 
+(73%) believed it was likely or very likely that 
+the elderly and disabled would enjoy greater 
+mobility, and about half (45%–54%) believed 
+that autonomous vehicles would reduce 
+crashes, emissions and stress, and that cyclist 
+safety would be improved. 
+Discussion
+The aim of this study was to assess Australians’ 
+attitudes to the advent of autonomous 
+vehicles and the extent of their reported 
+unprompted and prompted awareness of the Table 1: Feelings about widespread use of autonomous vehicles.
+n % Mean (SD) % negativea% neutral % positiveb
+Gender
+ Males 810 50 3.29 (1.11)**21 35 44
+ Females 811 50 3.07 (0.98) 25 44 31
+Age (years)
+ 16-30 531 33 3.22 (1.00) 20 43 37 
+ 31-59 729 45 3.19 (1.08) 23 38 39
+ 60+ 364 22 3.07 (1.08) 27 40 33
+Driving status    
+ Driver 1,565 96 3.17 (1.04) 23 40 37
+ Non-driver 59 4 3.29 (1.27) 25 29 46
+Total 1,624 100 3.17 (1.06) 23 40 37
+Notes:
+a: Selected 1 or 2 on a 5-point scale “Very negative” to “Very positive”b: Selected 4 or 5 on a 5-point scale “Very negative” to “Very positive”**T-tests conducted within demographic subgroups to test for differences between means. Significant difference found for gender at p < .01Health Promotion  Public awareness of the health benefits of autonomous vehicles482 Australian and New Zealand Journal of Public Health 2018 vol. 42 no. 5
+© 2018 The Authorspotential health-related benefits arising from 
+this technological advancement. The results 
+indicate an overall neutral level of support, 
+with somewhat higher levels exhibited by 
+males relative to females. 
+In terms of unprompted awareness of key 
+health outcomes, there appeared to be very 
+low salience of the health benefits under 
+investigation. Few respondents nominated 
+health-related factors as being relevant to 
+their reported attitudes to AVs, and where 
+a health-related factor was mentioned 
+it was almost always in relation to crash 
+reduction (21% of the sample). However, some respondents (13%) were concerned 
+that the introduction of AVs will result in more 
+crashes, illustrating the overall uncertainty 
+associated with the advantages of this new 
+technology. Although salience cannot be 
+equated with knowledge, there appears to be 
+a need for the public to be educated about 
+the mechanisms via which AVs can almost 
+entirely eradicate crashes by eliminating 
+human error.
+3,23 It has been estimated that 
+achieving full automation in the Australian transport sector would save more than 1,000 
+lives, 30,000 hospitalisations and $16 billion in 
+crash-related costs each year.
+2 Informing the 
+public of these substantial benefits in terms of human life and economic savings may go 
+some way towards increasing receptivity and 
+encouraging adoption.
+The large differences between unprompted 
+and prompted awareness of the five major 
+potential health benefits of AVs highlight 
+the opportunity to make these anticipated 
+outcomes more salient to increase the 
+rate of adoption. In particular, the majority 
+endorsement (73%) of the benefits that will 
+accrue to those who are unable to drive 
+suggests that this outcome is especially 
+intuitively appealing, and hence may 
+constitute an effective anchor point for initial 
+efforts to increase the social acceptability 
+of AVs and reduce any resistance to the 
+legislative modifications necessary to 
+facilitate their use. The other health benefits 
+tested in this study may also be appropriate 
+for public education programs, given the 
+moderate levels of prompted awareness 
+despite almost non-existent unprompted 
+awareness. This large discrepancy suggests 
+that although individuals are generally 
+unaware of these benefits, many may accept 
+the possibility of such outcomes once alerted 
+to their existence. 
+Ultimately, governments may wish to 
+mandate the use of autonomous vehicles to reduce road deaths, optimise traffic flows and encourage active transport.
+24 Such 
+a scenario will require substantial public support because governments are reluctant 
+to introduce disruptive new policies without 
+majority support.
+16 Efforts are therefore 
+likely to be needed to overcome barriers to acceptance and to enhance appreciation 
+of the individual and societal benefits that 
+are projected to accrue from full vehicle 
+autonomy. The Technology Acceptance 
+Model draws attention to the various factors 
+that influence whether an innovation is 
+likely to be embraced by individuals.
+12 
+According to the model, intentions to use a new technology are primarily determined by 
+perceived usefulness, perceived ease of use 
+and attitudes towards use. In the context of 
+AVs, this highlights the need for individuals 
+to understand the myriad ways in which AVs 
+will be useful to individuals and society to 
+encourage the formation of positive attitudes 
+to this new technology. The results of the 
+present study suggest these outcomes 
+may be facilitated by efforts to educate 
+the public about the associated quality of 
+life improvements for the elderly and the 
+disabled if they have access to AVs, the vastly 
+superior crash-prevention abilities of AVs, 
+the lower levels of emissions that will result 
+from smoother traffic flows, the eradication of driving stress and enhanced cyclist safety. 
+Private sector actors in the AV industry may 
+also be interested in disseminating public 
+awareness campaigns that address these 
+knowledge deficits to increase demand for 
+these vehicles. 
+In addition, it may be necessary for key 
+stakeholders to address other attitudinal 
+components that are likely to influence AV 
+adoption that were outside the scope of this 
+study. In particular, issues relating to cost 
+and availability will be critical in determining 
+whether AVs are considered a viable and attractive transportation alternative. Future research could focus on the price sensitivity of various population segments and their 
+preferred AV usage scenarios (i.e. private AV 
+ownership, AV ride-sharing systems, and/or 
+autonomous public transportation).
+Primary limitations of this study include 
+confinement to one national context and 
+the use of a web panel sample that may 
+comprise a larger proportion of individuals 
+who are more technology-savvy than the general population. These limitations may be 
+overcome in future research through the use 
+of international samples that are sourced via 
+alternative means. A further consideration is 
+that health-related outcomes such as reduced 
+emissions will differ based on usage scenarios 
+(e.g. personal versus pool vehicles), and future 
+research could expand on the present study 
+by exploring attitudes to these scenarios 
+when investigating the trade-offs individuals 
+are willing to make to achieve the health 
+benefits of AVs. 
+Other limitations relate to the way in which 
+the AV items were presented. Allowing 
+respondents to provide their own definitions 
+of an AV rather than supplying a single 
+formal definition meant that different 
+respondents may have been conceptualising these vehicles in different ways. In addition, 
+respondents were not asked whether 
+they consider AVs to be a feasible form 
+of transport, and views on this point may 
+have affected their responses. Similarly, the 
+prompted awareness questions did not 
+include potential negative health outcomes 
+that have been recognised in the literature, 
+such as reduced physical activity and 
+increased road congestion.
+2 Strengths of 
+the present study include the large national sample and the comparison of unprompted 
+and prompted awareness of the health 
+benefits of AVs, which is a novel contribution of the work.
+In conclusion, there is likely to be vast 
+potential to engender more positive attitudes 
+to AVs by informing the public about the ways in which this transport innovation will 
+improve the lives of individuals and enhance 
+societal welfare. Australians appear to be 
+largely unaware of the health benefits of 
+AVs, but many exhibit a willingness to accept 
+these benefits once they are presented to 
+them as possible outcomes. Addressing this 
+knowledge deficit represents a potentially 
+effective means of increasing the demand for 
+AVs once they are widely available.Table 2: Awareness of health benefits of 
+autonomous vehicles (n = 1,624).
+Benefit % 
+unprompted 
+awareness 
+(salience)% 
+prompted 
+awarenessa 
+Crash reduction 21 49
+Emission/pollution reduction 1 45
+Stress reduction 1 54
+Mobility for elderly/disabled 3 73
+Cyclist safety 0 45
+Notes:
+a: Selected 4 or 5 on a 5-point scale “Very unlikely” to “Very likely” Pettigrew, Talati and Norman Article2018 vol. 42 no. 5 Australian and New Zealand Journal of Public Health 483
+© 2018 The AuthorsFunding
+The study was funded by the Bankwest Curtin 
+Economics Centre.
+References
+1. Johnson BT, Acabchuk RL. What are the keys to a longer, 
+happier life? Answers from five decades of health psychology research. Soc Sci Med. 2018;196:218-26. 
+2. Pettigrew S. Why public health should embrace the autonomous car. Aust N Z J Public Health. 2017;41(1):5-7.
+3. Fleetwood J. Public health, ethics, and autonomous vehicles. Am J Public Health. 2017;107(4):532-7.
+4. Kelley B. Public health, autonomous automobiles, and the rush to market. J Public Health Policy. 2017;38(2):167-
+84.
+5. Crayton TJ, Meier BM. Autonomous vehicles: Developing a public health research agenda to frame the future of transportation policy. J Transp Health. 2017;6:245-52.
+6. KPMG. Connected and Autonomous Vehicles – The UK 
+Economic Opportunity [Internet]. London (UK): KPMG; 2015 [cited 2016 Sept 10]. Available from: https://www.smmt.co.uk/wp-content/uploads/sites/2/CRT036586F-Connected-and-Autonomous-Vehicles-%E2%80%93-The-UK-Economic-Opportu...1.pdf
+7. Antoun M, Edwards KM, Sweeting J, Ding D. The acute physiological stress response to driving: A systematic review. PLoS One. 2017;12(10):e0185517.
+8. Cervantes-Trejo A, Leenen I, Fabila-Carrasco JS, Rojas-Vargas R. Trends in traffic fatalities in Mexico: Examining progress on the decade of action for road safety 2011-2020. Int J Public Health. 2016;61(8):903-13.
+9. Kutlar Joss M, Eeftens M, Gintowt E, Kappeler R, Kunzli N. Time to harmonize national ambient air quality standards. Int J Public Health. 2017;62(4):453-62.10. Nieuwenhuijsen MJ, Khreis H, Verlinghieri E, Rojas-Rueda D. Transport and health: A marriage of convenience or an absolute necessity. Environ Int. 2016;88:150-2.
+11. Cavoli C, Phillips B, Cohen T, Jones P . Social and Behavioural Questions Associated with Automated Vehicles a Literature Review. London (UK): University College London UCL Transport Institute; 2017.
+12. Venkatesh VV, Morris MG, Ackerman PL. A longitudinal field investigation of gender differences in individual technology adoption decision-making processes. Organ Behav Hum Decis Process. 2000;83(1):33-60.
+13. Duranton G. Transitioning to driverless cars. Cityscape. 
+2016;18(3):193-6.
+14. Clark B, Parkhurst G, Ricci M. Understanding the Socioeconomic Adoption Scenarios for Autonomous Vehicles: A Literature Review [Internet]. Bristol (UK): University of West England; 2016 [cited 2017 Jan 23]. Available from: http://eprints.uwe.ac.uk/29134
+15. House of Lords. Connected and Autonomous Vehicles: 
+The Future? [Internet]. London (UK): Science and Technology Select Committee (House of Commons); 2017 [cited 2017 Nov 5]. Available from: https://publications.parliament.uk/pa/ld201617/ldselect/ldsctech/115/11502.htm
+16. Diepeveen S, Ling T, Suhrcke M, Roland M, Marteau TM. Public acceptability of government intervention to change health-related behaviours: A systematic review and narrative synthesis. BMC Public Health. 2013;13:756.
+17. Kohl C, Mostafa D, Böhm M, Krcmar H. Disruption of individual mobility ahead? A longitudinal study of risk and benefit perceptions of self-driving cars on twitter. Proceedings of the 13th International Conference 
+on Wirtschaftsinformatik; 2017 Feb 12-15; St. Gallen, Switzerland; 2017.18. Bansal P , Kockelman KM, Singh A. Assessing public opinions of and interest in new vehicle technologies: An Austin perspective. Transp Res Part C Emerg Technol. 2016;67:1-14.
+19. Menon N, Pinjari AR, Zhang Y, Zou L. Consumer Perception and Intended Adoption of Autonomous-Vehicle Technology: Findings from a University Population Survey. Proceedings of the Transportation Research Board 95th Annual Meeting; 2016 Jan 10-14; Washington DC, United States; 2016.
+20. Zmud JP , Sener IN. Towards an understanding of the travel behavior impact of autonomous vehicles. Transp Res Procedia. 2017;25:2500-19.
+21. Telefonica. Index on Digital Life: 2016 [Internet]. Madrid 
+(ESP): Telefonica; 2016 [cited 2017 Nov 5]. Available from: https://indexdigitallife.telefonica.com/wp-content/uploads/2016/06/TIDL-Report-090616.pdf
+22. Australian Bureau of Statistics. 3101.0 - Australian 
+Demographic Statistics, Mar 2017 Data Cubes [Internet]. Canberra (AUST): ABS; 2017 [cited 2017 Nov 3]. Available from: http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/3101.0Mar%202017?OpenDocument
+23. Clements LM, Kockelman KM. Economic effects of automated vehicles. Transp Res Rec. 2017;2606:106-14.
+24. Sparrow R, Howard M. When human beings are like drunk robots: Driverless vehicles, ethics, and the future of transport. Transp Res Part C Emerg Technol. 
+2017;80:206-15.
+Health Promotion  Public awareness of the health benefits of autonomous vehicles

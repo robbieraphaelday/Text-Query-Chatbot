@@ -1,0 +1,812 @@
+74
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   | 1053-5888/16©2016IEEERobert Hult, Gabriel R. Campos, Erik Steinmetz,  
+Lars Hammarstrand, Paolo Falcone, and Henk Wymeersch
+hile intelligent transportation systems come in many shapes and sizes, arguably 
+the most transformational realization will be the autonomous vehicle. As such 
+vehicles become commercially available in the coming years, first on dedicated 
+roads and under specific conditions, and later on all public roads at all times, a 
+phase transition will occur. Once a sufficient number of autonomous 
+vehicles is deployed, the opportunity for explicit coordination 
+appears. This article treats this challenging network control 
+problem, which lies at the intersection of control theory, 
+signal processing, and wireless communication. We 
+provide an overview of the state of the art, while at 
+the same time highlighting key research direc -
+tions for the coming decades.
+Introduction
+The purpose of intelligent transpor -
+tation systems (ITS) is to leverage 
+advances in information technology to 
+alleviate major problems in the cur -
+rent road traffic system. Focus areas 
+include the prevention and mitigation 
+of accidents, reduction of greenhouse 
+gas emissions, and efficiency in terms 
+of energy and infrastructure utilization. 
+A particularly problematic subset of traf -
+fic scenarios in terms of both safety and 
+efficiency is those where vehicles must coor -
+dinate the use of a common resource , such as 
+intersections, roundabouts and on ramps. These 
+are responsible for a significant fraction of traffic-
+related fatalities and injuries [1] . Due to the high risk 
+of accidents, these traffic scenarios are among the most 
+regulated, with vehicles guided simultaneously by traffic lights, 
+signs, road markings, and right-of-way rules. The problems of traffic fatal -
+ities and inefficiency are expected to become even more pressing in the future, as the global number of light vehicles (e.g., passenger cars and light trucks) is forecast to rapidly increase. Proportional expansion of road infrastructure is undesirable 
+in most countries, and might not even be possible given continued urbanization 
+and the associated increase in population density. Hence, there is great interest to Signal ProceSSing for Smart
+Vehicle technologieS
+Coordination of Cooperative Autonomous Vehicles
+Toward safer and more efficient road transportation
+Digital Object Identifier 10.1109/MSP .2016.2602005
+Date of publication: 4 November 2016sky image licensed by graphic stock
+©istockphoto.com/posteriori
+W
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 75
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |improve safety, energy, and traffic efficiency on the existing 
+and planned road infrastructure.
+Many of the aforementioned problems are caused by 
+the human involvement in the coordination of traffic. Stud -
+ies have shown that over 90% of traffic accidents are com -
+pletely, or in part, due to human error [2] . This has led to a 
+progressive shift in responsibilities from the human driver to dedicated control systems, most recently in the form of 
+autonomous vehicles, which aim to provide more efficient, 
+comfortable, and virtually accident-free road traffic. Autono -
+mous vehicles are still limited in terms of their sensing and coordination capabilities, as their actions depend on the 
+ on-board sensory data and models of other 
+vehicles’ behavior. As an example, a sum -
+mary of the Urban Grand Challenge [3]  
+mentioned that a number of incidents could have been avoided if vehicles could antici -
+pate the behavior of other vehicles, and that vehicles should cooperate for autono -
+mous driving to reach its full potential. The benefit of cooperation was already recognized in a parallel track in vehicle automation, and platooning, which instead of 
+complete autonomy promotes information sharing between 
+vehicles and joint decision making. In a platoon, the vehicles rely on vehicle-to-vehicle (V2V) and vehicle-to-infrastruc -
+ture (V2I) communication to share information regarding the environment and internal states and choose safe and efficient 
+control policies jointly [4] .
+The two tracks for automating vehicles have thus followed 
+different approaches: one (the platooning track) explicitly 
+relies on communication among vehicles, while the second 
+(the autonomous vehicle track) does not. With the adoption 
+of the IEEE 802.11p Standard, as well as the possibilities of V2V and V2I communication and other services under the future 5G wireless standard [5], the two tracks are expect -
+ed to merge, leading to a new type of large-scale wireless 
+networked control system. This merging will likely take 
+place in a piecemeal fashion, with first a ubiquitous availability of wire -
+less communications, and only later the gradual introduction of coopera -
+tive autonomous vehicles [6]. These 
+vehicles will drive autonomously, but at the same time be able to leverage their communication capabilities for cooperative planning and control, as 
+well as cooperative perception and 
+sensing, thus eliminating many of the traffic-safety and efficiency problems. The design and operation of such net -
+works of cooperating vehicles place enormous demands on the control, communications, and sensing subsys -
+tems, as they must operate in harmony across different brands and types of 
+vehicle, with limited margin for error.In this article, we give an overview of the coupling between 
+control, communication, and sensing, as visualized in Figure 1 . 
+We provide a survey of the different control approaches and their associated signal processing challenges. We hope that 
+this article can provide an introduction for signal processing professionals to the control-theoretic aspects of vehicle coor -
+dination and pave the way for a tighter collaboration.
+Problem formulation
+The problem of coordinating a set of vehicles can be phrased as calculating the best  control trajectories for the individual 
+vehicles that allow them to safely  reach their destination in 
+finite time  (e.g., within a few tens of sec -
+onds). In general, any solution should meet the basic requirements of safety (i.e., no collisions occur) and liveness (i.e., desti -
+nations are reached eventually), while 
+optimizing some performance metric. 
+The most important requirement is safety. Hence, vehicles may never be steered to 
+states from which future collisions are unavoidable. Second, 
+the coordination algorithm must guarantee that all vehicles are 
+allowed to both enter and exit the coordination area in finite time so that permanent stops and traffic deadlocks are avoid -
+ed. Finally, a performance criterion is necessary to favor one among multiple solutions. In summary, a coordination prob -
+lem can be stated as a constrained optimal control problem, where a performance criterion is optimized with respect to the vehicles’ control input trajectories, subject to safety and live -
+ness requirements:
+ 
+minimiz e performancec riterion  (1a)
+ , subject to safety constraint s (1b)
+ . livenes sconstraint s (1c)
+The constrained optimal control framework clearly allows 
+one to conveniently accommodate performance, safety, and 
+Communicate
+Map, Actors , and
+Control Actions
+Cooperativ e
+Control fo r
+Safety-Cr itical
+Traffic
+OptimizationCooperativ e
+Estimation,
+Localization,
+Mapping,
+and Prediction
+Figure 1.  Vehicle coordination relies on a tight interaction between control, communication, and sensing.We give an overview of  
+the coupling between 
+control, communication, 
+and sensing for control  of automated vehicles. 
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 76
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |liveness. However, as will be discussed later in this article, 
+the partial lack of formal analysis tools limits their practical applicability. In particular, the impact of imperfect sensing 
+data and communication impairments on stability and feasibil -
+ity (i.e., the capability of finding a solution that meets safety 
+and liveness requirements) of (1) is not completely understood under realistic communication protocols and sensing scenarios. In the absence of sensing and communication impairments,  
+a simplified version of the generic problem (1) can be specified mathematically as follows.
+Safety constraints
+Consider a set of N  vehicles (agents), whose motion is 
+described by
+ () ((),(),), xtf xt ut t ii ii= o  (2)
+where x RX iin!3  and u RU iim!3  are the state and input/
+control vectors, respectively, ()xtio denotes the time deriva -
+tive of ()xti, and the sets ,XUii  reflect physical and design 
+constraints. Examples of such constraints are acceleration 
+limitations and the vehicles’ minimum and maximum speeds. 
+Examples of the state xi are vectors comprising the vehicle’s 
+position and velocity in one, two, or three dimensions. Let 
+()xGii describe the vehicle geometry, being the closed and 
+compact set of spatial coordinates that vehicle i occupies when 
+its state is xi. Hence, a collision between two vehicles i and j 
+occurs at time t if
+ (()) (()) . xt xt G G ii jj+ 4! (3)Furthermore, we denote by iC the closed and connected set 
+of spatial coordinates that comprises the paths of vehicle i so 
+that a vehicle is on its path if (())xtGii i3C. Provided that 
+each vehicle stays on its path, a collision between vehicles can 
+consequently only take place within a critical region where 
+j i+CC , i.e., where paths fully or partly overlap (i.e., where 
+paths are the same , cross , or merge ).
+Liveness constraints
+Assume that all paths iC are fixed and constant, and let the 
+target set iT i1C be the set of spatial coordinates that vehicle 
+i strives to reach (e.g., the road after an intersection, round -
+about, or onramp). If i (())xtG T ii 1  is satisfied in finite time 
+for all vehicles, the coordination is said to be deadlock-free, and all vehicles are eventually coordinated through the criti -
+cal regions. For an illustration of the introduced notations,  
+see Figure 2 .
+Performance criterion
+In general, the cost for vehicle i, denoted by ((),()) Jxt ut ii i, 
+can be expressed as
+ ((),())( (),( ),), Jxt ut xt ut ttd ii ii ii
+0K =3+
+#
+where the stage cost ((),(),) xt ut t ii i K  could be, e.g., instan -
+taneous power consumption so that ((),()) Jxt ut ii i is the total 
+consumed energy. Other examples of ((),(),) xt ut t ii i K  include 
+a deviation from a target speed, or a measure of discomfort for 
+the driver.
+Overall problem and its receding horizon formulation
+With the introduced notations and concepts, the N -vehicle 
+optimal coordination problem (OCP) is now naturally formu -
+lated as the following infinite time, constrained optimal con -
+trol problem.
+Problem 1: OCP
+ ((),()) Jx tu t minimiz e
+(),() tti
+iN
+ii
+1xu=/  (4a)
+ () ((),(),),( ) xt fx tu tt xx0 subject to , ii ii ii 0 == o  (4b)
+ () ,( ) xt utXU ii ii ! !  (4c)
+ (())xtGii i3C (4d)
+ (()) (()) ,, , xt Gx tt ij i 0 Gii jj+ 64 ! $ =  (4e)
+ :(( )) , Tx TGTii i 731 3  (4f)
+where () [( ),..., ()], () [( ),..., ()] tx tx tt ut ut xuT
+NT T T
+NT T11==  re -
+present the states and control signal for each vehicle over the entire operating horizon (i.e., all 
+t0$). The OCP is thus the 
+problem of finding the best admissible control inputs ()uti for 
+the dynamical systems ((),(),) fx tu tt ii i  (4b), starting from the 
+initial conditions x,i0, that respect the state constraints (4c), 
+while keeping all vehicles i within their paths iC (4d), avoid -
+ing collisions between vehicles (4e), and eventually clearing 
+G2(x2(t))
+G1(x1(t))Γ1 ∩ Γ2Γ1
+Γ2
+Figure 2.  An example of a traffic coordination scenario at a three-way 
+intersection. The geometries of vehicles 1 and 2 are highlighted in red, and 
+their paths iC are dashed and colored. The critical region, 12+CC , is shown 
+in dashed red, the target sets ,TT12  in green, and the paths before the criti-
+cal region in yellow. The vehicle geometry (( )) xtG ii , depending on the 
+vehicle state ()xti, is also depicted.
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 77
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |the coordination region (4f). The problem captures the basic 
+requirements: safety through (4e), liveness through (4f), and performance through the objective function. Problem 1 can 
+be conveniently reformulated in a discrete time domain by 
+discretizing the systems dynamics (4b). Furthermore, to solve a finite dimensional problem, receding horizon con -
+trol (RHC) or model predictive control (MPC) schemes can be used [7] , where a finite time optimal control problem is 
+solved every sampling time instant. In particular, as explained in Figure 3 , RHC seeks future input and state trajectories at 
+every sampling time instant over a finite time horizon, so as to minimize the cost function, subject to the constraints. 
+The first element of the computed control input sequence is 
+applied to the system, and, at the next time step, the problem is formulated and solved over a shifted time horizon. This RHC approach also allows us to account for the future, but by only committing the control action for the current time, we 
+are able cope with limited disturbances (e.g., due to imperfect 
+sensing or communication). This is important, as we will see in the next section.
+Challenges in solving the coordination problem
+Although finite dimensional, solving problem 1 in a reced -
+ing horizon framework is extremely challenging, not only from the control perspective, but also due to imperfect com -
+munications as well as uncertainties induced by the sensors. While all these challenges are interrelated, we break them down as follows.
+Control challenges
+The main control-related challenges involve, first, the ability to compute good, feasible control actions, and, second, the ability to guarantee that the closed-loop system has certain desired 
+properties. Regarding the former, note that the mathematical 
+problem of finding the actions of N  vehicles that allow them 
+to pass the coordination zone without colliding is inherently a combinatorial problem. For a given initial configuration, a multitude of feasible temporal crossing orders (i.e., different 
+orders in which one vehicle passes a coordination zone before 
+another) might exist, and the optimal ordering can only be found by a structured exploration of the different alternatives. It is therefore no surprise that even the problem of finding a 
+feasible solution to (4) is NP-hard in general [8] . Exact solu -
+tions to the OCP are therefore intractable for relevant prob -
+lem sizes, and either heuristics or approximations must be 
+employed. Regarding the properties of closed-loop control, there are several challenges. For instance, given the severity 
+of constraint violations in the OCP, any controller needs to 
+ensure persistent feasibility. If satisfied, this property ensures that any action taken does not put the system in a state from which no feasible actions exists, i.e., that no vehicle is ever put in a state from which a collision is inevitable. The closed-
+loop controller must also ensure stability, e.g., to make certain 
+that the crossing order does not change every time the solution is recomputed. Additionally, the aforementioned issues are linked, as the computational challenges of the mathematical coordination problem, for instance, might promote distrib -
+uted solutions. In that case, the closed-loop controller needs 
+to guarantee the aforementioned properties while the solution 
+is obtained iteratively and possibly asynchronously over the wireless vehicular network.
+Communications challenges
+Irrespective of how the OCP is solved, information exchange is required between the involved entities (e.g., vehicles and possibly dedicated infrastructure). First and foremost, this 
+includes the information necessary to formulate the OCP, 
+e.g., the models of vehicle dynamics, road geometry, state measurements, and static and dynamic map information. In addition, it also includes information required to solve it, e.g., internal messaging in a distributed, iterative algorithm. 
+Communication between entities will be greatly affected by 
+the impairments associated with wireless channels, includ -
+ing the inherent randomness and correlation of the chan -
+nel, interference due to simultaneous transmissions, and a 
+limited communication range. In combination with limited 
+communication resources (bandwidth, power), this results in packet drops and random latencies in packet arrivals. For automobile applications, it was pointed out that the current standards for V2V and V2I communication cannot ensure 
+time-critical message dissemination in dense scenarios [9]. 
+In general, it is desired to keep the communication load low, 
+as wireless channel congestion is envisioned to be one of the major challenges related to vehicular networks [ 10], [11] . 
+Overall, the communication subsystem forms a bottleneck 
+for the OCP, related both to its formulation and the means by 
+which it is solved.
+Sensing challenges
+The vehicles’ own perception of their current locations and the positions of surrounding vehicles is fundamental -
+ly uncertain. Both are based on observations from sensors 
+such as cameras, radar, lidar, the global navigation satel -
+lite system (GNSS), and inertial navigation sensors, which 
+deliver observations that are corrupted by noise and clutter PastOptimal Input at k
+Optimal
+Input at k + 1Output Ref erencePrediction Hor izon
+Measured Output
+Previous Inputs
+k + 1 k + N k FuturePredicted Output
+Figure 3.  An illustration of an RCH scheme. The sketch depicts how, in 
+an RCH algorithm, a present decision is made based on the current state 
+of the system and its predicted future behavior.
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 78 IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |(spurious nonobject detection). In addition, the sensors often 
+fail to detect objects, e.g., vehicles and pedestrians, leading to uncertainty about whether all relevant objects are known 
+to the sensing system. Moreover, as each autonomous vehicle 
+is equipped with a different sensor setup with different types of observations, the accuracy of each vehicle’s perception of the current traffic situation will typically vary over time and will not be coherent among the vehicles 
+[12]. There are methods to handle time-
+varying and noncoherent uncertainties, but 
+these require that an uncertainty descrip -
+tion is communicated among the involved 
+vehicles, further increasing the demand on 
+the communication system. Even with per -
+fect communication, it is still nontrivial to associate the information from one vehicle with other vehicles’ local understanding of the same situation. In the literature, this is called the data association problem , which is known to be an NP-hard 
+problem [13]. Processing and sharing a large amount of data 
+requires suitable compression algorithms in combination with application-specific semantic representations, amenable for inclusion in the OCP. These different types of uncertain -
+ties are generally ignored in RHC solutions to the OCP, as long as the immediate future is relatively certain. However, in general we may not be able to guarantee performance, liv -
+eness, or safety of the resulting solutions. Moreover, the solu -
+tions may no longer be stable, which is undesirable from the 
+point of view of the passengers.
+Solving the coordination problem
+Despite (or perhaps because of) the inherent difficulty of solv -
+ing the OCP, many solutions have been presented in the con -
+text of automated vehicles. These works have been carried out by several communities, resulting in differences of focus and 
+techniques. The resulting techniques can be classified into two groups: rule based and optimization based.
+Rule-based solutions
+In a large number of existing approaches, e.g., [14]–[16] , the 
+vehicle coordination problem is solved using a set of fixed rules, implemented through an interaction protocol. This 
+protocol specifies the content and timing of communica -
+tions, as well as the possible responses to actions of other 
+participants. To simplify the set of rules, protocols generally 
+assume that individual agents take on partial local responsi -
+bility (e.g., resolving rear-end collisions and lane keeping), 
+while a coordination manager resolves any multipath con -
+flicts at the intersection. A canonical protocol operates as follows: 1) a vehicle requests permission to enter the coor -
+dination zone at a given time with a given velocity; 2) the intersection manager takes the request and decides whether it can lead to a collision-free crossing (if so, the request is accepted; otherwise, it is denied) 3) when a vehicle’s request is denied, it decelerates and sends a new request. Once a 
+request is accepted, the vehicle applies a suitable control action to meet specifications on when it is allowed to use 
+the coordination zone. From these simple rules, it follows 
+that only requests of vehicles with a safe option are accepted, 
+while all vehicles for which no reservation can be found will slow down and eventually stop.
+The benefits of rule-based schemes are the distribution 
+of computation and the economic use of the communication 
+resources (since the rule-set and interac -
+tion protocol is known to all participants). In terms of performance, rule-based solu -
+tions are generally only possible to evalu -
+ate a posteriori as the actions taken by the 
+vehicles are generated implicitly by appli -
+cation of the rule set. The rules are usu -
+ally claimed to be chosen to optimize some 
+objective (commonly, throughput), but formal results are missing in most cases. 
+The general lack of formal guarantees in terms of the objec -
+tive and constraints of the OCP forms the main weakness of rule-based solutions. Extensions of these works include live -
+ness guarantees [17] , and refinements on the individual con -
+trol policies [18] . The approaches presented in [ 15], [16], [19], 
+and [20]  share similar concepts but differ in terms of the set 
+of rules determining the priority of each vehicle. In summary, while rule-based methods may outperform current regulatory mechanisms, they most likely underutilize the potential of automated vehicles in coordination scenarios.
+Optimization-based solutions
+In this second group of solution approaches, the coordina -
+tion problem is treated as a mathematical program from the outset and solved using standard tools and algorithms from 
+optimal control. By doing so, one can potentially separate the 
+feasibility and optimality aspects, and use general, multiob -
+jective performance measures so derive formal guarantees for both performance and safety. However, as a consequence, the computational complexity issues are inherited from the 
+original problem. The contributions of the surveyed papers 
+[21]–[24]  are therefore mainly reformulations, approxima -
+tions, and heuristics that aim to remedy the computational tractability issues. One class of solutions [21], [22]  casts an 
+equivalent of the OCP as a safety verification problem. The verification problem entails determining the largest set of (infinite horizon) control actions that avoid any conflict at all future times, and is used in [21]  to synthesize a least-
+restrictive supervisor for human drivers: if the verification fails, the supervisor overrides the human’s command, e.g., desired acceleration. Determining the overriding control signals can be posed as a type of OCP wherein the objective 
+corresponds to minimizing the total time needed to clear the 
+intersection or the deviation from the desired control signal, given by the human driver [22] . A more general approach 
+to the OCP was considered in [23] , presenting a hierarchi -
+cal decomposition of (4), where the problem is split up into 
+one centralized time-slot allocation problem and several 
+local vehicle-level optimal control problems. In the latter, The benefits of rule-
+based schemes are 
+the distribution of 
+computation and the economic use of the 
+communication resources.
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 79
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |each vehicle computes approximations of its local solutions, 
+parameterized by its occupancy time interval T i. Loosely 
+speaking, the local optimal cost is expressed as a function of locally feasible T
+i’s and transmitted to the central con -
+troller. The controller can then find the optimal values of T
+i and broadcast this information to the vehicles. Using this 
+approach, the OCP is posed as the search for approximately optimal,  nonoverlapping occupancy time slots, which is a 
+rather small mixed-integer optimization problem. Finally, yet another approach was taken in [24] , where the combi -
+natorial aspect is resolved through a cooperatively prede -
+termined decision order (or priority), enabling sequential decision making. Once a decision order is 
+agreed upon, the highest priority vehicle 
+solves a local optimal control problem, ignoring all of the remaining vehicles. The solution is communicated to the sec -
+ond vehicle in the ordering, which uses it to solve its own problem: finding the best solution that crosses the coordination zone either before or after the first vehi -
+cle. In general, vehicle i  in the order will 
+have access to the occupancy intervals of all higher priority vehicles and solves a small local problem. An RHC exten -
+sion of this approach was developed and demonstrated in [24] , where at each time 
+instance both the priority assignment and sequential decision making is repeated.
+The primary benefits of the optimization-based approach -
+es are the inherent flexibility and ease with which different and tunable objective functions, dynamics, and physical con -
+straints are included in the design phase, but also modified in the operating phase of the coordination system. This gives to the designer, operator, or passenger the control over what kind of solution the system outputs, and the ability to change 
+this during operation. Furthermore, extensive results regard -
+ing the issues of persistent feasibility, stability, and robustness 
+of model-based and optimization-based control schemes (i.e., as in MPC) are available in the literature, as are approximate schemes with quantifiable suboptimality. The optimization-
+based coordination schemes could potentially leverage such 
+results and formally provide the required safety guarantees. The major weakness of the optimization-based schemes is the complexity, directly inherited from the original formulation (4), which grows exponentially with the number of possible 
+conflict relationships among the vehicles.
+The role of signal processing in the OCP
+From the aforementioned discussion, it is clear that the OCP 
+explicitly relies on sensing and perception algorithms as well as on wireless communication for its formulation and solu -
+tion, even though sensing and communication aspects have largely been ignored in the development of control algo -
+rithms. Conversely, specific control applications and their demands are usually not considered in the design of sensing and perception algorithms, nor in the design of wireless communication systems. In this section, we describe recent progress in sensing and wireless communication, and how it relates to solving the OCP. Furthermore, we discuss the need 
+for a tighter integration between the different subsystems, 
+and present ideas on how smart signal processing can be uti -
+lized to achieve this.
+Wireless communication
+Current vehicular communication standards (IEEE Wire -
+less Access in Vehicular Environments and ETSI ITS G5) rely on Wi-Fi-like communication over 10-MHz channels in 
+the 5.9-GHz band and have defined both periodic awareness messages and event-triggered safety messages. These standards can support low-rate (up to 10  Hz) broad -
+cast messages between vehicles within a 
+communication range of about 500 meters 
+[10], but will fail under the high load of 
+the ultrafast communication that is needed to solve the OCP. In contrast, OCP-like 
+problems have been considered explicitly 
+in 5G research [25], with assumed reliabil -
+ity of 99.9% and status updates of 100 ms, considering a steering frequency of 10 Hz. However, these numbers only relate to the 
+dissemination of the final control signal, 
+not the collection of information needed to pose the OCP, nor the iterative message 
+exchange needed to solve it nor do they consider scalability with a large number of vehicles. To get a rough indication for 
+how many vehicles can be supported in a centralized imple -
+mentation of the OCP, consider a communication system 
+operating in time division multiple access (TDMA) mode, between N vehicles and a controller. This means that each 
+vehicle is assigned a time slot where it during the uplink 
+(UL) phase can transmit its state information to the control -
+ler. Assume these time slots last around 
+s, 100 n accounting 
+for the actual payload (see Figure 4 ), as well as overhead 
+(OH) in terms of guard intervals (GIs), training sequenc -
+es (TSs) and cyclic redundancy check (CRC) bits (for 
+N
+UL DLComputation
+012 34 5. . .
+100 mst
+GI TS CRC Payload
+Figure 4.  An illustration of a TDMA protocol and required communication 
+overhead. In each time step of the RHC, vehicles send state information 
+during the UL phase to the controller, which computes a new control signal and sends this back to the vehicles during the DL phase.Signal processing can 
+relieve the burden on 
+communications by 
+censoring less critical information, by tailored 
+compression and semantic 
+algorithms, and by assigning communication 
+resources to those 
+vehicles that are critical  to the optimal  
+control problem.
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 80
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |comparison, preamble and tail bits in 802.11p adds an over -
+head of approximately  s45n). The computation, assumed to 
+scale linearly in N, is set to  s10n per vehicle, for some value 
+of the prediction horizon. In the downlink (DL),  s200n data packets with the control signals are sent back to each of the 
+vehicles. Since communication can never be guaranteed to succeed, we will consider that the OCP operates under a 
+minimal requirement in terms of the fraction of information 
+that is needed from the vehicles (say, 99% or 99.9%). The communication system is then designed to retransmit data  
+until the requirement is met. Given this information, Figure 5  
+depicts the number of vehicles that can be supported for 
+different control requirements and different communica -
+tion failure probabilities. We observe that, when either the 
+channel is very reliable or when the control requirement is loose, then more than 300 vehicles can be supported. How -
+ever, this number drops quickly when the channel becomes 
+more unreliable. Note that packet error rates in excess of 10% 
+are not uncommon in practice. Based on this quick analysis, it is easy to see that the communication forms a bottleneck for the OCP, especially in urban scenarios where several 
+hundred vehicles can be within communication range. To 
+deal with the conflicting demands on the communication system in terms of latency, throughput, and node density, new V2X communication architectures were proposed in [26]. In addition, dedicated physical layer communication 
+techniques, as well as highly optimized medium access con -
+trol algorithms, will need to be developed, to complement and support these architectures. Signal processing can fur -
+ther relieve the burden on the communication subsystem by censoring less critical information, by tailored compression 
+and semantic algorithms, and by assigning communication 
+resources to those vehicles that are expected to be the most critical to the OCP. At the same time, signal processing is also expected to play an increasing role in the security of the OCP (through ultrafast authentication and verification), 
+privacy preservation (rendering the OCP and its solutions 
+anonymous and untraceable), and analytics (both within a vehicle and between vehicles, particularly after accidents).
+Sensing and perception
+To support the OCP, the sensing and perception subsystems have two main goals: 1) to estimate the host vehicle’s cur -
+rent location (typically on a highly detailed map) and 2) to 
+determine the position of other road users using noisy sen -
+sor observations from onboard sensors such as camera, radar, 
+lidar, and GNSS. Both of these problems are challenging in themselves but can be alleviated by allowing information exchange from cooperating vehicles. Figure 6  depicts an illus -
+tration of the problem.
+The self-localization problem, in this context, is typi -
+cally solved by matching current sensor observations of the position of landmarks/features with position of sensor land -
+marks/features stored in a detailed map. This map is either preconstructed offline and streamed to the vehicle from the cloud, or constructed sequentially and jointly with the esti -
+mation of the vehicle’s position (simultaneous localization and mapping, also known as SLAM [27] ). In the case where 
+the map is pre-constructed, the mapping and the localiza -
+tion problem can be separated, and only the localization 050100150200250300350
+Transmission F ailure ProbabilityNumber of Suppor ted Vehicles
+Control Requirement 99.99%
+Control Requirement 99%
+10–610–510–410–310–210–1100
+Figure 5.  The number of vehicles that can be supported in the OCP as a 
+function of the communication failure probability.
+Bus
+Figure 6.  An illustration of the sensing problem to support the OCP . The host 
+vehicle (bottom) is approaching an intersection. Information about the inter -
+section is stored in a detailed map containing position of landmarks, geometry 
+of lanes, traffic rules, etc. The aim of the perception subsystem is to position the host vehicle and other relevant road users as well as other obstacles (construction site) in the map such that the OCP can calculate an optimal path (shown as dashed lines). Both the host position and the state of other vehicles (pose and velocities) are described, including uncertainty measures (depicted as gray ellipses). In this example, four of the vehicles are cooperative and exchange information about their positions and current perception to each other as well as the construction site.
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 81
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |part needs to be solved online [28] . However, offline map -
+ping is time-consuming and may need to be repeated peri -
+odically. In contrast, under SLAM, there is no need for 
+offline mapping, rendering it less sensitive to changes in the 
+environment. However, the SLAM problem is inherently more difficult than self-localization in a preconstructed map and thus tends to give inferior positioning accuracy. The problem of estimating the position of relevant road 
+users, including uncertainty measures, is known as a mul -
+tisensor and multiobject tracking problem, which is a well-
+studied problem within several applications. In contrast to the classical formulation, objects in an automotive setting 
+typically give rise to multiple radar and lidar measurements, 
+thus violating the classical point-source assumption (one measurement per object). Instead, objects such as vehicles, need to be treated as extended objects, which is less studied and typically leads to more complex algorithms. However, 
+including multiple measurements per object also allows for 
+a richer description of the object such as orientation and physical dimensions.
+Both self-localization and estimating the position of 
+other road users can be performed cooperatively [29] . For 
+instance, for the latter problem, in addition to exchanging position estimates, information about the physical extension can be shared, thus greatly simplifying the inference and reducing the uncertainty in the position of the objects. How -
+ever, as the sensor observations are typically not labeled, to 
+use the measurements properly we need to be able to cor -
+rectly associate them with the information coming from 
+the other vehicles and accurately match them to the local view of the traffic situation, adjusting for delays due to 
+data transmission and asynchronous sensor operation. For 
+self-localization with offline mapping, the map resides in the cloud and can thus easily be shared among the coop -
+erating vehicles. By sharing position estimates in the joint map, together with uncertainty measures, each vehicle can 
+jointly estimate a more accurate ego-position as well as the 
+position of all the other vehicles by fusing with the local perception from the on-board sensors [ 30]. This way, the 
+self-location problem and positioning of other road users are solved simultaneously. This also leads to the possibility of 
+quickly detecting and sharing changes in the map (e.g., the 
+construction site in Figure 6 ). To increase the positioning 
+accuracy, estimates of relative position to a selected set of high-quality landmarks can be exchanged between the vehi -
+cles and used in a similar manner. For SLAM, cooperation is 
+also beneficial. There are two types of cooperative-SLAM 
+(C-SLAM): centralized and distributed. In the former, the cooperating systems communicate their position estimates and current sensor observations to the cloud where a joint 
+map is formed and shared among the systems [31]. In the 
+distributed versions, however, this information is instead 
+communicated to the individual vehicles, which build and keep their own map using all the information. Both of these C-SLAM methods require that the cooperating entities have 
+a fairly homogeneous sensor setup such that landmarks seen by one system are also detectable by the other systems. In 
+addition, for the detailed sensors typically used for autono -
+mous vehicles, communicating raw sensor observations is 
+probably not feasible; thus, compression and semantic label -
+ing is needed.
+Performance of the OCP in the presence of 
+communication and sensing impairments
+To illustrate the role sensing and communication play in solv -
+ing the coordination problem, we consider an intersection 
+scenario of the type illustrated in Figure 2 , where incoming 
+vehicles periodically measure and send their state information (UL) to a centralized controller. The control is performed in a receding horizon fashion, where the controller solves a finite time OCP, and broadcasts the resulting control actions to the vehicles (DL). We simplify the OCP by modeling vehicles 
+as points with positions 
+()xti, velocities ()xtio, and controls/
+accelerations () () ut xt ii= p along one-dimensional trajectories, 
+aligned with the center of each road. The intersection is then 
+modeled as an interval [, ] LHii  on each trajectory. The objec -
+tive (4a) is chosen to be
+ ((),())( ())d ()d, Jxt ut Qv xt tR ut t ii ii i iit
+it
+2
+02
+0refff
+=- + o ##  (5)
+where viref is a constant reference speed, tf is a time horizon, 
+and , QR 00 ii22  are weights set by the user. The liveness 
+constraint (4f) is stated as ()xt H if i$  for all vehicles. Finally, 
+the problem is discretized and solved using standard optimiza -
+tion tools.
+−20−15−10−5051015202530
+Time (s)Position (m)Time
+Slot 1
+Time
+Slot 6Vehicle 1Vehicle 2Vehicle 3Vehicle 4Vehicle 5Vehicle 6
+11.5 12 12.5 13 13.5 1414.5 15 15.5 16
+Figure 7.  The visualization of a part of the position trajectories along 
+each road for six coordinated vehicles under perfect communication and 
+sensing. For each vehicle, the intersection starts at 0 []m and ends at 
+10 []m. The colored lines represent the trajectories of each vehicle. The 
+correspondingly colored boxes visualizes the time slots during which the intersection is occupied by each vehicle. Note that collisions would occur if the time slots were to overlap. In this idealized case, the time slots are tightly packed. Hence, there is no safety margin, and the performance of the system in terms of the objective (5) is pushed to its limits.
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 82
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |First, we study an idealized case with perfect communica -
+tion, no measurement errors, and a perfect match between the 
+dynamics used in the controller and the actual dynamics of the 
+vehicle. We consider an instance of the problem where N 6= 
+vehicles start 300 m away from the intersection at a desired 
+speed of 80 km/hour. Figure 7  shows the solution to the ideal -
+ized coordination problem in terms of position along their tra -
+jectories. We see that the vehicles cross the intersection, one 
+right after the other. Figure 8  shows the velocity profiles of each 
+of the vehicles. The vehicles immediately adjust their speeds to 
+avoid collisions in such a way that minimizes their total cost.To analyze the impact of communication and sensing 
+errors, we reduce the problem size and focus on a two-vehi -
+cle case. Both vehicles start 80 m away from the intersection with a speed of 70 km/hour, which will lead to a collision if the central coordinator does not intervene. We introduce a 
+slight mismatch between the true dynamics and the control -
+ler model of the dynamics, to avoid degenerate behavior in 
+the presence of packet losses. Packet losses can occur with a probability 
+[,] p 01!  in the UL communication, while 
+the DL communication is assumed to be perfect. In case 
+a packet is lost, the controller can use the latest received 
+message from a vehicle to predict its current position and speed: the vehicle is simply assumed to obey the previously issued control command. Sensing errors are generated by adding Gaussian noise with a standard deviation 
+pv and 
+vv to vehicle i ’s position and velocity, respectively. Perfor -
+mance is evaluated in terms of 1) the total cost realized by each vehicle and 2) the frequency with which collisions occur. 
+Figure 9  shows the average cost as well as the collision prob -
+ability, based on 10,000 Monte Carlo runs, as a function of 
+the UL packet loss probability p  for different combinations of 
+sensing uncertainty. When there is no sensing uncertainty, we observe that both the probability of collision and the average 
+cost are small, provided p is small (since the true dynamics 
+and OCP model are well matched), but rapidly increase when 
+p > 0.5. The reason for this increase is twofold. First of all, it 
+is possible that the coordinator receives the first packet only 
+when the cars are quite close to the intersection, thus requir -
+ing more aggressive control and possibly leading to collisions. 
+Second, the controller may operate based on highly outdated information when successive UL transmissions fail, leading to an integration of the mismatch between true dynamics and 
+OCP models, and thus to severe state estimation errors at the 
+controller. When there is sensing uncertainty in either posi -
+tion or velocity, the controller must frequently revise its plan, leading to increases in cost, even under perfect communica -
+tion. Interestingly, position uncertainty has a higher impact 
+than velocity uncertainty, since velocity uncertainty must be 
+accumulated over multiple failed transmissions to become significant. With increasing packet losses, there is relatively limited impact on the cost, but collisions become more and more frequent. We conclude that even when the OCP has an 
+accurate model for each of the vehicles, sensing uncertain -
+ties quickly lead to severe problems, unless the communica -
+tion system is very reliable. These problems can be avoided 
+by formulating robust versions of the OCP, accounting for 
+worst-case uncertainties, but at a significant cost in terms of 
+the performance.
+The road ahead
+The coordination problem for cooperative, autonomous vehicles has unique properties compared to other networked control applications due to its safety-critical nature and the 
+challenging communication environment. In this article, 
+we cast such coordination problems as constrained optimal control problems. We have highlighted key challenges in 0.22
+0.21
+0.20
+0.19
+0.18
+0.17
+0.16
+0.15
+0.14
+0.10
+0.09
+0.080.07
+0.06
+0.05
+0.040.13
+0.12
+0.110.23× 104
+100
+10–1
+10–2
+10–3
+Uplink Pa cket Loss Prob ., pAverage Cost
+Probability of Collision10,000 Realizations
+Cost σp = 0 m, σv = 0 km/h
+Cost σp = 2 m, σv = 0 km/h
+Cost σp = 0 m, σv = 2 km/h
+Cost σp = 2 m, σv = 2 km/h
+Prob. of Col.  Cost σp = 0 m, σv = 0 km/h
+Prob. of Col.  Cost σp = 2 m, σv = 0 km/h
+Prob. of Col.  Cost σp = 0 m, σv = 2 km/h
+Prob. of Col.  Cost σp = 2 m, σv = 2 km/h00 .10.20 .30.40 .50.60 .70.80 .91
+Figure 9.  The average cost (blue) and probability of collision (red) as 
+a function of UL packet loss probability p  for different combinations of 
+sensing uncertainty. From bottom to top: no measurement noise (dia-
+monds), velocity measurement noise (circles), position measurement noise (squares), and both position and velocity measurement  
+noise (pentagons).7075808590
+Time (Seconds)Velocity (km/h)
+05 10 15 20 25 30
+Figure 8.  The velocity profile for the six coordinated vehicles. Note that 
+the coordination is performed with relatively small adaptations to the velocity 
+of the vehicles well before the intersection is reached by the first vehicle (this happens at around 12.5 seconds, as can be seen in Figure 7).
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 83 IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |control, communication, and sensing, along with an over -
+view of recent progress in each of these disciplines. In par -
+ticular, the theory of distributed optimal control is deemed 
+promising to further develop coordination algorithms that 
+simultaneously accommodate safety and performance. More -
+over, uncertainties due to pedestrians and legacy vehicles can be included in such formulations. Never -
+theless, scalability and robustness are still 
+challenging problems that deserve further 
+study, in particular, with respect to inher -
+ently unreliable exchange of information and limited sensing of the surround -
+ing environment.
+Joint design paradigms, where control, 
+sensing, and communications are simulta -
+neously designed, are a promising path for -
+ward. While communication-aware control 
+design paradigms exist (i.e., networked 
+control design frameworks), control- and sensing-aware communications need to be further developed to facilitate the solution of the coordination problem. In particular, 
+control-aware communication and sensing 
+systems can establish relationships between the vehicles’ mathematical models and the minimal commu -
+nication and sensing resources necessary to guarantee conver -
+gence, stability, and feasibility of the coordination algorithm. 
+Hence, algorithms could be designed so that the coordination 
+plan and the communication or sensing resource allocation are simultaneously decided, thus inherently prioritizing the infor -
+mation exchange of critical vehicles (e.g., vehicles close to the 
+intersection or vehicles that are most likely to be involved in 
+a predicted collision). We believe that joint design of control, communication and sensing systems will pave the way for safer, more efficient, and sustainable road transportation, and that algorithmic aspects associated with signal processing imple -
+mentations can help address the associated real-world chal -
+lenges. Proposing and analyzing such joint design frameworks are formidable and long-term research challenges, which will require cooperation among signal processing, communication, and control communities.
+Acknowledgments
+This work has been supported by the Swedish Research Council under grant 2012-4038; Chalmers’ Area of Advance in Transportation; SAFER; the National Metrology Institute 
+hosted at the SP Technical Research Institute of Sweden, which 
+in turn is partly funded by VINNOVA under the program for national metrology (project 2015-06478); COPPLAR (Cam -
+pusShuttle Cooperative Perception and Planning Platform), funded under Strategic Vehicle Research and Innovation grant 
+2015-04849; the European Research Council under grant 
+258418 (COOPNET); the EU Horizon 2020 project HIGHTS (High-Precision Positioning for Cooperative ITS Applications) MG-3.5a-2014-636537; and the grant AD14VARI02-Progetto 
+ERC BETTER CARS-Sottomisura B.Authors
+Robert Hult  (robert.hult@chalmers.se) received his B.S. 
+degree in mechanical engineering in 2011 and M.S. degree in 
+systems, control, and mechatronics in 2013 from Chalmers 
+University, where he is currently pursuing his Ph.D. degree. 
+His current research interests include distributed and coopera-
+tive control of automated vehicles and other control topics within intelligent transport systems. 
+Gabriel R. Campos (gabriel.rodrigues 
+decampos@polimi.it) received his B.S. degree in electrical engineering in 2007 from the Instituto Superior de Engenharia 
+de Coimbra, Portugal, and from the 
+Université de Reims-Champagne Ardenne, France. In 2009, he received the M.S. degree in electrical engineering from the same university. In 2012, he received his 
+Ph.D. degree in automatic control from 
+the Université de Grenoble, France. He is currently a postdoctoral research associ-ate with the DEIB Department at Politecnico di Milano, Italy. Previously, 
+he was with the Department of Signals 
+and Systems, Chalmers University of Technology, Sweden. 
+His research interests include cooperative control and autonomous  systems.
+Erik Steinmetz  (estein@chalmers.se) received his M.S. 
+degree in electrical engineering from Chalmers University of Technology, Sweden, in 2009. He is currently a research and development engineer with SP Technical Research Institute of Sweden. He is also affiliated with the Department of Signals 
+and Systems at Chalmers University of Technology, where he 
+is working toward his Ph.D. degree. His research interests include positioning, sensor fusion, communication and  controls applied within the fields of intelligent vehicles, coop-
+erative automated driving, and active safety. 
+Lars Hammarstrand  (lars.hammarstrand@chalmers.se) 
+received his M.S. and Ph.D. degrees in electrical engineering from Chalmers University of Technology, Sweden, in 2004 and 2010, respectively. Between 2004 and 2011, he was with the Active Safety and Chassis Department at V olvo Car 
+Corporation, Gothenburg, conducting research on tracking and 
+sensor fusion methods for active safety systems. Currently, he is an assistant professor with the Signal Processing group at Chalmers University of Technology where his main research interests are in the fields of estimation, sensor fusion, and self-
+localization and mapping, especially with application to self-
+driving vehicles. 
+Paolo Falcone  (paolo.falcone@chalmers.se) received the 
+Laurea degree in 2003 from the University of Naples 
+“Federico II.” He received his Ph.D. degree in information 
+technology in 2007 from the University of Sannio, Benevento, Italy. He is an associate professor with the Department of 
+Signals and Systems of the Chalmers University of Technology, Sweden. He is an associate editor of Control We believe that joint 
+design of control, 
+communication and 
+sensing systems will pave the way for a safer, more 
+efficient, and sustainable 
+road transportation, and that algorithmic 
+aspects associated 
+with signal processing implementations can help 
+address the associated 
+real-world challenges.
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 84
+IEEE SIgnal ProcESSIng MagazInE   |   November 2016   |Engineering Practice  and IEEE Transactions on Intelligent 
+Transportation Systems . His research focuses on constrained 
+optimal control and verification methods, applied to autono-
+mous and semiautonomous mobile systems, cooperative 
+ driving, and intelligent vehicles. He is involved in a range of 
+projects, in cooperation with industry, focusing on autono-mous driving, cooperative driving, and vehicle dynamics con-trol. He is a Member of the IEEE.
+Henk Wymeersch  (henkw@chalmers.se) received his M.S. 
+degree in computer science in 2001 and his Ph.D. degree in elec-trical engineering/applied sciences in 2005, both from Ghent University, Belgium. He is a professor of communication sys-
+tems with the Department of Signals and Systems, Chalmers University of Technology, Sweden. Prior to joining Chalmers, he was a postdoctoral researcher from 2005 to 2009 with the Laboratory for Information and Decision Systems at the Massachusetts Institute of Technology. He has been an associate editor of I EEE Communication Letters  (2009–2013), IEEE 
+Transactions on Wireless Communications  (since 2013), and 
+IEEE Transactions on Communications  (since 2016). His cur -
+rent research interests include cooperative systems and intelli-gent transportation. 
+References
+[1] E.-H. Choi, “Crash factors in intersection-related crashes: An on-scene perspec-
+tive,” National Traffic Highway Safety Association, report no. HS-811 366, 
+Washington, D.C.,  2010 .  
+[2] “National motor vehicle crash causation survey,” National Traffic Highway 
+Safety Association, report no. DOT HS 811 059, 2008 .
+[3] M. Campbell , M. Egerstedt , J. P. How , and R. M. Murray , “Autonomous driving 
+in urban environments: Approaches, lessons and challenges,” Philos. Trans. Royal 
+Soc. A , vol. 368 , no. 1928 , pp. 4649 –4672 , 2010 .
+[4] S. E. Shladover , “PATH at 20-history and major milestones,” IEEE Trans. Intell. 
+Transport. Syst. , vol. 8 , no. 4 , pp. 584 –592, 2007 .
+[5] R. Di Taranto , S. Muppirisetty , R. Raulefs , D. Slock , T. Svensson , and H. 
+Wymeersch , “Location-aware communications for 5G networks: How location 
+information can improve scalability, latency, and robustness of 5G ,” IEEE Signal 
+Process. Mag. , vol. 31 , pp. 102 –112, Nov. 2014 .
+[6] H. Wymeersch, G. R. de Campos, P. Falcone, L. Svensson, and E. G. Ström , 
+“Challenges for cooperative ITS: Improving road safety through the integration of 
+wireless communications, control, and positioning,” presented at the Int. Conf. 
+Computing, Networking and Communications , 2015 .  
+[7] E. F. Camacho and C. B. Alba, Model Predictive Control . New York: Springer 
+Science , 2013 .
+[8] A. Colombo and D. Del Vecchio, “ Efficient algorithms for collision avoidance at 
+intersections,” in Proc. 15th ACM Int. Conf. Hybrid Systems: Computation and Control , 2012 , pp. 145 –154.
+[9] S. Eichler , “Performance evaluation of the IEEE 802.11p WA VE communication 
+standard,” in Proc. IEEE Vehicular Technology Conf. , 2007 , pp. 2199 –2203 .
+[10] J. B. Kenney, G. Bansal, and C. E. Rohrs , “LIMERIC: A linear message rate 
+control algorithm for vehicular DSRC systems,” in Proc. 8th ACM Int. Workshop on Vehicular Inter-Networking , 2011, pp. 21 –30.
+[11] E. G. Ström , “On medium access and physical layer standards for cooperative 
+intelligent transport systems in Europe,” Proc. IEEE , vol. 99 , no. 7 , pp. 1183 –1188 , 
+2011.[12] I. Skog and P. Händel , “In-car positioning and navigation technologiesa sur -
+vey,”  IEEE Trans. Intell. Transport. Syst. , vol. 10 , no. 1 , pp. 4 –21, 2009 .
+[13] J. B. Collins and J. Uhlmann , “Efficient gating in data association with multi-
+variate Gaussian distributed states,” IEEE Trans. Aerospace Electron. Syst. , vol. 28, 
+no. 3, pp. 909 –916, 1992 .
+[14] K. Dresner and P. Stone , “Multiagent traffic management: A reservation-based 
+intersection control mechanism,” in Proc. 3rd Int. Joint Conf. Autonomous Agents 
+and Multiagent Systems , 2004 , pp. 530 –537.
+[15] H. Kowshik , D. Caveney , and P.  Kumar , “Provable systemwide safety in intelli-
+gent intersections,” IEEE Trans. Veh. Technol. , vol. 60 , pp. 804 –818, Mar.  2011.
+[16] R. Azimi, G. Bhatia, R. Rajkumar, and P. Mudalige , “Ballroom intersection 
+protocol: Synchronous autonomous driving at intersections,” in Proc. IEEE 21st Int. 
+Conf. Embedded and Real-Time Computing Systems and Applications , 2015 , 
+pp. 167–175.
+[17] T.-C. Au, N. Shahidi, and P. Stone , “
+Enforcing liveness in autonomous traffic 
+management,” presented at the 25th Conf. Artificial Intelligence , San Francisco, 
+CA, August  2011.   
+[18] T.-C. Au, M. Quinlan, and P. Stone , “Setpoint scheduling for autonomous 
+vehicle controllers,” in Proc. IEEE Int. Conf. Robotics and Automation , 2012 , 
+pp. 2055 –2060 .
+[19] K.-D. Kim , “Collision free autonomous ground traffic: A model predictive 
+control approach,” in Proc. ACM/IEEE Int. Conf. Cyber-Physical Systems , 2013 , 
+pp. 51–60.
+[20] M. Ahmane , A. Abbas-Turki , F. Perronnet , J. Wu, A. E. Moudni , J. Buisson , 
+and R. Zeo, “Modeling and controlling an isolated urban intersection based on coop-
+erative vehicles,” Transport. Res. Part C , vol. 28, no. 0 , pp. 44 –62, Mar.  2013 .
+[21] A. Colombo and D. Del Vecchio , “Least restrictive supervisors for intersec-
+tion collision avoidance: A scheduling approach,” IEEE Trans. Automat. Contr. , 
+vol. PP, no. 99 , pp. 1 –1, 2014 .
+[22] G. R. Campos, F. D. Rossa, and A. Colombo , “Optimal and least restrictive 
+supervisory control: safety verification methods for human-driven vehicles at traffic intersections,” in Proc. IEEE Conf. Decision and Control , 2015 ,  
+pp. 1707–1712.
+[23] R. Hult, G. R. Campos, P. Falcone, and H. Wymeersch , “An approximate solu-
+tion to the optimal coordination problem for autonomous vehicles at intersections,” 
+presented at the American Control Conf. , Chicago, IL, 2015 . 
+[24] G. R. Campos, P. Falcone, H. Wymeersch, R. Hult, and J. Sjöberg , “A reced-
+ing horizon control strategy for cooperative conflict resolution at traffic intersec-
+tions,” in Proc. IEEE Conf. Decision and Control , 2014, pp. 2932–2937 . 
+[25] 5G Infrastructure Association, “Automotive vertical sector,” White Paper 
+5G-PPP, 2015 . 
+[26] H. Laurens, A. Festag, I. Llatser, L. Altomare, F. Visintainer, and A. Kovacs , 
+“Enhancements of V2X communication in support of cooperative autonomous driv-
+ing,” IEEE Commun. Mag. , vol. 53 , no. 12 , pp. 64 –70, 2016 .
+[27] H. Durrant-Whyte and T. Bailey , “Simultaneous localization and mapping: Part 
+I,” IEEE Robot. Automat. Mag. , vol. 13 , no. 2 , pp. 99 –110, 2006 .
+[28] J. Ziegler , P. Bender , M. Schreiber , H. Lategahn , T. Strauss , C. Stiller , T. 
+Dang , U. Franke, N. Appenrodt , C. G. Keller , et al. , “Making Bertha drive an 
+autonomous journey on a historic route,” IEEE Intell. Transport. Syst. Mag. , vol. 6 , 
+no. 2, pp. 8 –20, 2014 .
+[29] S.-W. Kim, B. Qin, Z. J. Chong , X. Shen , W. Liu, M. Ang, E. Frazzoli , and D. 
+Rus, “Multivehicle cooperative driving using cooperative perception: Design and 
+experimental validation,” IEEE Trans. Intell. Transport. Syst. , vol. 16 , pp. 663 –
+680, Apr. 2015 .
+[30] A. Howard, M. J. Matari c´, and G. S. Sukhatme , “Putting the’i’in’team’: an 
+ego-centric approach to cooperative localization,” in Proc. IEEE Int. Conf. Robotics and Automation , 2003 , vol. 1 , pp. 868 –874.
+[31] L. Riazuelo , J. Civera , and J. Montiel , “C2TAM: A cloud framework for coop-
+erative tracking and mapping,” Robot. Auton. Syst. , vol. 62 , no. 4 , pp. 401 –413
+, 
+2014 .
+ SP
+Authorized licensed use limited to: Univ of  Calif San Diego. Downloaded on July 22,2022 at 22:08:05 UTC from IEEE Xplore.  Restrictions apply. 

@@ -1,0 +1,1455 @@
+DATE DOWNLOADED: Thu Jul 15 00:38:29 2021
+SOURCE: Content Downloaded from HeinOnline
+Citations:
+Bluebook 21st ed.
+			                                                                
+Kevin Funkhouser, Paving the Road Ahead: Autonomous Vehicles, Products Liability, and
+the Need for a New Approach, 2013 UTAH L. REV. 437 (2013).                           
+ALWD 6th ed.                                                                         
+Funkhouser, K. ., Paving the road ahead: Autonomous vehicles, products liability, and
+the need for a new approach, 2013(1) Utah L. Rev. 437 (2013).                        
+APA 7th ed.                                                                          
+Funkhouser, K. (2013). Paving the road ahead: Autonomous vehicles, products
+liability, and the need for new approach. Utah Law Review, 2013(1), 437-vi.          
+Chicago 17th ed.                                                                     
+Kevin Funkhouser, "Paving the Road Ahead: Autonomous Vehicles, Products Liability,
+and the Need for a New Approach," Utah Law Review 2013, no. 1 (2013): 437-vi         
+McGill Guide 9th ed.                                                                 
+Kevin Funkhouser, "Paving the Road Ahead: Autonomous Vehicles, Products Liability,
+and the Need for a New Approach" (2013) 2013:1 Utah L Rev 437.                       
+AGLC 4th ed.                                                                         
+Kevin Funkhouser, 'Paving the Road Ahead: Autonomous Vehicles, Products Liability,
+and the Need for a New Approach' (2013) 2013(1) Utah Law Review 437.                 
+MLA 8th ed.                                                                          
+Funkhouser, Kevin. "Paving the Road Ahead: Autonomous Vehicles, Products Liability,
+and the Need for a New Approach." Utah Law Review, vol. 2013, no. 1, 2013, p. 437-vi.
+HeinOnline.                                                                          
+OSCOLA 4th ed.                                                                       
+Kevin Funkhouser, 'Paving the Road Ahead: Autonomous Vehicles, Products Liability,
+and the Need for a New Approach' (2013) 2013 Utah L Rev 437
+Provided by: 
+UC San Diego Library
+-- Your use of this HeinOnline PDF indicates your acceptance of HeinOnline's Terms and 
+   Conditions of the license agreement available at 
+https://heinonline.org/HOL/License
+-- The search text of this PDF is generated from  uncorrected OCR text.
+-- To obtain permission to use this article beyond the scope of your  license, please use:
+Copyright InformationPAVING THE ROAD AHEAD: AUTONOMOUS VEHICLES, PRODUCTS
+LIABILITY, AND THE NEED FOR A NEW APPROACH
+Kevin Funkhouser*
+I. INTRODUCTION
+Cars that drive themselves may seem about as realistic as Marty McFly's
+DeLorean in Back to the Future, but this is far from the case. Autonomous
+technology is available and in use in many new vehicle models.' In fact, in 2010
+Google announced that the company had successfully built cars capable of driving
+themselves ("autonomous cars").2 Even more amazing, at its 2010 announcement,
+Google also revealed its driverless cars (customized Toyota Prius models) had
+logged over 100,000 miles on public roads.3 As of early 2013, Google's several
+autonomous vehicles have traveled over 300,000 miles, and have yet to cause a
+traffic accident.4
+Autonomous vehicles are not merely a Google pet project; many automobile
+manufacturers have been implementing varying degrees of autonomous technology
+for years.5 More recently, luxury automakers Lexus and Audi both unveiled their
+own versions of fully autonomous cars.6 One of the most fascinating aspects of the
+growth in autonomous vehicle technology is the way that it could dramatically
+improve the safety of automobile travel.7 Google's self-purported goal is to
+* 0 2013 Kevin Funkhouser. J.D. Candidate 2014, University of Utah, S.J. Quinney
+College of Law.
+1 Kurt Ernst, Audi Becomes First Automaker Issued Nevada Autonomous Vehicle
+License, FoxNEWS.COM (Jan. 8, 2013), http://www.foxnews.com/leisure/2013/01/08/audi-
+becomes-first-automaker-issued-nevada-autonomous-vehicle-license/.
+2 Sebastian Thrun, What We're Driving At, GOOGLE OFFICIAL BLOG (Oct. 9, 2010),
+http://www.googleblog.blogspot.com/2010/1 0/what-were-driving-at.html.
+3 Id.
+4 Heather Kelly, Self-Driving Cars Now Legal in California, CNN (Oct 30, 2012,
+12:30 PM), http://www.cnn.com/2012/09/25/tech/innovation/self-driving-car-californial
+index.html.
+5 See, e.g., Phillip Reed, Extra Eyes on the Road, EDMUNDS.COM (May 5, 2009),
+http://www.edmunds.com/car-safety/autovue-lane-departure-warning-system.html; Active
+Cruise Control, BMW http://www.bmw.com/com/en/insights/technology/technology
+guide/articles/active cruise control.html (last visited Feb. 5, 2013).
+6 Mark Hachman, CES 2013: Audi Demonstrates Its Self-Driving Car, POPSCI (Jan.
+9, 2013, 6:00 PM), http://www.popsci.com/cars/article/2013-01/ces-2013-audi-
+demonstrates-its-self-driving-car; Tiffany Hsu, CES: Audi, Lexus Explore Self-Driving
+Cars, L.A. TIMES (Jan. 8, 2013, 2:24 PM), http://www.latimes.com/business/autos/la-fi-hy-
+autos-ces-lexus-audi-driverless-cars-20130109,0,1711753.story.
+7 Early estimates of simpler adaptive cruise control systems installed on Volvo
+models noted a 27% decrease in claims. Peter Valdes-Dapena, Why Google's Self-Driving
+Car May Save Lives, CNN MONEY (May 10, 2012, 5:50 AM), http://www.money.cnn.com/
+2012/05/10/autos/google-driverless-cars-safety/index.htm; see also Viknesh Vijayenthiran,
+437
+UTAH LAW REVIEW
+eliminate all traffic fatalities. Regardless of whether Google ever reaches that
+milestone, it is clear that autonomous vehicles can improve the landscape of
+transportation safety and revolutionize how we travel.
+The importance of autonomous vehicles, and largely the purpose for writing
+this Note, is that they have the potential to drastically reduce the numerous injuries
+and fatalities caused by automobile accidents.9 In 2010 there were over five
+million traffic accidents in the United States.'o Those accidents resulted in nearly
+1.5 million injuries and over thirty-thousand fatalities." While traffic accidents can
+be caused by a variety of factors, human error is often the root cause. For example,
+of the thirty-thousand. fatalities in 2010, about one-third were caused by an
+individual driving with a blood alcohol level of over 0.08%.12 Unfortunately,
+driving under the influence is only the tip of the iceberg in terms of human error in
+automobile accidents. It is rare to find an individual who has not engaged in at
+least some form of distracted driving, whether it is talking on a cell phone, texting
+while driving, or checking email. Even drowsy driving causes thousands of
+accidents each year.13 Autonomous vehicles have the potential to drastically
+reduce, and possibly eliminate altogether traffic accidents that are caused by
+human error.14
+The advantages of autonomous vehicles are not limited to safety. For
+example, altonomous vehicles are likely more efficient drivers than their human
+counterparts.5 Ideally, a standard autonomous vehicle will likely not accelerate out
+of one intersection and then slam on the brakes at the next. Accordingly, as the
+number of autonomous vehicles on the road increases, emissions from automobiles
+Study Finds Early Autonomous Car Tech Reducing Crashes, FOxNEWS.COM (July
+16, 2012), http://www.foxnews.com/leisure/2012/07/16/study-finds-early-autonomous-car-
+tech-already-reducing-crashes/.
+8 See David Coldewey, Robot Cars Could Increase Highway Efficiency 273 Percent:
+Study, NBC NEWS, http://www.nbcnews.com/technology/futureoftech/robot-cars-could-
+increase-highway-efficiency-273-percent-study-978760 (last visited Oct. 26, 2012)
+(asserting that autonomous vehicles working together can make highways more efficient
+and safe); Vijayenthiran, supra note 7 (explaining how autonomous vehicles are already
+preventing crashes).
+9 See generally Valdes-Dapena, supra note 7 (noting the potential safety benefits of
+autonomous vehicles).
+10 NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., DOT HS No. 811 522, TRAFFIC SAFETY
+FACTS: 2010 VEHICLE CRASHES: OVERVIEW 3 (rev. 2012), available at http://www-
+nrd.nhtsa.dot.gov/Pubs/811552.pdf.
+1i Id.
+12 NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., DOT HS No. 811 606, TRAFFIC
+SAFETY FACTS 2010 DATA: ALCOHOL-IMPAIRED DRIVING 1 (2012), available at
+http://www-nrd.nhtsa.dot.gov/Pubs/811606.pdf.
+"3 Nat'l Sleep Found., Facts and Stats, DROWSYDRIVING.ORG,
+http://www.drowsydriving.org/about/facts-and-stats/ (last visited Oct. 26, 2012).
+14 See generally Valdes-Dapena, supra note 7.
+'5 See NIDHI KALRA ET AL., RAND CORP., LIABILITY AND REGULATION OF
+AUTONOMOUS VEHICLE TECHNOLOGIES 1 (2009).438 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+could drop dramatically.'6 In addition to the benefits to the physical environment,
+autonomous vehicles could also have significant social impact. One of the most
+profound potential advantages of autonomous vehicles is their accessibility to
+disabled individuals for whom conventional driving is not possible. In particular,
+those with visual disabilities could experience unprecedented mobility and
+freedom with the advent of autonomous vehicles.
+With the potential benefits of autonomous vehicles, it is no surprise that some
+state legislatures have been spurred into action by the rapid progression of the
+technology. For instance, on September 25, 2012, California followed Nevada's
+and Florida's leads and passed a law to allow autonomous cars on California's
+public roadways.17
+California's new law expressly authorizes autonomous vehicles to operate on
+California roads, and also directs the California Department of Motor Vehicles to
+draft regulations for the operation of autonomous vehicles.18 While California,
+Nevada, and Florida have taken the first important step towards addressing
+autonomous vehicles, all of the legislation is very basic, and none of it begins to
+address the potential liability issues with autonomous vehicles.19
+With the implementation of such groundbreaking technology, the automobile
+industry and transportation as we know it are likely to see significant changes in
+the coming decades.20 To address these changes, the law needs to be ready to
+adapt. Technology advances at a break-neck pace with new inventions and
+advances emerging constantly. The law, sometimes rightly so, does not progress at
+16 id.
+17 See Richard Read, Google's Autonomous Car: Now Street-Legal in California,
+CAR CONNECTION (Sept. 26, 2012), http://www.thecarconnection.com/news/1079422
+googles-autonomous-car-now-street-legal-in-california.
+18 Office of Governor Edmund G. Brown Jr., Governor Brown Signs Bill to Create
+Safety Standards for Self-Driving Cars, CA.GOV (Sept. 25, 2012), http://www.gov.ca.gov/
+news.php?id=17752.
+19 See generally Act of Sept. 25, 2012, 2012 Cal. Stat. ch. 570 (codified at CAL. VEH.
+CODE § 38750 (West Supp. 2013)); Act of Apr. 13, 2012, 2012 Fla. Laws. ch. 2012-111
+(codified at FLA. STAT. ANN. §§ 316.003, 316.85, 319.145 (West Supp. 2013)); Act of June
+16, 2011, 2011 Nev. Stat. 2873 (codified at NEV. REV. STAT. ANN. ch. 482A (LexisNexis
+Supp. 2011)).
+20 See, e.g., Jeff Cobb, By 2040 Autonomous Cars Forecast to Comprise 75 Percent of
+All Vehicles, HYBRIDCARS (Sept. 26, 2012), http://www.hybridcars.com/news/2040-
+autonomous-cars-forecast-comprise-75-percent-all-vehicles-52502.html; GM: Self-Driving
+Vehicles Could Be Ready by End of Decade, GM NEWS (Oct. 16, 2011),
+http://www.media.gm.com/content/media/us/en/gm/news.detail.html/content/Pages/news/u
+s/en/2011/Oct/1016_autonomous.html; Doug Newcomb, You Won't Need a Driver's
+License by 2040, CNN TECH (Sept. 18, 2012, 4:39 PM), http://www.cnn.com/2012/09/18/
+tech/innovation/ieee-2040-cars/index.html; Nissan Car Drives and Parks itself at Ceatec,
+BBC NEWS (Oct. 4, 2012), http://www.bbc.co.uk/news/technology-19829906; Donna Tam,
+Google's Sergey Brin: You'll Ride in Robot Cars Within 5 Years, CNET (Sept. 25, 2012,
+2:01 PM), http://news.cnet.com/8301-11386_3-57520188-76/googles-sergey-brin-youll-
+ride-in-robot-cars-within-5-years/.2013] 439
+UTAH LAW REVIEW
+such a fast clip. While law and technology may evolve to different degrees, they
+are interconnected in a variety of ways. Technology has significantly changed the
+substance and practice of the law. Advances in DNA matching and ballistics are
+just a handful of technological advances that have changed the law. Similarly,
+changes in the law can have significant impacts on the development of technology.
+If a law disfavors a particular product, either because it is unsafe or for some other
+reason, it can often cripple the producer of said product. In this manner, the legal
+landscape can drastically affect the way in which new technology influences
+society.2'
+The implementation of autonomous vehicles is a perfect example of the
+relationship between the law and innovative technology. The concept of cars that
+drive themselves raises a whole host of potential legal concerns. While there are
+countless criminal law questions that arise with such vehicles, this Note will focus
+on what may become the most significant legal hurdle for the implementation of
+autonomous vehicles: products liability. To determine liability in a traditional
+accident, conventional theories of liability primarily apportion liability based on
+manual error by the driver. Accordingly, automobile manufacturers are not held
+liable for the vast majority of the traffic accidents that occur.22 While manufacturer
+liability is still present in cases where a failure of the vehicle causes an accident or
+enhances the damage, the majority of the liability in traffic accidents remains with
+the driver. Traditional liability becomes exponentially more confusing and difficult
+to apply, however, when the "driver" of a vehicle is not a human, but rather a
+complex system of interconnected machinery. The question becomes: Who is
+liable when autonomous cars eventually crash?
+The ultimate goal of this Note is to provide the best solution to this question.
+To most effectively answer the question of liability, this Note is divided into
+several distinct sections. Part II provides a basic description of how autonomous
+vehicles function so as to illustrate the complexity of the legal questions these
+vehicles pose. Next, an overview of products liability law is presented to detail the
+relevant components of the current state of the law. Part III provides an application
+of current products liability law to potential autonomous vehicle claims. Such an
+application will showcase how ill-prepared products liability law is and the
+potential consequences to both manufacturers and potential plaintiffs. To address
+the concerns with current products liability law, Part IV suggests a no-fault
+compensation system that can promote the interests of manufacturers and plaintiffs
+alike.
+21 See Murray Mackay, Liability, Safety, and Innovation in the Automotive Industry, in
+THE LIABILITY MAZE: THE IMPACT OF LIABILITY LAW ON SAFETY AND INNOVATION 191,
+214-15 (Peter W. Huber & Robert E. Litan eds., 1991).
+22 See NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., supra note 12 (detailing traffic
+accident causes, notably those accidents that were caused by alcohol-impaired drivers).440 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+II. BACKGROUND
+Varying degrees of autonomous technology have been present in the
+automobile industry for decades.23 Depending on how one defines "autonomous,"
+traditional devices such as air bags and seatbelts can be qualified as autonomous
+technology. In this basic sense, items that do not require human engagement to act
+are the basic examples of autonomous technology.24 In relation to autonomous
+vehicles, however, the true definition of "autonomous" still varies. For the
+purposes of this Note, autonomous vehicle technology is defined according to a
+more accepted modem definition: "technologies and developments that enable a
+vehicle to assist, make decisions for, and, ultimately, replace a human driver."25
+The following sections provide a foundation that is necessary to understand
+the unique legal concepts that autonomous vehicles raise. Section A provides a
+high-level summary of how autonomous vehicles function and also highlights the
+development of the technology through the example of Google's autonomous
+vehicles. Section B goes on to provide an overview of current products liability
+law that would apply to autonomous vehicles-namely, manufacturing and design
+defect claims.
+A. Autonomous Safety Technology and the Development of the Google Car
+For driverless cars to function, multiple components of autonomous
+technology have to work in sync to direct the vehicle. "Autonomous vehicles,"
+however, is a term that is commonly used to refer to very different technologies.
+For example, two of the more common and currently used examples of
+autonomous vehicle technology are Adaptive Cruise Control (ACC) and Lane
+Departure Warning Systems (LDWS).26 Both automated features assist the human
+driver and reduce the potential for human error.27 ACC is similar to traditional
+cruise control, except that sensors and radar work in correlation to automatically
+adjust the speed of the vehicle based on the activity of the surrounding traffic
+without any driver input.28 Notably though, for ACC to begin acting it must be
+enabled by the driver and can likewise be disabled at the driver's request.29 LDWS
+23 See Daniel Bartz, Autonomous Cars Will Make Us Safer, WIRED (Nov. 16, 2009,
+8:00 AM), http://www.wired.com/autopia/2009/1 I/autonomous-cars (discussing early
+predictions and hopes of autonomous technology as well as a General Motors group that
+attem ted to develop automated highway technology in 1950).
+4 See NIDHI KALRA ET AL., supra note 15, at 3.
+251 Id. at 1.
+26 Larry Carley, Active Safety Technology: Adaptive Cruise Control, Lane Departure
+Warning & Collision Mitigation Braking, IMPORTCAR (June 16, 2009), http://www.import-
+car.com/Article/58867/active-safetyjtechnology adaptive cruisecontrol-lanedeparture-
+warning-collision-mitigation_ braking.aspx.
+27 Id.
+28 Id.
+29 Id.2013] 441
+UTAH LAW REVIEW
+use cameras or sensors that monitor the location of the vehicle with respect to other
+traffic30 and alert drivers if they begin drifting out of their lane.31 LDWS became a
+priority after a 1999 National Highway Traffic Safety Administration (NHTSA)
+study noted that 62,000 traffic accidents occurred as a result of drifting.32 If the
+system detects drifting or changing lanes without signaling, the system will alert
+the driver through audial and visual warnings.33
+While both ACC and LDWS are examples of autonomous vehicle technology,
+they do not spark the same legal concerns as fully autonomous vehicles because,
+while ACC and LDWS are autonomous technologies in the sense that they act
+automatically, they do not take full control of all vehicle functions (notably
+steering), and they require driver input. As such, they are more aptly
+characterized as "partial control systems."35 Partial control systems are certainly
+examples of autonomous technology, but because of the difference noted above,
+their presence in a car is insufficient, on its own, to consider the car an autonomous
+vehicle.
+The diagram from the RAND study shown below clarifies the varying degrees
+of autonomous technology in vehicles. Starting on the left with conventional
+automobiles, as the diagram moves to the right, the automated systems begin to
+take more control of the vehicle as human input decreases.36
+Driver-warning Short-term driving
+systems (e-g., forward systems (e.g. ACC and
+collision warning) lane keeping combined)
+Conventional Partial control systems Autonomous vehicles Driverless cars
+vehicles (e.g., ACC and precrash with driver-in-the-
+safety) loop
+For purposes of consistency, any autonomous vehicle mentioned in this Note
+refers to "autonomous vehicles with driver-in-the-loop," as referenced in the table.
+Stated more simply, this means that the vehicle is navigating without human input,
+but still with a human in the driver seat who can take control if a failure in
+automation were to occur. The distinction between such an arrangement and a truly
+driverless car is that in a driverless car, as the name implies, there would be no
+30 Id.
+3' Id.
+32 BASAV SEN ET AL., U.S. DEP'T OF TRANSP., DOT HS No. 809 571, ANALYSIS OF
+LANE CHANGE CRASHES, at viii (2003), available at http://www.nhtsa.gov/DOT/NHTSA/
+NRD/Multimedia/PDFs/Crash%20Avoidance/2003/DOTHS80957 1.pdf.
+33 Carley, supra note 26.
+34 Id.
+3 NIDHI KALRA ET AL., supra note 15, at 4-5.
+36 Id. at 4.442 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+human participant in the driver seat. While truly driverless cars are an eventual
+possibility, early legislation shows that the more likely scenario is that there will
+need to be a licensed human in the vehicle for the purpose of a safety backup.37
+As noted in the Introduction, there are numerous automakers invested in the
+development of autonomous vehicles. Google has been at the forefront of the
+development in the United States, and its history of autonomous vehicle
+development has been more widely publicized. Thus, this Note will focus on
+autonomous vehicles as developed by Google. While the technology that powers
+autonomous vehicles varies among developers, Google's model of autonomous
+vehicles provides enough of a general representation to address the legal issues
+presented by autonomous vehicles as a whole.
+In traditional vehicles, the human driver handles virtually all of the interaction
+and response between the vehicle and the surrounding environment. The driver
+evaluates the surroundings (speed limit signs, lanes, weather, etc.), determines how
+the vehicle will perform (change lanes, speed up, slow down, etc.), and then
+ultimately decides how to execute that performance (accelerating through a turn,
+how far to turn the steering wheel, etc.).38 Further, the driver must also provide
+relevant information to the environment, such as waving another vehicle through
+an intersection or engaging the blinker to signal a turn.39 In a traditional
+automobile, the only autonomous response that the car exhibits occurs when the
+environment impacts the vehicle in some manner (e.g., airbags that deploy upon
+contact).40
+For autonomous vehicles to function, different types of advanced
+technologies, working in concert with each other, perform all of the tasks detailed
+above.41 In the case of Google's fleet of autonomous vehicles, the company took
+conventional Toyota Prius models and equipped them with a variety of advanced
+equipment that allows the car to execute the functions of a traditional driver.42 One
+of the essential components that the autonomous car uses is a rotating Light
+Detection and Ranging (LiDar) unit on the roof.43 The LiDar system scans two
+37 CAL. VEH. CODE § 38750(b)(2) (West Supp. 2013) (effective Jan. 1, 2013) ("The
+driver shall be seated in the driver's seat, monitoring the safe operation of the autonomous
+vehicle, and capable of taking over immediate manual control ... in the event of an ...
+emergency."); see FLA. STAT. ANN. § 316.85(1) (West Supp. 2013) (effective July 1, 2012)
+("A person who possesses a valid driver license may operate an autonomous vehicle in
+autonomous mode."); NEV. REv. STAT. ANN. § 482A.200 (LexisNexis Supp. 2011)
+(effective Mar. 1, 2012) (extending to autonomous vehicles the requirement of a driver's
+license to operate the vehicle).
+38 NIDHI KALRA ET AL., supra note 15, at 6.
+39id.
+40 Id.
+41 Id.; Thrun, supra note 2.
+42 John Markoff, Google Cars Drive Themselves, in Traffic, N.Y. TIMES (Oct. 9,
+2010), http://www.nytimes.com/20 10/10/10/science/ I Ogoogle.html?r-0.
+43 See Travis Deyle, Velodyne HDL-64E Laser Rangefinder (LIDAR) Pseudo-
+Disassembled, HIZOOK (Jan. 4, 2009), http://www.hizook.com/blog/2009/01/04/velodyne-
+hdl-64e-laser-rangefinder-lidar-pseudo-disassembled.2013] 443
+UTAH LAW REVIEW
+hundred feet around the vehicle in each direction and creates a type of three-
+dimensional schematic of the car's surroundings.44 To locate the vehicle within the
+environment, the left rear wheel is equipped with a position estimator.45 The LiDar
+and position estimator work in conjunction with a mounted video camera and radar
+sensors to "see" what is going on in the car's environment.46 This allows the car to
+respond when it notes identifying features in the surrounding environment, such as
+traffic lights and pedestrians.47 The last component is a sophisticated computer
+located in the back of the vehicle.48 This device processes all of the real-time data
+and directs the car as to how it should respond and safely interact with the
+environment.49
+In an oversimplified description, the computer acts similarly to a brain as it
+combines and analyzes the information in order to ultimately direct the actions of
+the vehicle.o The ability to analyze and direct the vehicle is an extremely
+complicated process that involves complex communication between advanced
+technology features, an aspect that has significant implications for the legal issues
+regarding autonomous vehicles. In traditional vehicles, the human driver analyzes
+the surrounding environment and makes decisions about how to direct the vehicle
+based on that analysis. In autonomous vehicles, however, the computer makes this
+"decision" based on data collected by the various other hardware features. This
+computer-based decisionmaking raises several questions: What happens when this
+decisionmaking process results in an accident? What if Google's self-driving car
+swerves into oncoming traffic to avoid a toddler crossing the street?
+B. Overview of Current Products Liability Law
+In modem products liability cases, there are four primary claims under which
+a plaintiff may seek remedy from the manufacturer or seller of a product:
+negligence, breach of warranty, tortious misrepresentation, and strict liability.52 In
+any products liability case, a plaintiff must show that (1) the defendant sold a
+defective product, and (2) the defect was the proximate cause of the plaintiffs
+injury.53 While breach of warranty and tortious misrepresentation claims may be
+4 Graphic: How Google's Driverless Car Works, MERCURYNEWS.COM (Sept. 25,
+2012, 3:15 PM), http://www.mercurynews.com/business/ci_21627954/graphic-how-
+google-driverless-car-works-robot-jerry-brown-law.
+45 Id.
+46 id.
+47 Id.
+48 See Erico Guizzo, How Google's Self-Driving Car Works, IEEE Spectrum (Oct. 18,
+2011, 9:00 GMT), http://www.spectrum.ieee.org/automaton/robotics/artificial-intelligence/
+how-google-self-driving-car-works.
+49 See id.
+5o See NIDHI KALRA ET AL., supra note 15, at 8.
+51 Id.
+52 MICHAEL 1. KRAuSS, PRINCIPLES OF PRODUCTS LIABILITY 40 (2011).
+5 DAVID G. OWEN, PRODUCTS LIABILITY LAw 261 (2005).444 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+somewhat interesting when applied to autonomous cars, products liability claims
+seem to require a more robust discussion. Further, a discussion of strict liability
+largely parallels suits brought under negligence, and thus a large part of the
+54analysis is similar. Moving to the different claims brought in automobile cases,
+crashworthiness does not, at first glance, present any uniquely difficult issues.
+While autonomous technology may modify vehicle design, the doctrine of
+crashworthiness seems to be equipped to address any new issues. Thus, for
+purposes of impact and brevity, this Note will primarily address autonomous cars
+under a strict liability scheme and will detail liability for automobile defects that
+cause accidents.
+Strict products liability is considered the prominent legal theory by which
+plaintiffs can recover for losses caused by defective products. The roots of strict
+liability are found in Justice Traynor's concurring opinion in the case of Escola v.
+Coca Cola Bottling Co.56 Justice Traynor lists several reasons supporting the
+implementation of a strict liability scheme with regard to products, notably that the
+manufacturers and sellers of products are better suited than the public to bear the
+burden when accidents occur.57 Traynor's opinion later became embodied in the
+Restatement (Second) of Torts (hereinafter Second Restatement) which ascribes
+liability to one who sells a product in a "defective condition unreasonably
+dangerous to the user," even if the seller has "exercised all possible care in the
+preparation and sale of [the] product."58 While the Restatement (Third) of Torts:
+Products Liability (hereinafter Third Restatement) has attempted to push back on
+the concept of strict liability, it has not been widely recognized and the majority of
+courts follow an approach more analogous to that listed in the Second
+Restatement.59
+54 KRAuss, supra note 52, at 41.
+5 1 Louis R. FRUMER & MELVIN I. FRIEDMAN, PRODUCTS LIABILITY § 8.01(1) (Cary
+Stewart Sklaren ed., 2012).
+56 150 P.2d 436, 440 (Cal. 1944) (Traynor, J., concurring).
+" Id. at 440-41.
+5 RESTATEMENT (SECOND) OF TORTS § 402(A) (1965). The full section reads:
+(1) One who sells any product in a defective condition unreasonably
+dangerous to the user or consumer or to his property is subject to liability for
+physical harm thereby caused to the ultimate user or consumer, or to his
+property, if (a) the seller is engaged in the business of selling such a product,
+and (b) it is expected to and does reach the user or consumer without substantial
+change in the condition in which it is sold. (2) The rule stated in Subsection (1)
+applies although (a) the seller has exercised all possible care in the preparation
+and sale of his product, and (b) the user or consumer has not bought the product
+from or entered into any contractual relation with the seller.
+Id.
+s9 KRAuss, supra note 52, at 72 n.3.2013] 445
+UTAH LAW REVIEW
+Recovery under a strict liability scheme similar to that detailed in the Second
+Restatement requires that a product be defective in some manner.60 There are three
+primary defect claims available to plaintiffs in products liability cases: a
+manufacturing defect claim, a design defect claim, and a warning defect claim
+(sometimes referred to as an informational defect).61 With respect to autonomous
+vehicles, manufacturing defect and design defect claims seem to present the most
+profound issues. Warning defect claims generally focus on the safety information
+that a seller gives a buyer and disclosure of potential risks.62 For purposes of
+brevity, the following paragraphs will focus solely on manufacturing and design
+defect claims.
+1. Manufacturing Defect Claims
+In general, strict liability in tort has been, and currently is, the preferred
+method for recovery in manufacturing defect cases.63 The backbone of
+manufacturing defect claims is that "while consumers may abstractly comprehend
+the practical necessity of allowing imperfect production, their actual expectation
+when purchasing a new product is that its important attributes, including safety,
+will match those of other similar units."6 In many cases, there has been no specific
+test applied to manufacturing defect claims.5 In recent years, however, courts have
+begun to primarily use two different tests to apportion liability.66 The first is a
+"departure from intended design" test, which functions as the name implies: when
+a design departs from the original, liability may be imposed. Second is the
+malfunction doctrine, which is used when circumstances suggest a product defect,
+but there may be no direct evidence of one.68 Such an approach requires a more
+circumstantial means of demonstrating liability.69
+The departure from the intended design test stems from the Third
+Restatement, which states that a product "contains a manufacturing defect when
+the product departs from its intended design even though all possible care was
+exercised in the preparation and marketing of the product."70 Since the publishing
+of the Third Restatement in 1998, an increasing number of courts have used some
+variation of this approach when defining manufacturing defects,71 and several
+60 RESTATEMENT (SECOND) OF TORTS § 402(A).
+61 See KRAUSS, supra note 52, at 73.62 Id. at 41.
+63 David G. Owen, Manufacturing Defects, 53 S.C. L. REV. 851, 863 (2002).
+' Id. at 862.
+65 Id. at 865.
+66 Id.
+67 Id. at 865-75.
+.68 Id.
+69 Id. at 865.
+70 RESTATEMENT (THIRD) OF TORTS: PRODUCTS LIABILITY § 2(a) (1998).
+71 See, e.g., Perez-Trujillo v. Volvo Car Corp., 137 F.3d 50, 53 (1st Cir. 1998)
+(holding that a manufacturing defect exists if the product differs from the manufacturer's446 [No. 1
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+states have enacted statutes defining manufacturing defects in a similar fashion.72
+In statutes and cases that address manufacturing defect claims under the departure
+from design theory, plaintiffs establish defectiveness either by comparing the
+product that caused the incident to the manufacturer's formal design specifications,
+or by comparing the faulty product with the dimensions and other parameters of
+some otherwise identical product.73
+In many manufacturing defect cases a plaintiff can use direct evidence that a
+product had an identifiable production defect and that the defect caused the
+injury.74 Sometimes a product malfunctions, however, and evidence of a defect is
+not apparent, or perhaps does not exist at all. In cases where direct evidence is
+seemingly unavailable, plaintiffs can still make a prima facie products liability case
+under the malfunction doctrine. The malfunction doctrine is similar to a res ipsa
+loquitur approach, and a court may allow the inference of a defect if (1) the
+product malfunctioned, (2) the malfunction occurred during regular and proper use
+of the product, and (3) the product was not altered or misused in such a way that
+could cause the malfunction.77 While the malfunction doctrine and res ipsa
+loquitur share several aspects in common, scholars and courts are quick to note
+that a res ipsa loquitur approach is different because it still raises the question of
+negligence, whereas the malfunction doctrine works under strict liability where
+negligence is not applicable.
+In applying the malfunction doctrine, courts generally take one of two
+approaches. Some courts treat the malfunction doctrine as a strict test, whereas
+others treat it as more of a principle of evidence that allows circumstantial
+intended design or other pieces from the same line); McKenzie v. S K Hand Tool Corp.,
+650 N.E.2d 612, 616 (111. App. Ct. 1995) (finding a manufacturing defect "because the
+measurements of the parts of the wrench were shown not to comply with the
+manufacturer's specifications"); Allstate Ins. Co. v. Ford Motor Co., 772 So. 2d 339, 344
+(La. Ct. App. 2000) (holding a manufacturing defect exists where a "product deviated in a
+material way from the manufacturer's specifications or performance standards for the
+product or from otherwise identical products manufactured by the same manufacturer").
+72 See LA. REV. STAT. ANN. § 9:2800.55 (2009); N.J. STAT. ANN. § 2A:58C-2 (West
+2000); OHIO REV. CODE ANN. § 2307.74 (LexisNexis 2010).
+7 Owen, supra note 63, at 870.
+74 Id. at 872.
+7 Id.
+7 Id. at 873. The doctrine is used by name in several jurisdictions, including
+Pennsylvania, which has the most developed history on the theory. See, e.g., Rogers v.
+Johnson & Johnson Prods., Inc., 565 A.2d 751, 754 (Pa. 1989); Ducko v. Chrysler Motors
+Corp., 639 A.2d 1204, 1205-06 (Pa. Super. Ct. 1994); Troy v. Kampgrounds of Am., Inc.,
+581 A.2d 665, 668 (Pa. Super. Ct. 1990). Other courts use the same principles, but label it
+as the indeterminate defect theory. See Myrlak v. Port Auth., 723 A.2d 45, 55-56 (N.J.
+1999). A last variation of the same principle is called a general defect. See Corcoran v.
+Gen. Motors Corp., 81 F. Supp. 2d 55, 66 (D.D.C. 2000).
+77 Owen, supra note 63, at 873.
+78 1 DAVID G. OWEN ET AL., MADDEN & OWEN ON PRODUCTS LIABILITY § 7:12, at
+431 (3d ed. 2000).2013] 447
+UTAH LAW REVIEW
+evidence to be used to infer a defect.79 The malfunction doctrine as embodied in
+the Third Restatementso is frequently applied in cases involving automobiles.1
+Automobile accident cases fit well within the malfunction doctrine because in
+many cases the evidence showing a manufacturing defect is entirely destroyed or
+damaged beyond use. In particular, plaintiffs tend to use the malfunction doctrine
+in cases of steering failures,82 brake failures,83 and cases where inexplicable
+acceleration causes an accident.84 While the malfunction doctrine offers an
+attractive option for plaintiffs in automobile products liability cases, it is not
+limitless. Courts note that while the doctrine does provide for the admission of
+circumstantial evidence to show a defect, "the law will not allow plaintiffs or juries
+to rely on guess, conjecture, or speculation."85
+2. Design Defect Claims
+Design defect claims generally highlight defects that have the potential to be
+much more widespread and catastrophic86 while manufacturing defect claims
+usually address a single incident where an anomaly in the manufacturing process
+has caused an unsafe alteration to one product.87 Design defect claims generally
+79 Id.
+80 Section 3 states that a defect can be inferred when it "a) was of a kind that
+ordinarily occurs as a result of a product defect; and b) was not, in the particular case,
+solely the result of causes other than the product defect existing at the time of sale or
+distribution." RESTATEMENT (THIRD) OF TORTS: PRODUCTS LIABILITY § 3 (1998).
+81 Owen, supra note 63, at 875.
+82 See, e.g., Stewart v. Ford Motor Co., 553 F.2d 130 (D.C. Cir. 1977) (involving a
+vehicle that was only twelve days old and had traveled just over one thousand
+miles); Stewart v. Budget Rent-A-Car Corp., 470 P.2d 240 (Haw. 1970) (involving a
+vehicle with nearly three thousand miles); Caprara v. Chrysler Corp., 423 N.Y.S.2d 694
+(App. Div. 1979), aff'd on other grounds, 417 N.E.2d 545 (N.Y. 1981).
+83 See, e.g., Tweedy v. Wright Ford Sales, Inc., 357 N.E.2d 449, 450 (1ll. 1976)
+(involving brakes that failed to perform on a vehicle that had been driven only 7,500
+miles); Vernon v. Stash, 532 A.2d 441 (Pa. Super. Ct. 1987) (involving the failure of a
+parking brake); Darryl v. Ford Motor Co., 440 S.W.2d 630, 632 (Tex. 1969) (involving the
+failure of brakes on a truck that was only months old and had fewer than one thousand
+miles).
+84 See, e.g., Wakabayashi v. Hertz Corp., 660 P.2d 1309, 1311 (Haw. 1983)
+(involving a vehicle that was nearly two years old that had been driven over twenty-two
+thousand miles); Jurls v. Ford Motor Co., 752 So. 2d 260, 262 (La. Ct. App.
+2000) (involving the failure of cruise control to correctly disengage); Phipps v. Gen.
+Motors Corp., 363 A.2d 955, 956 (Md. 1976) (involving the failure of an accelerator in a
+truck).
+85 Owen, supra note 63, at 878; see also Willard v. BIC Corp., 788 F. Supp. 1059,
+1064 (W.D. Mo. 1991); State Farm Fire & Cas. Co. v. Chrysler Corp., 523 N.E.2d 489,
+496-97 (Ohio 1988).
+86 KRAusS, supra note 52, at 81.
+87 Id.448 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+involve numerous products and sometimes even an entire line of automobiles.88
+When plaintiffs make a design defect claim, they are not asserting that an
+individual product was defective because it was not built according to the design
+specifications-as would be the case in a manufacturing defect claim-but that the
+design as a whole was defective.89 This presents a much larger issue for
+manufacturers and retailers because, if the design defect claim is valid, then defects
+exist in their entire line of products, subjecting them to potentially massive liability
+costs. Automobile design defects are often the cause of major product safety
+recalls, and if not quickly remedied, could bring about massive class action
+lawsuits.90
+Nearly all states follow some variation of the Second Restatement's
+embodiment of design defect, which ascribes strict liability to manufacturers or
+retailers if the design is defective and unreasonably dangerous.91 While the Third
+Restatement seemingly has attempted to push back at the notion of strict liability
+for design defect, courts still tend to follow a rule that is more in line with the
+Second Restatement.92 When deciding design defect claims, courts use two primary
+tests to determine the defectiveness of a design: (1) the consumer expectations test,
+and (2) the risk-utility test.93
+The consumer expectations test evaluates the defectiveness of a design based
+on whether "the danger posed by the design is greater than an ordinary consumer
+would expect when using the product in an intended or reasonably foreseeable
+manner."94 Under the consumer expectations test, consumers must have "sufficient
+knowledge or familiarity with the design of the product to have reasonable
+expectations about its safety and performance."95 Although such a definition is
+88 Id.
+89 Id.
+90 A very recent example of the implications of design defect claims is the Toyota
+unexpected acceleration claims. Andrew Dalton, Toyota Settles in Case of 2 Killed in Utah
+Crash, YAHOO! FIN. (Jan. 18, 2013, 9:19 AM), http://finance.yahoo.com/news/toyota-
+settles-case-2-killed-utah-crash-091121534--finance.html.
+91 KRAUSS, supra note 52, at 83; RESTATEMENT (SECOND) OF TORTS § 402A (1965).
+92 See KRAUSS, supra note 52, at 83. The Third Restatement states that a design is
+defective
+when the foreseeable risks of harm posed by the product could have been
+reduced or avoided by the adoption of a reasonable alternative design by the
+seller or other distributor, or a predecessor in the commercial chain of
+distribution, and the omission of the alternative design renders the product not
+reasonably safe.
+RESTATEMENT (THIRD) OF TORTS: PRODS. LIAB. § 2(b) (1998).
+9 KRAUSS, supra note 52, at 84-89 (discussing consumer expectation test); OWEN ET
+AL., supra note 78, § 8:5, at 463 (discussing risk-utility test).
+94 TERRENCE F. KIELY & BRUCE L. OTTLEY, UNDERSTANDING PRODUCTS LIABILITY
+LAW 135 (2006).
+9'Id. at 138-39.2013] 449
+UTAH LAW REVIEW
+applicable in some cases, the consumer expectations test is often difficult to apply
+to complex products such as automobiles.96
+While the consumer expectations test is still in use in certain jurisdictions,
+there has been some discontent with its application.97 As a result, the risk-utility
+test has emerged as the dominant test in design defect claims.98 Under the risk-
+utility test, plaintiffs can succeed in proving a design defect if they demonstrate
+"the product's design proximately caused [their] injury and the defendant fails to
+establish, in light of the relevant factors, that, on balance, the benefits of the
+challenged design outweigh the risk of danger inherent in such design."99
+Analysis under the risk-utility test falls in line with principles first set forth in
+an article by Dean John Wade, the American Law Institute's Reporter for the
+Second Restatement.00 Dean Wade lists seven factors to weigh in considering the
+risk-utility test:
+(1) The usefulness and desirability of the-product-it's utility to the user
+and to the public as a whole.
+(2) The safety aspects of the product-the likelihood that it will cause
+injury, and the probable seriousness of the injury.
+(3) The availability of a substitute product which would meet the same
+need and not be as unsafe.
+(4) The manufacturer's ability to eliminate the unsafe character of the
+product without impairing its usefulness or making it too expensive to
+maintain its utility.
+(5) The user's ability to avoid danger by the exercise of care in the use of
+the product.
+(6) The user's anticipated awareness of the dangers inherent in the
+product and their avoidability, because of general public knowledge of
+the obvious condition of the product, or of the existence of suitable
+warnings or instructions.
+(7) The feasibility, on the part of the manufacturer, of spreading the loss
+by setting the price of the product or carrying liability insurance. fo
+These factors are used to aid the court in deciding when there is a defect in design,
+but due to the nature of their composition, often result in a subjective analysis of
+defect. The ultimate goal of the risk-utility test is to determine if an accident could
+96 See id. at 139.
+97 KRAUSS, supra note 52, at 87, 89.
+98 See John W. Wade, On the Nature of Strict Tort Liability for Products, 44 Miss.
+L.J. 825, 837-38 (1973) (providing an early example of the discontent with the consumer
+expectations test and noting the need for an alternative test in design defect cases).
+99 Barker v. Lull Eng'g Co., 573 P.2d 443, 456 (Cal. 1978).
+100 KRAUSS, supra note 52, at 88; Wade, supra note 98, at 837-38.
+1o1 KRAUSS, supra note 52, at 88; Wade, supra note 98, at 837-38.450 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+have caused less damage or been avoided altogether if a reasonable alternative
+design had been used.102
+Both the consumer expectations test and risk-utility test have been applied to
+cases involving automobile design defects. Each theory presents its own
+advantages and disadvantages, and as such, some states use a combination of the
+two tests.103 Regardless of which theory is applied, or even if a combination of the
+two is used, each approach can ultimately require a subjective analysis by the
+decisionmaker. Especially in cases of new technology, it becomes increasingly
+difficult to determine reasonable expectations about a product and its safety
+features. Further, when a technology is novel, it is more difficult to determine if an
+alternative design-if there is one-would have provided better safety.
+III. PRODUCTS LIABILITY APPLIED TO AUTONOMOUS VEHICLES: SQUARE PEG,
+ROUND HOLE
+According to U.S. census data, from 2006 until 2009 in the United States
+alone, there were over thirty million automobile accidents resulting in over one
+hundred thousand fatalities.'04 Of the thousands of traffic accidents that occur each
+day, human error is involved in many of those cases.'0o If early estimates about
+autonomous vehicles prove to be even close to accurate, their widespread
+implementation could lead to one of the greatest safety advances in decades.'06
+Especially in cases where distracted driving causes an accident, such as with
+drowsy driving or use of a cell phone, autonomous cars have serious potential to
+make the roadways a safer place for everyone involved.
+While the potential safety benefits of autonomous vehicles are fairly clear, the
+legal course for them is not. There are thousands of vehicle accidents each day, and
+while autonomous vehicles are likely to be much safer than their human
+counterparts, they will inevitably be involved in accidents.'0o The following
+sections will address autonomous vehicle accidents and two potential forms of
+liability. Section A shows that applying conventional products liability law to
+autonomous vehicles will be difficult and inconsistent, will likely harm consumers
+and potential plaintiffs, and will delay the implementation of a beneficial safety
+technology. To avoid the problems with conventional products liability, Section B
+102 See OWEN ET AL., supra note 78, § 8:5, at 463 (quoting McCarthy v. Olin Corp.,
+119 F.3d 148, 155 (2d Cir. 1997)).
+103 See Caterpillar Tractor Co. v. Beck, 593 P.2d 871, 884-87 (Alaska 1979) (using a
+form of both the risk-utility and consumer expectations tests).
+' U.S. CENSUS BUREAU, STATISTICAL ABSTRACT OF THE UNITED STATES: 2012, at
+693 tbl.1 103 (2012), available at http://www.census.gov/prod/201 Ipubs/12statab/trans.pdf.
+'os See generally NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., supra note 10, at 2
+(noting with particularity the accidents, such as those caused by drunk driving where
+human error is a component).
+106 See Thrun, supra note 2 (suggesting that autonomous vehicle technology has the
+potential to reduce traffic accident casualties by as much as half).
+1o See U.S. CENSUS BUREAU, supra note 104.2013] 451
+UTAH LAW REVIEW
+suggests a federal no-fault compensation system, similar to the system used for
+vaccine product claims, as a more efficient and stable regime for liability claims
+relating to autonomous vehicles.
+A. Problems Applying Current Products Liability Law to Autonomous Vehicles
+Products liability cases involving traditional automobiles are difficult enough
+as it is.'08 Manufacturers may be subjected to liability even in cases where no
+definitive evidence of defect can be shown.109 On the flip side, injured plaintiffs
+may suffer because of the difficulty involved in proving a defect in complicated
+technology like automobiles.o The consequences to both manufacturers and
+plaintiffs will likely only become more difficult with the advent of autonomous
+vehicles. The following sections address the problems associated with bringing a
+claim involving an autonomous vehicle. Section 1 provides an analysis of
+autonomous vehicle crashes for manufacturing defect claims, and Section 2 does
+the same for design defect claims.
+1. Autonomous Vehicles Under a Manufacturing Defect Claim
+Autonomous vehicles, when implemented, will likely cause a significant shift
+in liability away from customers and onto manufacturers."' The extent to which
+this will occur will largely depend on the development of the law relating to
+autonomous vehicles. Currently, states have been hesitant to give autonomous
+vehicles full control, and the early state statutes that address autonomous vehicles
+require a licensed driver to be able to take control of the vehicle in the event of
+some system failure."12 Under such statutes, it seems possible that manufacturers
+could deflect some liability for accidents based on principles similar to human
+failures in traditional accidents.
+108 See Greg Risling, Settlements May Signal Toyota's Legal Strategy, Bos. GLOBE
+(Jan. 19, 2013), http://www.bostonglobe.com/business/2013/01/19/toyota-settles-case-
+killed-utah-crash/jx7BLYOdSYUSYEzdFziGIM/story.html (noting the two divergent
+claims presented as the cause of numerous Toyota models unexpectedly accelerating and
+causing accidents).
+109 See Chris Woodyard, Toyota to Pay $1. lB in "Unintended Acceleration" Cases,
+USA TODAY (Dec. 26, 2012, 8:27 PM), http://www.usatoday.com/story/money/cars/2012/
+12/26/toyota-unintended-acceleration-runaway-cars/1792477/ (highlighting the potential
+for substantial costs to manufacturers).
+110 See Csaba Csere, It's All Your Fault: The DOT Renders Its Verdict on Toyota's
+Unintended Acceleration Scare, CAR & DRIVER, http://www.caranddriver.com/features/its-
+all-your-fault-the-dot-renders-its-verdict-on-toyotas-unintended-acceleration-scare-feature
+(last visited Mar. 3, 2013) (noting the difficulty plaintiffs can have in actually showing that
+a defect was the cause of the accident).
+NIDHI KALRA ET AL., supra note 15, at ix.
+112 CAL. VEH. CODE § 38750(b)(2) (West Supp. 2013) (effective Jan. 1, 2013); FLA.
+STAT. ANN. § 316.85(1) (West Supp. 2013) (effective July 1, 2012).452 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+Nevertheless, autonomous vehicles are generally designed to replace human
+intervention with a safer alternative.' By having the vehicle perform the tasks of
+a human driver, however, manufacturers risk the vehicle incurring the same
+liability that a human driver would. How long it will take for autonomous cars to
+replace human drivers is uncertain,'l4 but it is inevitable that these vehicles are
+going to cause accidents, and plaintiffs will inevitably seek recourse. Of the
+products liability claims discussed in this Note, manufacturing defect claims are
+the most natural means to address autonomous vehicles. While manufacturing
+defect claims may currently be best suited to address autonomous vehicles, they
+are not without significant problems, Namely, this Note argues that manufacturing
+defect claims could provide significant obstacles to plaintiffs seeking redress,
+enhance the uncertainty of liability costs to manufacturers, and ultimately slow the
+implementation of autonomous vehicles.
+While autonomous vehicles will present unique issues and hurdles under
+manufacturing defect claims, it is important to note that there are many instances
+where such claims may be well equipped to deal with autonomous vehicles. If a
+radar sensor is not installed according to specifications and that faulty installation
+causes an accident, the manufacturer will be liable. In general, it seems apparent if
+autonomous vehicles are manufactured incorrectly or components fail, liability will
+fall to the manufacturer. In such clear situations, the manufacturing defect test is
+completely capable of addressing autonomous vehicles defects. While these claims
+will afford future plaintiffs redress, they will likely not occur with any type of
+frequency. Advances in manufacturing and fabrication technology have reduced
+the rate of defects and will likely continue to improve in the future.'"s
+Autonomous vehicles are likely-to improve the safety of vehicle travel, but it
+will be many years, if ever, before human drivers are ultimately replaced. What
+that means is that there will continue to be drivers who drive while drowsy or are
+distracted by their cell phones, and ultimately there will continue to be human error
+in driving. While autonomous cars will likely enhance vehicle travel safety, it is
+seemingly impossible that they will be able to navigate the roads entirely without
+incident.
+In addition to cases where a defect in production is clear, the malfunction
+doctrine can also offer an avenue for recovery in cases where autonomous vehicles
+crash, but no direct evidence of a defect is available."16 Recall that the malfunction
+doctrine contains three basic elements: (1) the product malfunctioned, (2) the
+malfunction occurred during a regular and proper use of the product, and (3) the
+product was not altered or misused in a way that could lead to the malfunction."'
+By allowing circumstantial evidence, the malfunction doctrine allows a
+" For a more detailed description of how autonomous vehicles perform the tasks of a
+traditional human driver, see supra Part II.A.
+114 See text accompanying and sources cited supra note 20.
+" NIDHI KALRA ET AL., supra note 15, at 28.
+116 See Owen, supra note 63, at 873 ("[A] product defect may be inferred by
+circumstantial evidence ....").
+"7See supra Part 1I.B. 1.2013] 453
+UTAH LAW REVIEW
+decisionmaker to infer the presence of a defect.'18 While this aspect of the
+malfunction doctrine can be applicable to autonomous vehicles, it presents
+problems for both manufacturers and plaintiffs.
+The malfunction doctrine would likely negatively affect manufacturers of
+autonomous vehicles because it could subject them to liability in cases where no
+defect was present. Driving is a notoriously unsafe practice, and while autonomous
+vehicles can improve that, it is still a risk-involved activity. With traditional human
+drivers behind the wheel there are occasionally no-fault accidents. Cars crash, but
+responsibility is not necessarily pinned on one specific individual. With
+autonomous cars, that would likely change. The malfunction doctrine permits
+manufacturing defect claims where evidence allows the inference of a defect. At a
+very basic level, autonomous vehicles take control away from the driver and place
+it with the vehicle. In cases where autonomous vehicles crash, the very fact that the
+vehicle crashed seems to be evidence that supports a defect. Autonomous vehicles
+are not intended to crash, and so when one does, it would seem that plaintiffs
+would be incentivized to bring a products liability suit under the malfunction
+doctrine.
+It will likely take considerable time for courts to develop a predictable
+jurisprudence with respect to the malfunction doctrine as applied to autonomous
+vehicles. If plaintiffs are incentivized to bring a manufacturing defect claim every
+time an autonomous vehicle crashes, then during such a period the costs of
+defending constant product liability claims would place a heavy burden on
+manufacturers. While predictions are that autonomous vehicles will be safer than
+their human driver counterparts, it is impossible to predict how frequently they will
+be involved in accidents. Regardless of the circumstances of a potential accident,
+because autonomous vehicles take control away from a human driver, any crash
+draws the manufacturer's liability into question. Thus, it is certainly rational for
+manufacturers to be reluctant to subject themselves to such speculative liability. If
+the economic incentive is overcome by the costs of potential litigation, society may
+be deprived of the significant safety benefits that autonomous vehicle could
+provide.
+The malfunction doctrine also presents problems for plaintiffs. It is entirely
+conceivable that an autonomous vehicle may crash while operating in a fully
+functional capacity. For instance, imagine a toddler runs across the street in front
+of an autonomous car and the car slams on the brakes and swerves to avoid the
+toddler, ultimately crashing into another vehicle. The car did not have a defect that
+caused the accident, but performed according to design when swerving to avoid the
+toddler. With traditional vehicles, when a driver overreacts to an environmental
+circumstance and causes an accident, the driver is liable.
+When human drivers operate a vehicle, they analyze their surroundings, make
+decisions, and take action. Autonomous vehicles however, require a computer to
+make such decisions based on the environment around the vehicle."9 As a result,
+1 Owen, supra note 63, at 873.
+ll9 NIDHI KALRA ET AL., supra note 15, at xi.454 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+the malfunction theory gets significantly more complex when applied to
+autonomous vehicles. Everything on the car could be functioning according to
+specifications, but the vehicle just interprets the data in a way that ultimately
+causes an accident. Effectively then, when no direct evidence of a defect is present,
+plaintiffs will have to question the "decision" made by the technology. Such an
+allegation does not necessarily imply the vehicle malfunctioned according to the
+traditional use of the malfunction theory.
+A computer incorrectly interpreting data is not the same as a steering wheel
+that locks, an accelerator that gets stuck, or a vehicle that catches on fire. The
+malfunction theory, at its most basic level, requires that plaintiffs allege some type
+of defect and allege the accident would not have happened but for that defect.120
+The hypothetical situation posed above shows that it is not a stretch to believe that
+an autonomous vehicle could cause an accident without having some defect that
+causes a malfunction. Driving is filled with a multitude of variables that play into a
+human driver's choice of action, and the same applies to autonomous vehicles.
+Thus, a plaintiff seeking to establish a manufacturing defect under the malfunction
+theory would have to prove the decision made by an autonomous vehicle would
+likely not have occurred but for some abnormality created by a failure in the
+manufacturing process.
+Manufacturing defect claims as applied to autonomous vehicles could have
+two vastly different effects. On one hand, it could open up manufacturers to
+liability for basically any crash that involves an autonomous car. Autonomous
+vehicles take control from the human driver, and thus any crash could imply a
+defect in the production of the vehicle. On the other hand, a plaintiff could have an
+exceedingly difficult time proving that an autonomous vehicle's response to its
+environment is a result of an abnormality in design. Regardless of who
+manufacturing defect claims ultimately benefit, the effect on the development of
+autonomous vehicles would be negative. If manufacturers are subjected to
+increased liability, then development will likely not be as aggressively pursued.
+But if plaintiffs are denied recovery, then there may be less incentive to buy, and
+thus a decreased market for autonomous vehicles. With the huge potential safety
+benefits that autonomous vehicles could provide, any such scenario would
+ultimately be of consequence to the general public.
+2. Autonomous Vehicles Under a Design Defect Claim
+Advances in manufacturing technology make it unlikely that a large number
+of manufacturing defect suits would ultimately occur. 12 Thus, the majority of
+claims relating to autonomous vehicles would likely be brought under design
+120 Owen, supra note 63, at 878; see also Willard v. BIC Corp., 788 F. Supp. 1059,
+1064 (W.D. Mo. 1991); State Farm Fire & Cas. Co. v. Chrysler Corp., 523 N.E.2d 489,
+496-97 (Ohio 1988); Woodin v. J.C. Penny, Co., 629 A.2d 974, 976-77 (Pa. Super. Ct.
+1993); Thomas v. Amway Corp., 488 A.2d 716, 721-22 (R.I. 1985).
+121 NIDHI KALRA ET AL., supra note 15, at 28.2013] 455
+UTAH LAW REVIEW
+defect. But design defect claims are also fraught with problems and are likely less
+equipped to address autonomous car accidents than are manufacturing defect
+claims. The following paragraphs will show that both the consumer expectations
+test and the risk-utility test present significant hurdles for plaintiffs pursuing design
+defect claims for autonomous cars. Such hurdles would essentially make design
+defect claims unavailable to any plaintiffs injured by autonomous cars.
+The first and less frequently used test for design defect is the consumer
+expectations test.122 At its core, this test seeks to prove the existence of a design
+defect based on evidence that a product does not conform to the reasonable
+expectations of a consumer.123 In some cases the consumer expectations test is a
+usable means of identifying a design defect. If a hammer is designed in such a way
+that the head flies off, the consumer expectations test fits well. A reasonable
+consumer would expect a hammer to perform its function of impacting nails
+without the head becoming dislodged and injuring someone. In such a scenario,
+consumers have common general expectations about the use of the product and are
+familiar with the functionality of a hammer. Further, because hammers are a
+simple product, users' safety expectations can be articulated with a fair degree of
+consistency.
+The difficulty with applying the consumer expectations test is that not every
+product is as simple as a hammer. As products become increasingly more complex,
+a great deal of uncertainty can arise with the consumer expectations test, primarily
+because the test largely stems from the negligence principle of reasonableness on
+the part of the ordinary consumer. The difficulty arises in determining where to
+draw the line for the basis of reasonableness. In the case of the traditional
+automobile, a very complex product, it becomes more difficult to apply the
+principle of reasonableness. A mechanic's reasonable expectations about
+automobiles will likely be significantly different than a grandmother who only
+drives to church and back on Sundays. The challenge then becomes how specific a
+court will be when defining a reasonable consumer. Is an ordinary consumer an
+educated consumer, one with a mechanical engineering degree, or one who has a
+mechanical engineering degree who works for Ford? Depending on where courts
+draw the line, the expectations that courts deem "reasonable" may differ widely.
+Autonomous vehicles only exacerbate the present problems with the
+consumer expectations test. A basic tenet of the consumer expectations test is that
+a consumer needs to have "sufficient knowledge or familiarity with the design of
+the product to have reasonable expectations about its safety or performance."l24
+The technology that allows these vehicles to function is extremely advanced and
+novel, thus there are likely few individuals who have the requisite knowledge to
+have a reasonable expectation about the safety of these vehicles.125 This basically
+122 KRAUSS, supra note 52, at 84-86.
+123 See KlELY & OTTLEY, supra note 94, at 135.
+124 Id. at 138.
+125 See id. at 138-39 (noting that the complexity of the automobile "frequently tests
+the limits of the consumers' expectations").456 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+eliminates for many years the consumer expectations test for plaintiffs injured by
+autonomous vehicles. Consumers will certainly have expectations about how
+autonomous vehicles will function, but considering that some courts choose not to
+apply the consumer expectations test to devices such as airbags, it will likely be a
+considerable time until courts are comfortable applying the test to autonomous
+126cars.
+The second test commonly applied to design defect claims, the risk-utility
+test, would likely prove as difficult to apply as the consumer expectations test. The
+risk-utility test focuses on the safety benefits of a proposed design compared to
+alternative models in the same category.127 Early in the implementation of
+autonomous vehicles, the risk-utility test will likely not afford any remedy to
+plaintiffs. Dean Wade proposed seven factors to consider in the risk-utility test.128
+Of those seven factors, three could be of particular interest when applied to
+autonomous vehicles. First, is "[t]he availability of a substitute product which
+would meet the same need and not be as unsafe."l29 Second, is "[t]he usefulness
+and desirability of the product-its utility to the user and to the public as a
+whole."30 Third, is "[t]he user's anticipated awareness of the dangers inherent in
+the product and their avoidability, because of general public knowledge of the
+obvious condition of the product, or of the existence of suitable warnings or
+instructions."'3'
+The first factor at issue focuses on the availability of alternate products that
+would perform the same functions and be less unsafe.132 It will likely be
+considerable time until there are a sufficient number of manufacturers involved in
+the production of autonomous vehicles. Accordingly, potential plaintiffs would be
+limited in their ability to show that there are safer alternate designs available.
+Another interesting issue under the risk-utility test involves the social utility
+that autonomous vehicles serve. Analyzing autonomous vehicles under Dean
+Wade's second factor could show there is a strong case in support of the argument
+that autonomous vehicles' utility to the public as a whole is considerable.
+Specifically, autonomous vehicles are likely to be significantly safer than human
+drivers,33 and thus are of substantial utility to public safety.134 Furthermore, they
+will be of great utility to people with disabilities who cannot drive standard
+vehicles. Accordingly, manufacturers would seem to largely benefit from such a
+126 See Pruitt v. Gen. Motors Corp., 86 Cal. Rptr. 2d 4, 6 (Ct. App. 1999) (noting that
+air bags are too complex to use the consumer expectations test).127 Wade, supra note 98, at 837-38.
+128 Id.
+129 Id. at 837.
+130 Id.
+'" Id.
+132 Id.
+133 See Vijayenthiran, supra note 7 (noting that studies of early autonomous vehicle
+technologies demonstrate a reduction in accidents).
+134 See Valdes-Dapena, supra note 7 (noting the potential safety benefits of
+autonomous vehicles).2013] 457
+UTAH LAW REVIEW
+consideration under the risk-utility test. When the utility of a product is
+considerable, it lends evidence that there may not have been a design defect.
+The factor that becomes increasingly interesting when applied to autonomous
+vehicles is "the user's anticipated awareness of the dangers inherent in the product
+and their avoidability, because of general public knowledge of the obvious
+condition of the product, or of the existence of suitable warnings or
+instructions."i3s In particular, it is interesting to hypothesize what potential
+autonomous vehicle purchasers will expect as the inherent danger of the cars. This
+question because more difficult in light of the current legislation regarding
+autonomous vehicles, which requires a licensed driver to be present as a backup to
+the technology.136 The fact that the law requires a driver to be present as a backup
+seems to support the idea that the car may fail, in which case the driver would be
+forced to take over. If this remains the case, then individuals whose autonomous
+vehicles crash may be without recourse. Specifically, they would lack evidence
+that they were not aware of the "dangers inherent in the product."'37
+Whether it is the consumer expectations or risk-utility test that is used,
+plaintiffs will likely have a difficult time bringing design defect claims against
+autonomous vehicle manufacturers. The technology is novel and complex, and it
+could be years before consumers can develop consistent safety expectations about
+the vehicles. The consumer expectations test would be difficult to apply in the
+early years of implementation. Further, the factors presented by Dean Wade would
+seem to support autonomous vehicle manufacturers. Absent a clear defect in
+design, autonomous vehicles present such a profound potential safety benefit that
+courts may be swayed to rarely find design defects. The limited alternate models
+and the clear possible risks would also lessen plaintiffs chances of success.
+B. The Need for a No-Fault Scheme for Autonomous Vehicles
+Current products liability claims will be difficult to apply to autonomous
+vehicles and will ultimately disadvantage both plaintiffs and manufacturers.138
+Plaintiffs will be limited in the claims that they can bring relating to autonomous
+vehicles. Those remaining claims will involve complex legal issues that will likely
+result in expensive and elaborate lawsuits. For manufacturers, the implementation
+of autonomous vehicles presents a significant shift in the layout of liability for
+accidents.139 Further, the jurisprudence on the matter will likely take some time to
+stabilize.140 The combination of the two makes cost predictions about autonomous
+135 Wade, supra note 98, at 837-38; see Valdes-Dapena, supra note 7 (noting the
+potential safety benefits of autonomous vehicles).
+136 CAL. VEH. CODE § 38750(b)(2) (West Supp. 2013); see FLA. STAT. ANN. §
+316.85(1) (West Supp. 2013); NEv. REV. STAT. ANN. § 482A.200 (LexisNexis Supp.
+2011); supra text accompanying note 37.
+1 Wade, supra note 98, at 837-38.
+138 See supra Part III.A.
+139 Id.; see also NIDHI KALRA ET AL., supra note 15, at ix.
+140 See supra Part Ill.A.458 [No. I
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+vehicles uncertain, which will likely delay the widespread availability of
+autonomous vehicles.141
+For many products, the problems detailed above would not be of significant
+concern to the public as a whole. Many would argue that delaying the time that a
+new ladder or new child's toy takes to hit the market would be of no substantial
+concern. However, autonomous vehicles require a different sort of analysis. In
+2010 there were over 5.4 million traffic accidents in the United States.142 Those
+accidents resulted in over two million injuries and over thirty thousand fatalities.143
+Of the thirty thousand fatalities in 2010, about one-third were caused by an
+individual driving with a blood alcohol level of over 0.08%, and many more were
+also caused by human error.144 It is undeniable that too many Americans have been
+injured or killed in automobile accidents, many of which could have been avoided
+if the driver had not been distracted or made a poor decision. The sum total of
+these accidents likely results in millions of dollars in costs for healthcare,
+insurance, and damage repair. Overall, the damage caused by automobiles, in
+particular human error in automobiles, takes a heavy toll on society.
+Autonomous cars have the ability to change all of that. If fully implemented,
+accidents caused by a drunk driver could be completely eliminated. An individual
+could leave the bar, have his car pick him up, and never put other drivers at risk.145
+Further, the disabled and the elderly could enjoy unprecedented levels of
+mobility.146 The environment would benefit as travel becomes more efficient.
+Productivity and individual freedom could skyrocket as individuals gain
+significantly more free time. The benefits of autonomous vehicles are profound,
+and their implementation is of the upmost importance for all of the above reasons
+and more.
+While such a utopian world created by autonomous cars is likely far in the
+future, society cannot afford to delay the use of these vehicles in our day-to-day
+lives. Thirty-thousand people die each year in traffic accidents, and this technology
+has the potential to change 'that.147 For these reasons, a no-fault compensation
+scheme, similar to that created by the National Childhood Vaccination Injury Act,
+should be implemented to address autonomous vehicles. Such a no-fault scheme
+would create a roadmap for the future of autonomous vehicles, ease manufacturer
+concerns, and ultimately encourage autonomous vehicle development. Further,
+such a scheme would provide consistent and available remedies for plaintiffs who
+are injured when autonomous vehicles inevitably crash.
+141 See id.
+142 NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., supra note 10.
+I43 Id.
+'" See NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., supra note 12.
+145 It is important to note that this would be in violation of the current laws addressing
+autonomous vehicles.
+146 Jeremy A. Kaplan, Amazing! Google's Self-Driving Car Allows the Blind to Drive,
+FoxNEWS.COM (Mar. 28, 2012), http://www.foxnews.com/tech/2012/03/28/amazing-
+google-self-driving-cars-allow-blind-to-drive/.
+147 See NAT'L HIGHWAY TRAFFIC SAFETY ADMIN., supra note 12.2013] 459
+UTAH LAW REVIEW
+1. Overview of the National Childhood Vaccination Injury Act (NCVIA)
+The NCVIA came about due to two primary issues during the 1980's: the
+"inadequate and inconsistent nature of existing state tort remedies and the
+instability of vaccine supplies due to prior litigation."I4 Vaccine makers had
+become the target of considerable liability, which caused several manufacturers to
+leave the market.149 Further, there was significant pressure from proplaintiff groups
+who were concerned about the inconsistency of the tort system with respect to
+vaccine injury claims.50 A culmination of these concerns spurred Congress to pass
+the NCVIA.15'
+The NCVIA created a no-fault compensation system as an alternative to the
+ineffective state tort system.152 The federal system eliminated the need for
+plaintiffs to demonstrate that there was a defect in the vaccine.153 Plaintiffs seeking
+redress could file a petition in the United States Court of Federal Claims and
+provide service on the Secretary of Health and Human Services.154 Their petition
+could contain one of two claims: an on-table claim or an off-table claim.'5' An on-
+table claim refers to a table that contains a list of vaccine-related injuries and
+relevant timelines for pursuing those claims.16 If a petitioner cannot demonstrate
+an on-table claim then they must pursue an off-table claim, which requires a higher
+standard of proof and evidence of causation.157 It is important to note the NCVIA
+does not entirely remove the availability of the state tort system, but rather just
+requires plaintiffs to assert claims through the NCVIA first.'58 If petitioners are not
+satisfied with the adjudication under the NCVIA, they can move into state or
+federal court.'59 The NCVIA, however, does remove remedies in tort for injuries
+that are the "unavoidable side effects" of vaccinations.160
+Petitioners who successfully bring a claim are rewarded damages from the
+Vaccine Injury Compensation Trust Fund.'6' A $0.75 excise tax on recommended
+148 Elizabeth A. Breen, A One Shot Deal: The National Childhood Vaccine Injury Act,
+41 WM. & MARY L. REV. 309, 316 (1999).
+149 Daniel A. Cantor, Striking a Balance Between Product Availability and Product
+Safety: Lessons from the Vaccine Act, 44 AM. U. L. REV. 1853, 1858 (1995).
+150 Id.5 Id. at 1856.
+152 Id. at 1860.
+153 Breen, supra note 148, at 317.
+154 Id. at 318.
+155 See id.
+156 Id.; see 42 C.F.R. § 100.3 (2011) (providing the most recently revised Vaccine
+Injury Table).
+157 Breen, supra note 148, at 318.
+158 Cantor, supra note 149, at 1861.
+159 Id.
+160 Id.
+161 Health Res. & Servs. Admin., National Vaccine Injury Compensation Program,
+U.S. DEP'T HEALTH & HUM. SERVS., http://www.hrsa.gov/vaccinecompensation/index.html
+(last visited Feb. 10, 2012).460 [No. 1
+AUTONOMOUS VEHICLES & PRODUCTS LIABILITY
+vaccines is used to generate the funds for awards given to successful claimants.162
+Administration of awards under the NCVIA is generally less than that of the
+sometimes excessive damages awarded under tort law. By standardizing the
+awards, the NCVIA provided vaccine manufacturers with more certain liability.
+Further, the NCVIA provided a more efficient process for plaintiffs to seek
+remedy.
+2. A No-Fault Compensation System for Autonomous Vehicles
+The NCVIA has several components particularly relevant to the legal
+landscape surrounding autonomous vehicles. A federal no-fault system would
+provide a clear picture of liability for manufacturers seeking to develop and
+implement autonomous vehicles. By accurately gauging their potential liability
+costs, manufacturers could better price and develop autonomous vehicles. Further,
+plaintiffs would ultimately benefit from a standardized and streamlined process
+similar to that created under the NCVIA. The potential pitfalls associated with
+current products liability would be mitigated, and plaintiffs could seek recourse
+without the complex and costly litigation they would otherwise be forced to
+pursue.
+While the reasoning for the enactment of the NCVIA is in some ways unique
+to vaccinations, there are several similar principles relating to autonomous
+vehicles. Vaccines focus on prevention and public safety. Autonomous cars do the
+same. Human error while operating an automobile accounts for thousands of
+American deaths each year, and autonomous vehicles have the potential to change
+this.163 Further, similar to vaccinations, there will be unavoidable side effects from
+using autonomous vehicles, and injuries are sure to eventually result. Autonomous
+vehicles will inevitably crash, albeit hopefully less frequently, and injuries will
+result. An additional similarity is that state tort systems are likely ill-equipped to
+deal with autonomous vehicle liability.164 A similar pattern is likely to emerge if
+manufacturers cannot ascertain a more certain road ahead for their potential
+liability costs. Like vaccines, though, a lack of development in autonomous
+vehicles could result in a significant consequence to public safety.
+While the exact makeup of a no-fault compensation system is beyond the
+scope of this Note, there are a few points to consider going forward. First, the types
+of vehicles that are included under a no-fault scheme will be of the utmost
+importance and should be clearly and narrowly defined. Second, both
+manufacturing and design defect claims should be covered under the system, but
+not informational defects. One of the most important aspects of implementing
+autonomous vehicles is that the public must understand what the vehicles are truly
+162 Id.
+163 See Valdes-Dapena, supra note 7 (noting the potential safety benefits of
+autonomous vehicles).
+164 See supra Part III.A (noting the difficulties associated with applying current
+products liability law to autonomous vehicles).2013] 461
+UTAH LAW REVIEW
+capable of and how the vehicles can be safely used. Lastly, the program should be
+enacted for a set time. Autonomous cars are novel technology with profound
+benefits but they are not the last stop. An endless no-fault compensation scheme
+may deter advancements in technology by encouraging the development of
+technology that only fits under the system.
+IV. CONCLUSION
+Autonomous vehicles have the potential to change the future of transportation,
+enhance travel safety, improve the environment, help the disabled, and ultimately
+bring more freedom to our daily lives. For autonomous vehicles to reach their full
+potential, the legal system must be ready to adopt new policies that will advance
+the interests of manufacturers and potential plaintiffs alike. The current liability
+system, namely strict products liability, does not provide such an environment.
+Manufacturing and design defects are ill-suited to address the unique issues raised
+by autonomous vehicles. This uncertain and ill-fitting legal landscape will likely
+deter manufacturers from producing autonomous vehicles and preclude those
+injured by such technology from receiving an adequate remedy. A no-fault
+compensation system, similar to that set up under the NCVIA would solve both
+problems. Manufacturers would be able to accurately gauge liability costs and
+would be encouraged to produce this new technology. Plaintiffs would benefit as
+well from access to a consistent and efficient system of remedies. While a no-fault
+compensation regime is a unique solution, autonomous vehicles are a unique
+technology. By fostering development while maintaining legal redress, a no-fault
+system will benefit society as a whole by furthering this transformative new
+technology.462 [No. I
+UTAH LAW REVIEW
+VOLUME 2013 NUMBER 2
+The Utah Law Review was founded in 1948 with the purpose of serving the interests of
+students, the bench, and the bars of the state and surrounding areas. Since then, its scope
+has expanded to include legal issues of importance both domestically and internationally.
+The journal, which publishes six issues per year, is a student-run organization. Student-
+editors enrolled at the University of Utah S.J. Quinney College of Law make all editorial
+and organizational decisions.
+The Utah Law Review makes every effort to conform to the following editing sources: THE
+BLUEBOOK: A UNIFORM SYSTEM OF CITATION (19th ed. 2010) and THE CHICAGO MANUAL
+OF STYLE (16th ed. 2010). The board of editors strives to maintain the text of published
+articles in its original format by editing only for accuracy and, where necessary, clarity.
+Views expressed herein are to be attributed to their authors and not
+to the Utah Law Review, its editors, the S.J. Quinney College of Law, or the University
+of Utah.
+COPYRIGHT: 0 2013 by the Utah Law Review Society. Printed Fall 2013 (ISSN 0042-
+1448). In addition to the rights to copy that are granted by law, the owner of the copyright
+of each article published in this issue, except as expressly otherwise noted, grants
+permission for copies of that article to be made and used for educational purposes by
+nonprofit educational institutions, provided that the author and journal are identified, that
+proper notice of copyright is affixed to each copy of the article, and that copies are
+distributed at or below cost.
+ACKNOWLEDGEMENTS: The editors of the Utah Law Review wish to express their gratitude
+to Professors Lincoln Davies, Michael Teter, and Amy J. Wildermuth, faculty advisors;
+Laura Skousen, editorial assistant; the S.J. Quinney College of Law faculty and staff; and
+our friends and families for their support.
+Printed in the United States of America by Joe Christensen, Inc.
+ISSN 0042-1448
+i
+UTAH LAW REVIEW
+VOLUME 2013 NUMBER2
+SUBMISSIONS: The Utah Law Review welcomes submissions of unpublished
+manuscripts. Submissions should include a cover letter providing the title of the
+work and the author's contact information (phone number and e-mail address).
+Electronic submissions can be sent to the Utah Law Review ExpressO account or
+via e-mail at exec.editor@utahlawreview.org. Hard copies can be sent to Executive
+Articles Editor, Utah Law Review, S.J. Quinney College of Law, University of
+Utah, 332 S 1400 E Rm. 101, Salt Lake City, UT 84112-0730.
+SUBSCRIPTIONS: The Utah Law Review is published six issues per year. All
+subscriptions begin January 1 and expire on December 31. For subscriptions,
+renewals, or cancellations of the Utah Law Review, please send notice and/or
+payment to: Utah Law Review, Attn: David Silva, S.J. Quinney College of Law,
+University of Utah, 332 S 1400 E Rm. 101, Salt Lake City, UT 84112-0730.
+PRICES: $40.00 per volume per year; United States and possessions
+$45.00 per volume per year; foreign (postage included)
+To subscribe to more than one copy of the Utah Law Review, send notice of the
+number of copies requested along with payment. Please note that renewal payment
+mu'st be received in advance before any issues are sent out to a subscriber. If you
+work with a subscription agency, send notice and payment to that agency and it
+will contact the Utah Law Review regarding the status of your subscription.
+ISSUES AND REPRINTS: Single issues and back issues are available from
+William S. Hein & Co., Inc., 1285 Main Street, Buffalo, New York 14209-1987;
+telephone: (800) 828-7571; e-mail: wsheinco@class.org. Reprints are
+available from Joe Christensen, Inc., 1540 Adams Street, Lincoln, NE 68521;
+telephone: (800) 228-5030; e-mail: sales@christensen.com.
+The Utah Law Review can be accessed online at http://epubs.utah.edulindex.
+php/ulr.
+ii
+UTAH LAW REVIEW
+VOLUME 2013 NUMBER 2
+UNIVERSITY OF UTAH S.J. QUINNEY COLLEGE OF LAW
+FACULTY & ADMINISTRATION 2013-2014
+AARON, RICHARD 1. (1966), Professor of Law Emeritus. A.B., 1959, Harvard Univ.; J.D.,
+1962, Univ. of Wisconsin.
+ADLER, ROBERT W. (1994), Interim Dean and James I. Farr Chair in Law. B.A., 1977, John
+Hopkins Univ.; J.D., 1980, Georgetown Univ.
+AGUILAR, JR., REYES (1992), Associate Dean for Admission and Financial Aid. B.A., 1988,
+Texas A&M Univ.; J.D., 1992, Univ. of Utah.
+ANDERSON, JENSIE L. (1999), Clinical Professor of Law. B.F.A., 1985, J.D., 1993, Univ. of
+Utah.
+ANGHIE, ANTONY T. (1995), Samuel D. Thurman Professor of Law. B.A., 1986, LL.B.,
+1987, Monash Univ.; S.J.D., 1995, Harvard Univ.
+BARADARAN, SHIMA (2013), Associate Professor of Law. B.S., 2001; J.D., 2004, Brigham
+Young Univ.
+BERNSTEIN, MELISSA (2012), Director, S.J. Quinney Law Library and Professor of Law.
+B.A., 1992, Wellesley College; J.D., 1995, Harvard Law School; MLIS, 2006, Pratt
+Institute.
+BOOHER, TROY L. (2011) Visiting Associate Professor of Law. B.A., 1994, B.A., 1996,
+Metropolitan State College; J.D., 2002, Ph.D., 2010 Univ. of Utah.
+BROWN, TENEILLE R. (2009), Associate Professor of Law and Adjunct Professor of Internal
+Medicine. B.A., 2000, Univ. of Pennsylvania; J.D., 2004, Univ. of Michigan.
+CASSELL, PAUL: G. (1991), Ronald N. Boyce Presidential Chair in Criminal Law. B.A.,
+1981, J.D., 1984, Stanford Univ.
+CHAHINE, KENNETH GREGORY (2009), Professor of Law. Ph.D., 1992, Univ. of Michigan;
+J.D., 1996, Univ. of Utah.
+CHATTERJEE, DEEN, Senior Fellow of Law. M.A., 1971, Ph.D., 1975, Univ. of Washington.
+CHIANG, EMILY (2009), Associate Professor of Law. B.A., 1998, Yale Univ.; J.D., 2001,
+Harvard Univ.
+CRAIG, ROBIN, William H. Leary Professor of Law. B.A., 1985, Pomona College; M.A.,
+1986, Johns Hopkins Univ.; Ph.D., 1993, Univ. of California, Santa Barbara; J.D.,
+1996, Lewis & Clark School of Law.
+DAVIES, LINCOLN L. (2007), Professor of Law. B.S., 1997, Univ. of Michigan; J.D., 2000,
+Stanford Univ.
+DICKEY, BARBARA J. (1999), Associate Dean for Student Affairs. B.A., 1975, M.A., 1980,
+J.D., 1987, Univ. of Utah.
+DRYER, RANDY (2011), University of Utah Presidential Honors Professor and Visiting
+Professor of Law. B.S., 1972, J.D., 1976 Univ. of Utah.
+FIRMAGE, EDWIN B. (1966), Professor of Law Emeritus. B.S., 1958, Boston College; LL.B.,
+1961, Georgetown Univ.; S.J.D., 1967, Univ. of Michigan.
+FLORES, ROBERT L. (1990), Professor of Law. B.A., 1978, J.D., 1987, Univ. of Utah.
+iii
+FRANCIS, LESLIE P. (1982), Associate Dean for Faculty Research and Development and
+Alfred C. Emery Professor of Law and Professor of Philosophy. B.A., 1967, Wellesley
+College; Ph.D., 1974, Univ. of Michigan; J.D., 1981, Univ. of Utah.
+GEORGE, ERIKA (2003), Co-Director, Center for Global Justice and Professor of Law. B.A.,
+1992, M.A., 1993, Univ. of Chicago; J.D., 1996, Harvard Univ.
+GUIORA, AMos N. (2007), Co-Director, Center for Global Justice and Professor of Law.
+B.A., 1979, Kenyon College; J.D., 1985, Case Western Reserve Univ.
+HESSICK, ANDY (2013), Professor of Law. B.A., 1998, Dartmouth College; J.D., 2002, Yale
+Law School.
+HESSICK, CARISSA (2013), Professor of Law. B.A., 1999, Columbia University; J.D., 2002,
+Yale Law School.
+HILL, DAVID S. (2003), Clinical Professor of Law. B.S., 1991, B.A., 1992, J.D., 2001, Univ.
+of Utah.
+HOLBROOK, JAMES R. (2003), Clinical Professor of Law. B.A., 1966, Grinnell College;
+M.A., 1968, Indiana Univ.; J.D., 1974, Univ. of Utah.
+JOHNSON, CHRISTIAN (2008), Associate Den for Academic Affairs and Professor of Law.
+B.A., 1984, M.Pr.A., 1985, Univ. of Utah; J.D., 1990, Columbia Univ.
+KEITER, ROBERT B. (1993), Director, Wallace Stegner Center for Land, Resources, and the
+Environment and Wallace Stegner Professor of Law. B.A., 1968, Washington Univ.;
+J.D., 1972, Northwestern Univ.
+KESSLER, LAURA T. (2001), Professor of Law. B.A., 1988, George Washington Univ.; J.D.,
+1993, Univ. of Maryland; LL.M., 1999, J.S.D., 2006, Columbia Univ.
+KINGSBURY, BENEDICT (2011), Visiting Professor of Law. L.L.B, 1981, Univ. of
+Canterbury, New Zealand; M. Phil., 1984, D.Phil., 1990, Oxford Univ.
+KOGAN, TERRY S. (1984), Professor of Law. B.A., 1971, Columbia College; B. Phil., 1973,
+Oxford Univ.; J.D., 1976, Yale Univ.
+LOCKHART, WILLIAM J. (1964), Professor of Law Emeritus. B.A., 1955, J.D., 1961, Univ.
+of Minnesota.
+LUND, THOMAS (1978), Professor of Law. B.A., 1964, Harvard Univ.; LL.B., 1967,
+Columbia Univ.; Ph.D., 1978, Oxford Univ.
+MABEY, RALPH R. (2007), Professor of Law. B.A., 1968, Univ. of Utah; J.D., 1972,
+Columbia Univ.
+MALLAT, CHIBLI W. (2007), Presidential Professor of Middle Eastern Law and Politics.
+B.A., 1982, Beirut Univ. College; Ph.D., 1990, Univ. of London; LL.M., 1983,
+Georgetown Univ.
+MARTINEZ, JOHN (1984), Professor of Law. B.A., 1973, Occidental College; J.D., 1976,
+Columbia Univ.
+MATHESON, JR., SCOTT M. (1985), Hugh B. Brown Presidential Endowed Chair, Professor
+of Law. B.A., 1975, Stanford Univ.; M.A., Oxford Univ.; J.D., 1980, Yale Univ.
+MCCORMACK, WAYNE (1978), W. Wayne Thode Professor of Law. B.A., 1966, Stanford
+Univ.; J.D., 1969, Univ. of Texas.
+MCLAUGHLIN, NANCY ASSAF (2000), Robert S. Swenson Professor of Law. B.S., 1987,
+Univ. of Massachusetts, Amherst; J.D., 1990, Univ. of Virginia.
+MITCHELL, BONNIE L. (1987), Clinical Professor of Law. B.A., 1981, J.D., 1984, Univ. of
+Utah.
+MORRIS, JOHN K. (1979), Vice President and General Counsel, University of Utah and
+Professor of Law. B.A., 1966, Univ. of California at Los Angeles; J.D., 1969, Univ. of
+California at Berkeley.
+PETERSON, CHRISTOPHER (2008), John J. Flynn Endowed Professor of Law. B.S., 1997,
+H.B.A., 1997, J.D., 2001, Univ. of Utah.
+iv
+JAMIE PLEUNE (2011), Visiting Assistant Professor of Law. B.A., 2000, Colorado College;
+J.D., 2007, Univ. of Utah; L.L.M., 2011 Georgetown Univ. Law Center.
+POULTER, SUSAN R. (1990), Professor of Law Emerita. B.S., 1965, Ph.D., 1969, Univ. of
+California at Berkeley; J.D., 1983, Univ. of Utah.
+REITZE, JR., ARNOLD W. (2007), Professor of Law. B.A., 1960, Fairleigh Dickinson Univ.;
+J.D., 1962, Rutgers Univ.; M.P.H., 1986, Johns Hopkins Univ.
+REUSCH, RITA T. (2012), Professor of Law Emerita. B.A., 1972, Univ. of Minnesota; J.D.,
+1975, Univ. of Idaho; M.L.L., 1978, Univ. of Washington.
+RICHARDS, WILLIAM R. (1996), Clinical Professor of Law. B.A., 1981, J.D., 1984, Univ. of
+Utah.
+RINEHART, AMELIA (2010), Associate Professor of Law. B.S.E., 1996, M.S.E., 1997,
+Tulane Univ.; J.D., 2002, Univ. of Chicago.
+ROSKY, CLIFFORD J. (2008), Professor of Law. B.A., 1996, Amherst College; J.D., 2001,
+Yale Univ.
+SCHWARTZ, JEFF (2013), Associate Professor of Law. B.A., 1999, Univ. of California at Los
+Angeles; J.D., 2002, Univ. of California at Berkeley School of Law.
+SKIBINE, ALEXANDER TALLCHIEF (1989), S.J. Quinney Professor of Law. B.A., 1973, Tufts
+Univ.; J.D., 1976, Northwestern Univ.
+SMITH, LINDA F. (1984), Director, Clinical Program and Professor of Law. B.A., 1973,
+Ohio State Univ.; J.D., 1976, Yale Univ.
+STRAUBE, MICHELE (2012), Director, Wallace Stegner Center Environmental Dispute
+Resolution Program. B.A., 1974, Rice Univ.; J.D., 1979 Franklin Pierce Law Center.
+TETER, MICHAEL (2011), Associate Professor of Law. B.A., 1999, Pomona College; J.D.,
+2002, Yale Univ.
+THREEDY, DEBORA L. (1986), Lee E. Teitelbaum Endowed Professor of Law. B.A., 1973,
+Beloit College; J.D., 1980, Loyola Univ. Chicago.
+WILDERMUTH, AMY J. (2003), Associate Vice President of Faculty, University of Utah and
+Professor of Law. A.B., 1994, B.S., 1994, Washington Univ.; M.S., 1998, J.D., 1998,
+Univ. of Illinois.
+S.J. QUINNEY LAW LIBRARY FACULTY
+BRILLON, ALICIA (2013), Associate Librarian. B.A., 1989, Univ. Of Washington; J.D.,
+1995, Seattle University; M.L.I.S., 2006, Univ. of Washington.
+CRAIGLE, VALERI (2008), Access Technologies Librarian. B.S., 1994, Univ. of Utah;
+M.L.S., 2005, Emporia State Univ.
+DARAIS, SUZANNE (1990), Head of Information Technical Services and Adjunct Professor
+of Law. B.S., 1983, Univ. of Utah; J.D., 1989, Brigham Young Univ.; M.L.S., 1990,
+Univ. of Washington.
+MCPHAIL, Ross (2007), Assistant Librarian and Adjunct Professor of Law. B.A., 1990,
+Quincy College.; J.D., 1994, Hamline Univ.
+MURPHY, FELICITY (2011), Assistant Librarian and Adjunct Professor of Law. B.A., 2000,
+Brigham Young Univ.; J.D., 2011, Univ. of Utah.
+STEPHENSON, LINDA (1986), Head of Information Access Services and Adjunct Professor of
+Law. M.A., 1983, Univ. of Missouri at Columbia; J.D., 1987, Univ. of Missouri-
+Kansas City.
+WARTHEN, R. LEE (1985), Assistant Director, Head of Collection Building and
+Maintenance and Adjunct Professor of Law. B.A., 1973, M.L.S., 1975, M.A., 1983,
+J.D., 1984, Brigham Young Univ.
+V
+UTAH LAW REVIEW
+NUMBER 2
+Editor-in-Chief
+STEPHEN P. DENT
+Executive Managing Editor
+SAMANTHA WILCOX
+Executive Process Editor
+JOHN ROBINSON JR.
+Executive Environmental Editor
+ERIN ST. JOHN
+Executive Text Editors
+REBEKAH BRADWAY
+AMY LAVIN
+Executive Online Editor
+JONATHAN R. HORNOKExecutive Articles Editor
+TIMOTHY M. BAGSHAW
+Executive Social Justice Editor
+LAUREN CARPENTER DEVOE
+Executive Footnote Editors
+JEREMY M. CHRISTIANSEN
+SCARLET R. SMITH
+Executive Symposium Editor
+MEGAN K. BAKER
+Articles Editors
+BRET EVANS
+KEVIN FUNKHOUSER
+JAY GOLD
+ALEXA MCCALLUM
+MARY MILNER
+DOUG NAFTZ
+IAN QUIEL
+ADAM G. RiCKS
+ANDREW T. WOJCIECHOWSKI
+SMITH D. MONSoN
+SHANE STROUD
+JORDAN BLEDSOE
+SEAN BRIAN
+CHAD CURTIS
+CHELSEA GRANT
+JESSICA HORTON
+JEFFREY MATHIS
+CHRISTOPHER MITCHELL
+AMY SHEWAN
+ELISE WALKER
+LINCOLN L. DAVIESNote & Comment Editors
+KIRSTEN ALLEN
+MICHAEL CURTIS
+CAMERON CUTLER
+JOHN M. MACFARLANE
+DANIELLE MASTIN
+TENLEY SCHOFIELD
+Senior Staff
+LANCE PARKER
+Junior Staff
+ANDREW BLONQUIST
+REBECCA BUCHERT
+JOHN E. CUTLER
+GREGORY GUNN
+LARISSA LEE
+SHAUN MATHUR
+ALEXANDREA NELSON
+KATHRYN TIPPLE
+Faculty Advisors
+MICHAEL TETERAssociate Articles Editors
+CARLY BRIGGS
+DANNON LEE
+ADAM H. MILLER
+JOHN PALMER
+KEVIN PAULSEN
+LAURA ANNE TAYLOR
+ANDREW WAKE
+BRITTANY WILSON
+KYLE PETERSEN
+CHASE WALKER
+CHRISTOPHER BOND
+MARK CAPONE
+JORDAN DEZ
+CLAY HARDMAN
+MITCH LONGSON
+JENICA MAXWELL
+KAYLA QUAM
+ASHLEY WALKER
+AMY J. WILDERMUTH
+Editorial Assistant
+LAURA SKOUSEN
+Vi2013-2014

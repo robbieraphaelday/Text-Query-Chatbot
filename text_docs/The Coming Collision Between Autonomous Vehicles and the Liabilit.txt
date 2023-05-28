@@ -1,0 +1,793 @@
+Santa Clara Law R eview
+Volume 52 |Numbe r 4 Article 6
+12-17-2012
+The C omin g Collision B etwee n Aut onomou s
+Vehicles a nd the Li ability System
+Gary E. Marchant
+Rachel A. Lindor
+Follow thi s and a dditional w orks at:http://d igitalcommon s.law.scu.edu/l awreview
+Part of the Law C ommon s
+This Ar ticle i s brought to you for f ree and ope n access by the J ournals at Santa Clara Law Di gital C ommon s. It has be en accepted for inclusion in S anta
+Clara Law R eview by an author ized admini strator of S anta Clara Law Di gital C ommon s. For mor e infor mation, p lease contact
+sculawlibrarian@gm ail.com.Recomme nded Citation
+52 S anta Clara L. Rev. 1321MARCHANT FINAL 11/14/2012  12:42  AM 
+ 
+1321  THE COMING COLLISION BETWEEN 
+AUTONOMOUS VEHICLES AND THE LIABILITY 
+SYSTEM 
+Gary E. Marchant* and Rachel A. Lindor** 
+TABLE OF CONTENTS  
+Introduction 
+I.  Liability Doctrine an d Relevant Precedents 
+II.  Who Will Be Held Liable? 
+III.  Relative Risk Issues 
+IV.  Legal and Policy Protections 
+A. Assumption of Risk Defense 
+B. Legislative Protections 
+C. State Preemption 
+Conclusion 
+INTRODUCTION  
+Cars crash.  So too will autonomous vehicles, a new 
+generation of vehicles under development that are capable of 
+operating on roadways without direct human control.1  A  
+critical factor with respect to the feasibility of such vehicles is how often and with what  severity such crashes will occur.  If 
+autonomous vehicles have statis tically more, or more severe, 
+accidents than standard cars, then such vehicles will not be legally viable for widespread use.  Judges and juries will 
+ 
+ * Gary E. Marchant is a Regents’ Professor, a Lincoln Professor of 
+Emerging Technologies, a Law & Ethics Professor, and the Faculty Director of 
+the Center for Law, Science & Innovation at the Sandra Day O’Connor College of Law, Arizona State University.   
+ ** Rachel A. Lindor is a graduate of the Sandra Day O’Connor College of 
+Law at Arizona State University, Research Director of the Center for Law, Science & Innovation at the College of Law, and is currently completing her 
+M.D. at the Mayo Medical School. 
+ 1. See generally  Matthew Michaels Moore & Beverly Lu, Autonomous 
+Vehicles for Personal Transport: A Technology Assessment , (Social Science 
+Research Network, Working Paper, 2011), available at  http://www.pickar. 
+caltech.edu/e103/Final%20Exams/Autonomous%20Vehicles%20for%20Personal%20Transport.pdf. MARCHANT FINAL 11/14/2012   12:42  AM 
+1322 SANTA CLARA LAW REVIEW  [Vol. 52 
+likely treat a vehicle manufacturer who has substituted a 
+riskier autonomous vehicle for a safer conventional vehicle 
+harshly. 
+On the other hand, if autonomous vehicles reduce the 
+frequency and/or severity of accidents, liability will still be an important and potentially limiting consideration for 
+manufacturers.  Liability, in that case, requires an analysis of 
+three key factors.  First, who will be liable?  Second, what weight will the court’s finder of fact give to the overall 
+comparative safety of autonomous vehicles when determining 
+whether those involved in a crash should be held liable?  Third, will a vehicle “defect” that creates potential 
+manufacturer liability be found in a higher percentage of 
+crashes than with conventional vehicle crashes where driver error is usually attributed to be the cause?  Depending on the 
+answers to these questions, liability has the potential to 
+present a significant deterrent to the development of autonomous vehicles, even though such vehicles would 
+provide an overall safety benefi t relevant to today’s driver-
+controlled cars. 
+This Article assesses the potential interactions between 
+legal liability and autonomous vehicles.  It begins in Section I 
+with a discussion of the relevant liability doctrine and precedents from other technologies that may indicate how 
+judges and juries are likely to allocate liability for 
+autonomous vehicle crashes.
+2  Section II then examines who 
+might be held liable for an autonomous vehicle crash.3  
+Section III assesses the relative risk issues that are likely to 
+be the key determinants of liability.4  Finally, Section IV 
+discusses some potential liability protections available to 
+manufacturers.5  These include the assumption of risk 
+defense, potential legislative interventions limiting liability, and federal preemption of state tort claims. 
+I. L
+IABIITY DOCTRINE AND RELEVANT PRECEDENTS  
+There are two key doctrinal issues in determining tort 
+liability for personal injury.  Fi rst is the theory of liability. 
+ 
+2. See infra  notes 6–19 and accompanying text. 
+ 3. See infra  notes 20–31 and accompanying text. 
+ 4. See infra  notes 32–56 and accompanying text. 
+ 5. See infra  notes 57–74 and accompanying text. MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1323 
+Potential theories of liability include negligence, strict 
+liability, and breach of implied warranty of merchantability.  In the context of automotive crash injuries, negligence and 
+strict liability are the two most common theories, usually 
+raised in the alternative by plaintiffs.  A negligence claim considers the reasonableness of the defendant’s actions, 
+usually measured in terms of industry standard of care or a 
+cost-benefit analysis.  Strict li ability, in contrast, historically 
+was intended to apply liability to a party that caused the 
+injury, regardless of fault.  Co urts, however, have retreated 
+from applying strict liability in its absolute form, instead tempering it with some sort of reasonableness consideration 
+in most applications.  To that extent, the standard for strict 
+liability begins to converge with  the standard for negligence, 
+and thus the two are considered together in the discussion of 
+defects and liability that follows below.
+6 
+The second issue in determining liability is the type of 
+defect in the product which gives rise to the liability.  The 
+Restatement (Third) of Torts states that product liability 
+requires that a product must be found to have at least one of three categories of “defect” before liability can be imposed.
+7  
+The first category is a manufacturing defect, where the 
+product “departs from its intended design even though all possible care was exercised in the preparation and marketing 
+of the product.”
+8  This first category of defect is unlikely to 
+apply very often to autonomo us vehicles, since modern 
+manufacturing methods, especially for critical components of 
+autonomous vehicles such as the software and navigation 
+systems, can be manufactured with  low error rates.  A second 
+category of potential defect is  a failure to provide adequate 
+instructions or warnings, which applies “when the foreseeable 
+risks of harm posed by the product could have been reduced or avoided by the provision of reasonable instructions or 
+warnings . . . and the omission of the instructions or warnings 
+renders the product not reasonably safe.”
+9  Most jurisdictions 
+limit this duty to warn of risks that could be “reasonably” 
+known at the time of sale.  The manufacturer of an 
+ 
+ 6. The one difference is in manufacturing defects, discussed below, which 
+does apply a true strict liability standard. 
+ 7. R ESTATEMENT (THIRD ) OF TORTS : PRODUCT LIABILITY  § 2 (1997). 
+ 8. Id. § 2(a). 
+ 9. Id. § 2(c). MARCHANT FINAL 11/14/2012   12:42  AM 
+1324 SANTA CLARA LAW REVIEW  [Vol. 52 
+autonomous vehicle may, therefore, have a duty to disclose 
+known risks of failure, including any known or suspected failure modes.  Since the manufacturer of an autonomous 
+vehicle will seek to engineer out, or at least understand, any 
+risks involved in the vehicle, system or component failure, the required warnings should be quite limited.  As such, the duty 
+to disclose those risks should be relatively easily discharged 
+in most cases. 
+The third and most significant type of defect for 
+autonomous vehicles, as with many products, is a design 
+defect.  The standard for a design defect is that “the foreseeable risks of harm posed by the product could have 
+been reduced or avoided by the adoption of a reasonable 
+alternative design . . . and the omission of the alternative design renders the product not reasonably safe.”
+10  This is 
+called the “risk-utility test.”11  An alternative test, called the 
+“consumer expectation test,”12 inquires what level of safety a 
+reasonable consumer would expect from the product in 
+question; yet this test is losing favor in many states, and is 
+generally considered particularly inapplicable in cases involving the analysis of technical and scientific 
+information.
+13 
+Autonomous vehicles have not yet been commercially 
+deployed.  Not surprisingly, there has not been any reported 
+personal injury litigation regarding these products to date.  
+There are, however, a number of analogous technologies that have been the subject of litigation.  These cases may provide 
+some useful hints as to how courts and juries are likely to 
+apply the product liability doctri ne to autonomous vehicles.
+14  
+Industrial robots, for example, have played a role in a large 
+number of employee injuries, resulting in the robots’ 
+manufacturers being named in a number of subsequent lawsuits.  Though most incidents appear to be attributed to 
+ 
+ 10. Id. § 2(b). 
+ 11. Aaron D. Twerski & James A. Henderson, Jr., Manufacturers’ Liability 
+for Defective Product Designs: The Triumph of Risk-Utility , 74 B ROOK . L. REV. 
+1061, 1065 (2009).  12. Douglas A. Kysar, The Expectations of Consumers , 103 C
+OLUM . L. REV. 
+1700 (2003). 
+ 13. E.g. , Montag v. Honda Motor Co.,  Inc., 75 F.3d 1414 (10th Cir. 1996). 
+ 14. For additional discussion of such liability, see M. Ryan Calo, Open 
+Robotics , 70 M D. L. REV. 571, 594–600 (2011). MARCHANT FINAL 11/15/2012   9:01  PM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1325 
+the employees’ failures to take proper safety precautions15 or 
+employees’ decisions to disable available safety features of the machines,
+16 these cases highlight manufacturers’ 
+vulnerability to lawsuits in accidents involving their 
+products. 
+The dozens of suits brought against car manufacturers 
+for accidents attributed to the cars’ cruise control systems are 
+more relevant to autonomous ve hicles.  Plaintiffs are often 
+successful in alleging17 that the cruise control systems caused 
+the cars to unexpectedly accele rate and fail to respond to 
+braking.18 
+Finally, airplanes capable of flying on “autopilot” (while 
+also manned by a live pilot) provide a close analogy to 
+autonomous vehicles.  At least one case involving a collision of an auto-piloted plane has been litigated.  While the plane 
+that was controlled by autopilot was found to be the cause of 
+the collision with another plane, the court attributed the error to the pilot rather than the design of the autopilot 
+feature of the plane, with the judge opining that, “[t]he 
+obligation of those in charge of a plane under robot control to keep a proper and constant lookout is unavoidable.”
+19  
+Whether these cases will have any relevance to the courts’ 
+treatment of emerging autono mous vehicle technology is 
+difficult to predict. 
+ 
+ 
+ 15. See, e.g. , Payne v. ABB Flexible Automation , Inc., 116 F.3d 480 (8th Cir. 
+1997), in which employee was fatally injured by a robot used to construct 
+automobile wheels after he failed to comp ly with safety measures requiring him 
+to “lock out” the robot and to slow the spee d of the robot before entering its ‘cell.’ 
+ 16. See, e.g. , Edens v. Bellini, 597 S.E.2d 863 (S.C. Ct. App. 2004), in which 
+employee was fatally injured by a robotic shuttle used to transport wool, after 
+the robot’s operator disabled the pressure -sensitive safety mats that signaled 
+the robot to stop automatically if they were triggered by someone stepping on 
+them.  17. See, e.g. , Cole v. Ford Motor, Co ., 900 P.2d 1059 (Or. Ct. App. 1995) 
+(explaining that the jury awarded $375,000 to plaintiff whose car allegedly 
+accelerated when the driver pushed the brake pedal, causing the driver to lose control and crash into a guard rail). 
+ 18. See, e.g. , Watson v. Ford Motor Co., 699 S.E.2d 169 (S.C. 2010); Ashley 
+v. Gen. Motors Corp., 666 So.2d 1320 (L a. Ct. App. 1996); Lawrence v. Gen. 
+Motors Corp., 73 F.3d 587 (5th Cir. 1996). 
+ 19. Brouse v. U.S., 83 F. Supp. 373, 374 (N.D. Ohio 1949). MARCHANT FINAL 11/14/2012   12:42  AM 
+1326 SANTA CLARA LAW REVIEW  [Vol. 52 
+II. W HO WILL BE HELD LIABLE ? 
+In a conventional vehicle crash, the accident is usually 
+attributable to one of, or a combination of, three primary 
+possible causes: (i) the driver; (ii) a vehicle malfunction or defect; and/or (iii) unavoidable natural conditions (weather, 
+road conditions, animal on the road, etc).  Any liability is 
+usually allocated to one or both of the first two potential causes—the driver and the vehicle manufacturer.  In a multi-
+vehicle crash, there may be two or more drivers and vehicle 
+manufacturers involved, each of which could potentially be at fault in whole or in part, and therefore, potentially liable.
+20 
+Autonomous vehicles are likely to change the dynamics of 
+who may be held liable.  In considering these changes, it is first necessary to distinguish partial autonomous vehicles 
+from completely autonomous vehicles.  A partially 
+autonomous vehicle could involve a range of various safety systems, such as a warning system that alerts the driver 
+when the vehicle strays out of its lane or a collision avoidance 
+systems that slows or stops th e vehicle before it contacts 
+another vehicle or object.
+21  These partial autonomous 
+systems will shift some, but not all, of the responsibility for 
+accident avoidance from the driver to the vehicle, presumably reducing the risk of accidents (since that is the very purpose 
+of the system).  With a fully autonomous vehicle, however, the 
+responsibility for avoiding an accident shifts entirely to the vehicle and the components of its accident avoidance systems. 
+The liability implications of an accident that results from 
+a failure of a vehicle’s accident avoidance system will be similar, regardless of whether the vehicle is partially or fully 
+autonomous.  When the driver has a choice to turn on the 
+autonomous system and exercised that choice negligently, the apportionment of responsibility  between the car and driver 
+ 
+ 20. In a study mandated by Congress of 5471 car accidents, the National 
+Highway Traffic Safety Admi nistration (NHTSA) found that 30.8% of accidents 
+involved a single vehicle, 57.2% involved two vehicles, and 12% involved three or more vehicles.    U.S.
+ DEP’T OF TRANSP ., DOT  HS 811 059 NATIONAL MOTOR 
+VEHICLE CRASH CAUSATION SURVEY : REPORT TO CONGRESS  17 (2008). 
+ 21. See  NIDHI KALRA ET AL ., LIABILITY AND REGULATION OF AUTONOMOUS 
+VEHICLE TECHNOLOGIES  3–4 (2009) (California PATH  Research Report UCB-
+ITS-PRR-2009-28); Sven A. Beiker,  Legal Aspects of Autonomous Driving , 52 
+SANTA CLARA L. REV. 1145 (2010) (Report for the Center for Automotive 
+Research at Stanford (CARS), Stanford University); Moore & Lu, supra  note 1, 
+at 6–8. MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1327 
+may be more difficult.  For example, if the instruction manual 
+instructed the owner not to use the autonomous vehicle in certain weather conditions, or on specific types of traffic 
+patterns, but the owner does so anyway, the driver may be 
+held at least partially at fault.  Similarly, if the driver failed to utilize, or was negligent in utilizing an available over-ride 
+mechanism to assume control of the vehicle,
+22 he or she may 
+be allocated some or all of the blame for a resulting accident.  In most cases though, especially those involving a dedicated 
+and totally autonomous vehicle, the driver is unlikely to be a 
+factor in the liability determination. 
+Because drivers are found to be at fault in a large 
+majority of current automobile accidents,
+23 removing the 
+driver from the liability equation in autonomous vehicles will have important implications.  Of  course, by removing driver 
+error as a factor, the frequency of accidents should go down, 
+which is one of the key potential benefits of an autonomous vehicle in the first place.  When an accident does occur 
+though, the vehicle manufacturer, or some other party 
+involved in the design, manufacture, or operation of the autonomous vehicle is likely to be held liable for a higher 
+proportion of the accidents.  This will be more likely to occur 
+with autonomous vehicles than it currently does with conventional vehicles.
+24  In other words, when an autonomous 
+vehicle does crash, most likel y something went wrong with 
+ 
+ 22. Moore & Lu, supra  note 1, at 8 (discussing switchable on-and-off 
+autonomous control system). 
+ 23. In the National Motor Vehicle Crash Causation Survey, NHTSA found 
+that driver factors was the primary cause of the accident in 5096 of 5471 
+accidents studied, whereas vehicle problems were the primary cause of 130 
+accidents, and road conditio ns or weather conditions were the primary cause of 
+135 accidents.  U.S.  DEP’T OF TRANSP ., supra  note 20, at 23–26. 
+ 24. D.  RANDAL AYERS , VA. TRANSP . RESEARCH COUNCIL , VTRC  94-R6,  TORT 
+REFORM AND “SMART ” HIGHWAYS : ARE LIABILITY CONCERNS IMPEDING THE 
+DEVELOPMENT OF COST-EFFECTIVE INTELLIGENT VEHICLE -HIGHWAY SYSTEMS ? 
+26–27 (1994), available at  http://ntl.bts.gov/DOCS/ayers.html.  There are two 
+primary theories by which a vehicle manufacturer can be held liable for a vehicle accident.  The first, and the one most relevant here, is that a “defect” in 
+a vehicle caused or substantially contributed to the accident.  The second 
+theory, which may not be appreciably different for conventional and autonomous vehicles, is that deficiencies in the vehicle’s “crashworthiness” 
+result in greater injuries from an accident than should have resulted.  See 
+Haberkorn v. Chrysler Corp., 533 N. W.2d 373, 379–80 (Mic h. App. Ct. 1995) 
+(holding vehicle manufacturer had the duty to design its product to eliminate 
+any unreasonable risk of foreseeable injury as a result of a collision). MARCHANT FINAL 11/14/2012   12:42  AM 
+1328 SANTA CLARA LAW REVIEW  [Vol. 52 
+the collision avoidance system or the vehicle encountered 
+conditions that it was not adequately programmed to address.
+25  Unlike a conventional vehicle crash, where the 
+vehicle malfunction involves some sort of defect, such as a tire 
+blowout or gas tank explosion, the malfunction in an autonomous vehicle will usually be a programming error or 
+system failure that could implicate several different 
+potentially liable parties.
+26 
+If an autonomous vehicle malfunctioned and caused an 
+accident, one or more of several entities could be held liable.27  
+The list of potential parties includes the vehicle manufacturer, the manufacturer of a component used in the 
+autonomous system, the software engineer who programmed 
+the code for the autonomous operation of the vehicle, and the road designer in the case of an intelligent road system that 
+helps control the vehicle.
+28  The various component parts and 
+their respective roles in causin g a malfunction may be hard to 
+discern and separate for the purpose of assigning 
+responsibility.29  In most cases, it will be the vehicle 
+manufacturer who will, for both practical and doctrinal reasons, be the party held liable for a crash involving an 
+ 
+ 25. See  Moore & Lu, supra  note 1 (discussing that the greatest impediments 
+to autonomous vehicles is decision-making under conditions of uncertainty and operating the vehicle safely under unusual weather and environmental 
+conditions). 
+ 26. See Beiker,  supra  note 21, at 1152 (“As the vehicle navigates itself 
+through traffic, it makes ‘mission-critical’  decisions, which, in a narrow range of 
+circumstances, can and will contribute to accidents.  Such an event cannot 
+necessarily be classified as a technica l failure, however, the same way as, for 
+instance, a damaged tire.”). 
+ 27. See  Mark H. Chignell et al., The Principles of Caveat Vendor, Caveat 
+Emptor and Caveat Operator in Robotic Safety , 8 J.
+ OCCUPATIONAL ACCIDENTS  
+79, 83 (1986) (discussing possible liable parties in accident caused by 
+autonomous system generally). 
+ 28. This list assumes that the driver is not liable because it had no direct control over the functioning of the autonomous vehicle. 
+ 29. Wendell Wallach, From Robots to Techno Sapiens: Ethics, Law and 
+Public Policy in the Development of Robotics and Neurotechnologies , 3 L
+AW, 
+INNOVATION & TECH. 185, 194 (2011); Calo, supra  note 14, at 597 (“It is 
+extremely difficult to discover whether software, as opposed to hardware, is 
+responsible for the glitch that led to an a ccident.”).  An additional complexity is 
+that a truly autonomous system self-teaches new behaviors based on 
+experience.  Thus, the vehicle may act based on such self-learning to cause an 
+accident that may have been inconsistent with the initial programming for which the manufacturer was responsible.  See Robert Sparrow, Killer Robots , 24 
+J.
+ APPLIED PHIL. 62, 70 (2007). MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1329 
+autonomous vehicle.30  The practical argument is that the 
+vehicle manufacturer will usually have the “deep pockets” that the injured plaintiff will seek to target.  From a doctrinal 
+perspective, the vehicle manufacturer, as the party ultimately 
+responsible for the final product, will be the most likely party to be found liable.  For example, the manufacturer of a 
+component part is not liable fo r defects in the final product 
+over which it had no control, although it is liable if the part was defective when the component left the manufacturer.  A 
+similar rule is likely to apply to the software engineer.
+31  So, 
+unless the component part or software engineer produced a product that was clearly defective, the vehicle manufacturer 
+will be the party most likely to be fingered for liability, 
+although there will likely be cases where other parties are sued. 
+One other dynamic that may be different in autonomous 
+vehicle crashes is the “who is liable” category in the context of multi-vehicle crashes.  In conventional vehicle accidents, an 
+injured person usually sues the manufacturer of his or her 
+own vehicle for failing to provide a crashworthy vehicle.  There are scenarios where the first driver’s vehicle 
+malfunctions and causes the accident, in which the second 
+driver may sue the manufacturer of the first vehicle for any injuries incurred as a result of the accident.  But those 
+scenarios tend to be the minority in conventional crash 
+cases—most of the time an injured driver is suing the manufacture of his or her own vehicle.  In a crash between 
+two or more vehicles—where at least one vehicle is an 
+autonomous vehicle, and a malfunction or ill-advised 
+ 
+ 30. For example, the manufacturer of a component is largely protected from 
+liability for failure to warn when it is integrated into a sophisticated product.  
+See RESTATEMENT (THIRD ) OF TORTS : PRODUCT LIABILITY  § 5 cmt. b (1997) 
+(“The component seller is required to provide instructions and warnings regarding risks associated with the use of  the component product. . . .  However, 
+when a sophisticated buyer integrates a component into another product, the 
+component seller owes no duty to warn either the immediate buyer or ultimate 
+consumers of dangers arising because the component is unsuited for the special 
+purpose to which the buyer puts it.”). 
+ 31. Computer programming is a service rather than a product, and thus the actions of a computer programmer will be evaluated under a negligence or 
+malpractice standard rather than under pr oducts liability.  Frances E. Zollers et 
+al., No More Soft Landings for Software: Liability for Defects in an Industry 
+T h a t  H a s  C o m e  o f  A g e , 21 S
+ANTA CLARA COMPUTER & HIGH TECH. L.J. 745 
+(2005). MARCHANT FINAL 11/14/2012   12:42  AM 
+1330 SANTA CLARA LAW REVIEW  [Vol. 52 
+maneuver by that vehicle al legedly contributed to the 
+accident—all injured persons in the accident are likely to sue the manufacturer of the autonomous vehicle. 
+III. R
+ELATIVE RISK ISSUES  
+Relative risk issues are likely to be the most important 
+variables affecting the liability exposure of autonomous 
+vehicles, and consequently, their economic viability.32  These 
+relative risk issues apply in se veral layers.  The first layer is 
+the threshold question of whether autonomous vehicles will 
+increase or decrease the frequency and severity of vehicle collisions.  One of the key drivers pushing the development of 
+autonomous vehicles is improved safety.  It is therefore 
+presumed that an autonomous vehicle would be safer than a conventional vehicle.
+33  If, to the contrary, an autonomous 
+vehicle raised net accident risk s, it would likely not be viable 
+for widespread use.  A manufacturer that substitutes a riskier product for a safer produc t will generally expose itself 
+to lawsuits and runaway liability. 
+Thus, absent exceptional circumstances or applications, 
+autonomous vehicles will only be viable if they are safer than 
+the conventional vehicles they replace.  This follows from the 
+presumption that safety is one of the primary motivating objectives of creating autonomous vehicles.  As a New York 
+Times  story noted, “[r]obot drivers react faster than humans, 
+have 360-degree perception and do not get distracted, sleepy or intoxicated . . . .”
+34  But even if the autonomous vehicles are 
+safer overall, compared to conventional vehicles, they will 
+still be subject to liability when malfunctions or other failures result in accidents and associated injuries.  Most accidents 
+involving an autonomous vehicle will be the result of the 
+autonomous system failing, because, as discussed above, there will not be a driver to blame for the accident.
+35 
+ 
+ 32. Relative risk is the ratio of the risk  in the population of  interest (in this 
+case autonomous vehicles) divided by the risk in the background or control population (in this case, conventional non-autonomous vehicles).  See Michael D. 
+Green, Expert Witnesses and Sufficiency of Evidence in Toxic Substances 
+Litigation: The Legacy of Agent Orange and Bendectin Litigation , 86 N
+W. U. L. 
+REV. 643, 647 (1992). 
+ 33. See  Moore & Lu, supra  note 1, at 3–4. 
+ 34. John Markoff, Google Cars Drive Themselves, in Traffic , N.Y.  TIMES , 
+Oct. 9, 2010, at A1. 
+ 35. Of course there will be some accidents involving autonomous vehicles MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1331 
+There are many examples of products that have a net 
+safety benefit that are still subject to liability when an injury results.  The litigation against vaccine manufacturers, for 
+example, clearly illustrates this paradox.  The public health 
+benefit of vaccines is undeniable, yet they are so frequently the source of lawsuits that federal preemption laws had to be 
+passed to protect their manufacturers.
+36  Even with these 
+protections in place, vaccine manufacturers continue to be held liable for the rare instan ces in which their products 
+cause injuries that do not fall within the protections of the 
+federal legislation.
+37  Automobile manufacturers have faced 
+similar liability threats after incorporating various features 
+designed to improve the safety of their automobiles, such as 
+anti-lock braking systems38 and airbags.39  General Motors, 
+for example, was sued by a woman and her family after the 
+passenger-side airbags in their vehicle failed to deploy in a 
+collision with an eighteen-wheeler, resulting in permanent and severe injuries to the woman.
+40  D e s p i t e  t h e  f a c t  t h a t  
+passenger-side airbags were not required by the National 
+Highway Transportation Safety Commission at the time, the jury found the airbags to be defective and awarded the 
+woman and her family $18.5 million in damages.
+41 
+Although the overall safety benefit of autonomous 
+vehicles will not provide a complete liability shield, 
+manufacturers of such products may be able to use this safety 
+benefit in their defense.  In many product liability cases, the 
+manufacturer defends the safety of its product, and the 
+plaintiffs attack its riskiness—by comparing the product to 
+ 
+that are the fault of the driver of the other vehicle, assuming it is not 
+autonomous.  This also assumes that the vehicle is fully autonomous and the 
+passenger had no way to override the autonomous system, or that the vehicle was partially autonomous but the driver was not negligent in his or her failure 
+to prevent or mitigate the autonomous system’s error. 
+ 36. National Childhood Vaccine Inju ry Act, 42 U.S.C. §§ 300aa-1–300aa-34 
+(1986). 
+ 37. See, e.g. , Strong v. Am. Cyanamid Co.,  261 S.W.3d 493 (Mo. Ct. App. 
+2007) (upholding a jury’s $8.5 million ve rdict to a consumer who contracted 
+paralytic polio from an oral polio vaccine). 
+ 38. Baluchinsky v. Gen. Motors Corp ., 670 N.Y.S.2d 536 (App. Div. 1998). 
+ 39. See, e.g. , Morton International v. Gillespie, 39 S.W.3d 651 (Tex. Ct. App. 
+2001) (affirming trial court’s $950,000 award to a woman who was injured when 
+the deployment of her airbag was delayed during an accident); Gen. Motors 
+Corp. v. Burry, 203 S.W.3d 514 (Tex. Ct. App. 2006).  40. See Gen. Motors Corp. , 203 S.W.3d 514. 
+ 41. Id. MARCHANT FINAL 11/14/2012   12:42  AM 
+1332 SANTA CLARA LAW REVIEW  [Vol. 52 
+alternative designs and competing products on the market.  
+An example is the defense by General Motors (“GM”) of its C/K pickup in a series of lawsuits in the 1990s.
+42  Plaintiffs in 
+these suits alleged that GM’s placement of the gas tank on 
+the side of the model, outside the vehicle frame, created an increased risk of fatal fires afte r side impacts.  GM attempted 
+to defend the safety of its vehicle with comparative analyses, 
+contending that the overall crashworthiness of its vehicles was better than most vehicles on the road.  GM further 
+argued that even if its vehicl es were prone to a slightly 
+increased risk of fire fatalities from side impacts on the side with the gas tank, they had an equivalent or lower rate of 
+fatalities and fire fatalities from all types of accidents.
+43  
+There is an inevitable trade-off in the placement of the gas tank—putting the gas tank in one location (e.g., side of 
+vehicle) increases the fire risk from impacts in that region of 
+the vehicle, but also decreases the risks from impacts in other regions where the tank could ha ve been located, but was not 
+(e.g., the rear of vehicle).
+44  This argument of overall superior 
+safety was largely ineffective wi th juries, as they returned 
+adverse verdicts against GM, including large punitive 
+damages awards.45 
+Parties have also attempted to use comparative risk 
+evidence in all-terrain vehicle (“ATV”) litigation.  The courts 
+generally exclude the defendant from introducing 
+comparative risk data showing the relative safety of ATVs 
+compared to other recreational activities, such as riding 
+snowmobiles and motorcycles, on the basis that such 
+comparative risk evidence is irrelevant and unduly 
+ 
+ 42. E.g. , Gen. Motors Corp. v. Moseley, 447 S.E.2d 302 (Ga. Ct. App. 1994).  
+See Terence Moran, GM Burns Itself , AM. LAW., Apr. 1993, at 68–83. 
+ 43. G ENERAL MOTORS , EVALUATION OF THE SAFETY OF GM  1973-87  C/K  
+PICKUP TRUCKS , PART I: INITIAL RESPONSE OF THE GENERAL MOTORS 
+CORPORATION TO NHTSA  LETTER OF APRIL 9, 1993  (Apr. 30, 1993) (copy on file 
+with author); Moran, supra  note 42, at 69, 78. 
+ 44. Walter Olson, The Most Dangerous Vehicle on the Road , WALL ST. J., 
+Feb. 9, 1993, at A16, available at  http://walterolson.com/articles/gmtrucks.html 
+(“Any possible placement of the fuel tank ‘causes’ some accidents and averts 
+others.  Respectable designers have tried every gas-tank location at one time or another . . . . All have been rejected at other times as unsafe.”). 
+ 45. Moran, supra  note 42, at 81; Sam LaManna, GM Verdict Could Affect 
+Future Cases , N
+AT’L L.J., May 3, 1993, at 21, 25; GM v. Moseley, 447 S.E.2d 
+302, 305 (Ga. App. Ct. 1994).  Jury awar ded $101 million in punitive damages 
+against GM.  Id. MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1333 
+prejudicial.46  In cases where the plaintiff “opened the door” to 
+such evidence by introducing repo rts on the statistical risks of 
+ATVs, however, the defendant was permitted to introduce its 
+comparative risk evidence to impeach the plaintiff’s evidence 
+and to argue against punitive damages.47  Such comparative 
+risk evidence, when allowed, seems to be effective for the 
+defendant.  Plaintiffs appealed (unsuccessfully) a verdict in 
+their own favor, in at least one instance, to challenge the introduction of comparative risk  information on rebuttal.  The 
+plaintiffs presumably concluded that the comparative risk 
+evidence substantially reduced their recovery.
+48 
+An autonomous vehicle manufacturer could, therefore, 
+try to defend its vehicle in court by demonstrating that the 
+vehicle is safer overall than the conventional vehicles it replaces.  This argument is likely to be unsuccessful when an 
+accident was caused by a clear defect or malfunction in the 
+vehicle design, especially if the defect could have been 
+prevented or fixed by an alternative design.  The cost-benefit 
+(or risk-utility) argument will not depend on whether the at-
+fault autonomous vehicle is be tter overall than a traditional 
+vehicle, but whether the autono mous vehicle technology could 
+have been tweaked to make it safer.  In principle, the cost-
+benefit analysis is based on the knowledge that the manufacturer had when the vehicle was manufactured.  In 
+practice, however, hindsight from  the accident that actually 
+occurred will inevitably provide new insights into how the technology could have been made safer, which will then be 
+imputed to the manufacturer.  Given the complexity of an 
+autonomous system, a plaintiff’s expert will almost always be able to testify (with the benefit of hindsight) that the 
+manufacturer should have known about and adopted the 
+alternative, safer design. 
+The manufacturer cannot possibly anticipate every 
+possible scenario the vehicle will encounter, especially for a 
+technology as complex as autono mous driving systems.  For 
+ 
+ 46. Bittner v. Am. Honda Motor Co., 533 N.W.2d 476 (Wisc. 1995) 
+(overturning verdict for defense based on improper admission of comparative risk evidence); Kava v. Am. Honda Motor Co., 48 P.3d 1170, 1172 (Alaska 2002) 
+(upholding exclusion of comparative risk  data in defendant’s case-in-chief). 
+ 47. Hulmes v. Honda Motor Co., 960 F. Supp. 844, 864 (D.N.J. 1997); Kava , 
+48 P.3d at 1174. 
+ 48. Kava , 48 P.3d at 1173–74. MARCHANT FINAL 11/14/2012   12:42  AM 
+1334 SANTA CLARA LAW REVIEW  [Vol. 52 
+the situations it does anticipate, the manufacturer can 
+usually design the system to minimize the risk of an accident.  The problem is that most accidents will result from situations 
+that the manufacturer or designer did not anticipate.  This 
+will open the manufacturer to second-guessing by the plaintiff’s expert that an adjustment would have provided a 
+safer alternative system that would have avoided the accident 
+in question.
+49  The manufacturer will almost always lose the 
+cost-benefit argument, conducted in hindsight in the 
+litigation context, when it focu ses at the micro-scale between 
+slightly different versions of th e autonomous system.  This is 
+because the cost of not implementing the potential 
+improvement will usually be seve re—the loss of one or more 
+lives or other serious injury, compared to the relatively small cost of the marginal improvement that might have prevented 
+the accident.
+50  The technology is potentially doomed if there 
+are a significant number of such cases, because the liability burden on the manufacturer may be prohibitive of further 
+development.  Thus, even though an autonomous vehicle may 
+be safer overall than a conventional vehicle, it will shift the responsibility for accidents, and hence liability, from drivers 
+to manufacturers.  The shift will push the manufacturer away 
+from the socially-optimal outcome—to develop the autonomous vehicle.
+51 
+One final aspect of relative risk in liability 
+determinations will be the jurors’ (and to a lesser extent, judges’) perceptions about autonomous vehicles.  Liability 
+determinations always involve an element of jury emotion 
+and ethical response.
+52  It is not clear how juries will respond 
+to autonomous vehicles, espe cially with hindsight bias after  
+the vehicle has been in an accident that has injured the 
+plaintiff sitting before them.  Some jurors may value the 
+ 
+ 49. If the accident was caused by an aspect of the autonomous vehicle that 
+could not easily have been foreseen or fixed, and which involved a tradeoff 
+inherent in moving to the safer autonomous design, the argument against 
+liability will be much stronger.  50. Of course, from a prospective perspective, there are almost an infinite 
+number of improvements that could be made to slightly improve safety.  In 
+many cases, these improvements will only appear justified after  an accident has 
+occurred.  As is often stated, hindsight is perfect. 
+ 51. See K
+ALRA ET AL ., supra  note 21, at 30. 
+ 52. See  W. Kip Viscusi, Jurors, Judges, and the Mistreatment of Risk by the 
+Courts , 30 J.  LEGAL STUD. 107, 135 (2001); Erica Beecher-Monas, Heuristics, 
+Biases, and the Importance of Gatekeeping , 2003 M ICH. STATE L. REV. 987. MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1335 
+effort made by manufacturers in producing a complex 
+technology product that provid es overall safety and other 
+benefits.  Alternatively, juro rs could perceive autonomous 
+vehicles as a premature, and even reckless, foray that 
+deserves to be soundly punished and deterred.53  T h e  l a t t e r  
+reaction may be even stronger in the context of a lawsuit over 
+an accident allegedly caused by an autonomous vehicle.  
+There is some evidence that lay persons composing a jury are suspicious of unfamiliar and exotic-edge technologies, 
+regardless of their actual probability of causing harm.
+54  This 
+research could be a concern fo r manufacturers of all novel 
+high-tech products, including autonomous vehicles.  
+Moreover, a phenomenon called “betrayal aversion” finds that 
+people often have a strong emotional reaction against a safety innovation that actually causes harm, even if the net effect of 
+the innovation is to improve safety.
+55  For example, the jury 
+verdict against GM for its C/K pickup case, involving an award of over $100 million in punitive damages, suggests 
+that juries are prone to outrage against a high-tech 
+manufacturer because of the increased risk created by one type of accident This result was reached even though the 
+overall crashworthiness of the vehicle was equivalent or 
+superior to most other vehicles on the road.
+56 
+IV. L EGAL AND POLICY PROTECTIONS  
+The above analysis suggests that liability may present a 
+serious barrier for the production and development of 
+autonomous vehicles, even if the products are socially 
+beneficial overall.  The shift in liability from drivers to manufacturers, notwithstanding the overall decrease in total 
+accidents (and liability), may deter manufacturers from 
+ 
+ 53. Beiker, supra  note 21, at 1152 (“Overreaction [by juries] is a clear 
+danger . . . .”); Moore & Lu, supra  note 1, at 5 (consumers will expect 
+autonomous vehicles to function as sa fely or safer than driver-controlled 
+vehicles).  54. Paul Slovic & Ellen Peters, Risk Perception and Effect , 15 C
+URRENT 
+DIRECTIONS IN PSYCHOL . SCI. 322 (2006); Yuval Rottenstreich & Ran Kivetz, 
+On Decision Making Without Likelihood Judgment , 101 O RGANIZATIONAL 
+BEHAV . & HUM. DECISION PROCESSES  74 (2006). 
+ 55. Jonathan J. Koehler and Andrew D. Gershoff, Betrayal Aversion: When 
+Agents of Protection Become Agents of Harm , 90 ORGANIZATIONAL BEHAV . & 
+HUM. DECISION PROCESSES  244 (2003). 
+ 56. Id. MARCHANT FINAL 11/14/2012   12:42  AM 
+1336 SANTA CLARA LAW REVIEW  [Vol. 52 
+developing autonomous vehicle technologies.57  Moreover, 
+while manufacturers may be able to transfer some of those costs back to drivers through hi gher vehicle prices, the risk 
+discounting that consumers apply, in which they undervalue 
+products that reduce future risks, will prevent consumers 
+from investing in such products at a socially optimal level.
+58 
+There are some possible legal and policy tools that may 
+help protect manufacturers from liability.  One such tool within the litigation system is the assumption of risk defense.  
+Outside the litigation system, another tool is the pursuit of 
+legislation that provides immunity or other defenses to manufacturers.  Legislation could help minimize liability, or 
+alternatively, the National Highway Safety Traffic 
+Administration (“NHTSA”) could promulgate regulations that expressly preempt state tort actions. 
+A. Assumption of Risk Defense 
+The assumption of risk defense provides that a product 
+user who knowingly accepts the risks of a potentially 
+hazardous product assumes some or all of the responsibility 
+for any harm that may befall them from use of the product.
+59  
+Such a defense requires that the product user understand 
+and willingly assume the risks.60  Thus, for such a defense to 
+apply to autonomous vehicles , the manufacturer would have 
+to fully disclose the potential risks of the vehicle, including 
+the likely failure modes and some approximate sense of their 
+probability.  Such a defense would be stronger if the driver of an autonomous vehicle signed a written waiver accepting the 
+risk of the vehicle.  Even in  these circumstances, however, 
+courts often refuse to recognize the defense.  Assumption of risk has been merged into the comparative negligence 
+analysis and is no longer recognized as a separate defense in 
+many states.  The recent Restatement (Third) of Apportionment of Liability rejects a general non-contractual 
+ 
+ 57. A YERS , supra  note 24, at 2. 
+ 58. Id. at 27–28. 
+ 59. Eric A. Feldman & Alison Stein, Assuming the Risk: Tort Law, Policy, 
+and Politics on the Slippery Slopes , 59 D EPAUL L. REV. 259 (2010). 
+ 60. E.g. , Murphy v. Steeplechase Amuse. Co., 166 N.E. 173, 174 (N.Y. 1929) 
+(holding that riders on an amusement ride assume the obvious risk of the attraction); Chepkevich v. Hidden Valle y Resort, L.P., 2 A.3d 1174, 1186 (Pa. 
+2010) (holding that a skier assumed risk of injury from ski lift). MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1337 
+assumption of risk defense.61  Moreover, even if the defense 
+does apply, it would only extend to the owner and possibly passengers of the autonomous vehicle, not to the occupants of 
+the other vehicle. 
+B. Legislative Protections 
+Another line of defense for autonomous vehicle 
+manufacturers would be legislation at either the federal or 
+state level that would protec t against, or limit, liability.
+62  The 
+rationale for such legislative intervention would be supported 
+by the fact that autonomous vehicles represent a socially 
+beneficial technology that may be hindered by real or perceived liability concerns.  Of course, providing such 
+legislative protection from liability has its downside—it 
+diminishes, if not eliminates, the incentives for manufacturers to make marginal improvements in the safety 
+of their products in order to prevent liability.  The net value 
+and hence wisdom of such legislative interventions will therefore depend on how they are constructed and the 
+balance they strike between these positive and negative 
+incentives. 
+While it is relatively rare for legislatures to intervene to 
+protect specific technologies or  products from liability, there 
+are some precedents regarding comparative technologies.  At the federal level, Congress ad opted legislation severely 
+restricting the form and amount of liability that courts could 
+impose from Y2K-related problems.
+63  S i m i l a r l y ,  C o n g r e s s  
+enacted the Price-Anderson Nuclear Industries Indemnity Act 
+in 1957 to protect the nuclear  industry from excessive 
+liability from nuclear accidents.64  The Oil Pollution Act of 
+ 
+ 61. R ESTATEMENT (THIRD ) OF TORTS : APPORTIONMENT OF LIABILITY  § 2 cmt. 
+f (2000). 
+ 62. See  Wallach, supra  note 29, at 194, 196 (discussing incentives of 
+autonomous product manufacturers to seek legislation providing liability 
+protection); Calo, supra  note 14, at 601–09 (proposing limited immunity from 
+liability for manufacturers of autonomous systems).  63. Year 2000 Responsibility and Readiness Act, Pub. Law No: 106-37 
+(1999) (limits Y2K liability in two ways: (a) by limiting it to proportional rather 
+than joint and several liability; and (b) by requiring clear and convincing evidence of damage and limiting the amount of damages to the lesser of 
+$250,000 or three-times compensatory damages).  Y2K refers to the potential 
+problems that were anticipated to result  from computers failing to accurately 
+interpret the date when the calendar reached the year 2000. 
+ 64. 42 U.S.C. § 2210 (2006). MARCHANT FINAL 11/14/2012   12:42  AM 
+1338 SANTA CLARA LAW REVIEW  [Vol. 52 
+1990 created the Oil Spill Liability Trust Fund, which sets 
+caps on liability for oil spills.65  The Public Readiness and 
+Emergency Preparedness Act of  2005 provides drug makers 
+with immunity from liability for injuries caused by vaccines 
+during declared public health  emergencies (e.g., avian flu 
+epidemic).66  The National Childhood Vaccine Injury Act was 
+enacted in 1986 to limit liability for childhood vaccines, in 
+response to concerns that liab ility would force many suppliers 
+of such vaccines out of business.67  The General Aviation 
+Revitalization Act of 1994 immunized manufacturers of small 
+planes and small plane parts from liability for a period of eighteen years in response to the potential for widespread 
+bankruptcy in that industry.
+68 
+At the state level, several le gislatures have adopted laws 
+to limit liability in a number of different arenas.  For 
+example, many states have adopted laws that cap allowable 
+damages in medical malpractice actions, largely in an effort to encourage physicians to cont inue to practice medicine in 
+their states and to lower the overall cost of health care.
+69  
+Similarly, almost all states have taken the initiative to place some limit on the amount of punitive damages that their 
+courts can award.
+70  These efforts illustrate states’ propensity 
+to ameliorate the liability concerns faced by vulnerable, but promising, technologies like autonomous vehicles. 
+C. State Preemption 
+A third possible protection for manufacturers of 
+autonomous vehicles is federal preemption of state tort 
+actions.  In particular, a Federal Motor Vehicle Safety 
+Standard, (“FMVSS”) adopted by NHTSA, may preempt state tort actions that are in conflict with the standard.  There are 
+ 
+ 65. 33 U.S.C. § 2704 (2006). 
+ 66. 42 U.S.C. § 329 (2006). 
+ 67. 2 U.S.C. §§ 300aa-1–300aa-4 (2006). 
+ 68. Pub. L. No. 103-298, § 2(a), 108 Stat. 1552 (1994) (codified at 49 U.S.C. § 
+40101 notes (2006) (cited in Calo, supra  note 14, at 603 n.220). 
+ 69. F RED J. HELLINGER & WILLIAM E. ENCINOSA , U.S.  DEP’T OF HEALTH & 
+HUMAN SERVS ., A GENCY FOR HEALTHCARE RESEARCH AND QUALITY : THE 
+IMPACT OF STATE LAWS LIMITING MALPRACTICE AWARDS ON THE GEOGRAPHIC 
+DISTRIBUTION OF PHYSICIANS 3 (2003), available at http://www.ahrq.gov/ 
+research/tortcaps/tortcaps.htm.  70. Punitive Damages Reform , A
+MERICAN TORT REFORM ASSOCIATION , 
+http://www.atra.org/issues/punitive-damages- reform (last visited Apr. 20, 2012). MARCHANT FINAL 11/14/2012   12:42  AM 
+2012] AUTONOMOUS VEHICLES & LIABILITY  1339 
+two obstacles to this protection.  First, NHTSA has not 
+adopted FMVSSs specific to autonomous vehicles.  It is conceivable, however, that the agency may adopt such 
+standards in the future if autonomous vehicles are likely to 
+become prevalent and raise unique safety issues.  The second obstacle is that most FMVSSs do not preempt state tort 
+actions.
+71  Courts have found preemption only in the narrow 
+context where the state tort acti on actually interferes with 
+the achievement of the objective of the federal standard.72  In 
+construing the federal govern ment’s objective behind a 
+FMVSS, the courts looked at the regulation’s history, NHTSA’s contemporaneous explanation of the regulation’s 
+purpose, and the agency’s current view of its preemptive 
+effect.
+73  Thus, if the agency so intended, NHTSA may be able 
+to write and explain future safety standards for autonomous 
+vehicles in a way that preempt ed some, or all, state tort 
+actions.74 
+CONCLUSION  
+Autonomous vehicles will increase the safety of vehicle 
+travel by reducing vehicle collisions.  Ironically, autonomous 
+vehicles are likely to increase  the liability exposure of vehicle 
+manufacturers.  Autonomous vehicles will shift the responsibility for avoiding accidents from the driver to the 
+vehicle manufacturer.  Although the autonomous vehicle is 
+expected to result in a net decrease in the number of accidents, it will create new modes of failure that will be 
+attributed to the vehicle.  These failures are likely to generate 
+lawsuits against the vehicle manufacturer and possibly manufacturers of components of the autonomous system.  
+ 
+ 71. See, e.g. , Williamson v. Mazda Motor of Am., Inc., 131 S. Ct. 1131 (2011)  
+(holding that  the Federal Motor Vehicle Safety Standard, giving auto 
+manufacturers the choice of installing either simple lap belts or lap-and-shoulder belts on rear inner seats, did no t pre-empt state tort claims seeking to 
+impose liability on manufacturer for installing simple lap belts on the rear inner 
+seat of a minivan).  72. Geier v. American Honda Motor Co., 529 U.S. 861 (2000) (preempting 
+state tort action alleging the failure to install air bags when federal standard 
+only requires installation of air bags in some vehicles of the applicable model year). 
+ 73. Id. at 875–85. 
+ 74. It may also be possible to address some of the liability concerns discussed in this Article through innovative insurance policies, but such ideas 
+are discussed elsewhere in this symposium issue. MARCHANT FINAL 11/14/2012   12:42  AM 
+1340 SANTA CLARA LAW REVIEW  [Vol. 52 
+Plaintiffs will target manufacture rs because they will often be 
+most at fault for the malfunction that caused the accident and they have the deepest pockets of all involved parties.  
+Manufacturers of autonomous vehicles are likely to argue 
+that their “fault” should be evaluated in a comparative context, with credit given to the net safety benefits of the 
+autonomous vehicles.  The history of such arguments made by 
+manufacturers of other, safer, products suggest that this comparative or net risk assessmen t is unlikely to succeed.  If 
+that prediction comes true, and if autonomous vehicles have a 
+significant rate of failure (likely in the initial years at least), liability may be a barrier that blocks the introduction of this 
+socially beneficial new technology. 
+If this problem is serious enough, it may require greater 
+use of an assumption of risk defense, legislative liability 
+protection, or preemption, to ensure autonomous vehicles are 
+not unduly impeded by liability concerns.  Of course, one disadvantage of these approaches is that by immunizing the 
+internalization of accident costs from vehicle manufacturers, 
+they may reduce the pressure on manufacturers to make incremental improvements in th e safety of their autonomous 
+systems.  Notwithstanding this limitation, it may be better to 
+have autonomous vehicles sooner rather than later even if they are imperfect, given that even imperfect autonomous 
+vehicles will be safer than ve hicles on the road today. 
