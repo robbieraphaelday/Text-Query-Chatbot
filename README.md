@@ -11,23 +11,22 @@ This project is a chatbot that utilizes the Langchain and GPT models to allow us
 ## Installation
 
 1. Clone the repository:
-
    ```
    git clone https://github.com/your-username/chatbot-project.git
    ```
 
 2. Install the required dependencies:
-
    ```
    pip install -r requirements.txt
    ```
+
+3. Add your OpenAI key to the `txtlangchain.py` file and `openai_key.txt` file. These keys are required for the operation of the chatbot.
 
 ## Usage
 
 1. Add the PDF documents you want to query to the `docs` directory.
 
 2. Start the chatbot by running the following command:
-
    ```
    python chatbot.py
    ```
