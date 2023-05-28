@@ -13,7 +13,7 @@ This project is a chatbot that utilizes the Langchain and GPT models to allow us
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/chatbot-project.git
+   git clone [https://github.com/your-username/chatbot-project.git](https://github.com/robbieraphaelday999/Text-Query-Chatbot.git)
    ```
 
 2. Install the required dependencies:
