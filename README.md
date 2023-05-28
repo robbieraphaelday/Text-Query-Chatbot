@@ -1,47 +1,47 @@
 # Text-Query-Chatbot
 
-    This project is a chatbot that utilizes the Langchain and GPT models to allow users to query multiple PDF documents and engage in conversation with the chatbot.
+This project is a chatbot that utilizes the Langchain and GPT models to allow users to query multiple PDF documents and engage in conversation with the chatbot.
 
-    ## Features
+## Features
 
-    - Query multiple PDF documents
-    - Engage in conversation with the chatbot
-    - Retrieve information from the loaded PDF documents
+- Query multiple PDF documents
+- Engage in conversation with the chatbot
+- Retrieve information from the loaded PDF documents
 
-    ## Installation
+## Installation
 
-    1. Clone the repository:
+1. Clone the repository:
 
-       ```
-       git clone https://github.com/your-username/chatbot-project.git
-       ```
+   ```
+   git clone https://github.com/your-username/chatbot-project.git
+   ```
 
-    2. Install the required dependencies:
+2. Install the required dependencies:
 
-       ```
-       pip install -r requirements.txt
-       ```
+   ```
+   pip install -r requirements.txt
+   ```
 
-    ## Usage
+## Usage
 
-    1. Add the PDF documents you want to query to the `docs` directory.
+1. Add the PDF documents you want to query to the `docs` directory.
 
-    2. Start the chatbot by running the following command:
+2. Start the chatbot by running the following command:
 
-       ```
-       python chatbot.py
-       ```
+   ```
+   python chatbot.py
+   ```
 
-    3. Follow the instructions provided by the chatbot to query the PDF documents or engage in a conversation.
+3. Follow the instructions provided by the chatbot to query the PDF documents or engage in a conversation.
 
-    ## Documentation
+## Documentation
 
-    The current documents loaded in the chatbot are focused on the ethics of self-driving vehicles. You can find these documents in the `docs` directory.
+The current documents loaded in the chatbot are focused on the ethics of self-driving vehicles. You can find these documents in the `docs` directory.
 
-    ## Contributing
+## Contributing
 
-    Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request.
+Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request.
 
-    ## License
+## License
 
-    This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
