@@ -1,1161 +1,0 @@
-Transportation Research Part C 127 (2021) 103058
-Available online 17 April 2021
-0968-090X/© 2021 Elsevier Ltd. All rights reserved.Competition between shared autonomous vehicles and public 
-transit: A case study in Singapore 
-Baichuan Moa, Zhejing Caob, Hongmou Zhangc,d,e, Yu Shenf, Jinhua Zhaod,* 
-aDepartment of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, United States 
-bSchool of Architecture, Tsinghua University, Beijing 100084, China 
-cSchool of Government, Peking University, Beijing 100871, China 
-dDepartment of Urban Studies and Planning, Massachusetts Institute of Technology, Cambridge, MA 02139, United States 
-eFuture Urban Mobility IRG, Singapore –MIT Alliance for Research and Technology Centre, Singapore 138602, Singapore 
-fKey Laboratory of Road and Traffic Engineering of the Ministry of Education, Tongji University, Shanghai 201804, China   
-ARTICLE INFO  
-Keywords: 
-Shared mobility-on-demand system 
-Autonomous vehicles 
-Public transportation 
-Agent-based simulation 
-Market competition 
-Nash equilibrium ABSTRACT  
-Emerging autonomous vehicles (AV) can either supplement the public transportation (PT) system 
-or compete with it. This study examines the competitive perspective where both AV and PT 
-operators are profit-oriented with dynamic adjustable supply strategies under five regulatory 
-structures regarding whether the AV operator is allowed to change the fleet size and whether the 
-PT operator is allowed to adjust headway. Four out of the five scenarios are constrained 
-competition while the other one focuses on unconstrained competition to find the Nash Equi-
-librium. We evaluate the competition process as well as the system performance from the 
-standpoints of four stakeholders —the AV operator, the PT operator, passengers, and the transport 
-authority. We also examine the impact of PT subsidies on the competition results including both 
-demand-based and supply-based subsidies. A heuristic algorithm is proposed to update supply 
-strategies for AV and PT based on the operators ’ historical actions and profits. An agent-based 
-simulation model is implemented in the first-mile scenario in Tampines, Singapore. We find 
-that the competition can result in higher profits and higher system efficiency for both operators 
-compared to the status quo. After the supply updates, the PT services are spatially concentrated to 
-shorter routes feeding directly to the subway station and temporally concentrated to peak hours. 
-On average, the competition reduces the travel time of passengers but increases their travel costs. 
-Nonetheless, the generalized travel cost is reduced when incorporating the value of time. With 
-respect to the system efficiency, the bus supply adjustment increases the average vehicle load and 
-reduces the total vehicle kilometers traveled measured by the passenger car equivalent (PCE), 
-while the AV supply adjustment does the opposite. The results suggest that PT should be allowed 
-to optimize its supply strategies under specific operation goals and constraints, and AV operations 
-should be regulated to reduce their system impacts, including potentially limiting the number of 
-licenses, operation time, and service areas, which makes AV operate in a manner more comple -
-mentary to the PT system. Providing subsidies to PT results in higher PT supply, profit, and 
-market share, lower AV supply, profit, and market share, and increased passenger ’s generalized 
-cost and total system PCE.  
-*Corresponding author. 
-E-mail address: jinhua@mit.edu (J. Zhao).  
-Contents lists available at ScienceDirect 
-Transportation Research Part C 
-u{�~zkw! s{yo|kr o>!ÐÐÐ1ow �o�to~1m{y2w{m k�o2�~m!
-https://doi.org/10.1016/j.trc.2021.103058 
-Received 1 March 2020; Received in revised form 5 February 2021; Accepted 21 February 2021   Transportation Research Part C 127 (2021) 103058
-21.Introduction 
-The emergence of autonomous vehicles (AV) is expected to influence the future urban transportation systems in many different 
-aspects such as traffic flow stability (Talebpour and Mahmassani, 2016 ), network congestion (Fagnant and Kockelman, 2015 ), land use 
-patterns (Koh and Wich, 2012 ), and road safety (Zhang et al., 2016 ). As a critical component of urban transportation, public transit 
-(PT) systems cannot avoid the impact of AV. Due to the uncertainty of how the AV systems may evolve, many different scenarios of 
-AV–PT interactions have been proposed (Lazarus et al., 2018 ). Some studies argue that AVs will compete with the PT systems (Levin 
-and Boyles, 2015; Chen and Kockelman, 2016 ) or even replace them (Mendes et al., 2017 ), while others are optimistic about the AV–PT 
-integration, stating that they could be complementary to each other (Lu et al., 2017; Wen et al., 2018 ). 
-AV–PT integration has been studied under various operation and regulation scenarios. Salazar et al. (2018) proposed a tolling 
-scheme for an AV–PT intermodal system, which shows a significant reduction in travel time, cost, and emissions compared to a single- 
-mode scenario. Shen et al. (2018) and Wen et al. (2018) envisioned the transit-oriented autonomous mobility-on-demand (AMoD) 
-systems in Singapore and London. However, the integrated AV–PT system requires significant regulatory interventions and operators ’ 
-willingness to collaborate. In many contexts, the AV and PT operators will likely behave as competitors by default. There are fewer 
-studies on the competitive perspective of the relationship. Some prior research only evaluated the effect of AV on PT but did not specify 
-the competition mechanisms between them (Levin and Boyles, 2015; Childress et al., 2015 ). Recently agent-based models (ABM) have 
-been used to investigate the competition. Both Liu et al. (2017) and Mendes et al. (2017) argued that traditional PT services may not 
-survive once the shared AV services become available; but they only considered the AV–PT competition to be a single-shot proc-
-ess—how PT systems are affected when AV is introduced —rather than a repeated process where both AV and PT can adjust their 
-supplies dynamically during the competition. 
-Our study examines the competitive perspective where both AV and PT operators are profit-oriented with dynamic adjustable 
-supply strategies. In classic economics, market competition can ideally lead to optimal resource allocation. However, due to the 
-common market failures in the transportation industry, regulations are often imposed, or even a certain level of cooperation is 
-mandated. We examine five regulation scenarios (Table 1), which can be categorized by a two by two matrix regarding whether the AV 
-operator is allowed to change the fleet size and whether the PT operator is allowed to adjust headways. The impact of different PT 
-subsidies on the competition results of five scenarios is also evaluated. Other important regulation aspects, such as service fare, pricing, 
-and bus routes, are assumed to be fixed across all five scenarios.  
-≡The “Both-fixed ” scenario corresponds to a fully-regulated transportation market without competition (Shen et al., 2018 ). The 
-supplies, fare structure, route network, and service areas are all set by transport authorities. Neither AV nor PT is not allowed to 
-change their supply.  
-≡The “AV-adjustable-only ” scenario allows AV to adjust supplies but with all other operation parameters (e.g., price) fixed. The PT 
-operators cannot adjust service headways. This is close to the situation where the ride-sourcing services, such as Uber and Lyft, are 
-operated independently from transit agencies.  
-≡The “PT-adjustable-only ” scenario allows PT operators to adjust the service headways to maximize their profits. This gives the PT 
-operators even more flexibility than the well-known ”Scandinavian ” or ”London ” organization models (Costa, 1996; van de Velde, 
-1999 ), where the transport authority sets the service goals and then contracts out transit services to private operators.  
-≡When both operators are allowed to adjust supplies, we have two different scenarios: “Both-adjustable ” and “Nash Equilibrium ” (NE). 
-These two scenarios have the weakest regulation compared to the other three and are close to the situation in the UK (except for 
-Greater London) (Wilson, 1991 ), where all operators are private and compete against each other. The difference between these two 
-scenarios can be looked at from two aspects: 1) Conceptually, the both-adjustable scenario can be seen as a “constrained ” 
-competition while NE “non-constrained ” competition. Both-adjustable scenario allows both PT and AV to adjust supplies according 
-to a “constrained ” profit-maximization strategy. Specifically, due to incomplete market information and the regulation from the 
-government, the supply updating at each step may not be optimal (see Section 3.5 for details). Therefore, the system may not 
-converge to the NE. However, for the NE scenario, we use the iterated best response (IBR) algorithm to find the NE. An NE is a 
-profile of strategies such that each strategy is the best response to the rest of the profile. That is, each agent maximizes its own utility 
-given the strategies played by the others. The supply updating at each iteration is the agent ’s best response to the environment and 
-the competitor ’s strategy. 2) Algorithmically, since AV and PT’s actions at each step are not optimal in the both-adjustable scenario, 
-the both-adjustable scenario can be seen as a premature convergence result of IBF due to the non-optimal responses of competitors. 
-We selected the first-mile connection to the subway station (Lesh, 2013 ) in Tampines, Singapore as the study area where there are 
-multiple bus feeder services, and implemented an agent-based model to simulate the competition process between AV and PT including 
-Table 1 
-Regulation scenarios examined in this paper  
-Regulation Scenarios PT supply  
-Fixed Adjustable 
-AV supply Fixed Both-fixed PT-adjustable-only 
-Adjustable AV-adjustable-only Both-adjustable/NE  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-3a heuristic algorithm to update the AV and PT supplies based on the operators ’ historical actions and profits. We evaluated the 
-competition between AV and PT as well as the system performance from the standpoints of four stakeholders —the AV operator, the PT 
-operator, passengers, and the transport authority. 
-The remainder of this paper is organized as follows. Section 2 reviews the literature and identifies the research gaps. Section 3 
-introduces system design, agent behavior, and performance metrics. Section 4 presents the results, and Section 5 concludes the paper. 
-2.Literature review 
-AV is expected to reshape the future transportation system from different perspectives. Many advantages of AV, such as absolute 
-compliance, expanded service hours, reduced labor forces, and human errors make it an efficient mode of urban transportation, which 
-enables the reduction of operating costs and serves the travel demand with smaller fleet sizes (Fern˘andez et al., 2008; Alonso-Mora 
-et al., 2017; Spieser et al., 2014 ). 
-Given the promising application of AV, recent studies have examined the impact of AV in different aspects, such as traffic flow 
-(Talebpour and Mahmassani, 2016 ), road congestion (Fagnant et al., 2015 ), land use (Koh and Wich, 2012 ), and road safety (Zhang 
-et al., 2016 ). Talebpour and Mahmassani (2016) used a micro-simulation model to evaluate the impact of connected and autonomous 
-vehicles on traffic flow and showed that AV can improve string stability and help prevent shockwave formation and propagation. 
-Azevedo et al. (2016) applied an integrated agent-based micro-simulation model to design and evaluated the impact of AV on people ’s 
-travel behavior. They found that the new AV technology can change people ’s travel patterns, in terms of mode shares, route choices, 
-and activity destinations. Fagnant and Kockelman (2014) indicated that each shared AV can replace approximately 11 conventional 
-vehicles, but it adds up to 10% more travel distance than comparable non-shared AV trips. There are also empirical studies in Lisbon 
-(Martinez and Viegas, 2017 ), Toronto (Kloostra and Roorda, 2019 ), and New Jersey (Zhu and Kornhauser, 2017 ), which reveal that the 
-AV technology can reduce traveled vehicle kilometers and emissions (Martinez and Viegas, 2017 ), average travel time (Kloostra and 
-Roorda, 2019 ), and the number of vehicles on the road (Martinez and Viegas, 2017 ). 
-However, despite the large volume of recent research on the impact of AV, research focusing on the AV–PT interaction is limited. 
-Two major relationships between AV and PT have been discussed in the literature. 
-First, AV and PT can be complementary and integrated. AV and PT can be cooperative in a way that AV is integrated as a part of the 
-PT system for social welfare. In line with this assumption, Ruch et al. (2018) used a simulation model to analyze whether AV can 
-substitute the rural PT lines. They found such a service can operate at a lower cost and with a higher service level when the PT lines are 
-short and are underutilized. Similarly, Shen et al. (2018) designed an AV–PT integration system with AMoD as an alternative to low- 
-demand bus routes, which showed that the integrated system has the potential to enhance service quality, occupying fewer road 
-resources and being financially sustainable. Another cooperative scenario is the multi-modality between AV and PT. For example, Yap 
-et al. (2016) conducted a stated preference survey to analyze the use of automated vehicles as the egress mode of train trips. They 
-found that AV is a good alternative for first-class train passengers. Liang et al. (2016) used an integer programming model to study AV 
-as a last-mile connection to train trips, which showed that using automated taxis can reduce the pick-up cost and improve profits. 
-Vakayil et al. (2017) proposed a hybrid transit system where AMoD serves as the first- and last-mile feeder for the subway. The results 
-show that an integrated system can provide up to 50% reduction in total vehicle miles traveled. These studies provide sufficient 
-analysis toward the AV–PT integration relationship. The co-operation strategies for AV and PT are also designed (Salazar et al., 2018 ). 
-Second, AV can be competitive with traditional PT when AV is operated privately and competes for market share and profit. The 
-analysis of this scenario is very limited. Using a multiclass four-step model, Levin and Boyles (2015) found that the transit ridership 
-will decrease when AV is introduced. Similarly, Childress et al. (2015) used an activity-based model to evaluate the impact of AV, 
-which revealed a reduction in PT’s mode share. Liu et al. (2017) simulated the impact of shared AV based on a case study in Austin, 
-Texas, and showed that conventional PT services may not survive once the shared AV services become available. Mendes et al. (2017) 
-developed an event-based simulation model to compare the shared AV services with the proposed light rail services in New York City 
-and found that AV is more cost-efficient in providing the same level of service. Basu et al. (2018) applied an activity-driven agent-based 
-simulation approach to test the impact of AV on mass transit and found that AMoD indirectly acts as a replacement to mass transit. 
-Understanding how AV competes with PT is critical for managing future PT services and developing sound intervention on the 
-private transportation market. However, existing studies addressing the AV–PT competition focused on the static interaction process, i. 
-e., they only considered what will happen when AV is introduced as a one-shot game. However, as competitors, it is highly likely that 
-AV and PT will dynamically adjust the operation strategies in the market as repeated games. These interactive dynamics have not been 
-considered in the literature. Moreover, most existing studies only evaluate the AV’s impact on the mode share of PT, without a 
-comprehensive assessment of the cost and benefit of different stakeholders in the system, including operators, passengers, and 
-transport authorities. 
-In this study, we used an agent-based model to simulate the competition between AV and PT, with both parties trying to increase 
-their profits. We also comprehensively evaluated the system from different stakeholders ’ perspectives, including the financial con-
-ditions, the level of service, vehicle kilometers traveled (VKT), and transport efficiency, aiming to fill the research gap in the literature. 
-3.System design 
-We used the Tampines Planning Area in Singapore as the study area to apply our AV–PT competition model. We focused on the first- 
-mile trips heading to the Tampines Mass Rapid Transit (MRT) station from surrounding residential blocks. Walking and buses are 
-currently the dominant modes for first-mile trips (Mo et al., 2018 ). Bus service in Singapore is highly regulated by the Land Transport B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-4Authority (LTA), which is responsible for its fare structure and route design. The LTA contracts out bus services to different bus op-
-erators on a five-year basis. Note that as walk and bus are currently dominant travel modes, AV may have a great potential to increase 
-its ridership and compete with PT in this first-mile market. 
-3.1. Basic assumptions 
-Based on the characteristics and the operational structure of the Singapore transport system, we make the following assumptions 
-for the AV–PT competition model. 
-(a) System-level.  
-≡Travel mode: Before AV entering the market, walking, bus, and ride-hailing are the only travel modes available for the first-mile 
-trips. After AV emerges, ride-hailing will be replaced by the AMoD. This assumption is based on the Singapore autonomous vehicle 
-initiative policies (Land Transport Authority, 2017 ).  
-≡Traffic conditions: We perform a mesoscopic simulation; microscopic features such as signal system and driving behavior are not 
-considered in this study. As AVs and buses in the first-mile market only account for a small proportion of traffic flows on roads, 
-time-dependent exogenous congestion is considered. The speeds of AVs and buses on each road for different times of day are pre- 
-obtained from the Google Maps API. 
-Fig. 1.Study area and demand.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-5≡Demand and supply: The spatial and temporal distributions of travel demand are assumed to be fixed for all simulated days. The 
-supply of AV and PT can be adjusted for competition. The fixed demand assumption holds when the residential population and 
-infrastructures do not change substantially in an area (especially within a short time period). It can reflect the early stage of the 
-market when AV is introduced.  
-≡Information: The AMoD and PT’s supply information is complete and in real-time for passengers ’ mode choice decisions. 
-(b) Agent-level.  
-≡Ownership: PT and AMoD are both operated by private enterprises but under government regulation, i.e., they are in a constrained 
-competition (but the NE scenario can be seen as an unconstrained competition).  
-≡Objective: PT and AMoD are able to adjust their supplies to improve their profits.  
-≡Fare: PT and AMoD ’s fare structures are fixed by the government and cannot be changed.  
-≡Operating cost and subsidies: PT and AMoD ’s operating cost is proportional to their fleet size and driving distance. There is no 
-operation subsidy for PT based on the current Singapore policy (Gopinath and Kuang, 2018 ). However, we test several hypothetical 
-scenarios with different levels of subsidies to enrich the discussion. Details are shown in Section 3.7 and 4.5.  
-≡Constraints: PT has a lower bound and an upper bound for the bus headway. AMoD has an upper bound for the maximum fleet size.  
-≡Dynamic intraday supply: AMoD and PT’s supply can be different in different time periods in a day.  
-≡Supply updating frequency: AMoD can update the next day’s supply strategy at the end of each day. PT can only update its supply 
-strategy after a sufficiently long time (30 days in this study; more discussion in Section 3.5). For the NE scenario, there is no 
-definition of supply updating frequency (see Section 3.6 for details). 
-To summarize, the AMoD updates the supply daily by adjusting the vehicle fleet size in each time interval of the next day and PT 
-adjusts its supply by changing the headway for each bus route in different time intervals in a month. 
-Price adjustment is also a common practice to increase profit in market competition. However, to isolate the impact of the supply 
-change, we only focus on supply in this study, assuming that the prices are fixed for both PT and AMoD. Moreover, given the price 
-regulation history of the LTA, it is very likely that the AMoD will be regulated on the fare structure to avoid price wars (Singapore 
-Public Transport Council, 2019 ). Future research can explore a combined model incorporating supply change and pricing. 
-3.2. Study area 
-Tampines is a 6.86- km2 mixed residential and commercial area located in eastern Singapore (Fig. 1a). It is centered around the 
-Tampines MRT station, which is one of the busiest MRT stations in Singapore (Housing & Development Board, 2015 ). Fifty-one bus 
-stops serve Tampines, with 26 bus routes connecting to the MRT station. Three of them are dedicated feeder routes to the subway. The 
-other 23 are passing-by routes. All 26 routes are included in the simulation model. We chose Tampines for the case study to illustrate 
-the feasibility of our model because 1) it possesses a significant first-mile demand to the MRT station, and 2) it houses a large volume of 
-bus supply, which provides a non-trivial testbed for competition analysis. Table 2 
-Evaluated indicators of stakeholders.  
-Stakeholder Interests Indicators 
-Passengers Level of service Travel cost 
-Total travel time 
-Waiting time 
-Generalized travel cost 
-Mode choice Walking demand 
-Bus demand 
-AV demand  
-AMoD Operators Financial viability Operation cost 
-Revenue 
-Profit 
-Market share 
-Supply Average number of AV provided per hour  
-PT Operators Financial viability Operation cost 
-Revenue 
-Profit 
-Market share 
-Supply Number of bus dispatched per day  
-Transport Authority Transport efficiency AV average load per vehicle 
-Bus average load per vehicle 
-Vehicle kilometers traveled AV VKT 
-Bus VKT 
-Total PCE (AV and PT)  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-6The first-mile travel demand was obtained from the transit smart card data. The dataset covers all PT trips in August 2014. A normal 
-workday in August 2014 was selected as the study date. Since the smart card data in Singapore include both tap-ins and tap-outs, the 
-accurate date and time of each entry and exit activity are recorded, as well as the boarding and alighting stops/stations, which allows 
-us to extract complete first-mile demand by counting passengers who tap into the Tampines MRT station. The temporal distribution of 
-first-mile travel demand on the study day is shown in Fig. 1b. A total of 51,850 passengers entered the Tampines MRT station on the 
-study day. Table 3 
-Notations and values of system parameters  
-Categories Parameters/Variables Value 
-Simulation setting parameters θ Duration of simulation (T) 365 days 
-Supply changing unit reduced factor (γ)  0.75 
-Passenger choice lag factor (α)  0.5 
-Passenger mode choice parameters (β)  See Table 5 
-Passenger maximum AV waiting time 10 min 
-Passenger maximum bus waiting time 30 min 
-Passenger ride-sharing-agreement rate 50% 
-AV supply time interval (iA)  1 h 
-AV supply updating frequency (NA)  1 day 
-AV fixed operation cost 4 SGD/hour ⋅veh  
-AV variable operation cost 0.12 SGD/km 
-AV base distance of fare (db)  1 km 
-AV base fare (fb)  3.4 SGD 
-AV distance-based fare (f) 0.22 SGD/400 m 
-AV detour discount rate of fare (λ)  2 
-AV supply lower bound (SL
-A)  0 
-AV supply upper bound (SU
-A)  150 
-AV initial supply changing unit (Cini
-A)  10 vehicles 
-Bus supply time interval (iB)  2 h 
-Bus supply updating frequency (NB)  30 days  
-Bus operation cost 2.71 SGD/km  
-Bus dwell time 30 s  
-Bus fare 0.77 SGD/trip  
-Bus headway upper bound (SU
-B)  2100 s  
-Bus headway lower bound (SL
-B)  210 s  
-Bus initial headway changing unit (Cini
-B)  3 min  
-Bus supply SB  Bus headway of route l in time interval t on day d (SlCtCd
-B)  Intermediate 
-Bus headway arrangement on day d (Sd
-BSlCtCd
-BlCt)  Intermediate 
-Bus initial headway arrangement (S0
-B)  See Appendix A.3  
-AV supply SA  Number of AV supplied in time interval t on day d (StCd
-A)  Intermediate 
-AV supply strategies on day d (Sd
-AStCd
-At)  Intermediate 
-AV initial supply strategies (S0
-A)  See Appendix A.2  
-Demand D  Demand of first-mile trips D    
-See Fig. 1b   
-Supporting variables AMoD profit in time interval t on day d (ptCd
-A)  Intermediate 
-AMoD profit vector on day d (pd
-AptCd
-At)  Intermediate 
-AV supply changing unit in time interval t for day d (CtCd
-A)  Intermediate 
-AV supply changing unit vector on day d (Cd
-ACtCd
-At)  Intermediate 
-Bus profit of route l in time interval t on day d (plCtCd
-B)  Intermediate 
-Bus profit vector day d (pd
-BplCtCd
-BlCt)  Intermediate 
-Bus headway changing unit of route l in time interval t for day d (ClCtCd
-B)  Intermediate 
-Bus headway changing unit vector on day d (Cd
-BClCtCd
-BlCt)  Intermediate 
-*Values of “intermediate ” means the intermediate variables in the model. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-73.3. Stakeholders and system evaluation 
-We evaluated the interests of multiple stakeholders in the AV–PT competition. Table 2 identifies four key stakeholders (passengers, 
-AMoD operators, PT operators, and transport authority) and their evaluation indicators. 
-The main interests of passengers are the level-of-service and modal choice. The level-of-service indicators include travel cost, total 
-travel time, waiting time, and generalized travel cost—calculated as the sum of walking time, waiting time, and riding time multiplied 
-by the corresponding value of time (VOT). It is a comprehensive value that incorporates both travel time and travel costs. The VOTs 
-were derived from the estimated choice model in Table 5. In terms of modal choice, the numbers of travelers choosing walking, buses, 
-and AV were recorded, respectively. 
-The interests of AMoD and PT operators, based on our profit-orientation assumption, are financial viability and supply. The 
-financial viability indicators include operating cost, revenue, profit, and market share, while the supply indicates the number of AV/ 
-bus supplied. 
-For the transport authority, efficiency and vehicle kilometers traveled were considered. The average load per vehicle is one of the 
-indicators of transport efficiency, which is calculated using the total passenger travel distance divided by the total vehicle travel 
-distance. We considered the vehicle kilometers traveled (VKT) and total passenger car equivalent (PCE). The unit PCE for a bus was set 
-as 3.5 in this study (Ahuja, 2007 ). 
-These indicators were recorded in the simulation process, which shows the entire changing profile during the competition between 
-AV and PT. The time of the day distribution of some indicators was also recorded. 
-3.4. Agent behavior 
-The overall simulation system is composed of three main types of agents: buses, AMoD vehicles, and passengers. The PT system is 
-derived from Shen et al. (2018) ’s study, which has been calibrated and validated with real-world data. Here we give an overview of the 
-behavior of the agents, with detailed formulation given in Appendix A. 
-≡Passengers ’ mode choices are based on mixed logit models using trip-specific variables (waiting time, in-vehicle time, and mon-
-etary cost) and individual-specific variables (household income); if a passenger chooses the bus or AMoD, a maximum waiting time 
-is considered to avoid a shortage of services. The passenger changes to other modes if the maximum waiting time is reached.  
-≡AMoD dispatching is based on the first-come-first-serve principle upon passengers ’ requests. The vehicles follow the shortest paths 
-from pick-up locations to the MRT stations. When there is no empty vehicle available, the dispatching center will then look for 
-vehicles with passengers who agree to share their trips. Every day, the AMoD operator updates the fleet size of each time period of 
-the day to increase its profit.  
-≡Buses follow the existing routes given by the LTA. Each month, the operator for each bus route independently optimizes its profit by 
-changing the headway of each time period of the day. 
-3.5. Competition process 
-An agent-based simulation model is used to perform the AV PT competition process. There are four sets of input variables/pa -
-rameters: simulation setting parameters θ, initial supply strategies of the bus S0
-B, initial supply strategies of AMoD S0
-A, and the first- 
-mile demand D. The detailed notations and values used are given in Table 3. The values of these constants were chosen based on the 
-Singapore context (details in Appendix A). 
-The supply, profit, and supply changing units are all time-specific for AV, which means that for different days and different time 
-periods they may have different values. For buses, these variables are time- and route-specific. The pseudo-code for the competition 
-process (both-adjustable scenario) is shown in Algorithm 1. 
-Algorithm 1.AV-PT competition (both-adjustable scenario)   
-1: procedure AV-PT COMPETITION (θCS0
-BCS0
-ACD)  
-2: Initialize p0
-A0Cp0
-B0CS1
-AS0
-ACS1
-BS0
-B  
-3: Initialize C1
-ACini
-ACC1
-BCini
-B  
-4: Let day counter d0  
-5: while dDT do  
-6: dd1  
-7: pd
-ACpd
-B ONE-DAY-SIMSd
-BCSd
-ACD⃦⃦θ
-8: Sd1
-ACCd1
-A SUPPLYUPDATEpd
-ACpd 1
-ACSd
-ACCd
-A
-9: if dmod NB0 then  
-10: Sd1
-BCCd1
-B SUPPLYUPDATEpd
-BCpd NB
-BCSd
-BCCd
-B
-11: Initialize Cd
-ACini
-A  
-12: else 
-13: Sd1
-BSd
-B  
-(continued on next page) B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-8(continued ) 
-14: Cd1
-BCd
-B  
-15: return the system evaluation indicators (Table 2)  
-As shown in Algorithm 1, the overall framework aims to simulate the interaction between AV and PT over time period T. ONE-DAY- 
-SIM is a pseudo function of running the simulation for a single day given the supply, demand, and θ, which is considered as the engine of 
-the simulation model. In this function, each agent will follow the behaviors mentioned in Appendix A. 
-The profits of AMoD and PT can be obtained after running this function. The profit, supply, and supply change unit are then used as 
-the input of function SUPPLYUPDATE (shown in Algorithm 2), deriving the updated supply strategies and new supply change units for AV 
-and PT. Since we assume that the AV supply updating frequency is daily, this function is executed for AV every day, while it is executed 
-for PT every NB days, considering the limited flexibility of PT planning. 
-In practice, the PT schedules do not adjust frequently. A reasonable period should be more than three to six months, which allows 
-the transit operators to notify the passengers and gives people sufficient time to adapt to the new schedule. Based on our numerical test, 
-however, given a specific bus schedule, the system will stabilize in one or two weeks when only the AMoD updates its supply. 
-Therefore, any values of NB that are greater than two weeks are equivalent because the system state will not change after two weeks. In 
-this study, NB30 days was used to simulate the long-period updating frequency of the bus. The system evaluation indicators 
-(Table 2) were recorded during the simulation and returned at the end of the model. 
-It is worth noting that Algorithm 1 is designed for the both-adjustable scenario. When AV or PT are not allowed to update their 
-supplies, Algorithm 1 is revised with the corresponding supply updating steps removed. The IBR algorithm for estimating NE (i.e. the 
-NE scenario) is different from Algorithm 1 and thus elaborated in Section 3.6. 
-In terms of supply updates, we proposed a heuristic algorithm, which applied to both AMoD and PT. Specifically, for AMoD, at the 
-beginning of a day, the algorithm determines the AV fleet size for each hour in the day. For PT, at the beginning of a month, the 
-algorithm determines the PT headway for each route and each hour for all days in the month. 
-In this study, we assume the profits across different time periods and routes are independent, which leads to a simple univariate 
-optimization problem for each route and time period combination. For example, plCtCd
-B, the profit of bus route l at time interval t on day 
-d only depends on the headway of route l at time interval t on day d. Then, we can adjust the supply of l in the same time interval SlCtCd
-B to 
-improve the corresponding profit as a single-variable optimization problem. Similarly for AMoD, if the profit ptCd
-A is greater than ptCd 1
-A, 
-the last change in supply CtCd 1
-A will lead to the profit increase. Thereupon, we can continue increasing the fleet size of the same time 
-period on the next day. 
-If the change in profits between two supply strategies becomes sufficiently small (the threshold was set to be 5%), we reduce the 
-size of the changing unit by γ (i.e., CtCd1γ⋅CtCd1). This setting ensures the convergence of the results. 
-We acknowledge that the heuristic algorithm is a simplification for the profit maximization problem because the profits of different 
-time periods and routes are likely to be dependent on each other, especially when the routes have overlapping stations. Nonetheless, 
-we apply this simplified algorithm for the following reasons: 1) The concept of this algorithm is in line with the reality, where in-
-formation is incomplete and every adjustment is a trial of a new supply strategy based on previous experience; 2) This heuristic al-
-gorithm indeed yields an improved profit, which satisfies the initial purpose of adjusting the supply by the operators; and 3) Capturing 
-the dependency will require a much more complicated optimization problem, which we suggest as a future research topic. 
-We implemented the model with AnyLogic 8.1. The simulation is executed for T365 days to ensure that the competition process 
-converges. 
-Algorithm 2.Supply updating   
-1: procedure SUPPLYUPDATE(pdCpd NCSdCCd)  
-2: Let the index of elements in pdCpd NCSdand Cdcorrespond with each other. (i.e., the k-th element of pdCpd NCSdand Cdrepresents the information of 
-same time interval and same route.)  
-3: Initialize k0  
-4: while kDlength ofpddo  
-5: kk1  
-6: Let pkCdCpkCd NCSkCd CkCd be the k-th element in pdCpd NCSdand Cd, respectively.  
-7: if pkCdFpkCd N then  
-8: CkCd1CkCd  
-9: else 
-10: CkCd1 CkCd  
-11: SkCd1SkCdCkCd1  
-12: if SkCd1 violates the upper or lower bound constraints then  
-13: Set SkCd1 equal to the upper or lower bound  
-14: CkCd1γ⋅CkCd1  
-15: if the difference between pkCd and pkCd N is small enough then:  
-16: CkCd1γ⋅CkCd1  
-17: Let Sd1SkCd1k and Cd1CkCd1k  
-18: return Sd1CCd1B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-93.6. Iterated best response for solving Nash Equilibrium 
-For a competition game, one of the most important tasks is to find the NE if it exists. In this study, as the environment (e.g., daily 
-demand patterns and infrastructure layouts) does not evolve over time, the competition between AV and PT with adjustable supplies 
-can be seen as a static game1. One way to solve the pure NE in a static game is the IBR algorithm. In the IBR, each player in the game 
-chooses strategies iteratively, and every action they have selected is the best response (or one of the best responses) to the other 
-players ’ strategies (Nash et al., 1950 ). The success of IBR depends on the context of a game. It has been shown that IBR can always 
-converge to a pure NE for any finite potential game, i.e., games in which the payoffs of all players to change their strategies can be 
-expressed using a single global function called the potential function (Monderer and Shapley, 1996 ). There are also some counter -
-examples of coordination games where IBR does not converge. However, in this study, it is hard to provide a theoretical analysis of the 
-pure NE existence and the performance of IBR because the payoff (i.e., profit) of each player is calculated from an agent-based 
-simulation without analytical forms. Therefore, we first implement the IBR and discuss its convergence with numerical examples in 
-Appendix B. 
-The details of the IBR algorithm is shown in Algorithm 3 and 4, where I is the maximum number of iterations and ∊ is a pre-
-determined threshold for the termination of the best response algorithm. The best response at each iteration is solved by using the 
-SUPPLYUPDATE algorithm for a specific player many times (while fixing the supply for another player) until the profit increment is small 
-enough. Compared to the both-adjustable scenario where SUPPLYUPDATE is only implemented once per step, the supply strategies at each 
-iteration in the NE scenario is closer to the optimal. Therefore, both-adjustable scenario can be seen as a premature convergence result of 
-IBF due to non-optimal responses of PT. However, we have to admit that Algorithm 4 is still a heuristic way to find the best response, in 
-which the results may still not be optimal. Algorithm 4 can be seen as uni-variate adaptive step size random searching, which is capable 
-of finding an optimal solution for convex function but may converge to a local optimum for a non-convex function (Schumer and 
-Steiglitz, 1968 ). As the profit functions of AV and PT have no analytical form, we cannot provide more theoretical analysis here. In 
-Appendix B, we test the convergence results of the proposed IBR with respect to different initial AV and PT supplies numerically. And it 
-is found that the system can always converge to a similar supply level (which can be seen as an approximated pure NE). This validates 
-the effectiveness of the IBR algorithm proposed in this study. 
-Algorithm 3.Iterated best response for solving the Nash Equilibrium   
-1: procedure IBRθCS0
-BCS0
-ACD  
-2: Initialize p1
-A0Cp1
-B0CS1
-AS0
-ACS1
-BS0
-B  
-3: Initialize C1
-ACini
-ACC1
-BCini
-B  
-4: Let iteration ID i0  
-5: while iDI do  
-6: ii1  
-7: Si1
-ACSi1
-B BESTRESPONSE (Si
-ACSi
-BCCi
-ACCi
-BCθCD)  
-8: pi1
-ACpi1
-B ONE-DAY-SIMSi1
-BCSi1
-ACD⃦⃦θ
-9: fork 1:length of pi1
-A do  
-10: if the difference between pkCi1
-A and pkCi
-A is small enough then:  
-11: CkCi1
-Aγ⋅CkCi
-A  
-12: fork 1:length of pi1
-B do  
-13: if the difference between pkCi1
-B and pkCi
-B is small enough then:  
-14: CkCi1
-Bγ⋅CkCi
-B  
-15: return the system evaluation indicators (Table 2)   
-Algorithm 4.Best response   
-1: procedure BESTRESPONSE SACSBCCACCBCθCD  
-2: Initialize p0
-A0CS1
-ASACC1
-ACA  
-3: Let day counter d0  
-4: while ∊F∊ do ▹Find the best response for AV  
-5: dd1  
-6: pd
-ACpd
-B ONE-DAY-SIMSBCSd
-ACD⃦⃦θ
-(continued on next page) 
-1 Note that though this is a static game, the competition can still be seen as a dynamic process , where AV and PT react to each other ’s strategies as 
-opposed to previous studies without supply updating. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-10(continued ) 
-7: Sd1
-ACCd1
-A SUPPLYUPDATEpd
-ACpd 1
-ACSd
-ACCd
-A
-8: ∊⃦⃦⃦⋃
-kpkCd
-A ⋃
-kpkCd 1
-AE⋃
-kpkCd 1
-A⃦⃦⃦
-9: SBR
-ASd1
-A  
-10: Initialize p0
-B0CS1
-BSBCC1
-BCB  
-11: Let day counter d∕0  
-12: while ∊F∊ do ▹Find the best response for PT  
-13: d∕d∕1  
-14: pd∕
-ACpd∕
-B ONE-DAY-SIMSd∕
-BCSBR
-ACD⃦⃦θ
-15: Sd∕1
-BCCd∕1
-B SUPPLYUPDATEpd∕
-BCpd∕ 1
-BCSd∕
-BCCd∕
-B
-16: ∊⃦⃦⃦⋃
-kpkCd∕
-B ⋃
-kpkCd∕ 1
-BE⋃
-kpkCd∕ 1
-B⃦⃦⃦SBR
-BSd∕1
-B  
-17: return SBR
-ACSBR
-B    
-3.7. Scenario settings 
-There is a rich space for all the value combinations of θ, as shown in Table 3. Each value combination represents a distinct 
-assumption of competition markets —some are realistic and some are not. It is not the focus of this study to systematically explore all 
-possible scenarios. From the market organization perspective, we only focus on the five regulation scenarios introduced in Section 1 
-(Table 1). 
-In addition, we conduct another set of experiments with respect to different subsidy levels provided to the PT. Specifically, in the 
-case study (Section 4.5), we test two different subsidy schemes: demand-based and supply-based. The demand-based subsidy is 
-provided to PT operators on a per passenger served basis, while supply-based subsidy on a bus kilometer operated basis. The sensitivity 
-analysis for subsidy can be seen from two aspects. First, it reflects different schemes of revenue and cost calculation. Demand-based 
-subsidies can be seen as the sensitivity analysis for revenue calculation while supply-based for cost calculation. Second, subsidies can 
-be seen as positive externalities of passengers using PT. From this angle, PT’s objective is not only profit but also social welfare. 
-Providing subsidies to PT can be seen as a way for the government to internalize the positive externalities. Note that we approximate 
-the change of social welfare using the increase or reduction of government subsidy in this article, while acknowledging that social 
-welfare involves a broader category of considerations, including equity, caring for disadvantaged social groups, fostering social 
-interaction, etc. We leave the broader discussion of the impact of public transportation on social welfare for future research. 
-Fig. 2.Indicators of PT’s interest over the simulation process.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-11
-Fig. 3.Spatial and temporal distribution changes in PT supply. Note that both-fixed scenario represents the initial distribution before the sup-
-ply adjustment. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-124.Results and discussion 
-4.1. PT perspective 
-Fig. 2 presents the indicators of interest for PT operators, including revenues, operating costs, profits, supplies, and market shares. 
-Each point in the graph represents the average value of the corresponding month (same for all the following graphs). 
-The final PT profit of the PT-adjustable-only scenario is higher than those in all other scenarios because there is no AV competition in 
-this scenario, and is the lowest in the AV-adjustable-only scenario, reflecting the competition of AV reducing the profit of PT. Both the 
-revenue and operating cost of PT decrease over the simulation period, but the operating cost shows a sharper reduction. Both the 
-revenue and the cost of the NE scenario are the lowest among all scenarios, indicating that the market share of buses is reduced in this 
-scenario. However, in terms of PT profit, the NE scenario is roughly at the same level as the both-adjustable scenario, which means that 
-the bus supply is similarly optimized towards profit in the two scenarios. 
-The number of buses dispatched per day and PT’s market share (Fig. 2d and e) have a similar declining trend. Since buses do not 
-change supply in AV-adjustable-only and both-fixed scenarios, the supply curves of these two scenarios are flat. The bus supply and 
-market share decrease with AV competition and reach the lowest levels in the NE scenario. 
-One important observation is the additive effect of bus and AV supply adjustments. Take the bus market share as an example. The 
-curve of PT-adjustable-only scenario roughly represents how the PT operator gradually ”gives up” the unprofitable market share. The 
-AV-adjustable-only curve shows how much market share is grabbed by AV (i.e. the impact from AV supply adjustment). The both- 
-adjustable scenario shows the additive effect of two, which is nearly the sum of the two reductions. Moreover, the NE scenario has the 
-lowest PT market share among all, indicating a more ”aggressive ” bus supply optimization strategy. Later results suggest that although 
-the bus supply is significantly reduced in the NE scenario, the generalized travel cost is reduced on average. 
-In addition to the total supply, we consider the change in temporal and spatial distributions of the supply before and after 
-adjustment (Fig. 3). In the temporal dimension, the numbers of dispatched buses for most time periods except for the morning peak 
-(6:00 –10:00) are reduced. This implies that the PT operator concentrates the supplies to the morning and evening peak periods, which 
-Fig. 4.Indicators of AMoD ’s interest over the simulation process. The first-month curve (red, with upper x-axis) for the AV-adjustable-only and both- 
-adjustable scenarios are the same because the bus supplies stay the same, and AV does not change in the other two scenarios. Therefore, only one 
-curve is shown for the first month. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of 
-this article.) B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-13have higher demands and are more profitable. In the spatial dimension, some routes (e.g., 291, 282) are allocated with higher 
-frequencies, while some routes (e.g., 2912, 2921) are adjusted to a lower service rate. The routes with increased and reduced supplies 
-are shown in Fig. 3c and d, respectively. Overall, the increased-supply routes are short and cost-efficient and they cross the residential 
-areas and are directly connected to the MRT station. The routes with decreased supply are long and sinuous and greater reductions in 
-the operating cost are achieved by decreasing the supply of these routes. Therefore, the change in the spatial distribution is related to 
-an implicit coordination within the bus routes (even if our algorithm does not consider the inter-route coordination). To summarize, the 
-PT operator reduces the supply for higher-cost routes and transfer the service to the lower-cost routes, resulting in a more profitable 
-operation scheme. On both the spatial and temporal distributions, the NE scenario resembles the results of both adjustable , but with 
-each route and time period slightly lower. 
-Fig. 6.Level of service change.  
-Fig. 5.Time of day distribution of AV supply.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-144.2. AMoD perspective 
-As Fig. 4 shows, AMoD ’s revenue, operating cost, and profit increase rapidly at the beginning and then stabilize. The AMoD 
-operator provides more services to improve its profit in the competition. As shown in Fig. 4d and e, the AMoD ’s supply and market 
-share keep increasing during the first few months and then become stable. The major change in the AMoD ’s supply happens in the first 
-month. When both AV and PT can adjust —including the both-adjustable and NE scenarios —the profit of AV is higher. The NE scenario 
-can achieve the highest AV profit and the largest market share, and the both-adjustable scenario rank the second. The bus supply 
-adjustment not only improves the profit of the bus but also benefits that of AV. This is because the initial bus service is over-supplied for 
-the first-mile market. When the bus operator is allowed to adjust its supply, some of the yielded unprofitable travel demand is served by 
-AV. This observation is in line with the previous research on the AV–PT integration system (Shen et al., 2018 ). Therefore, when PT is 
-oversupplied, although we assume that AV and PT compete with each other, they still implicitly show some extent of cooperative 
-behavior, resulting in higher profits for both. However, this cooperative feature is only manifested when the bus changes its supply. 
-The AV supply adjustment only unilaterally benefits itself. 
-For the AMoD ’s operating cost (Fig. 4b), the value in the NE scenario is the highest, followed by the both-adjustable and AV- 
-adjustable-only scenarios. This corresponds to the supply levels shown in Fig. 4d. We also observe the additive effect of supply 
-adjustment on the AV profit and market share. Different from the effect on bus supply, the two changes both benefit AV. Thus, the both- 
-adjustable scenario has higher profit and market share than the AV-adjustable-only and the PT-adjustable-only scenarios. The NE scenario 
-has the highest AV revenue, operation cost, and also the highest profit and market share among all scenarios. 
-Similar to our analysis for PT, we also examine the time-of-day distribution of the AMoD supply before and after the adjustment. As 
-shown in Fig. 5, the final supply patterns of NE, both-adjustable and AV-adjustable-only scenarios are similar. After 12 months of 
-adjustment, the supply was re-distributed across time. More supply was provided in the morning and evening peak hours, which is 
-considered more profitable. The supply in off-peak hours (e.g., 11:00 –13:00) stayed the same or became even lower. These temporal 
-changes correspond to the demand distribution in Fig. 1b. 
-Fig. 7.Change of passenger mode choices.  
-Table 4 
-KS Test Results for the AV–PT Scenario  
-Attributes Groups Mean (Std.) KS Statistics p-values 
-Household Income (SGD) Baseline 4760.3 (3689.5) N.A. N.A. 
-Experiment (Bus to AV) 5134.9 (3697.0) 0.061 0.000* 
-Experiment (Bus to Walk) 4731.3 (3668.9) 0.008 0.795 
-Distance to MRT Station (m) Baseline 1065.0 (333.1) N.A. N.A. 
-Experiment (Bus to AV) 1112.7 (320.4) 0.064 0.000* 
-Experiment (Bus to Walk) 933.1 (313.5) 0.166 0.000* 
-– Control groups are set as reference, so they do not have KS statistics and p-value. 
-– The larger the KS Statistics, the greater the difference between the two groups. 
-– *: Significant at 99% confidence level. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-154.3. Passenger perspective 
-Fig. 6 plots the changes in the level-of-service indicators: travel cost, total travel time, waiting time, and generalized cost. Pas-
-sengers ’ travel cost shows different patterns: it decreases in the PT-adjustable-only scenario and increases in all other scenarios, 
-although the magnitude of the changes is small. Because AV is more expensive than PT, when AV starts to compete and serve more 
-demand, the average travel cost will increase. When there are only buses adjusting the supply, a greater number of people will switch 
-to walking and only a small proportion of people will convert to AV (Fig. 7)—the average travel cost will decrease. The NE scenario 
-observes the highest average travel cost due to the highest market share of AV. 
-All scenarios show decreasing trends for the total travel time. In the PT-adjustable-only scenario, passengers ’ travel time and travel 
-cost both decrease after the adjustment of the bus supply, which implies absolute benefits to passengers. Conversely, in the both- 
-adjustable and AV-adjustable-only scenarios, the directions of the changes in the travel time and cost differ. To capture the combined 
-effect of travel time and travel cost, we calculated the generalized travel cost based on the method described in Section 3.3. 
-As shown in Fig. 6d, passengers ’ generalized travel cost decreases in all scenarios, among which the NE scenario shows the largest 
-decline and both-adjustable scenario ranks the second. The supply adjustment of buses and AV not only benefits the operators but also 
-the passengers. The major contributing factor to the changes in generalized travel cost is the decrease in travel time. 
-Another important indicator for passengers is waiting time. In the PT-adjustable-only scenario, passengers ’ waiting time increases as 
-a direct consequence of the reduction of the bus supply (Fig. 6c). In the AV-adjustable-only scenario, passengers ’ waiting time decreases 
-because of the increased AV supply. In the both-adjustable scenario, we observe a combined effect of the two. The gap between the first 
-month and both-fixed scenario is caused by the significant increase in the AV supply in the first month. Starting from the first month, 
-passengers ’ waiting time gradually increases because the effect of bus supply reduction starts to manifest. Nonetheless, due to the 
-opposite effect from the AV side, the increase in waiting time is not as pronounced as in the PT-adjustable-only scenario. The converged 
-waiting time is still shorter than the both-fixed scenario. The NE scenario has a slightly higher waiting time than the both-fixed scenario. 
-Fig. 7 shows the passenger mode choice: the demand for AV increases, the demand for buses decreases and the demand for walking 
-varies across scenarios. In the both-adjustable and PT-adjustable-only scenarios, more people turn to walk due to the reduced bus supply, 
-whereas in the AV-adjustable-only scenario, fewer people walk because of the increased supply of AV. 
-In addition to the aggregate demand changes, we explore the attributes of the passengers who change their mode choices, i.e. from 
-Fig. 8.Change of transport efficiency indicators.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-16bus to AV or walking. For illustration purposes, we only show the analysis for the both-adjustable scenario. We examine two passenger 
-attributes, the household income and the distance from home to the MRT station. People who originally chose buses were set as the 
-control group. People who changed their travel modes from bus to AV or walking were set as the experimental group. Our purpose is to 
-test whether there is a statistically significant difference between the control groups and the experimental groups in their household 
-income and distance to the MRT station. Table 4 summarizes the results of the two-sample Kolmogorov –Smirnov (KS) test. For 
-household income, the attributes of the people who changed their mode choice from bus to AV are significantly higher than those of the 
-control group. Higher-income people tend to change from bus to AV after a decline in the bus supply. However, for people who chose 
-walking, household income does not show a significant difference. In terms of the distance to the MRT station, the results for both 
-experimental groups are significantly different from those for the control group. People who live near MRT stations tend to walk more, 
-while people who live far from MRT stations tend to convert to AV. This implies that the interaction of AV and PT may sharpen people ’s 
-travel mode choices and increase the dependence on cars for people living far from subway stations. 
-4.4. Transport authority perspective 
-We consider efficiency and vehicle kilometers traveled from the transport authority perspective as shown. In Fig. 8a and b, the 
-average load of AV slightly increases in the PT-adjustable-only scenario. However, in the both-adjustable and AV-adjustable-only sce-
-narios, the AV load decreases considerably in the first month (the gap between the both-fixed scenario and the first month) and then 
-stabilizes. This suggests that to maximize profit, ride-sharing behavior is inhibited in the model. Since travel distance is usually short in 
-the first-mile scenarios, ride-sharing is less likely to happen or generate higher profits. Considering the proposed price structure of 
-AMoD, serving two passengers with two vehicles separately may yield more profit. Therefore, although the AMoD operator earns more 
-profit, the AV’s operating efficiency is lower. 
-In contrast to AV, the average bus load increases for the both-adjustable and PT-adjustable-only scenarios, which means that after the 
-competition, the buses are operated more efficiently, with not only higher profit, but also higher average load. 
-The NE scenario observes relatively low AV average load, and relatively high bus average load, but stays in the middle positions 
-among all scenarios. 
-Overall, the VKT of AV increases, while the VKT of buses decreases, which is consistent with the change in supply (Fig. 8c–e). Since 
-the unit PCE for the bus is large, the shape of the total PCE is similar to that of the bus VKT. The system total PCE decreases in the both- 
-Fig. 9.Impact of demand-based subsidies on PT operators. All bars represent the converged values of the corresponding scenarios.  
-Fig. 10.Impact of demand-based subsidies on AMoD operators.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-17adjustable and PT-adjustable-only scenarios, which means that the deregulation of the bus operator has the potential to reduce the 
-environmental impacts. When the bus system is not allowed to change its supply, the total PCE increases owing to the increase in the 
-VKT of AV. The NE scenario has the lowest bus VKT, relatively low VKT of AVs, and overall relatively low total PCE. 
-4.5. Sensitivity analysis on PT subsidies 
-In this section, we compare five scenarios of PT subsidies including demand-based subsidies (0, 1, and 2 SGD per passenger trip) and 
-Fig. 11.Impact of demand-based subsidies on passengers.  
-Fig. 12.Generalized cost and demand by different modes for the NE scenario.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-18supply-based subsidies (0, 0.5, and 1 SGD per km operated). It turns out the two subsidy regimes show largely similar results and 
-therefore we focus on the demand-based subsidies in this section and leave the discussion on the supply-based subsidies in Appendix C. 
-4.5.1. PT perspective 
-Fig. 9 shows the results of PT’s profit, supply, and market share under three different demand-based subsidies. As expected higher 
-demand-based subsidies result in an increase in PT profit, supply and market share because the PT operator earns more money per 
-passenger and thus maintains higher supply and market share. Critically the PT profit turns positive when the subsidy level is greater or 
-equal to 1 SGD/passenger. The PT supply and market share of AV-adjustable-only scenario are not affected by the PT subsidy. The 
-change patterns of PT-adjustable-only , both-adjustable , and NE scenarios are consistent and similar. 
-4.5.2. AMoD perspective 
-As shown in Fig. 10, AV’s profit, supply, and market share all decrease with the increased PT’s subsidy. Those changes are more 
-prominent in both-adjustable and NE scenarios. AV-adjustable-only scenario is not affected because the updating of AV only depends on 
-the environment and PT’s supply, which is fixed by definition in this scenario. The impact on PT-adjustable-only scenario is negligible. 
-4.5.3. Passenger perspective 
-From the passenger ’s perspective, we plot travel cost, travel time, waiting time, and generalized travel cost averaged across all 
-modes. For the travel costs (Fig. 11a), we observe a slight decrease in both-adjustable and NE scenarios, but a slight increase in the PT- 
-adjustable-only scenario. In the both-adjustable and NE scenarios, the subsidy allows PT to attracts more passengers from AV, thus 
-decreasing the travel cost averaged over all modes. But in the PT-adjustable-only scenario where AV is not allowed to adjust its supply, 
-the better PT service mostly attracts walking passengers, which increases the travel cost average over all modes. The total travel time 
-increases with the PT subsidy in both-adjustable and NE scenarios (Fig. 11b) again because PT subsidies attract some passengers from 
-AV to bus. We also observe a decrease in waiting time with the increase in subsidy (Fig. 11c), suggesting that the effect of increased bus 
-supply on waiting time dwarfs that of decreased AV supply. 
-What ’s most intriguing is that passengers ’ generalized travel costs averaged over all modes increased (Fig. 11d) with higher PT 
-subsidies. Fig. 12 separates the generalized costs and demands by the mode passengers choose in the NE scenario. With increased 
-subsidies, the generalized cost for PT users decreases as expected, while the generalized cost for AV users does change too much. This is 
-because two effects on AV users ’ generalized cost roughly offset each other: first, some prior AV users with high generalized cost switch 
-to PT when subsidized, decreasing the remaining AV users ’ average generalized cost; and second, AV decreases its supply when PT are 
-subsidized, increasing AV users ’ generalized cost. Even though the PT generalized cost decreased because of the subsidy, it is still much 
-higher than that of AV and walking. Therefore when the subsidies attract more passengers to PT, the total generalized cost averaged 
-over all modes increase. In this particular case, the PT subsidies crowd out some of the AV supply, increasing the passengers ’ overall 
-generalized cost. 
-4.5.4. Transport authority perspective 
-Fig. 13 shows the impact of the demand-based subsidy on AV average load, PT average load, and total PCE. For the AV average load 
-(Fig. 13a), both-adjustable and NE scenarios do not show significant changes, while a decrease pattern is observed for the PT-adjustable- 
-only scenario. This may be because when AV is allowed to adjust its supply, it preserves a relatively stable average load so that the 
-profit is maximized. When AV cannot adjust supplies (i.e. in the PT-adjustable-only scenario), PT’s increased competitiveness pushes 
-down both AV’s market share and average load. The PT subsidy decreases the bus average load (Fig. 13b), reducing the operational 
-efficiency of bus services. The total PCE increases with the PT subsidy due to the increase in bus supply as shown in Fig. 13c. 
-Fig. 13.Impact of demand-based subsidies: transport authority perspective.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-19
-Fig. 14.Summary of the change of indicators for the non-subsidy scenario. The “triggers ” are highlighted by red color, and the arrows represent the 
-causal relations. The increase (purple) and decrease (green) of different indicators are shown by “” and “ ”, respectively, compared to the both- 
-fixed scenario. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-205.Discussion 
-We simulated and evaluated the interaction between AV and PT from a competitive perspective —assuming that both AV and PT are 
-profit-oriented and improve their own profit by supply adjustment. The first-mile market in Tampines, Singapore was selected for a 
-case study. Five scenarios with different policy constraints were evaluated. 
-5.1. Summaries of major results and findings 
-To better illustrate the changes in the interests of different stakeholders due to the competition, the results of non-subsidy scenarios 
-are summarized in Fig. 14. The AV-adjustable-only scenario is beneficial to AV (profit) and passengers (generalized travel cost ), but 
-may not be preferred by PT (profit ) and transport authorities (PCE). The PT-adjustable-only , both-adjustable and NE scenarios are 
-both beneficial to all stakeholders. While the NE and both-adjustable scenarios show larger benefits. The change patterns of NE and both- 
-adjustable scenarios are similar (Fig. 14c), while the changes in NE scenario are generally more prominent. 
-The main findings are summarized below.  
-≡Overall, allowing profit-oriented bus and AMoD services to compete by adjusting supply can improve profits for both while 
-benefiting the public and the transport authorities. Such competition forces bus operators to reduce the frequency of inefficient 
-routes and allow AVs to fill in the gaps in the service coverage.  
-≡During the competition, both AV and buses redistribute their supplies spatially and temporally. For buses, the supply of longer 
-sinuous routes is reduced. The supply-increased routes are typically the short ones crossing the residential areas and connecting 
-directly to the subway station. Temporarily, both AV and buses concentrate their supplies to the morning and evening peak hours 
-and reduce the supplies in off-peak hours.  
-≡The competition between AV and PT can decrease the passengers ’ travel time but increase their travel costs. The generalized travel 
-cost is still reduced considering the value of time.  
-≡In terms of people ’s mode choices, bus demand decreases while AV and walking demands increase. People who live near MRT 
-stations switch to walking more, and people who live far from MRT stations turn to AV more. Higher-income people tend to change 
-their choices from buses to AV, but there is no evidence that low-income people are more likely to walk.  
-≡The bus supply reduction and concentration increase the average bus load and reduce total PCE while the AV supply adjustment 
-shows the opposite effect.  
-≡Comparing different scenarios, AV-adjustable-only scenario is beneficial to AV and passengers but will not be preferred by PT and 
-transport authorities. PT-only, both-adjustable , and NE scenarios are beneficial to all stakeholders. And the benefits to passengers 
-and transport authorities in the NE scenario are the largest.  
-≡Providing subsidies to PT results in higher PT supply and lower AV supply compared to the non-subsidy situation. Consequently, 
-PT’s profit and market share are increased while AV’s profit and market share are decreased. However, passenger ’s generalized cost 
-and total system PCE are increased. 
-5.2. Policy implications 
-The comparison of the five scenarios indicates that it is possible for competition to result in a win–win situation under certain policy 
-regulations. Our findings can help authorities design future AV–PT regulations when the two modes are both operated by for-profit 
-companies. 
-The transportation authorities can consider allowing PT operators to optimize their supply strategies to improve efficiency. 
-However, as passengers ’ waiting time and travel cost may increase due to PT’s supply adjustment, the authorities need to examine how 
-much leeway should be given to PT operators to balance efficiency, total VKT, and passenger level of service. One possibility is to set 
-specific operational constraints within which private PT operators can optimize supply, such as bounds for headway, waiting time, 
-ridership, and passenger satisfaction scores. 
-AV supply increases may reduce passenger travel time, but also reduce efficiency and increase VKT. Policies targeting AV operators 
-can manage their possible negative externality on the system by delineating the number of licenses, operation time, vacancy rate, and 
-service areas. Such AV policies need to consider their relations with the PT operations. For example, the government can encourage AV 
-to serve areas and time periods with low PT frequency, which makes AV more likely to complement the PT services, especially if PT is 
-allowed to decrease its supply in some low-profit areas. 
-The impact of the AV and PT competition on passengers is uneven. Authorities may need to support people who suffer from higher 
-travel costs or longer travel times by providing discounts or other feeder modes (e.g., bike share and E-scooter share). 
-The five scenarios considered in this study correspond to different degrees of regulatory intervention. In our specific case study, the 
-NE scenario, representing the least regulations, is plausibly the best for decreasing passenger ’s generalized cost and total PCE, pointing 
-to a freer competition to better redistribute resources and improve service quality. However, this may well be the function of the 
-specific context of the Singapore case study, future research is needed to generalize the results and characterize the exact conditions 
-under which this finding will hold. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-215.3. Limitations and future research 
-This paper can be improved in the following aspects. 1) The results are based on the assumptions and settings in Singapore. They 
-may not be representative of other countries or cities. This is a typical problem in many simulation-based works (Liu et al., 2017; Loeb 
-and Kockelman, 2019). However, the objective of this paper is to provide a general framework of analysis, which are extendable to other 
-cities. Future research can systematically explore the impact of scenario settings and assumptions on the results. 2) Methodologically, 
-several technical components of this study can be improved. First, the heuristic supply updating algorithm may not converge to the 
-maximum-profit points for AV and PT. Future research can apply more advanced algorithms (e.g., reinforcement learning (Wen et al., 
-2017), simulation-based optimization (Mo et al., 2021; Mo et al., 2020)) to enhance it. The supply updating process can be imple -
-mented as a multi-agent learning process, which allows more flexibility in operators’ competing behaviors. Second, we assume that the 
-total demand of passengers and its spatial and temporal distribution is fixed (even though we do represent the modal shift between AV, 
-PT, and walking), which is a simplification. Future research can introduce a supply–demand interaction module (Wen et al., 2018) to 
-relax this assumption. 
-We point out a few directions for future research. The first is to evaluate the impact of pricing, either from the operators’ 
-perspective or from the authorities’ perspective. For example, a multi-variable optimization algorithm may be developed to allow 
-operators to adjust fare and supply at the same time. This is an extension of the current framework but relaxing the fixed-fare con-
-straints. Second, since we assume that the total demand and environment do not evolve over time, the AV PT competition in this study 
-is a static game. Future studies may incorporate the changes of demand patterns and infrastructure layouts to model the long-term AV 
-PT competition as a dynamic game. Third, the paper only examines the first-mile market. Future research could explore the proposed 
-AV–PT competition framework in a larger urban network and for broader trip purposes which requires computationally more efficient 
-methods. Lastly, from the authorities’ perspective, it is important to conduct the comparative study of different AV–PT governance 
-structures as in (Shen et al., 2018). Prior studies on AV–PT interactions are typically based on specific cities assuming one specific 
-regulatory context. A generalizable and mechanism-design-oriented model would be valuable to extend our understanding of the 
-competition between AV and PT. 
-CRediT author statement 
-Baichuan Mo: Conceptualization, Methodology, Software, Formal analysis, Data Curation, Writing - Original Draft, Writing - 
-Review & Editing, Visualization. Zhejing Cao: Data Curation, Visualization, Writing - Original Draft. Hongmou Zhang: Formal 
-analysis, Writing - Review & Editing. Yu Shen: Conceptualization, Resources, Funding acquisition. Jinhua Zhao: Conceptualization, 
-Formal analysis, Writing - Review & Editing, Supervision, Project administration, Funding acquisition. 
-Acknowledgment 
-This research is supported by the National Natural Science Foundation of China (71901164), Natural Science Foundation of 
-Shanghai (19ZR1460700), and the Fundamental Research Funds for the Central Universities (22120180569). The research is also 
-supported by the National Research Foundation in Singapore Prime Minister’s Office under the CREATE program, and Singapore–MIT 
-Alliance for Research and Technology Future Urban Mobility IRG. 
-Appendix A.Agent behaviors 
-A.1. Passenger behavior 
-Passengers are assumed to enter the system every minute during the simulation day. To mimic the AV and PT competition process, 
-the simulation needs to be run for a sufficiently long time period (one year in this study). 
-In this study, we assume the passenger demand to be fixed (Fig. 1b). A Voronoi diagram based on the location of bus stops was used 
-to assign aggregate travel demand to the building level. 
-Passengers’ mode choice is modeled based on the result of a mixed logit model (Shen et al., 2019). The trip-specific variables (travel 
-cost, waiting time, on-vehicle time, walking time) and sociodemographic variables (e.g., income) were considered. This demand model 
-was estimated using the results of an AV preference survey in Singapore, which matches this study. Besides, the mixed logit model 
-allows us to capture the preference heterogeneity among people. Each individual was assigned a set of choice coefficients drawn from 
-the predetermined distributions. The detailed model coefficients are shown in Appendix D. 
-When a passenger is generated, we first calculate the corresponding trip-specific variables based on his/her location. Since routing 
-is not the focus of this study, we assume that passengers only choose the closest bus stop. The corresponding walking time, waiting 
-time, and in-vehicle time are then calculated. Specifically, for the AMoD waiting time, we first find the nearest available AV (see 
-Section A.2 for details). Based on the location of the passenger and the selected vehicle, the expected waiting time for the passenger is B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-22calculated. When there is no AV available at passengers ’ departure time, we search for the next AV that will finish the trip and assign it 
-for the waiting time calculation (the expected waiting time will be added by the remaining time for the AV to finish its trip). AMoD ’s in- 
-vehicle time is calculated based on the distance from the passenger ’s location to the MRT station (i.e., destination). In terms of the PT 
-waiting time, we assume passengers can access the real-time bus locations and obtain expected bus arrival times and his/her arrival 
-time at the bus stop. Then the PT waiting time is calculated as the arrival time of the first bus that the passenger can catch minus his/her 
-arrival time at the stop. Similarly, the PT in-vehicle time can be calculated based on the bus route and the boarding station. To reflect 
-the randomness in waiting time calculation and passengers ’ perceptional heterogeneity, a normally distributed zero-mean random 
-error is added to the decision-making waiting time for each passenger. When the passenger departure time is not within a bus route ’s 
-operating time, the bus mode is set as unavailable. 
-Passengers ’ incomes were drawn from the distribution derived from Singapore household travel survey data (Land Transport 
-Authority, 2012 ). The mixed logit model was used to calculate the probability of choosing different modes. During the simulation 
-process, people ’s mode choice changes with the change in AV and PT’s supply. Considering the imperfect information transfer, a lag 
-effect was added to people ’s behavior. The model-derived probability of passenger n choosing mode i on day d is }Pd
-nCi. The actual 
-probability used for simulation was calculated in Eq. A.1. 
-Pd
-nCiαPd 1
-nCi(
-1 α)
-}Pd
-nCiC (A.1)  
-where α is the lag factor, which represents how much people ’s behavior will be lagged by the previous day. After calculating the choice 
-probability, passengers will be assigned a specific travel mode accordingly. 
-When walking is chosen as the travel mode, the passenger walks directly to the MRT station along the footpath. When AV is chosen 
-as the travel mode, the passenger starts to call for the ride repeatedly until the system successfully books a car for him/her. Once a 
-vehicle is assigned, he/she then moves to the pick-up location to wait for the AV. As the density of bus stops in Singapore is very high, 
-the pick-up location was set as the closest bus stop from the passenger. To prevent a passenger from waiting too long when no AV is 
-available, the maximum waiting time was set to 10 min in this study, beyond which he/she will forgo the AV request and travel by bus 
-if available; otherwise, he/she will travel by walking. 
-When buses are chosen, the passenger walks directly to the bus stop to wait for the next bus. Since we assume that the bus agent can 
-update its headway to maximize its profit, people may wait for a long time. Therefore, we set a maximum waiting time (30 min) for the 
-bus as well. People will switch to AV or walking based on the choice probability when the waiting time is beyond the threshold. 
-A.2. AMoD behavior 
-The concept of the mobility-on-demand system was studied in the 1970s and called Dial-a-Ride Transit (DART) (Wilson et al., 
-1976 ). In this study, the AMoD service with ride-sharing resembles a carpooling system (Galland et al., 2014; Martinez et al., 2015 ), for 
-which only the first-mile service is provided and restricted to the service area, Tampines. This arrangement is consistent with the 
-proposed usage of the AV prototype in Singapore (Chong et al., 2011 ). 
-We assume that the routing behaviors of all AVs are identical and all AVs follow the shortest path. As AVs and buses in the first-mile 
-market only account for a small proportion of traffic flows on roads, we consider road congestion as an exogenous factor. The speed of 
-AVs on a specific road is time-dependent and is calculated from Google Map API. AVs are assumed to fully comply with the central 
-controller and never reject the service requests from customers. Each AV allows a maximum of four passengers to share the ride. AV’s 
-initial supply is approximated using Singapore Taxi data. Since there is no first-mile demand during the MRT close hours, we adjusted 
-the initial AV supply to zero during that time period. New AVs are generated from several car clubs (Fig. 1a). When an AV is called to 
-stop the service by the control center, it will return to the nearest car club and be removed from the simulation. AVs will stay idle 
-without moving when there is no request. 
-The operating cost of the AMoD agent includes fixed cost and variable cost, both are calculated per hour, which is the temporal 
-resolution used in this study, for AV. The fixed cost is the cost of operating one AV during this hour, such as depreciation cost and 
-parking cost. We use the lowest car renting fare in Singapore (4 SGD/hour ⋅veh) to approximate the fixed cost. The variable cost is 
-calculated based on the vehicle travel distance and gasoline fare. It is set as 0.12 SGD/km in this study. 
-Ride-sharing only happens under specific conditions. Given the heterogeneous ride-sharing preference among the population 
-(Nazari et al., 2018 ), we define a ride-sharing-agreement ratio (50% in this study). That is, only half of the people are willing to share 
-trips with others. For short-distance first-mile trips, sharing with others is not a good choice given the potential increase in detour 
-distance and travel time (Schreieck et al., 2016 ). Therefore, we assume that all passengers prefer to ride alone if possible, even for those 
-who agree to share the ride. Thus, when a passenger calls for a ride, the system first scans all empty AVs and then assigns the closest 
-available AV to pick up the passenger. Once the AV and the passenger are matched, a notice is sent to the passenger to request a meet- 
-up at the pick-up point. If there are no empty AVs, the system searches for all occupied AVs. Passengers who have agreed to share the 
-ride will be considered to take a shared ride. An AV is shareable only if 1) it has available seats, and 2) the incremental travel time to 
-on-vehicle passengers due to picking up new passengers does not exceed a predetermined threshold. Detailed calculation methods are 
-available in Shen et al. (2018) , which shares the same parameter settings in the ride-sharing module with us. 
-The fare structure of AMoD is identical to that of the taxi service in Singapore, with a base fare within first db km and a distance- 
-based fare beyond db km. The difference is that we add a ride-sharing discount for the AMoD service. The total travel fare for passenger 
-iCFi is formulated in Eq. A.2. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-23Fi〉
-fb⋅1 riλ ifdi⩽db
-fbf⋅di db⋅1 riλotherwise(A.2) 
-where db is the base distance, which equals to 1 km in this study; fb is the base fare within dbCf is the distance-based fare per km after 
-dbCdi is the direct travel distance of passenger i in km; Di is the detoured actual travel distance in km; rDi
-di 1 is the detour ratio; λ is 
-the discount degree offered due to the detour. 
-In terms of competition, the AMoD enterprise can update the hourly supply to improve its profit. Due to the resource limitation, a 
-maximum AV supply per hour is introduced. Given the complex interaction between agents, it is very difficult to propose an algorithm 
-that ensures that every adjustment is optimal for the AMoD enterprise. Moreover, such an algorithm is beyond the scope of this 
-research. In this study, we propose a heuristic supply updating algorithm for AMoD. Instead of finding the optimal adjustment, we 
-assume a fixed step size for each update. The sign of the update (i.e., increase or decrease) is determined by supply and profit in the 
-previous steps, which aims to make the profit higher. This concept is also in line with the reality, in which information is incomplete 
-and every adjustment is based on previous experience. A detailed description of the algorithm is available in Section 3.5. 
-A.3. PT behavior 
-Bus services are schedule-based and operated based on given routes and timetables. The bus routes and initial schedules are 
-provided by the LTA. Once a bus is dispatched, it follows the predetermined route and passes through a sequence of stops. Similar to the 
-AMoD, the speed of buses is time-dependent and calculated from the Google Map API to reflect exogenous congestion. The spatial 
-distribution of bus stops is illustrated in Fig. 1a. Upon arrival at a bus stop, each bus dwells for a certain amount of time to pick up 
-passengers. The dwelling time is set as 30 s in this study. 
-The operation cost of the bus agent is purely distance-based, which is 2.71 SGD/km. This value was calculated using the annual 
-financial reports of two major bus companies in Singapore (SBS Transit, 2017; SMRT Corporation Ltd., 2017 ), which involves the labor 
-Fig. 15.Rerouting example of Route 21.  
-Fig. 16.Convergence of the iterated best response algorithm.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-24cost, depreciation cost, fuel cost, and maintenance costs. Note that only the distant-based operation cost is considered because in this 
-study the bus operator is assumed to rent vehicles from the government, instead of owning the vehicles. In Singapore, bus companies 
-rent vehicles from LTA. LTA owns the properties and is in charge of buying new vehicles. While bus companies are only responsible for 
-operating. Therefore, we assume there is no investment cost for bus operators (i.e., increasing bus fleet size is equivalent to rent more 
-vehicles from the government and only adds the operation cost). 
-The bus fare structure is set based on the real-world scenario. All passengers are charged a fixed fee of 0.77 SGD per trip. 
-To compete with AMoD, the bus operator is allowed to adjust its supply strategies —the headways —to increase its profits as well. 
-The adjusting algorithm is similar to AMoD ’s, while the difference is that the adjusting frequency is lower than that of AMoD. 
-To ensure the basic service of PT, we set an upper bound for the adjusted headway. Every step of the headway adjustment cannot 
-exceed the upper bound; otherwise, passengers will have to wait for a long time. On the contrary, to avoid the bus dispatching rate 
-being too high, a headway lower bound was introduced. 
-Since we calculate the revenue and cost based on the first-mile demand, it is important to ensure that the supply adjustment does 
-not affect the market outside the first-mile market. There are two types of bus routes in this study: MRT feeder buses for which the 
-supply adjustment only applies to the first-mile market and bus routes that pass through the study region (passing-by routes). If we 
-directly adjust the headway of the second type of routes, it will affect not only the demand for first-mile trips but also other passengers 
-who are just passing the study region. Thus, we need to redefine the supply adjustment for these routes. Here, we assume that the 
-supply reduction (i.e., increase of headway) for the passing-by routes is equivalent as if some buses of these routes will not stop in the study 
-region . Instead, they directly drive through the region along the shortest path. For example, as shown in Fig. 15, after the decrease in 
-the supply, some of the buses of Route 21 will be rerouted to the shorter green path and not stop in the study area. The corresponding 
-reduction in the operating cost is calculated by the decreased travel distance. Note that the decreased operating cost may be small 
-under this setting. 
-We assume that the supply increase (i.e., decrease in headway) for the passing-by bus routes is equivalent to adding new MRT 
-feeder bus routes with the same stations in the study region. The corresponding increase in the operating cost is calculated as the cost of 
-running this new route. This way, we can isolate the first-mile market, where the supply adjustment for all bus routes will not affect the 
-outside areas. 
-Fig. 18.Impact of supply-based subsidies on AMoD operators.  
-Fig. 17.Impact of supply-based subsidies on PT operators.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-25Appendix B.Convergence of the IBR algorithm 
-As it is hard to analyze the convergence of the IBR algorithm theoretically in the simulation context, a numerical test with respect to 
-different initial supply levels is conducted. Specifically, the initial fleet size for AV is set as ηAS0
-A, where ηA is the AV supply factor with 
-values of ⊔1C2C4C6⊓. The initial bus headway is set as S0
-BEηB, where ηB is the bus supply factor with values of ⊔1C0B8C0B5C0B1⊓. Note that 
-the headway divided by ηB is equivalent to the number of dispatched buses multiplied by ηB. Fig. 16 shows that the system can always 
-Fig. 19.Impact of supply-based subsidies on passengers.  
-Fig. 20.Impact of supply-based subsidies: transport authority perspective.  B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-26converge to a similar supply level despite different initial values. The converged supply can be seen as an approximated pure NE 
-strategy. This validates the effectiveness of the IBR algorithm in this study. 
-Appendix C.Results of PT supply-based subsidies 
-We consider three levels of supply-based subsidies (0, 0.5, and 1 SGD per km operated). These values are chosen because they have 
-a similar scale of current operating cost (2.71 SGD per km) and are less than it. 
-Figs. 17–20 
-Appendix D.Mixed logit model for passenger mode choice 
-The mixed logit model is conducted based on an AV preference survey in Singapore (Shen et al., 2019 ). The deterministic part of the 
-utility function Vnjt for individual n choosing alternative j in choice situation t is given as 
-VnjtαnjβnjTnjtδnjXnC (D.1)  
-where Tnjt is the vector of trip specific attributes of mode j for individual n in situation t;Xn is the vector of sociodemographic variables 
-of individual n;αnj is the alternative specific constant to estimate the inherent preference of individual n on mode j;βnj and δnj are the 
-corresponding coefficients to be estimated. The situation t is introduced because the survey contains panel questions. 
-The results for the mixed logit model are shown in Table 5, where for each parameter, we estimate both the mean and the standard 
-deviation. 
-Table 5 
-Estimation Results of Mixed Logit Model  
-Variables Parameters value t-test  
-Alternative Specific Constant     
-Walk Mean fixed at 0    
-Std. fixed at 0   
-Bus Mean  0.569  2.11 **  
-Std. 0.818 1.89 * 
-On-demand AV Mean  0.568  2.56 **  
-Std. 0.758 3.72 ***  
-Generalized travel cost     
-Walk: Walking time (min) Mean  0.363  28.20 ***  
-Std. 0.171 22.26 *** 
-Bus: Travel cost (SGD) Mean  1.14 -8.86 ***  
-Std. 0.436 0.16  
-Bus: In-vehicle time (min) Mean  0.212  12.10 ***  
-Std. 0.174 9.16 *** 
-Bus: Waiting time (min) Mean  0.271  10.27 ***  
-Std. 0.223 5.31 *** 
-Bus: Walking time to bus stop (min) Mean  0.214  10.61 ***  
-Std. 0.140 4.14 *** 
-On-demand AV: Travel cost (SGD) Mean  0.984  18.56 ***  
-Std. 0.465 13.54 *** 
-On-demand AV: In-vehicle time (min) Mean  0.195  11.0 ***  
-Std. 0.0288 1.16  
-On-demand AV: Waiting time (min) Mean  0.222  8.50 ***  
-Std. 0.0310 0.58   
-Sociodemographic variables     
-On-demand AV: household monthly income lower than SGD 4,000 Mean  0.497  2.81 *** 
-Std. 0.300 0.62  
-Statistical summary     
-Number of individuals  1,242   
-Number of observations  8,689   
-Number of random draws  5,000   
-Initial log-likelihood at zero   10832.448   
-Final log-likelihood   6581.302   
-Adjusted McFadden ρ2   0.390   
-*: pD0B1; **: pD0B05; ***: pD0B01. Std.: standard deviation. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-27References 
-Ahuja, A.S., 2007. Development of passenger car equivalents for freeway merging sections. Master ’s thesis. University of Nevada, Las Vegas .  
-Alonso-Mora, J., Samaranayake, S., Wallar, A., Frazzoli, E., Rus, D., 2017. On-demand high-capacity ride-sharing via dynamic trip-vehicle assignment. Proc. Nat. 
-Acad. Sci. 114, 462–467. 
-Azevedo, C.L., Marczuk, K., Raveau, S., Soh, H., Adnan, M., Basak, K., Loganathan, H., Deshmunkh, N., Lee, D.H., Frazzoli, E., et al., 2016. Microsimulation of demand 
-and supply of autonomous mobility on demand. Transp. Res. Rec.: J. Transp. Res. Board 21–30. 
-Basu, R., Araldo, A., Akkinepally, A.P., Nahmias Biran, B.H., Basak, K., Seshadri, R., Deshmukh, N., Kumar, N., Azevedo, C.L., Ben-Akiva, M., 2018. Automated 
-mobility-on-demand vs. mass transit: a multi-modal activity-driven agent-based simulation approach. Transp. Res. Rec. 0361198118758630 .  
-Chen, T.D., Kockelman, K.M., 2016. Management of a shared autonomous electric vehicle fleet: Implications of pricing schemes. Transp. Res. Rec. 2572, 37–46. 
-Childress, S., Nichols, B., Charlton, B., Coe, S., 2015. Using an activity-based model to explore the potential impacts of automated vehicles. Transp. Res. Rec.: J. 
-Transp. Res. Board 2493, 99–106. 
-Chong, Z.J., Qin, B., Bandyopadhyay, T., Wongpiromsarn, T., Rankin, E.S., Ang, M.H., Frazzoli, E., Rus, D., Hsu, D., Low, K.H., 2011. Autonomous personal vehicle for 
-the first- and last-mile transportation services. In: 2011 IEEE 5th International Conference on Cybernetics and Intelligent Systems (CIS). IEEE, pp. 253–260. 
-Costa, ˘A., 1996. The organisation of urban public transport systems in western european metropolitan areas. Transp. Res. Part A: Policy Pract. 30, 349–359. 
-Fagnant, D.J., Kockelman, K., 2015. Preparing a nation for autonomous vehicles: opportunities, barriers and policy recommendations. Transp. Res. Part A: Policy 
-Pract. 77, 167–181. 
-Fagnant, D.J., Kockelman, K.M., 2014. The travel and environmental implications of shared autonomous vehicles, using agent-based model scenarios. Transp. Res. 
-Part C: Emerg. Technol. 40, 1–13. 
-Fagnant, D.J., Kockelman, K.M., Bansal, P., 2015. Operations of shared autonomous vehicle fleet for austin, texas, market. Transp. Res. Rec.: J. Transp. Res. Board 
-98–106. 
-Fern˘andez L., J.E., de Cea Ch., J., Malbran, R.H., 2008. Demand responsive urban public transport system design: Methodology and application. Transp. Res. Part A: 
-Policy Pract. 42, 951–972. 
-Galland, S., Knapen, L., Gaud, N., Janssens, D., Lamotte, O., Koukam, A., Wets, G., et al., 2014. Multi-agent simulation of individual mobility behavior in carpooling. 
-Transp. Res. Part C: Emerg. Technol. 45, 83–98. 
-Gopinath, M., Kuang, L.C., 2018. Lessons from Bus Operations. Technical Report. Public Transport Council. 
-Housing & Development Board, 2015. Key statistics: HDB annual report 2014/2015. http://www10.hdb.gov.sg/ebook/ar2015/html5/index.html?opf tablet/Key . 
-Kloostra, B., Roorda, M.J., 2019. Fully autonomous vehicles: analyzing transportation network performance and operating scenarios in the greater toronto area, 
-canada. Transp. Plann. Technol. 42, 99–112. 
-Koh, L.P., Wich, S.A., 2012. Dawn of drone ecology: low-cost autonomous aerial vehicles for conservation. Tropical Conserv. Sci. 5, 121–132. 
-Land Transport Authority, 2012. LTA Travel Behaviour Survey 2012. https://www.lta.gov.sg/content/dam/ltaweb/corp/home/Travel-Behaviour-Survey-2012-FAQ. 
-pdf. 
-Land Transport Authority, 2017. Self-driving vehicle initiatives in Singapore. https://connectedautomateddriving.eu/wp-content/uploads/2017/02/3_Day2_PL10_ 
-WeeShann_CAD_final.pdf . 
-Lazarus, J., Shaheen, S., Young, S.E., Fagnant, D., Voege, T., Baumgardner, W., Fishelson, J., Lott, J.S., 2018. Shared automated mobility and public transport. In: 
-Road Vehicle Automation 4. Springer, pp. 141–161. 
-Lesh, M.C., 2013. Innovative concepts in first-last mile connections to public transportation. Urban Public Transp. Syst. 2013, 63–74. 
-Levin, M.W., Boyles, S.D., 2015. Effects of autonomous vehicle ownership on trip, mode, and route choice. Transp. Res. Rec.: J. Transp. Res. Board 29–38. 
-Liang, X., de Almeida Correia, G.H., Van Arem, B., 2016. Optimizing the service area and trip selection of an electric automated taxi system used for the last mile of 
-train trips. Transp. Res. Part E: Logist. Transp. Rev. 93, 115–129. 
-Liu, J., Kockelman, K.M., Boesch, P.M., Ciari, F., 2017. Tracking a system of shared autonomous vehicles across the austin, texas network using agent-based 
-simulation. Transportation 44, 1261 –1278 . 
-Loeb, B., Kockelman, K.M., 2019. Fleet performance and cost evaluation of a shared autonomous electric vehicle (saev) fleet: A case study for austin, texas. Transp. 
-Res. Part A: Policy Pract. 121, 374–385. 
-Lu, Z., Du, R., Dunham-Jones, E., Park, H., Crittenden, J., 2017. Data-enabled public preferences inform integration of autonomous vehicles with transit-oriented 
-development in atlanta. Cities 63, 118–127. 
-Martinez, L.M., Correia, G.H., Viegas, J.M., 2015. An agent-based simulation model to assess the impacts of introducing a shared-taxi system: an application to Lisbon 
-(Portugal). J. Adv. Transp. 49, 475–495. 
-Martinez, L.M., Viegas, J.M., 2017. Assessing the impacts of deploying a shared self-driving urban mobility system: An agent-based model applied to the city of Lisbon, 
-Portugal. Int. J. Transp. Sci. Technol. 6, 13–27. 
-Mendes, L.M., Benn ˇassar, M.R., Chow, J.Y., 2017. Comparison of light rail streetcar against shared autonomous vehicle fleet for brooklyn –queens connector in new 
-york city. Transp. Res. Rec. 2650, 142–151. 
-Mo, B., Ma, Z., Koutsopoulos, H., Zhao, J., 2020. Calibrating route choice for urban rail system: A comparative analysis using simulation-based optimization methods, 
-in. In: Transportation Research Board 99th Annual Meeting . 
-Mo, B., Ma, Z., Koutsopoulos, H.N., Zhao, J., 2021. Calibrating path choices and train capacities for urban rail transit simulation models using smart card and train 
-movement data. J. Adv. Transp. forthcoming .  
-Mo, B., Shen, Y., Zhao, J., 2018. Impact of built environment on first-and last-mile travel mode choice. Transp. Res. Rec. 2672, 40–51. 
-Monderer, D., Shapley, L.S., 1996. Potential games. Games Econ. Behav. 14, 124–143. 
-Nash, J.F., et al., 1950. Equilibrium points in n-person games. Proc. Natl. Acad. Sci. 36, 48–49. 
-Nazari, F., Noruzoliaee, M., Mohammadian, A.K., 2018. Shared versus private mobility: Modeling public interest in autonomous vehicles accounting for latent 
-attitudes. Transp. Res. Part C: Emerg. Technol. 97, 456–477. 
-Ruch, C., Sieber, L., Horl, S., Axhausen, K.W., Frazzoli, E., 2018. Autonomous mobility-on-demand providing superior public transportation in rural areas. Technical 
-Report. ETH Zürich. 
-Salazar, M., Rossi, F., Schiffer, M., Onder, C.H., Pavone, M., 2018. On the interaction between autonomous mobility-on-demand and public transportation systems. In: 
-2018 21st International Conference on Intelligent Transportation Systems (ITSC). IEEE, pp. 2262 –2269 . 
-SBS Transit, 2017. SBST Annual Report 2017. Report. SBS Transit. 
-Schreieck, M., Safetli, H., Siddiqui, S.A., Pflügler, C., Wiesche, M., Krcmar, H., 2016. A matching algorithm for dynamic ridesharing. Transp. Res. Procedia 19, 
-272–285. 
-Schumer, M., Steiglitz, K., 1968. Adaptive step size random search. IEEE Trans. Autom. Control 13, 270–276. 
-Shen, Y., Mo, B., Zhang, X., Zhao, J., 2019. Built environment and autonomous vehicle mode choice: a first-mile scenario in sinagpore. Working paper. 
-Shen, Y., Zhang, H., Zhao, J., 2018. Integrating shared autonomous vehicle in public transportation system: A supply-side simulation of the first-mile service in 
-Singapore. Transp. Res. Part A: Policy Pract. 113, 125–136. 
-Singapore Public Transport Council, 2019. Parliament: New bill seeks more transparency in ride-hailing fares. https://www.straitstimes.com/singapore/transport/ 
-parliament-new-bill-seeks-more-transparency-in-ride-hailing-fares . 
-SMRT Corporation Ltd., 2017. SMRT Corporation Ltd Annual Report 2016. Report. SMRT Corporation Ltd in Singapore. 
-Spieser, K., Treleaven, K., Zhang, R., Frazzoli, E., Morton, D., Pavone, M., 2014. Toward a systematic approach to the design and evaluation of automated mobility-on- 
-demand systems: A case study in Singapore. In: Road vehicle automation. Springer, pp. 229–245. 
-Talebpour, A., Mahmassani, H.S., 2016. Influence of connected and autonomous vehicles on traffic flow stability and throughput. Transp. Res. Part C: Emerg. Technol. 
-71, 143–163. B. Mo et al.                                                                                                                                                                                                             Transportation Research Part C 127 (2021) 103058
-28Vakayil, A., Gruel, W., Samaranayake, S., 2017. Integrating shared-vehicle mobility-on-demand systems with public transit. In: Transportation Research Board 96th 
-Annual Meeting, pp. 1–16. 
-van de Velde, D.M., 1999. Organisational forms and entrepreneurship in public transport: classifying organisational forms. Transp. Policy 6, 147–157. 
-Wen, J., Chen, Y.X., Nassir, N., Zhao, J., 2018. Transit-oriented autonomous vehicle operation with integrated demand-supply interaction. Transp. Res. Part C: Emerg. 
-Technol. 97, 216–234. 
-Wen, J., Zhao, J., Jaillet, P., 2017. Rebalancing shared mobility-on-demand systems: A reinforcement learning approach. In: 2017 IEEE 20th International Conference 
-on Intelligent Transportation Systems (ITSC). Ieee, pp. 220–225. 
-Wilson, N.H., 1991. Organizational options for public transportation in the us. Transp. Plann. Technol. 15, 405–414. 
-Wilson, N.H., Weissberg, R.W., Hauser, J., 1976. Advanced dial-a-ride algorithms research project. Technical Report. Massachusetts Institute of Technology. 
-Yap, M.D., Correia, G., Van Arem, B., 2016. Preferences of travellers for using automated vehicles as last mile public transport of multimodal train trips. Transp. Res. 
-Part A: Policy Pract. 94, 1–16. 
-Zhang, R., Rossi, F., Pavone, M., 2016. Routing autonomous vehicles in congested transportation networks: Structural properties and coordination algorithms. arXiv 
-preprint: 1603.00939. 
-Zhu, S., Kornhauser, A., 2017. The interplay between fleet size, level-of-service and empty vehicle repositioning strategies in large-scale, shared-ride autonomous taxi 
-mobility-on-demand scenarios, in: Transportation Research Board 96th Annual Meeting, pp. 1–15. B. Mo et al.                                                                                                                                                                                                             
